@@ -311,7 +311,7 @@
       "abstract" : "<p>不知道什麼是測試嗎？<br>\r\n沒寫過任何UnitTest嗎？<br>\r\n沒聽過TDD嗎？<br>\r\n你來對地方了。我們會一步步帶你認識了解<br>\r\n透過實作一個樂透發財APP<br>\r\n從最基礎型的MVC架構，搭配DI技巧<br>\r\n用TDD心法來做代碼的整理與優化<br>\r\n並且逐步完善我們想要實作的功能<br>\r\n目標對象：<br>\r\n對測試沒概念的人<br>\r\n對TDD沒概念的人<br>\r\n(此主題適合給junior朋友<\/p>\r\n",
       "video_url" : "",
       "custom_fields" : {
-        "twitter_account" : "https:\/\/twitter.com\/iosssun"
+        "twitter_account" : ""
       },
       "speakers" : [
         {
