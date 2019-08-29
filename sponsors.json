@@ -1,22 +1,23 @@
 {
 	"sponsors": [
 		{
-			"diamond": [{
+			"items": [{
 				"name": "17 Media",
 				"picture": "https://trello-attachments.s3.amazonaws.com/5ce9545ac213261d1dbb55a5/225x225/b8717c1dad8ae648cbfdc2c5a4cfccd1/17_Media_icon_1.png",
 				"link": "https://m17.asia/"
-	
-			}]
+			}],
+			"title":"鑽石贊助"
 		},
 		{
-			"gold": [{
+			"items": [{
 				"name": "KlickKlack Co.",
 				"picture": "https://iplayground.io/2019/static/media/logo_KKCO.5029e270.png",
 				"link": "https://www.kkco.com.tw/"
-			}]
+			}],
+			"title":"黃金贊助"
 		},
 		{
-			"silver": [{
+			"items": [{
 				"name": "iCHEF",
 				"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5cd1a4ba0ec0c26e83b1e40d/bbc7f81434ba368cb84baecee6d3a7fc/iCHEF_LOGO_V.jpeg",
 				"link": "https://www.ichefpos.com/zh-tw"
@@ -28,23 +29,26 @@
 				"name": "CakeResume",
 				"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5d18b7fccfe5dd2a4d485491/b055c1933c5e093d8bed7fbf4913164f/cake_resume_logo.png",
 				"link": "https://www.cakeresume.com"
-			}]
+			}],
+			"title":"白銀贊助"
 		},
 		{
-			"bronze": [{
+			"items": [{
 				"name": "震江系統",
 				"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5d221aaf4c22fa644d3404e2/9d487d46ba0c106355944f77a59f1322/完整logo.png",
 				"link": "http://www.coss.com.tw/"
-			}]
+			}],
+			"title":"青銅贊助"
 		},
 		{
-			"personal":[
+			"items":[
 				{
 					"name": "Lihsuan Chen",
 					"picture": "https://avatars3.githubusercontent.com/u/2188594?s=460&v=4&fbclid=IwAR1o1R_azw7ZNOzBRK_Rq8C6Vt84JCnVSyaD_rVWuSdjzAdLY9JSaGuWOJo",
 					"link": ""	
 				}
-			]
+			],
+			"title":"個人贊助"
 		}
 	]	
 }
