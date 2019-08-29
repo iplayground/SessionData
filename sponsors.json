@@ -28,6 +28,15 @@
 			"name": "震江",
 			"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5d221aaf4c22fa644d3404e2/9d487d46ba0c106355944f77a59f1322/完整logo.png",
 			"desc": "公司簡介"
-		}]
+		}],
+		"personal":[
+			{
+				"name": "Lihsuan Chen",
+				"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5d67516d693e3156aeec6fef/84330dd760dd0afdd8b2e0726417842c/15895196_10206037430654579_384137995144908443_n.jpg",
+				"desc": ""	
+			}
+		]
+
 	}
 }
+
