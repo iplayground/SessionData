@@ -50,6 +50,28 @@
 			],
 			"title":"個人贊助"
 		}
-	]	
+	],
+	"partner":[
+		{
+			"name":"TWDC",
+			"icon":"https://iplayground.io/2019/static/media/logo_twdc.2fc9fe32.png",
+			"link":"https://aatp.com.tw/"
+		},
+		{
+			"name":"CoocaHeads Taipei",
+			"icon":"https://iplayground.io/2019/static/media/logo_cocoaheads_taipei.04bde3ff.png",
+			"link":"https://www.facebook.com/groups/cocoaheads.taipei/"
+		},
+		{
+			"name":"APP Girls",
+			"icon":"https://iplayground.io/2019/static/media/logo_swift_girls.e221c42c.png",
+			"link":"https://www.facebook.com/groups/1260405513988915/"
+		},
+		{
+			"name":"weak self",
+			"icon":"https://github.com/iplayground/iplayground.github.io/blob/master/2019/static/media/logo_weakself.jpg?raw=true",
+			"link":"https://weakself.dev/"
+		}
+	]
 }
 
