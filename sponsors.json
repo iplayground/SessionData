@@ -3,7 +3,7 @@
 		{
 			"items": [{
 				"name": "17 Media",
-				"picture": "https://trello-attachments.s3.amazonaws.com/5ce9545ac213261d1dbb55a5/225x225/b8717c1dad8ae648cbfdc2c5a4cfccd1/17_Media_icon_1.png",
+				"picture": "https://github.com/iplayground/SessionData/blob/master/images/sponsor/logo_17_Media.png?raw=true",
 				"link": "https://m17.asia/"
 			}],
 			"title":"鑽石贊助"
@@ -11,23 +11,27 @@
 		{
 			"items": [{
 				"name": "KlickKlack Co.",
-				"picture": "https://iplayground.io/2019/static/media/logo_KKCO.5029e270.png",
+				"picture": "https://github.com/iplayground/SessionData/blob/master/images/sponsor/logo_KKCO.png?raw=true",
 				"link": "https://www.kkco.com.tw/"
+			},{
+				"name": "Bitrise",
+				"picture": "https://github.com/iplayground/SessionData/blob/master/images/sponsor/logo_bitrise.png?raw=true",
+				"link": "https://www.bitrise.io/"
 			}],
 			"title":"黃金贊助"
 		},
 		{
 			"items": [{
 				"name": "iCHEF",
-				"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5cd1a4ba0ec0c26e83b1e40d/bbc7f81434ba368cb84baecee6d3a7fc/iCHEF_LOGO_V.jpeg",
+				"picture": "https://github.com/iplayground/SessionData/blob/master/images/sponsor/logo_ichef.jpeg?raw=true",
 				"link": "https://www.ichefpos.com/zh-tw"
 			}, {
 				"name": "Grindr",
-				"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5cefc29046218242c3cb2d25/2a6ab5d3851702d722e78285fbdc55c5/image.png",
+				"picture": "https://github.com/iplayground/SessionData/blob/master/images/sponsor/logo_grindr.png?raw=true",
 				"link": "https://www.grindr.com/"
 			}, {
 				"name": "CakeResume",
-				"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5d18b7fccfe5dd2a4d485491/b055c1933c5e093d8bed7fbf4913164f/cake_resume_logo.png",
+				"picture": "https://github.com/iplayground/SessionData/blob/master/images/sponsor/logo_cake_resume.png?raw=true",
 				"link": "https://www.cakeresume.com"
 			}],
 			"title":"白銀贊助"
@@ -35,9 +39,10 @@
 		{
 			"items": [{
 				"name": "震江系統",
-				"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5d221aaf4c22fa644d3404e2/9d487d46ba0c106355944f77a59f1322/完整logo.png",
+				"picture": "https://github.com/iplayground/SessionData/blob/master/images/sponsor/logo_coss_system.png?raw=true",
 				"link": "http://www.coss.com.tw/"
-			}],
+			}
+			],
 			"title":"青銅贊助"
 		},
 		{
@@ -54,22 +59,32 @@
 	"partner":[
 		{
 			"name":"TWDC",
-			"icon":"https://iplayground.io/2019/static/media/logo_twdc.2fc9fe32.png",
+			"icon":"https://github.com/iplayground/SessionData/blob/master/images/partner/logo_twdc.png?raw=true",
 			"link":"https://aatp.com.tw/"
 		},
 		{
 			"name":"CoocaHeads Taipei",
-			"icon":"https://iplayground.io/2019/static/media/logo_cocoaheads_taipei.04bde3ff.png",
+			"icon":"https://github.com/iplayground/SessionData/blob/master/images/partner/logo_cocoaheads_taipei.png?raw=true",
 			"link":"https://www.facebook.com/groups/cocoaheads.taipei/"
 		},
 		{
 			"name":"APP Girls",
-			"icon":"https://iplayground.io/2019/static/media/logo_swift_girls.e221c42c.png",
+			"icon":"https://github.com/iplayground/SessionData/blob/master/images/partner/logo_app_girls.png?raw=true",
 			"link":"https://www.facebook.com/groups/1260405513988915/"
 		},
 		{
+			"name":"iOS@Taipei",
+			"icon":"https://github.com/iplayground/SessionData/blob/master/images/partner/logo_iOS_taipei.png?raw=true",
+			"link":"https://www.facebook.com/groups/ios.taipei/"
+		},
+		{
+			"name":"Swift Taipei",
+			"icon":"https://github.com/iplayground/SessionData/blob/master/images/partner/logo_swift_taipei.png?raw=true",
+			"link":"https://www.meetup.com/Swift-Taipei-User-Group/"
+		},
+		{
 			"name":"weak self",
-			"icon":"https://github.com/iplayground/iplayground.github.io/blob/master/2019/static/media/logo_weakself.jpg?raw=true",
+			"icon":"https://github.com/iplayground/SessionData/blob/master/images/partner/logo_app_girls.png?raw=true",
 			"link":"https://weakself.dev/"
 		}
 	]
