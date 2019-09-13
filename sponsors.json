@@ -4,7 +4,7 @@
 			"items": [
 				{
 					"name": "17 Media",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/sponsor/logo_17_Media.png",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_17_Media.png",
 					"link": "https://m17.asia/"
 				}
 			],
@@ -14,12 +14,12 @@
 			"items": [
 				{
 					"name": "KlickKlack Co.",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/sponsor/logo_KKCO.png",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_KKCO.png",
 					"link": "https://www.kkco.com.tw/"
 				},
 				{
 					"name": "Bitrise",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/sponsor/logo_bitrise.png",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_bitrise.png",
 					"link": "https://www.bitrise.io/"
 				}
 			],
@@ -29,17 +29,22 @@
 			"items": [
 				{
 					"name": "iCHEF",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/sponsor/logo_ichef.jpeg",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_ichef.jpeg",
 					"link": "https://www.ichefpos.com/zh-tw"
 				},
 				{
 					"name": "Grindr",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/sponsor/logo_grindr.png",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_grindr.png",
 					"link": "https://www.grindr.com/"
 				},
 				{
+					"name": "Dcard",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_dcard.png",
+					"link": "https://www.dcard.tw"
+				},
+				{
 					"name": "CakeResume",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/sponsor/logo_cake_resume.png",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_cake_resume.png",
 					"link": "https://www.cakeresume.com"
 				}
 			],
@@ -49,12 +54,12 @@
 			"items": [
 				{
 					"name": "震江系統",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/sponsor/logo_coss_system.png",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_coss_system.png",
 					"link": "http://www.coss.com.tw/"
 				},
 				{
 					"name": "KKday",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/sponsor/logo_kkday.png",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_kkday.png",
 					"link": "http://kkday.com/zh-tw"
 				}
 			],
