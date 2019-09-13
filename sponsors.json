@@ -23,6 +23,10 @@
 			"name": "CakeResume",
 			"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5d18b7fccfe5dd2a4d485491/b055c1933c5e093d8bed7fbf4913164f/cake_resume_logo.png",
 			"link": "https://www.cakeresume.com"
+		}, {
+			"name": "Dcard",
+			"picture": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Dcard_Favicon_x520.png",
+			"link": "https://join.dcard.today"
 		}],
 		"bronze": [{
 			"name": "震江系統",
