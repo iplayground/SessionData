@@ -1,45 +1,111 @@
 {
-	"sponsors": {
-		"diamond": [{
-			"name": "17 Media",
-			"picture": "https://trello-attachments.s3.amazonaws.com/5ce9545ac213261d1dbb55a5/225x225/b8717c1dad8ae648cbfdc2c5a4cfccd1/17_Media_icon_1.png",
-			"link": "https://m17.asia/"
-
-		}],
-		"gold": [{
-			"name": "KlickKlack Co.",
-			"picture": "https://iplayground.io/2019/static/media/logo_KKCO.5029e270.png",
-			"link": "https://www.kkco.com.tw/"
-		}],
-		"silver": [{
-			"name": "iCHEF",
-			"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5cd1a4ba0ec0c26e83b1e40d/bbc7f81434ba368cb84baecee6d3a7fc/iCHEF_LOGO_V.jpeg",
-			"link": "https://www.ichefpos.com/zh-tw"
-		}, {
-			"name": "Grindr",
-			"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5cefc29046218242c3cb2d25/2a6ab5d3851702d722e78285fbdc55c5/image.png",
-			"link": "https://www.grindr.com/"
-		}, {
-			"name": "CakeResume",
-			"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5d18b7fccfe5dd2a4d485491/b055c1933c5e093d8bed7fbf4913164f/cake_resume_logo.png",
-			"link": "https://www.cakeresume.com"
-		}, {
-			"name": "Dcard",
-			"picture": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Dcard_Favicon_x520.png",
-			"link": "https://join.dcard.today"
-		}],
-		"bronze": [{
-			"name": "震江系統",
-			"picture": "https://trello-attachments.s3.amazonaws.com/5ccf1299a544a25ccfa5188c/5d221aaf4c22fa644d3404e2/9d487d46ba0c106355944f77a59f1322/完整logo.png",
-			"link": "http://www.coss.com.tw/"
-		}],
-		"personal":[
-			{
-				"name": "Lihsuan Chen",
-				"picture": "https://avatars3.githubusercontent.com/u/2188594?s=460&v=4&fbclid=IwAR1o1R_azw7ZNOzBRK_Rq8C6Vt84JCnVSyaD_rVWuSdjzAdLY9JSaGuWOJo",
-				"link": ""	
-			}
-		]
-	}
+	"sponsors": [
+		{
+			"items": [
+				{
+					"name": "17 Media",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_17_Media.png",
+					"link": "https://m17.asia/"
+				}
+			],
+			"title": "鑽石贊助"
+		},
+		{
+			"items": [
+				{
+					"name": "KlickKlack Co.",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_KKCO.png",
+					"link": "https://www.kkco.com.tw/"
+				},
+				{
+					"name": "Bitrise",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_bitrise.png",
+					"link": "https://www.bitrise.io/"
+				}
+			],
+			"title": "黃金贊助"
+		},
+		{
+			"items": [
+				{
+					"name": "iCHEF",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_ichef.jpeg",
+					"link": "https://www.ichefpos.com/zh-tw"
+				},
+				{
+					"name": "Grindr",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_grindr.png",
+					"link": "https://www.grindr.com/"
+				},
+				{
+					"name": "Dcard",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_dcard.png",
+					"link": "https://www.dcard.tw"
+				},
+				{
+					"name": "CakeResume",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_cake_resume.png",
+					"link": "https://www.cakeresume.com"
+				}
+			],
+			"title": "白銀贊助"
+		},
+		{
+			"items": [
+				{
+					"name": "震江系統",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_coss_system.png",
+					"link": "http://www.coss.com.tw/"
+				},
+				{
+					"name": "KKday",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_kkday.png",
+					"link": "http://kkday.com/zh-tw"
+				}
+			],
+			"title": "青銅贊助"
+		},
+		{
+			"items": [
+				{
+					"name": "Lihsuan Chen",
+					"picture": "https://avatars3.githubusercontent.com/u/2188594?s=460&v=4&fbclid=IwAR1o1R_azw7ZNOzBRK_Rq8C6Vt84JCnVSyaD_rVWuSdjzAdLY9JSaGuWOJo",
+					"link": ""
+				}
+			],
+			"title": "個人贊助"
+		}
+	],
+	"partner": [
+		{
+			"name": "TWDC",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_twdc.png",
+			"link": "https://aatp.com.tw/"
+		},
+		{
+			"name": "CoocaHeads Taipei",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_cocoaheads_taipei.png",
+			"link": "https://www.facebook.com/groups/cocoaheads.taipei/"
+		},
+		{
+			"name": "APP Girls",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_app_girls.png",
+			"link": "https://www.facebook.com/groups/1260405513988915/"
+		},
+		{
+			"name": "iOS@Taipei",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_iOS_taipei.png",
+			"link": "https://www.facebook.com/groups/ios.taipei/"
+		},
+		{
+			"name": "Swift Taipei",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_swift_taipei.png",
+			"link": "https://www.meetup.com/Swift-Taipei-User-Group/"
+		},
+		{
+			"name": "weak self",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_weakself.jpg",
+			"link": "https://weakself.dev/"
+		}
+	]
 }
-
