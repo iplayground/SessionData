@@ -61,7 +61,12 @@
 					"name": "KKday",
 					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_kkday.png",
 					"link": "http://kkday.com/zh-tw"
-				}
+				},
+                {
+                    "name": "CATCHPLAY",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_catchplay.png",
+                    "link": "https://www.catchplay.com/tw/home"
+                }
 			],
 			"title": "青銅贊助"
 		},
