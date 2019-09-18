@@ -33,14 +33,14 @@
 					"link": "https://www.ichefpos.com/zh-tw"
 				},
 				{
-					"name": "Grindr",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_grindr.png",
-					"link": "https://www.grindr.com/"
-				},
-				{
 					"name": "Dcard",
 					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_dcard.png",
 					"link": "https://www.dcard.tw"
+				},
+				{
+					"name": "Grindr",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_grindr.png",
+					"link": "https://www.grindr.com/"
 				},
 				{
 					"name": "CakeResume",
@@ -52,21 +52,21 @@
 		},
 		{
 			"items": [
-				{
-					"name": "震江系統",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_coss_system.png",
-					"link": "http://www.coss.com.tw/"
-				},
+                		{
+		                        "name": "CATCHPLAY",
+                    			"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_catchplay.png",
+		                        "link": "https://www.catchplay.com/tw/home"
+                		},
 				{
 					"name": "KKday",
 					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_kkday.png",
 					"link": "http://kkday.com/zh-tw"
 				},
-                {
-                    "name": "CATCHPLAY",
-                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_catchplay.png",
-                    "link": "https://www.catchplay.com/tw/home"
-                }
+				{
+					"name": "震江系統",
+					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_coss_system.png",
+					"link": "http://www.coss.com.tw/"
+				}
 			],
 			"title": "青銅贊助"
 		},
