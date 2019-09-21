@@ -218,11 +218,11 @@
     },
     {
       "end_time" : "11:00",
-      "desc" : "在大型專案中血與淚的經驗，改幾行 Code，Incremental Build 也要數十分鐘，只能去喝杯咖啡？\r\n除了加速 Build Time 之外的另一個思路：不要 Build & Run。\r\n分享有哪些技巧能更快看到程式碼改動結果，會遇到的問題與解法。\r\n",
+      "desc" : "在大型專案中血與淚的經驗，改幾行 Code，Incremental Build 也要數十分鐘，只能去喝杯咖啡？\r\n除了加速 Build Time 之外的另一個思路：Don't Build & Run。\r\n分享有哪些技巧能更快看到程式碼改動結果，會遇到的問題與解法。\r\n",
       "proposal_id" : "prop_158",
       "start_time" : "10:20",
       "session_id" : 77,
-      "title" : "大型專案生存守則 - 10x 加速開發技巧",
+      "title" : "The Survival Guide of Building Huge App - 10x Faster Dev/Verification Cycle",
       "presenter" : "CJ Lin",
       "room_name" : "102",
       "track_name" : "2",
