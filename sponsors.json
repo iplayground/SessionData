@@ -83,24 +83,9 @@
 	],
 	"partner": [
 		{
-			"name": "TWDC",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_twdc.png",
-			"link": "https://aatp.com.tw/"
-		},
-		{
 			"name": "CoocaHeads Taipei",
 			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_cocoaheads_taipei.png",
 			"link": "https://www.facebook.com/groups/cocoaheads.taipei/"
-		},
-		{
-			"name": "APP Girls",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_app_girls.png",
-			"link": "https://www.facebook.com/groups/1260405513988915/"
-		},
-		{
-			"name": "iOS@Taipei",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_iOS_taipei.png",
-			"link": "https://www.facebook.com/groups/ios.taipei/"
 		},
 		{
 			"name": "Swift Taipei",
@@ -111,6 +96,16 @@
 			"name": "weak self",
 			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_weakself.jpg",
 			"link": "https://weakself.dev/"
+		},
+		{
+			"name": "iOS@Taipei",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_iOS_taipei.png",
+			"link": "https://www.facebook.com/groups/ios.taipei/"
+		},
+		{
+			"name": "APP Girls",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_app_girls.png",
+			"link": "https://www.facebook.com/groups/1260405513988915/"
 		}
 	]
 }
