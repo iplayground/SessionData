@@ -52,11 +52,11 @@
 		},
 		{
 			"items": [
-                		{
-		                        "name": "CATCHPLAY",
-                    			"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_catchplay.png",
-		                        "link": "https://www.catchplay.com/tw/home"
-                		},
+                {
+		            "name": "CATCHPLAY",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_catchplay.png",
+		            "link": "https://www.catchplay.com/tw/home"
+                },
 				{
 					"name": "KKday",
 					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_kkday.png",
@@ -86,6 +86,11 @@
 			"name": "CoocaHeads Taipei",
 			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2019/v2/images/partner/logo_cocoaheads_taipei.png",
 			"link": "https://www.facebook.com/groups/cocoaheads.taipei/"
+		},
+		{
+			"name": "CakeResume",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_cake_resume.png",
+			"link": "https://www.cakeresume.com"
 		},
 		{
 			"name": "Swift Taipei",
