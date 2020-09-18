@@ -1,9 +1,14 @@
 {
 	"sponsors": [
         {
-            "name": "CMoney",
-            "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_CMoney.jpg",
-            "link": "https://www.cmoney.tw/app/"
+            "items": [
+                {
+                    "name": "CMoney",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_CMoney.jpg",
+                    "link": "https://www.cmoney.tw/app/"
+                }
+            ],
+            "title": "黃金級"
         }
 	],
 	"partner": [
