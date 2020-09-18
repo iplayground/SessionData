@@ -1,85 +1,10 @@
 {
 	"sponsors": [
-		{
-			"items": [
-				{
-					"name": "17 Media",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_17_Media.png",
-					"link": "https://m17.asia/"
-				}
-			],
-			"title": "鑽石贊助"
-		},
-		{
-			"items": [
-				{
-					"name": "KlickKlack Co.",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_KKCO.png",
-					"link": "https://www.kkco.com.tw/"
-				},
-				{
-					"name": "Bitrise",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_bitrise.png",
-					"link": "https://www.bitrise.io/"
-				}
-			],
-			"title": "黃金贊助"
-		},
-		{
-			"items": [
-				{
-					"name": "iCHEF",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_ichef.jpeg",
-					"link": "https://www.ichefpos.com/zh-tw"
-				},
-				{
-					"name": "Dcard",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_dcard.png",
-					"link": "https://www.dcard.tw"
-				},
-				{
-					"name": "Grindr",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_grindr.png",
-					"link": "https://www.grindr.com/"
-				},
-				{
-					"name": "CakeResume",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_cake_resume.png",
-					"link": "https://www.cakeresume.com"
-				}
-			],
-			"title": "白銀贊助"
-		},
-		{
-			"items": [
-                {
-		            "name": "CATCHPLAY",
-                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_catchplay.png",
-		            "link": "https://www.catchplay.com/tw/home"
-                },
-				{
-					"name": "KKday",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_kkday.png",
-					"link": "http://kkday.com/zh-tw"
-				},
-				{
-					"name": "震江系統",
-					"picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_coss_system.png",
-					"link": "http://www.coss.com.tw/"
-				}
-			],
-			"title": "青銅贊助"
-		},
-		{
-			"items": [
-				{
-					"name": "Lihsuan Chen",
-					"picture": "https://avatars3.githubusercontent.com/u/2188594?s=460&v=4&fbclid=IwAR1o1R_azw7ZNOzBRK_Rq8C6Vt84JCnVSyaD_rVWuSdjzAdLY9JSaGuWOJo",
-					"link": ""
-				}
-			],
-			"title": "個人贊助"
-		}
+        {
+            "name": "CMoney",
+            "picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsor/logo_CMoney.png",
+            "link": "https://www.cmoney.tw/app/"
+        }
 	],
 	"partner": [
 		{
