@@ -1,628 +1,228 @@
 {
-  "program" : [
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 175,
-      "title" : "APP 送審自動化",
-      "track" : "1",
-      "abstract" : "為了達到最短時間內發佈 1000 個 App 的目標，建立以 DevOps 為概念的自動化發佈服務，解決從 Compile Source Code 到 App Store 上架整個流程各個需要克服的難題。 ",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : ""
-      },
-      "speakers" : [
+    "program": [
         {
-          "name" : "PC Lin 林培鈞",
-          "bio" : "iOS 七年開發經驗，在台灣電商服務五年，喜歡解決疑難雜症與開發自動化工具"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 102,
-      "title" : "AR 互動遊戲開發經驗分享",
-      "track" : "2",
-      "abstract" : "2018 年 WWDC，樂高的擴增實境遊戲是否讓您驚嘆不已？您是否已蠢蠢欲動，想嘗試動手卻又不得其門而入？\r\n\r\n其實，光只有 ARKit 是不夠的，這場分享將會告訴你，開發有趣的 AR 互動遊戲，還需要具備哪些知識。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/jackychenkiki"
-      },
-      "speakers" : [
-        {
-          "name" : "JackyChen",
-          "bio" : "對AR有極度熱忱的白日夢工程師，幻想有一天能創造自己的異世界冒險，為此不斷的修煉開發技能"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-        
-      ],
-      "id" : 154,
-      "title" : "Backporting UICollectionViewCompositionalLayout",
-      "track" : "1",
-      "abstract" : "A new UICollectionViewCompositionalLayout class has been added to UIKit to make it incredibly easier to create custom complex collection view layout. In iOS 12 and earlier, we need subclassing of UICollectionViewLayout to do that. We have to override lots of methods correctly, and it is error-prone.\r\n\r\nHowever, we can not use new useful APIs immediately. We have to wait until iOS 13 to reach users sufficiently. Otherwise, we must maintain two different code bases.\r\n\r\nIf we can create a library that emulates the behavior of UIKit's new API, we can start using the new code base without waiting for the spread of iOS 13.\r\n\r\nI made it; https:\/\/github.com\/kishikawakatsumi\/IBPCollectionViewCompositionalLayout\r\nit seems works well. \r\n\r\nIn this talk, I will share the knowledge gained from the experience of creating this library and the right way to customize the collection view layout.",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https://twitter.com/k_katsumi"
-      },
-      "speakers" : [
-        {
-          "name" : "kishikawa katsumi",
-          "bio" : "Since early-2008 I've been working as a native iOS\/Mac application developer.\r\nDeveloped several major iOS applications and maintained some popular open source libraries. Prefer developing small tools for developers."
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-        
-      ],
-      "id" : 106,
-      "title" : "Beyond a player: CarPlay and MFI Hearing Aids",
-      "track" : null,
-      "abstract" : "Nowadays the music experience for iOS devices is not merely limited on speakers and headsets, but already expanded to  modern car systems, hearing aids and more.\r\n\r\nThis brings challenges to music services like KKBOX, since some audio APIs behave in unexpectedly ways and some of them are not actually well documented, while playing audio on these new output devices.\r\n\r\nThe talks covers how we encountered and solved the challenges, although they might not be good solutions.\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/zonble"
-      },
-      "speakers" : [
-        {
-          "name" : "zonble",
-          "bio" : "A Taipei-based developer working at KKBOX. Started developing in Objective-C language for macOS since 2005 and became an iOS developer since 2008 when iPhone SDK was out. Contributed to products including Yahoo! KeyKey Input Method, Boshiamy Input Method for macOS, KKBOX for macOS\/iOS\/tvOS, Uta Pass for iOS and so on. Wrote a free online e-book in Chinese about iOS development in 2015.\r\nHis latest work is KKBOX Kids, a new audio app with latest Flutter technology parenting contents from KKBOX."
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-        
-      ],
-      "id" : 160,
-      "title" : "Continuous integration for iOS: CI as a service",
-      "track" : "1",
-      "abstract" : "In the beginning of my talk, I will walk you through the differences between local and cloud-based CI solutions for iOS development. We will talk about the setbacks of cloud-based solutions and how Bitrise has managed to overcome these difficulties.\r\n\r\nIn the second half, we will be talking about hands-on examples and best practices in automating your CI\/CD pipeline with Bitrise.\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/birmachera"
-      },
-      "speakers" : [
-        {
-          "name" : "Akos Birmacher",
-          "bio" : "I’ve been an App Automation Engineer at Bitrise for 1,5 years. I’ve specialized in Xcode build tools and Code signing automation. Before joining Bitrise, I’d worked as an iOS Developer."
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 172,
-      "title" : "Declarative UI on iOS (without SwiftUI)",
-      "track" : "2",
-      "abstract" : "SwiftUI 儼然已經成為 Swift 開發上的顯學，雖然 SwiftUI 非常酷炫，但在使用 SwfitUI 之前，我們有個更大的問題是，因為 ABI stability 的關係，短時間內（3~5年），你是無法使用 Swift 來改寫你既有的 UI code 的。加上要使用 SwiftUI 來改寫你的 UI component，你可能需要打掉 UI 重練，對於 code base 非常巨大或是剛接手一個新專案的人來說，都是非常困難的。\r\n\r\n基於上面的狀況，我們希望能提供一個更務實的方法：從 declarative UI 了解起，一步一步改造舊有的 code，幫最後全 SwiftUI 化鋪上平坦的最後一哩路！\r\n\r\n這個 talk 會包含：Declarative UI pattern 介紹、用 Swift 實作 declarative UI pattern（不用 SwiftUI 或其它 UI library）、還有一個簡單的既有專案的改寫過程。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/KoromikoNeo"
-      },
-      "speakers" : [
-        {
-          "name" : "ShihTing Huang (Neo)",
-          "bio" : "用一口破日文在東京掙扎求生的iOS工程師，待過電子書、醫療、旅遊、串流產業，熱衷研究架構、語法、與各種能夠能夠讓人類有時間偷懶的技術。為了讓更多人有時間看電影而不是debug，偶而會寫寫Blog文章。目前在東京也有經營一個技術社群，歡迎來東京時一起來討論技術！"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 161,
-      "title" : "How to make BDD possible in Flutter",
-      "track" : "2",
-      "abstract" : "2018 年底 Flutter 1.0 正式登場，尤其是 Widget Test 更是令人期待。然而在眾多的測試中，是否有一個方法可以將 BDD 的方法整合於 Flutter 呢？\r\n\r\nDart 的套件，flutter_gherkin 讓這件事從不可能成為可能。\r\n\r\n講者想透過這次分享，說明如何將 BDD 的方法整合進 Flutter 的測試，讓 Flutter 開發者也能享受其中的樂趣。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/jersey_su"
-      },
-      "speakers" : [
-        {
-          "name" : "Jersey Su",
-          "bio" : "我是哲西，目前任職於 Verizon Media, QE. 一個孩子的爸爸, 熱愛軟體測試技術, 出沒於 Test Corner 社群. 熟悉 Selenium, Cucumber 及 Appium.\r\n\r\n"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-        
-      ],
-      "id" : 153,
-      "title" : "Integrate your app to modern world",
-      "track" : "1",
-      "abstract" : "Exciting SwiftUI has coming to us. SwiftUI has declarative syntax and realtime update so we can develop our apps more faster. You might thought changing better the iOS world. \r\nHowever, of course you know, SwiftUI can be introduced from iOS 13, so we must cut off until iOS12 and it takes 1 - 2 years. So we don’t have to do nothing this 2 years, right? Absolutely not. We should invest time to prepare for migration.\r\n\r\nThe data flow of SwiftUI is based in single source of truth and composition with small components.\r\n\r\nIn this talk, I’d like to talk about how to divide your huge view controller into small components, and how to migrate to SwiftUI well.\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/d_date"
-      },
-      "speakers" : [
-        {
-          "name" : "Daiki Matsudate",
-          "bio" : "Daiki has developing iOS app for 8 years in Tokyo, and is Google Developers Expert for Firebase. He has organizing try! Swift Tokyo and some meetups around Tokyo. When he’s not coding, he likes to play piano and go to Onsen♨️"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 152,
-      "title" : "Making your own tools using SwiftSyntax",
-      "track" : "1",
-      "abstract" : "Do you want to make your own tools like formatter? SourceKit was the only option for us, but SwiftSyntax is now available via SPM. It parses Swift source code and gives us syntax tree that can be used for the analysis by Swift API.\r\nIn this talk, we’ll cover overview of SwiftSyntax and go over how and where to start to make productivity tools for your projects with some examples.\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/kitasuke"
-      },
-      "speakers" : [
-        {
-          "name" : "Yusuke Kita",
-          "bio" : "I’m a Software Engineer at Mercari. I’m passionate about learning new technology like Swift Compiler and SwiftSyntax. When not coding, you can find me cycling."
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 151,
-      "title" : "The Reborn of the Our Product.",
-      "track" : "2",
-      "abstract" : "There is bunch of legacy code in most of the products which we are trying to improve the flexibility and reliability. However,\r\n* How could we hanld with bugs or features and refactor the legacy code at the same time?\r\n* How could we take the advantage of the moden language Swift and inject into Objective-C code?\r\n* How could we turn the Massive-View-Controller chaos into Clean Architecture?\r\n\r\nTherefore, for those developers who want to be in a higher level or try to refactor their legacy code of the product.\r\nI will share my real-life experience and answer those questions.\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/marslin_dev"
-      },
-      "speakers" : [
-        {
-          "name" : "Mars",
-          "bio" : "A front-end team leader and an iOS developer with 10 years experience. 現職偶爾刷存在感的丈夫、陪毛尼玩的爸爸、剩餘時間拿來寫程式的工程師"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-        "workshop"
-      ],
-      "id" : 155,
-      "title" : "Web API Mocking",
-      "track" : "3",
-      "abstract" : "後端 API 沒完成，前端該如何同步開發？\r\n帶你一起透過依賴注入，讓外部 API 調用從代碼中解耦，\r\n編寫易於測試與 Debug 的代碼。\r\n\r\noverview：\r\nmock server\r\nproxy\r\nclient\r\n三種mock方式\r\n\r\nmain content：\r\n1.client端透過 POP+DI 解藕 web api 調用\r\n2.撰寫單元測試\r\n3.使用Closure取代POP\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : ""
-      },
-      "speakers" : [
-        {
-          "name" : "Fengyi",
-          "bio" : "LINE Fukuoka iOS Developer\r\n參與 LINE 本體開發. 希望能透過分享跟大家交流.\r\n"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 89,
-      "title" : "一起來看 app 裸奔吧～",
-      "track" : "1",
-      "abstract" : "在 iOS 系統架構下，你的 app 真的無堅不摧？ 讓我們一起來看 app 裸奔吧～\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/s2339956"
-      },
-      "speakers" : [
-        {
-          "name" : "TinXie-易致",
-          "bio" : "https:\/\/github.com\/s2339956\/Resume\r\n\r\nswift 線上讀書會 - 分享 iOS 逆向工程- Reveal基礎入門\r\nIT-Home2019資安大會 - 在iOS 系統架構下，你的app 真的無堅不摧？讓我們一起來看app 裸奔吧\r\n逢甲大學黑客社 - 概述iOS逆向攻擊\r\n2019亞太資訊安全論壇 - 雙平台下被刻板印象所忽略的手機app漏洞"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-        
-      ],
-      "id" : 164,
-      "title" : "二次元直播 - 虛擬主播與 ReplayKit 的邂逅",
-      "track" : "3",
-      "abstract" : "覺得三次元不夠萌？別擔心，17也有虛擬人物的二次元直播！本議程會介紹真人直播與虛擬主播的推流架構，以及實作上的甘苦談。讓我們一起進入二次元的世界。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/www.facebook.com\/chiahan.chang.3"
-      },
-      "speakers" : [
-        {
-          "name" : "Han Chang",
-          "bio" : "大家好，我是 17 Media iOS Manager－Han。\r\n在 17 Media iOS 團隊中負責 Streaming 相關工作，包含：維護與優化推拉流模組，解決直播斷線、延遲或卡頓問題，以及開發與 Streaming 相關的有趣新功能，例如：視訊連麥、螢幕直播、直播中的動畫特效⋯等。\r\n興趣是與同事一同去日本滑雪，歡迎大家一起加入滑雪的行列！ "
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 149,
-      "title" : "使用 BUCK 改善編譯速度",
-      "track" : "1",
-      "abstract" : "簡單介紹如何導入並使用 BUCK 改善 iOS 專案編譯速度的經驗。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/qingchengli"
-      },
-      "speakers" : [
-        {
-          "name" : "Qing-Cheng Li",
-          "bio" : "qcl, coding & leanring. \r\n\r\nTaiwanese, iOS developer @ Booking.com in Amsterdam, Netherlands. Former Sr. Mobile App Engineer @ Yahoo! Taiwan.   "
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 165,
-      "title" : "初代 SwiftUI 就用來寫 Watch App 吧！",
-      "track" : "2",
-      "abstract" : "許多人對 SwiftUI 抱持高度興趣，想找機會來使用與學習。但是實際玩過以後會發現它的成熟度還不足以取代 UIKit，作為開發 iOS app 的主要 UI 框架。開發者普遍的共識是，在 iOS 13 使用 SwiftUI 的風險很大，用在 side project 或小型專案還可以，但不適用於商業上的應用。\r\n\r\n難道 SwiftUI 就無用武之地嗎？2019 年第一版它只能當玩具嗎？其實 Apple 規劃出一個很不錯的路線，讓 SwiftUI 可以用在商業應用上，只是很容易被開發者忽略——watchOS 6 才是 SwiftUI 在今年發揮作用的平台。\r\n\r\nwatchOS 6 在開發方面有幾個特色：\r\n1. 因為 Swift ABI 穩定，app 體積小，安裝到實機開發節省相當多時間\r\n2. 可以使用 SwiftUI，不再受限 WKInterface \r\n3. 可以獨立打包上架，不一定要有 iOS app\r\n4. WKExtendedRuntimeSession 增加了好幾個應用情境\r\n\r\n過去 watch app 很少人開發，很大的原因就是上述幾點困難尚未被克服。既然開發者大多都沒有寫過、甚或移除了原有的 watch app，watchOS 6 + SwiftUI 或許就是很好的重新來一次的機會，也可以想出許多 side project 的題目。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/ethanhuang13"
-      },
-      "speakers" : [
-        {
-          "name" : "13 一三",
-          "bio" : "@ethanhuang13"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-        "workshop"
-      ],
-      "id" : 168,
-      "title" : "利用TDD來發大財吧～",
-      "track" : "3",
-      "abstract" : "不知道什麼是測試嗎？\r\n沒寫過任何UnitTest嗎？\r\n沒聽過TDD嗎？\r\n你來對地方了。我們會一步步帶你認識了解\r\n透過實作一個樂透發財APP\r\n從最基礎型的MVC架構，搭配DI技巧\r\n用TDD心法來做代碼的整理與優化\r\n並且逐步完善我們想要實作的功能\r\n目標對象：\r\n對測試沒概念的人\r\n對TDD沒概念的人\r\n(此主題適合給junior朋友\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : ""
-      },
-      "speakers" : [
-        {
-          "name" : "DinDin",
-          "bio" : "HI\b，我是DinDIn，大概約3年經驗 曾做過旅遊、潛水錶、區塊鏈，現在在興趣與工作結合的公司，喜歡實作各種同事奇怪發想的題目，興趣是攝影跟爬山。 "
+            "title": "為什麼 App 卡卡的？",
+            "abstract": "Swift Taipei 主辦人。從 iOS 2 開始寫 App、參與 Swift.org 中文版編寫,同時拜訪不同技術社群( App Girl、CocoaHeads Taipei ),積極挹注Swift社群的學習動能。",
+            "review_tags": [],
+            "id": 248,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "John Lin",
+                    "bio": "為什麼App 卡卡的？"
+                }
+            ]
         },
         {
-          "name" : "Steve Sun",
-          "bio" : " My name is Steve, I am Taiwanese but I am working in a company called Hootsuite in Vancouver Canada. I enjoy iOS development and would love to share and exchange knowledges with other Taiwanese iOS devs."
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 167,
-      "title" : "在想色色的事情對吧？About color in iOS",
-      "track" : "2",
-      "abstract" : "顏色是每個行動開發工程師一定會碰到的一環，但很多看似理所當然的名詞究竟代表什麼？這次將介紹顏色在Apple開發相關的知識和觀念，包含了：\r\n* Color space、顏色混和(Blending)、可讀性。\r\n* WWDC 2019 中 Apple 提出對顏色的改進：Dark mode, Base and Elevated 和 Materials。\r\n* 最後將分享在 iOS App project 上如何對顏色進行管理，讓維護專案更有效率。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/kenobilyh"
-      },
-      "speakers" : [
+            "title": "Activity Classification with CreateML using AirPod Pro",
+            "abstract": "With the new AirPods Pro Motion API opens this year we can start collecting Core Motion data from AirPod Pro. Using the Core Motion data collected I am going to show how to create a model using CreateML to classify head motion e.g. shaking your head, nodding, or even exercise like a squad. I want to get everybody excited about AI.",
+            "review_tags": [],
+            "id": 228,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Ethan Fan",
+                    "bio": "Cofounder of Vimo Labs. Our app Gymatic is the only Apple Watch app that Auto recognizes any gesture and Deep analysis for fitness and sports movements. SleepMatic till today is still one of the top paid health app in the US that track you sleep using Apple Watch. FowardSwift Speaker 2017."
+                }
+            ]
+        },
         {
-          "name" : "Jeff Lin",
-          "bio" : "Verizon Media資深App工程師，目前負責台灣電商App開發"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 150,
-      "title" : "多人專案開發你可能會碰到的那些事",
-      "track" : "2",
-      "abstract" : "分享一些多人專案中可能會遇到的情況，介紹一些應對的方法或工具。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/LynnChe69228597"
-      },
-      "speakers" : [
+            "title": "iOS 開發者 10 倍速技巧",
+            "abstract": "武士要保養自己的劍，開發者也應該磨練自己的工具。有沒有看過同事在使用 Xcode 的時候按幾個鍵，就輕鬆完成要點很多次才能完成的操作？你是否有系統地把 Xcode 的操作技巧學起來？我會集結數十個 iOS 開發與 Xcode 的使用技巧，現場操作給你一次學會。不論新手或老手都可以來交流幾招。",
+            "review_tags": [],
+            "id": 258,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Ethan Huang",
+                    "bio": "我是 13（演講標題審稿通過後，會從 10 倍速改成 13 倍速）"
+                }
+            ]
+        },
         {
-          "name" : "Lynn",
-          "bio" : "最近看專案的代碼都抱著看鄉土劇的心態，別有一番樂趣。\r\n在跨國電子商務公司寫了六年的 iOS App；剛進公司時台灣團隊有十人以上，成員分散在三地，Code Review 會議可以開上兩天；後來 iOS6 過渡到 iOS7，設計風格從擬真轉向扁平化，藉著改版，大家一起協力重構代碼，App 上架以後，團隊也依然規律地進行代碼維護和重構；期間同事們來來去去，迎新送舊，累積很多和不同開發者、測試和 PM 協同開發的經驗；而今年初，公司決定改採用 React Native 重構 App，因為時間緊迫，有更多之前沒有合作過的異地團隊加入專案，期間經歷不少的磨合，都是滿有趣的經驗。"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 158,
-      "title" : "大型專案生存守則 - 10x 加速開發技巧",
-      "track" : "2",
-      "abstract" : "在大型專案中血與淚的經驗，改幾行 Code，Incremental Build 也要數十分鐘，只能去喝杯咖啡？\r\n除了加速 Build Time 之外的另一個思路：不要 Build & Run。\r\n分享有哪些技巧能更快看到程式碼改動結果，會遇到的問題與解法。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/eJamesLin"
-      },
-      "speakers" : [
+            "title": "### Let's build Command-Line Tools: Swift Argument Parser",
+            "abstract": "\u003cp\u003eAgenda 💻\u003c/p\u003e\r\n\r\n\u003cp\u003eWhat’s Swift Argument Parser?\u003cbr\u003e\r\nHow to use it?\u003c/p\u003e\r\n\r\n\u003cp\u003eProperty wrapper\u003cbr\u003e\r\nCustomizing help\u003cbr\u003e\r\nValidation\u003cbr\u003e\r\nSubcommands\u003cbr\u003e\r\nCompletion Scripts\u003cbr\u003e\r\nManual Parsing and Testing\u003cbr\u003e\r\n\u003cbr\u003e\r\nDemo: Designing Command-Line Tools\u003c/p\u003e\r\n\r\n\u003cp\u003eSample: \u003ca href=\"https://docs.google.com/presentation/d/1RzPlGLzrmJmwa5FzalP6CNVrb3sIAa8Walp9Z1mVlwE/edit?usp=sharing\"\u003ehttps://docs.google.com/presentation/d/1RzPlGLzrmJmwa5FzalP6CNVrb3sIAa8Walp9Z1mVlwE/edit?usp=sharing\u003c/a\u003e\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 254,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Shuo-Yen Wang 王碩彥",
+                    "bio": "I'm shuoyen (碩彥),\r\n5+ years of iOS App development experiences in the e-commerce and network news industry.\r\nI also participated in news app development for the 16 members team.\r\n\r\nMedium: https://medium.com@yusatrtru \r\nGithub: https://github.com/danishuotw"
+                }
+            ]
+        },
         {
-          "name" : "CJ Lin",
-          "bio" : "LINE TW iOS NERD.\r\n新創\u0026企業經驗兼具，技術債的創造者與還債人.\r\n正在 Scrum 的道路上 Trial and Error."
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 176,
-      "title" : "從 MVC 到 MVVM，再到 MVVMC 的開發經驗分享",
-      "track" : "3",
-      "abstract" : "本次主題會介紹 MVC 的開發，並提及 MVVM 架構的設計及其解決的問題，最後會再切入 MVVMC，進一步了解它想解決哪一些問題。基於產品的維護性、可讀性、可測試性等來分析架構的理念及重要性，再來就是一些實戰經驗分享。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/github.com\/nghuiqin"
-      },
-      "speakers" : [
+            "title": "Navigating the Job Search in Silicon Valley (Gerry幫忙代投)",
+            "abstract": "\u003cp\u003eThe talk will go through the different stages of securing a job in Silicon Valley. Starting from the beginning, we’ll go over a brief overview of helpful resources, and end on the concepts of negotiating and accepting an offer. There will be statistics and data shared based on my own (as well as friends’) interview experiences. While there is much to be said for technical skills, the talk will primarily be focused on topics beyond your technical ability.\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 264,
+            "track": null,
+            "video_url": "",
+            "slides_url": "",
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Gerry",
+                    "bio": "Self introduction: Hi! My name is Stephanie and I’ve been working in San Francisco since 2014. I took a year off last year to come to Taiwan and have recently restarted my job search and signed on with a company in SF once again. I don’t have a traditional background in computer science; I attended a coding bootcamp in 2015, learning Ruby on Rails. Through a lot of luck and good timing, I got the opportunity to switch over into iOS development, and I’ve been writing in Swift and Obj-C ever since"
+                }
+            ]
+        },
         {
-          "name" : "黃惠勤",
-          "bio" : "大家好，我叫黃惠勤，來自馬來西亞，大部分台灣朋友叫我NG。從事iOS工作已長達5年，目前在台灣KKBOX iOS部門任職工程師一職。"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 163,
-      "title" : "怦然心動的編譯時間優化魔法",
-      "track" : "2",
-      "abstract" : "生命應該浪費在美好的事物上，而不是等著 compiler 的進度條緩慢的增加，一邊祈禱一切按照你心中的藍圖進行。這個 talk 會介紹我如何讓一個古老的專案從編譯一次要 5 分鐘，優化到只需要 2 分鐘的故事。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/momoyooo0717"
-      },
-      "speakers" : [
+            "title": "Random? 你搞得我好亂啊",
+            "abstract": "從Swift4.2開始導入了Swift Random，終於不用Arc4random了，但是新的亂數是怎麼來的呢？以前Ｃ lib的亂數的種子是什麼意思？電腦可以做出真的亂數嗎？我們平凡的麻瓜要怎麼對Swift的源碼提出貢獻呢？",
+            "review_tags": [],
+            "id": 243,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "DaGin",
+                    "bio": "我是大軍，我不會特異功能，但我的興趣很廣泛，也是2019 iPlayground的設計組組長。"
+                }
+            ]
+        },
         {
-          "name" : "丁沛堯",
-          "bio" : "iCHEF iOS Developer, 愛貓, 以為戴牙套會變瘦結果一年後還是胖了2公斤。"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 116,
-      "title" : "您的 APP 安全嗎?",
-      "track" : "2",
-      "abstract" : "行動App持續蓬勃發展，但企業對於 App 資安重視程度，必須要再加強，尤其功能優先的導向之下，很容易忽略安全防護的重要。\r\n近年，許多 App 可能都存在不同程度的安全防護問題，從 2017 年 9 月起，臺灣金管會也已經開始要求銀行業者\/電子支付業者，需委託專業機構對現行所有 App 進行全面安全檢測；當然跟政府相關 App 雖然法規規範已紛紛列為必要驗收必要項目。\r\nApp 開發人員，開發時想要提升 App 本身的安全性，重點在於要了解侵入過程，才能知道怎麼因應，並瞭解 App 需做到的安全防護面向。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/www.facebook.com\/lamb.mei"
-      },
-      "speakers" : [
+            "title": "Refactoring legacy and concurrent thread API with Testing.",
+            "abstract": "會現場實際透過測試的方式來重構一段複雜 Web API request。\r\n\r\n使用 OperationBlock 包住的 MKDirection.request，為的是讓多重 Web API request 能夠在所有 response 回傳的時候才 callback 到 ViewController。\r\n\r\n但因為設計的不良，對 OperationBlock 及 concurrent thread 的理解不夠，因此產生了些許的 bug。\r\n\r\n而透過對該 method 的 inject 來使用測試的方式，一步一步從 OperationBlock 的設計改善至 DispatchGroup，最後透過遞迴來處理這個功能，而避免 concurrent thread 的所有 issue。",
+            "review_tags": [],
+            "id": 245,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "陳涵宇",
+                    "bio": "2015年開始專注在 iOS 平台的開發者，Cocoaheads Taipei 的主持人，Side project 為 Shõto。目前在 Pinkoi 任職。"
+                }
+            ]
+        },
         {
-          "name" : "羊小咩",
-          "bio" : "電子支付\/第三方支付 App 行動裝置研發經理，致力於支付 App 架構和安全以及更好用支付體驗。 實際為什麼都略懂一點的雜工一枚。"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 109,
-      "title" : "我搞不懂浮點數：CS 101",
-      "track" : "1",
-      "abstract" : "俗話說「程式語言三大誤解：我懂浮點數、我懂 unicode、我懂時間運算」。想必大家寫程式也多少聽過一些浮點數的奇怪行為，但有多少人真的敢說了解浮點數？全球大學最高程式競技殿堂 ACM ICPC 曾發生過一件趣事：日本隊在決賽送出的解答幾乎要通過了，卻在某筆測資超過執行時間。評審們都是電腦科學界的頂尖頭腦，看程式碼卻也看不出所以然，原因竟是「這個」。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/yllan"
-      },
-      "speakers" : [
+            "title": "使用openCV做影像辨",
+            "abstract": "AI 圖像辨識近年來越來越多風行，影像辨識應用在越來越多的領域出現，讓我們來了解 IOS 上使用OpenCV進行影像分析及辨識，辨識影像時是如何設定辨識目標，分析特徵達到辨識目標的方法。",
+            "review_tags": [],
+            "id": 241,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "羊小咩",
+                    "bio": "電子支付/第三方支付 App team manager，致力於支付 App 架構和安全以及更好用支付體驗。 平時為雜工一枚。"
+                }
+            ]
+        },
         {
-          "name" : "yllan",
-          "bio" : "上班寫nodejs，下班後的身份是台灣城市單車聯盟理事、Cocoaheads Taipei發起人、業餘macOS\/iOS開發者。 上一個生涯目標是推廣熱愛的蘋果，已達成。接下來的生涯目標是推廣熱愛的單車多元文化，用單車來改變城市。 曾主辦「沈默的騎行」呼籲重視交通安全，以及「台北裸騎」。"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 173,
-      "title" : "探索 Swift 自動微分實作",
-      "track" : "1",
-      "abstract" : "Swift for Tensorflow 希望能將 Swift 打造為一個為 Deep Learning 量身定作的語言。自動微分就是其中一項新功能。\r\n\r\n自動微分能自動將任何的函數微分，大幅增進生產力和減少 Bug。 讓我們一起來探索 Swift 是如何實作這個神奇的功能。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/johnlinvc"
-      },
-      "speakers" : [
+            "title": "克服恐懼 追求夢想 Instagram iOS 4年經驗分享",
+            "abstract": "2016 年買了單程機票參加 WWDC，結束後前往矽谷，經過重重考驗，最後拿到 Facebook 的 offer，目前轉戰 Instagram 紐約工作。在這場議程，將會介紹如何挑戰矽谷大聯盟面試、美國與亞洲的工作差異以及與百位來自各國的工程師協同開發億級使用者 App 的經驗。",
+            "review_tags": [],
+            "id": 265,
+            "track": null,
+            "video_url": "",
+            "slides_url": "",
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Gerry",
+                    "bio": "我的職涯對我來說是一個刺激好玩的成長冒險\r\n​​在台灣 (KKBOX) → 香港 (9GAG) → 加州 (Messenger) → 紐約(Instagram) 做過 iOS developer.\r\n​​目前還任職於Instagram / Facebook 4 年\r\n​​現在剛好疫情在台灣遠端工作 想好好重新認識台灣的 developer community 做學習跟分享\r\n​​IG: jackywangadventures"
+                }
+            ]
+        },
         {
-          "name" : "John Lin",
-          "bio" : "Organizer of Swift Taipei. Full-stack developer.  iOS developer. Language Nerd. FP lover."
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-        "workshop"
-      ],
-      "id" : 182,
-      "title" : "擴增實境人物控制實作",
-      "track" : "3",
-      "abstract" : "如果你對 AR 充滿好奇，不妨來體驗開發 AR App 的樂趣，ARKit 真假難辨的視覺效果，肯定不會讓你失望，經過這堂課後，您將擁有開發AR的基本能力。如：\r\nimageAnchor 設定、座標設定、轉角設定、比例縮放、材質設定、人物動作處理等。\r\n\r\n環境需求：\r\n1. 請攜帶內建 A9 以上晶片的設備，如 iphone6S 以上機種，平板體驗更佳。\r\n2. 設備OS版本需iOS12以上。\r\n3. 開發環境請安裝 Xcode 11。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/jackychenkiki"
-      },
-      "speakers" : [
+            "title": "十年目睹之 In-App Purchase 怪現狀",
+            "abstract": "如果你覺得「既然 IAP 簡單好用，開發起來也只要一兩週就完成了吧！」\r\n強烈建議你修但幾咧，先聽聽一些鬼故事再作夢不遲。\r\n\r\n這場演講不是給技術控看的，大家應該知道職場人生最難的通常都不是技術。\r\n主題是一些 IAP 開發的坑，什麼情況下你必須實作 IAP，以及 App Store Review Guidelines 的相關變革與案例探討。",
+            "review_tags": [],
+            "id": 256,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Denken Chen",
+                    "bio": "自由工作者，雙棲 iOS App 開發與寫作，也開了 Podcast 節目。\r\nhttps://denkeni.org"
+                }
+            ]
+        },
         {
-          "name" : "JackyChen",
-          "bio" : "對AR有極度熱忱的白日夢工程師，幻想有一天能創造自己的異世界冒險，為此不斷的修煉自己的開發技能"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 108,
-      "title" : "漫談 iOS 架構：MVC \/ MVVM \/ VIPER 與 Redux",
-      "track" : "1",
-      "abstract" : "過去這幾年大家逐漸重視 iOS 的架構設計，從最基本的 MVC 到開始普及的 MVP \/ MVVM，到分工細膩的 VIPER，每個 pattern 都有擁護者；近期也有為了解決畫面轉換的 Router \/ Coordinator 以及為了解決資料一致性的 Redux。\r\n\r\n我們來聊聊這幾種 pattern 及其演化過程。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/NelsonT"
-      },
-      "speakers" : [
+            "title": "封裝！封裝！再封裝！我要成為封裝大師！",
+            "abstract": "封裝！把 Code 都塞進 Function 裡面 ~ ♪\r\n封裝！把 Function 都塞進 Class 裡面 ~ ♪♪\r\n再封裝！把 Class 都塞進 Framework 裡面 ~ ♪♪♪\r\n都 2020 年了還有人在講物件導向？對！！我就是要講！！而且一次講 40 分鐘！！！\r\n\r\n這個 seesion 想跟大家分享：\r\n1. 一些簡單的封裝手法與流程，並透過開發、測試、維護不同的角度去看待封裝這件事。\r\n2. 如何使用 XCode 提供的工具來完成封裝的夢想，包含 Dynamic Framework, Swift Package Manager 等\r\n3. 在現實世界裡我如何去封裝一個專案？他對我開發有什麼影響？以 iCHEF 為例\r\n",
+            "review_tags": [],
+            "id": 234,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "丁沛堯",
+                    "bio": "iCHEF iOS Lead Engineer, 每天都要吸貓才能開始工作"
+                }
+            ]
+        },
         {
-          "name" : "Nelson",
-          "bio" : "心血來潮就會寫部落格的 iOS 工程師，希望有天可以靠嘴寫程式。"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 169,
-      "title" : "為邊緣開發獻上新知 - tvOS",
-      "track" : "2",
-      "abstract" : "聊聊今年 Apple 在 tvOS 上做了什麼改變，SwiftUI x tvOS 又尬出了什麼新滋味？\r\n\r\n分享作為一位專職 tvOS 開發者感到的空虛寂寞覺得冷。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/HsuToby"
-      },
-      "speakers" : [
+            "title": "從獨立開發到大型專案的 CI/CD 攻略",
+            "abstract": "CI/CD 可以把重複的事讓機器去做，工程師就可以把時間省下來，去做更有創造力的事。參與過大大小小的專案，從獨立開發的 side project，到接別人做一半的半成品，或者是自己全程參與的作品。不管開發時間長短或規模，一個作品最重要的是品質。重複的事就該交給機器人去做，我會介紹各種 CI/CD 的使用經驗，讓不同規模的開發團隊挑選適合的工具，跟每種工具的甘苦談。這是一個進階的題目，請先了解 CI/CD 是在做什麼再來聽。\r\n\r\n內容包含：\r\n- schell script\r\n- fastlane\r\n- jenkins\r\n- bitrise\r\n",
+            "review_tags": [],
+            "id": 232,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Hokila Jan",
+                    "bio": "本業吃喝玩樂，副業寫程式。某種程度來說，我已經財富自由了。"
+                }
+            ]
+        },
         {
-          "name" : "徐嘉駿 Toby Hsu",
-          "bio" : "## 邊緣的代表\r\n畢業於政治大學數位內容碩士學位學程，興趣為人機互動介面與使用者經驗研究，自稱為非典型工程師。目前為 CATCHPLAY 的 tvOS \/ iOS 工程師。"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-        "workshop"
-      ],
-      "id" : 97,
-      "title" : "第一次 SwiftUI 10YearChallenge App 親密接觸",
-      "track" : "4",
-      "abstract" : "如果有十年的程式練習，我就能開發比 IG 還棒的 App。十年的練習有可能嗎? 可以 ! 就從 iPlayground 的 3 個小時，開始第一次的 SwiftUI App 親密接觸。\r\n\r\nApple 最新推出的 SwiftUI 幫助我們以更直覺精簡的程式製作 App (Better apps. Less code)，活動將搭配滿滿的實作練習，介紹 SwiftUI 的各種技術。比方畫面的製作，常用 UI 元件的使用，各種有趣的圖片效果，data binding ，結合表格，navigation bar & tab bar 製作多頁面 App，動畫和轉場效果，結合 iOS 13 的 dark mode & SF Symbols 等，帶著大家一步步創作有趣的 10YearChallenge App。\r\n\r\n課前準備：安裝 Xcode 11，MacOS 10.14.4 以上或 10.15\r\n\r\n適合對象：了解基本的 Swift & iOS App 開發技術\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : ""
-      },
-      "speakers" : [
+            "title": "打開 Combine 的引擎蓋來看看",
+            "abstract": "\u003cp\u003eCombine 是怎麼在 Swift 原本的 物件導向設計 與 指令式設計 的架構下，編寫出使用方法完全不一樣的 Combine。這個 Session 將討論 Combine 關鍵角色: Publishers、Subscribers、Operators，了解 Combine 如何運作！\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 253,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "游宗諭",
+                    "bio": "Swift iOS 開發者，2018 年開始認真轉職成軟體工程師，自認目前還沒有成功。完全自學程式，喜歡 Combine 與像 Combine 的東西，時常三不五時在 GitHub 做沒有用的 Swift Package。"
+                }
+            ]
+        },
         {
-          "name" : "彼得潘",
-          "bio" : "著作: 彼得潘的 Swift 程式設計入門，App 程式設計入門－iPhone, iPad\r\niOS App 開發講師: 彼得潘的 iOS App程式設計入門，文組生的 iOS App程式設計入門\r\nBlog: 彼得潘的 App Neverland\r\nFB粉絲團: 愛瘋一切為蘋果的彼得潘\r\nApp 作品: Wealthy, LOCOMO運動記錄, 戴佩妮回家路上等二十幾款App \r\n學校講師: 台大共同教育中心，政治大學，中央大學，海洋大學，臺北大學\r\n家教: 專屬於你的 iOS APP 開發導師\r\n企業內訓:  Yahoo，聯陽半導體，世界先進，信義房屋"
+            "title": "提升擴增實境體驗的夢幻組合技",
+            "abstract": "\u003cp\u003eARKit 開發雖然有趣，但總覺得和想像中的擴增實境有段距離，難道只能這樣了嗎？想要體驗更棒，除了等待 Apple Glass 的到來，我們還能作些什麼？快來看看搭配 ARKit 開發的組合技巧\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 246,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "JackyChen",
+                    "bio": "對AR有極度熱忱的白日夢工程師，幻想有一天能創造自己的異世界冒險，為此不斷的修煉開發技能"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 95,
-      "title" : "簡易版 Combine 框架 DIY：FRP 原理探討",
-      "track" : "1",
-      "abstract" : "Combine 框架正式將蘋果的開發社群帶到 Functional Reactive Programming 的設計典範之上。然而，之前沒有接觸過 FRP 框架（如 RxSwift、ReactiveCocoa 等）的 OOP 開發者可能會對 Combine 的運作原理摸不清頭緒。\r\n\r\n事實上，FRP 本身主要是由兩種設計模式結合而成的設計典範：建造者模式（Builder pattern），以及函數式程式設計中的 Mappable（Functor）模式。要了解這些概念，最快的方法就是自己從零開始建構一個 FRP 框架出來。\r\n\r\n建造者模式\r\n\r\n建造者（Builder）本身通常是一個簡單的 struct。它除了可以用來建造 URL（URLComponents）與取代複雜的建構式\/工廠方法之外，還可以用來對一般的方法呼叫做包裝。\r\n\r\nCombine 的 Publisher，就是這樣的東西。而它的 sink(<em>:)、subscribe(<\/em>:) 等方法，就相當於建造者的 build() 方法。只不過它的作用是開始一個非同步工作，並傳回一個取消工作用的 Cancellable。\r\n\r\nMappable 模式\r\n\r\n建造者最大的功能是在於它可以輕易地改變建造對象的屬性。比如說當我們呼叫 URLSession.dataTask(for:completion:) 之後，我們就沒辦法再更改 completion 閉包的內容了。但若整個方法呼叫是被包在一個建造者裡的話，我們就可以用 map(_:) 方法預先更改 completion 的行為。\r\n\r\n在 Combine 中，這些方法對應到的是 Operator，一些做轉換、過濾、時間控制、錯誤處理等等的中間人 Publisher。\r\n\r\n應用\r\n\r\n最後，我們會將 AsyncTask 應用到 URLSession、KVO、Target-Action 與 NotificationCenter 等處。如果時間允許的話，更可以試試模仿實作 Published property wrapper 型別。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/lihenghsu"
-      },
-      "speakers" : [
-        {
-          "name" : "Li-Heng Hsu",
-          "bio" : "獨立 App 開發者、影片創作者。擁有已上架作品 [Storyboards by narrativesaw]。AppCoda.com.tw 合作作者。[《電影冷知識：跨越銀幕之外，我們都想探索的電影製造祕密》]作者。個人網站 [https:\/\/www.lihenghsu.com]。"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-        
-      ],
-      "id" : 98,
-      "title" : "網路難，難於上青天 - 用部件化的方式簡化網路程式設計",
-      "track" : null,
-      "abstract" : "無論是 API 調用獲取 JSON，還是從網路下載圖片數據，都是 app 開發中最常見任務。URLSession 和 Codable 為我們提供了一套簡單易用的進行網路程式設計接口，但如果不注意程式架構，相關的網路部分的代碼很容易腐爛。特別在當程式邏輯變得複雜時，想要保持修正和變更依然能夠敏捷進行，並確保高效的測試覆蓋，並不是那麽容易的事情。\r\n\r\n這個 Session 將討論使用一種部件化的方式，來將網路程式的構建和處理拆分為可以理解，易於測試的小塊。通過這種方式，我們可以有信心地為 app 設計出可擴展，無 bug 的網路部分。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/twitter.com\/onevcat"
-      },
-      "speakers" : [
-        {
-          "name" : "王巍",
-          "bio" : "王巍現在是專註於 iOS 的職業開發者。他擁有對於 Swift，Objective-C 以及網路程式設計方面的深厚知識及多年實作經驗。他將這些技術運用於創建 app 和通用框架等解決方案，其中很多都被用戶喜愛，並被開發者社區廣泛使用來構建其他軟體。\r\n\r\n作為兩個可愛孩子的父親，王巍同時也熱愛旅遊，閱讀以及攝影。他總是樂於嘗試新鮮事物，並且持續地從這些新鮮事物中進行學習。\r\n\r\n現在，王巍是壹名在 LINE 工作的高級軟件工程師。"
-        }
-      ]
-    },
-    {
-      "slides_url" : "",
-      "review_tags" : [
-
-      ],
-      "id" : 162,
-      "title" : "關於 Smart KeyPath",
-      "track" : "3",
-      "abstract" : "簡介什麼是 Swift 的 Smart KeyPath，他能做到什麼事，有哪些可使用的類別。以及介紹我們能如何利用 Smart KeyPath 來優化我們的 Code。\r\n",
-      "video_url" : "",
-      "custom_fields" : {
-        "SNS" : "https:\/\/github.com\/ChiaoteNi"
-      },
-      "speakers" : [
-        {
-          "name" : "Chiao-Te, Ni",
-          "bio" : "Aaron Ni\r\n\r\niOS@Taipei 的固定講者之一\r\nhttps:\/\/github.com\/ChiaoteNi?tab=repositories\r\n兩年iOS開發經驗\r\n專長ＵＩ繪製，興趣在Layer與CoreText，對於畫面熱衷於捲起袖子造輪子。\r\n\r\n其他部分曾經會一點點游泳跟潛水，喜歡旅遊，如果有做什麼旅遊相關的App請務必介紹給我：）"
-        }
-      ]
-    }
-  ]
+    ]
 }
