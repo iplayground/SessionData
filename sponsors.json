@@ -9,6 +9,46 @@
                 }
             ],
             "title": "黃金級"
+        },
+        {
+            "items": [
+                {
+                    "name": "Tomofun",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_tomofun.jpg",
+                    "link": "https://shoptw.furbo.com/"
+                }
+            ],
+            "title": "白銀級"
+        },
+        {
+            "items": [
+                {
+                    "name": "PicCollage",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_picCollage.jpg",
+                    "link": "https://picc.co/"
+                }
+            ],
+            "title": "白銀級"
+        },
+        {
+            "items": [
+                {
+                    "name": "iCHEF",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_ichef.jpeg",
+                    "link": "https://www.ichefpos.com/zh-tw"
+                }
+            ],
+            "title": "白銀級"
+        },
+        {
+            "items": [
+                {
+                    "name": "Dcard",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_dcard.png",
+                    "link": "https://www.dcard.tw"
+                }
+            ],
+            "title": "白銀級"
         }
 	],
 	"partner": [
