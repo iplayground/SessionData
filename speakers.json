@@ -1,0 +1,16 @@
+{
+  "speakers": [
+      {
+      "id": 1,
+      "imgURL":"https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/JohnLin.jpeg",
+      "alt": "",
+      "name": "John Lin",
+      "position": "",
+      "intro":
+        "Swift Taipei 主辦人。從 iOS 2 開始寫 App、參與 Swift.org 中文版編寫,同時拜訪不同技術社群( App Girl、CocoaHeads Taipei ),積極挹注Swift社群的學習動能。",  
+      "topic":"為什麼App 卡卡的？",
+      "programIds":[173],
+      "speakerNumber":0
+      }
+    ]
+}
