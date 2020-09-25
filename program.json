@@ -239,6 +239,22 @@
                     "bio": "對AR有極度熱忱的白日夢工程師，幻想有一天能創造自己的異世界冒險，為此不斷的修煉開發技能"
                 }
             ]
+        }
+        {
+            "title": "跟 Sign in with Apple 的愛恨情仇",
+            "abstract": "\u003cp\u003e注重用戶隱私的 Apple 在開發者大會 WWDC 2019 發表了 Sign in with Apple 的功能，iOS 13 後皆支援。今年（2020 年） 4 月之後強制要求所有新上架的 App（包含更新）皆要支援這個服務。  \u003c/p\u003e\r\n\r\n\u003cp\u003eSign in with Apple 怎麼接？跟其他第三方服務有什麼不同？\u003cbr\u003e\u003cbr\u003e\r\nApp 端、網站前端、後端要如何因應？會有什麼樣的雷？\u003cbr\u003e\r\n讓我來跟你娓娓到來...\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 231,
+            "track": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/johnny.png",
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Johnny Sung",
+                    "bio": "Freelance iOS / Android Developer"
+                }
+            ]
         },
         {
             "title": "放開那個 MVC",
@@ -253,22 +269,6 @@
                 {
                     "name": "賴柏宏(Devin)",
                     "bio": "iCHEF iOS Developer，iOS開發很久，所以網頁跟後端都不會寫，所以我只好繼續寫iOS App"
-                }
-            ]
-        },
-        {
-            "title": "跟 Sign in with Apple 的愛恨情仇",
-            "abstract": "\u003cp\u003e注重用戶隱私的 Apple 在開發者大會 WWDC 2019 發表了 Sign in with Apple 的功能，iOS 13 後皆支援。今年（2020 年） 4 月之後強制要求所有新上架的 App（包含更新）皆要支援這個服務。  \u003c/p\u003e\r\n\r\n\u003cp\u003eSign in with Apple 怎麼接？跟其他第三方服務有什麼不同？\u003cbr\u003e\u003cbr\u003e\r\nApp 端、網站前端、後端要如何因應？會有什麼樣的雷？\u003cbr\u003e\r\n讓我來跟你娓娓到來...\u003c/p\u003e\r\n",
-            "review_tags": [],
-            "id": 231,
-            "track": null,
-            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/johnny.png",
-            "slides_url": null,
-            "custom_fields": {},
-            "speakers": [
-                {
-                    "name": "Johnny Sung",
-                    "bio": "Freelance iOS / Android Developer"
                 }
             ]
         }
