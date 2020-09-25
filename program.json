@@ -1,6 +1,22 @@
 {
     "program": [
         {
+            "title": "為什麼 App 卡卡的？",
+            "abstract": "\u003cp\u003e{{keynote_abstract}}\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 248,
+            "track": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/JohnLin.jpeg",
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "John Lin",
+                    "bio": "Swift Taipei 主辦人。從 iOS 2 開始寫 App、參與 Swift.org 中文版編寫,同時拜訪不同技術社群( App Girl、CocoaHeads Taipei ),積極挹注Swift社群的學習動能。"
+                }
+            ]
+        },
+        {
             "title": "Activity Classification with CreateML using AirPod Pro",
             "abstract": "With the new AirPods Pro Motion API opens this year we can start collecting Core Motion data from AirPod Pro. Using the Core Motion data collected I am going to show how to create a model using CreateML to classify head motion e.g. shaking your head, nodding, or even exercise like a squad. I want to get everybody excited about AI.",
             "review_tags": [],
@@ -145,6 +161,54 @@
             ]
         },
         {
+            "title": "手把手帶你用 Clean Swift 重構 MVC 並愉快地撰寫單元測試",
+            "abstract": "\u003cp\u003e受夠你的 ViewController 亂的要命了嗎? 覺得程式碼耦合性太高, 所以一直沒有在實戰中嘗試單元測試嗎? 除了 MVVM / Viper 外, 不妨試試可讀性高且能輕鬆測試的 Clean Swift! \u003c/p\u003e\r\n\r\n\u003cp\u003e這個 work shop 將帶你從一個有點混亂的 MVC 開始, 慢慢說明 Clean Swift 各元件的意義和職責並逐步重構 MVC. 你會看到重構後的程式碼不但資料流向簡單清楚且元件職責單一明確. 最後我們會帶你寫出覆蓋大多數邏輯的單元測試.\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 239,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Yen",
+                    "bio": "哈囉, 我是 William, 郭亭巖.目前在美商 Verizon Media 工作, 閒暇時間和朋友一起負責週聚的 iOS 讀書會 —— iOS@Taipei. 每週我們會輪流分享有關 iOS 的主題知識或經驗.我喜歡探討程式碼的可讀性、物件的職責和封裝以及可測試性，因為團隊的技術選擇而認識了 Clean Swift, 也在每天和真實世界需求奮鬥中感受到它的簡單強大, 因此希望更多人認識這個設計模式。工作和技術以外，我的興趣是衝動購物 (3C 產品、募資產品、生產力 App)、當個 FOMO 狂刷 Twitter / Facebook 到深夜 ，還有持續購買收藏看不完也沒在看的書和文章。"
+                }
+            ]
+        },
+        {
+            "title": "手把手帶你用 Clean Swift 重構 MVC 並愉快地撰寫單元測試",
+            "abstract": "\u003cp\u003e受夠你的 ViewController 亂的要命了嗎? 覺得程式碼耦合性太高, 所以一直沒有在實戰中嘗試單元測試嗎? 除了 MVVM / Viper 外, 不妨試試可讀性高且能輕鬆測試的 Clean Swift! \u003c/p\u003e\r\n\r\n\u003cp\u003e這個 work shop 將帶你從一個有點混亂的 MVC 開始, 慢慢說明 Clean Swift 各元件的意義和職責並逐步重構 MVC. 你會看到重構後的程式碼不但資料流向簡單清楚且元件職責單一明確. 最後我們會帶你寫出覆蓋大多數邏輯的單元測試.\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 239,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Chiao-Te, Ni",
+                    "bio": "Aaron Ni iOS@Taipei 的固定講者之一 我們每週二會在 Meet.Jobs 的辦公室舉辦各種iOS的議題分享，歡迎有興趣的一起來共襄盛舉"
+                }
+            ]
+        },
+        {
+            "title": "打造你的 App 架構 - iOS 模塊化及路由方案",
+            "abstract": "\u003cp\u003e希望可以藉由這次分享，讓大家了解什麼是 App 模塊化（或稱組件化）以及為了模塊間通訊解耦、頁面跳轉的路由方案，讓大家在設計 App 架構的時候可以用不同的思維去設計你的 App。\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 261,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Frank",
+                    "bio": "iOS Developer@17media, ex-iOS Developer@DiDi"
+                }
+            ]
+        },
+        {
             "title": "打開 Combine 的引擎蓋來看看",
             "abstract": "Combine 是怎麼在 Swift 原本的物件導向設計與指令式設計的架構下，編寫出使用方法完全不一樣的 Combine。這個 Session 將討論 Combine 關鍵角色: Publishers、Subscribers、Operators，了解 Combine 如何運作！",
             "review_tags": [],
@@ -177,18 +241,34 @@
             ]
         },
         {
-            "title": "為什麼 App 卡卡的？",
-            "abstract": "\u003cp\u003e{{keynote_abstract}}\u003c/p\u003e\r\n",
+            "title": "放開那個 MVC",
+            "abstract": "當MVVM充斥在我們生活，可曾有人想起那被遺忘的MVC？ MVC做錯了？還是MVVM做對了？讓我們來聊聊時代是怎麼走到MVVM的，也關心一下那MVC，接著想想未來會往哪邊走",
             "review_tags": [],
-            "id": 248,
+            "id": 235,
             "track": null,
-            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/JohnLin.jpeg",
+            "video_url": null,
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
                 {
-                    "name": "John Lin",
-                    "bio": "Swift Taipei 主辦人。從 iOS 2 開始寫 App、參與 Swift.org 中文版編寫,同時拜訪不同技術社群( App Girl、CocoaHeads Taipei ),積極挹注Swift社群的學習動能。"
+                    "name": "賴柏宏(Devin)",
+                    "bio": "iCHEF iOS Developer，iOS開發很久，所以網頁跟後端都不會寫，所以我只好繼續寫iOS App"
+                }
+            ]
+        },
+        {
+            "title": "跟 Sign in with Apple 的愛恨情仇",
+            "abstract": "\u003cp\u003e注重用戶隱私的 Apple 在開發者大會 WWDC 2019 發表了 Sign in with Apple 的功能，iOS 13 後皆支援。今年（2020 年） 4 月之後強制要求所有新上架的 App（包含更新）皆要支援這個服務。  \u003c/p\u003e\r\n\r\n\u003cp\u003eSign in with Apple 怎麼接？跟其他第三方服務有什麼不同？\u003cbr\u003e\u003cbr\u003e\r\nApp 端、網站前端、後端要如何因應？會有什麼樣的雷？\u003cbr\u003e\r\n讓我來跟你娓娓到來...\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 231,
+            "track": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/Johnny.png",
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Johnny Sung",
+                    "bio": "Freelance iOS / Android Developer"
                 }
             ]
         }
