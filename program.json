@@ -180,7 +180,7 @@
             "title": "手把手帶你用 Clean Swift 重構 MVC 並愉快地撰寫單元測試",
             "abstract": "\u003cp\u003e受夠你的 ViewController 亂的要命了嗎? 覺得程式碼耦合性太高, 所以一直沒有在實戰中嘗試單元測試嗎? 除了 MVVM / Viper 外, 不妨試試可讀性高且能輕鬆測試的 Clean Swift! \u003c/p\u003e\r\n\r\n\u003cp\u003e這個 work shop 將帶你從一個有點混亂的 MVC 開始, 慢慢說明 Clean Swift 各元件的意義和職責並逐步重構 MVC. 你會看到重構後的程式碼不但資料流向簡單清楚且元件職責單一明確. 最後我們會帶你寫出覆蓋大多數邏輯的單元測試.\u003c/p\u003e\r\n",
             "review_tags": [],
-            "id": 239,
+            "id": 240,
             "track": null,
             "video_url": null,
             "slides_url": null,
