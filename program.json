@@ -54,13 +54,13 @@
             "review_tags": [],
             "id": 243,
             "track": null,
-            "video_url": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/dagun.jpeg",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
                 {
                     "name": "DaGin",
-                    "bio": "我是大軍，我不會特異功能，但我的興趣很廣泛，也是2019 iPlayground的設計組組長。"
+                    "bio": "大家好我是大軍，我是一位iOS開發者，對設計、圖像、程式充滿興趣，自iOS7開始接觸iOS開發，深深愛上Swift這個語言，也喜歡開發原生的iOS程式。"
                 }
             ]
         },
@@ -70,7 +70,7 @@
             "review_tags": [],
             "id": 245,
             "track": null,
-            "video_url": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/hanyu.png",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
@@ -86,7 +86,7 @@
             "review_tags": [],
             "id": 241,
             "track": null,
-            "video_url": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/sheep.jpeg",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
@@ -134,7 +134,7 @@
             "review_tags": [],
             "id": 232,
             "track": null,
-            "video_url": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/hojila.png",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
@@ -150,7 +150,7 @@
             "review_tags": [],
             "id": 253,
             "track": null,
-            "video_url": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/yu.jpeg",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
