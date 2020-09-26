@@ -2,7 +2,7 @@
     "program": [
         {
             "title": "為什麼 App 卡卡的？",
-            "abstract": "\u003cp\u003e{{keynote_abstract}}\u003c/p\u003e\r\n",
+            "abstract": "",
             "review_tags": [],
             "id": 248,
             "track": null,
@@ -269,6 +269,54 @@
                 {
                     "name": "Johnny Sung",
                     "bio": "Freelance iOS / Android Developer"
+                }
+            ]
+        },
+        {
+            "title": "與廣告帳戶間的頂尖對決 - CoreML、CreateML 在線上產品中做為輔助角色的應用案例",
+            "abstract": "\u003cp\u003eApple 自已的 Machine Learning 框架在 iOS 11 問世之後，一直期待有一天能在線上的產品中加入這個框架的需求。在今年，公司線上討論區類型 App，不斷的受到廣告發文騷擾。這個情況讓客服部門的服務電話不停的響。在我們嘗試過各種方法後，最後使用了 Apple 所出的 ML 框架，配合 Natural Language 進行情緒分析，來剔除廣告發文。\u003c/p\u003e\r\n\r\n\u003cp\u003e如果你的團隊人數不夠，短期間內也沒有配法配置資料科學團隊，蠻建議使用 Apple 的 ML 框架。這個框架可以快速的實驗 ML 對線上產品是不是能有正面影響。如果你的團隊不大、或是短期內沒辦法找到 ML 相關人員，建議你試試這個框架。\u003c/p\u003e\r\n\r\n\u003cp\u003e這個 talk  會介紹所使用的標記資料數量，運行的基本概念，還有在部署上線後，對產品、還有使用者的變化。\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 229,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Marvin Lin",
+                    "bio": "iOS 工程師，嘗試在多種不同地方、場合使用 Swift 來完成自己覺得有趣的事"
+                }
+            ]
+        },
+        {
+            "title": "克服恐懼 追求夢想 Instagram iOS 4年經驗分享",
+            "abstract": "\u003cp\u003e2016 年買了單程機票參加 WWDC，結束後前往矽谷，經過重重考驗，最後拿到 Facebook 的 offer，目前轉戰 Instagram 紐約工作。在這場議程，將會介紹如何挑戰矽谷大聯盟面試、美國與亞洲的工作差異以及與百位來自各國的工程師協同開發億級使用者 App 的經驗。\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 265,
+            "track": null,
+            "video_url": "",
+            "slides_url": "",
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Jacky",
+                    "bio": "我的職涯對我來說是一個刺激好玩的成長冒險\r\n​​在台灣 (KKBOX) → 香港 (9GAG) → 加州 (Messenger) → 紐約(Instagram) 做過 iOS developer.\r\n​​目前還任職於Instagram / Facebook 4 年\r\n​​現在剛好疫情在台灣遠端工作 想好好重新認識台灣的 developer community 做學習跟分享\r\n​​IG: jackywangadventures"
+                }
+            ]
+        },
+        {
+            "title": "Navigating the Job Search in Silicon Valley",
+            "abstract": "\u003cp\u003eThe talk will go through the different stages of securing a job in Silicon Valley. Starting from the beginning, we’ll go over a brief overview of helpful resources, and end on the concepts of negotiating and accepting an offer. There will be statistics and data shared based on my own (as well as friends’) interview experiences. While there is much to be said for technical skills, the talk will primarily be focused on topics beyond your technical ability.\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 264,
+            "track": null,
+            "video_url": "",
+            "slides_url": "",
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "Stephanie",
+                    "bio": "Hi! My name is Stephanie and I’ve been working in San Francisco since 2014. I took a year off last year to come to Taiwan and have recently restarted my job search and signed on with a company in SF once again. I don’t have a traditional background in computer science; I attended a coding bootcamp in 2015, learning Ruby on Rails. Through a lot of luck and good timing, I got the opportunity to switch over into iOS development, and I’ve been writing in Swift and Obj-C ever since"
                 }
             ]
         }
