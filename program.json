@@ -166,7 +166,7 @@
             "review_tags": [],
             "id": 239,
             "track": null,
-            "video_url": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/tyk.jpg",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
@@ -182,7 +182,7 @@
             "review_tags": [],
             "id": 240,
             "track": null,
-            "video_url": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/ni.jpg",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
@@ -317,6 +317,22 @@
                 {
                     "name": "Stephanie",
                     "bio": "Hi! My name is Stephanie and I’ve been working in San Francisco since 2014. I took a year off last year to come to Taiwan and have recently restarted my job search and signed on with a company in SF once again. I don’t have a traditional background in computer science; I attended a coding bootcamp in 2015, learning Ruby on Rails. Through a lot of luck and good timing, I got the opportunity to switch over into iOS development, and I’ve been writing in Swift and Obj-C ever since"
+                }
+            ]
+        },
+        {
+            "title": "iOS、Android、Flutter超級比一比",
+            "abstract": "\u003cp\u003e以iOS Developer的角度去介紹與比較Android和Flutter\u003cbr\u003e\r\n搭配程式碼跟Demo並佐以採坑實錄\u003cbr\u003e\r\n用最入門與淺顯易懂的說明\u003cbr\u003e\r\n讓聽眾可以在很短的時間內\u003cbr\u003e\r\n對另外兩個平台的開發有一定瞭解\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 244,
+            "track": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/markfly.png",
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "MarkFly",
+                    "bio": "覺得寫扣很帥才來寫扣，寫了之後發現真的很帥"
                 }
             ]
         }
