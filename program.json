@@ -49,7 +49,7 @@
             ]
         },
         {
-            "title": "### Let's build Command-Line Tools: Swift Argument Parser",
+            "title": "Let's build Command-Line Tools: Swift Argument Parser",
             "abstract": "\u003cp\u003eAgenda 💻\u003c/p\u003e\r\n\r\n\u003cp\u003eWhat’s Swift Argument Parser?\u003cbr\u003e\r\nHow to use it?\u003c/p\u003e\r\n\r\n\u003cp\u003eProperty wrapper\u003cbr\u003e\r\nCustomizing help\u003cbr\u003e\r\nValidation\u003cbr\u003e\r\nSubcommands\u003cbr\u003e\r\nCompletion Scripts\u003cbr\u003e\r\nManual Parsing and Testing\u003cbr\u003e\r\n\u003cbr\u003e\r\nDemo: Designing Command-Line Tools\u003c/p\u003e\r\n\r\n\u003cp\u003eSample: \u003ca href=\"https://docs.google.com/presentation/d/1RzPlGLzrmJmwa5FzalP6CNVrb3sIAa8Walp9Z1mVlwE/edit?usp=sharing\"\u003ehttps://docs.google.com/presentation/d/1RzPlGLzrmJmwa5FzalP6CNVrb3sIAa8Walp9Z1mVlwE/edit?usp=sharing\u003c/a\u003e\u003c/p\u003e\r\n",
             "review_tags": [],
             "id": 254,
