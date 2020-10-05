@@ -198,7 +198,7 @@
             "review_tags": [],
             "id": 261,
             "track": null,
-            "video_url": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/frank.jpg",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
@@ -230,7 +230,7 @@
             "review_tags": [],
             "id": 246,
             "track": null,
-            "video_url": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/JackyChen.jpg",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
@@ -305,22 +305,6 @@
             ]
         },
         {
-            "title": "Navigating the Job Search in Silicon Valley",
-            "abstract": "\u003cp\u003eThe talk will go through the different stages of securing a job in Silicon Valley. Starting from the beginning, we’ll go over a brief overview of helpful resources, and end on the concepts of negotiating and accepting an offer. There will be statistics and data shared based on my own (as well as friends’) interview experiences. While there is much to be said for technical skills, the talk will primarily be focused on topics beyond your technical ability.\u003c/p\u003e\r\n",
-            "review_tags": [],
-            "id": 264,
-            "track": null,
-            "video_url": "",
-            "slides_url": "",
-            "custom_fields": {},
-            "speakers": [
-                {
-                    "name": "Stephanie",
-                    "bio": "Hi! My name is Stephanie and I’ve been working in San Francisco since 2014. I took a year off last year to come to Taiwan and have recently restarted my job search and signed on with a company in SF once again. I don’t have a traditional background in computer science; I attended a coding bootcamp in 2015, learning Ruby on Rails. Through a lot of luck and good timing, I got the opportunity to switch over into iOS development, and I’ve been writing in Swift and Obj-C ever since"
-                }
-            ]
-        },
-        {
             "title": "iOS、Android、Flutter超級比一比",
             "abstract": "\u003cp\u003e以iOS Developer的角度去介紹與比較Android和Flutter\u003cbr\u003e\r\n搭配程式碼跟Demo並佐以採坑實錄\u003cbr\u003e\r\n用最入門與淺顯易懂的說明\u003cbr\u003e\r\n讓聽眾可以在很短的時間內\u003cbr\u003e\r\n對另外兩個平台的開發有一定瞭解\u003c/p\u003e\r\n",
             "review_tags": [],
@@ -333,6 +317,22 @@
                 {
                     "name": "MarkFly",
                     "bio": "覺得寫扣很帥才來寫扣，寫了之後發現真的很帥"
+                }
+            ]
+        },
+        {
+            "title": "用你我都會的 Swift 語言寫出 Line 聊天機器人",
+            "abstract": "\u003cp\u003e自2015年的WWDC，蘋果宣布開放Swift原始碼後，Swift正以通用程式語言為目標前進著，目前有越來越多用Swift撰寫的後端程式上了production環境，單憑著Swift成為全端工程師已不再是不可能。此主題以入門為目的，帶大家初探Swift編寫的web框架，並做出一個可動的簡易Line聊天機器人。\u003c/p\u003e\r\n",
+            "review_tags": [],
+            "id": 252,
+            "track": null,
+            "video_url": null,
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "鄭宇哲",
+                    "bio": "目前任職myVideo APP工程師。興趣是看電影和吃美食，有經營Instagram，在上面寫影評和食記。喜歡玩動物森友會，為了不想常常上網查攻略，所以才自己寫LINE聊天機器人。"
                 }
             ]
         }
