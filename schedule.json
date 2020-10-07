@@ -1,0 +1,144 @@
+{
+    "schedule": {
+        "session": [
+            {
+                "start": "8:30",
+                "end": "9:00",
+                "rest": "報到",
+                "session_id": []
+            },
+            {
+                "start": "9:00",
+                "end": "9:30",
+                "rest": "開場",
+                "session_id": []
+            },
+            {
+                "start": "9:30",
+                "end": "10:10",
+                "rest": null,
+                "session_id": [
+                    94
+                ]
+            },
+            {
+                "start": "",
+                "end": "",
+                "rest": "休息",
+                "session_id": []
+            },
+            {
+                "start": "10:30",
+                "end": "11:10",
+                "rest": null,
+                "session_id": [
+                    95,
+                    96,
+                    97
+                ]
+            },
+            {
+                "start": "",
+                "end": "",
+                "rest": "休息",
+                "session_id": []
+            },
+            {
+                "start": "11:25",
+                "end": "12:05",
+                "rest": null,
+                "session_id": [
+                    99,
+                    100,
+                    101
+                ]
+            },
+            {
+                "start": "",
+                "end": "",
+                "rest": "午餐",
+                "session_id": []
+            },
+            {
+                "start": "13:30",
+                "end": "14:10",
+                "rest": null,
+                "session_id": [
+                    102,
+                    103,
+                    104
+                ]
+            },
+            {
+                "start": "",
+                "end": "",
+                "rest": "休息",
+                "session_id": []
+            },
+            {
+                "start": "14:25",
+                "end": "15:05",
+                "rest": null,
+                "session_id": [
+                    105,
+                    106,
+                    107
+                ]
+            },
+            {
+                "start": "",
+                "end": "",
+                "rest": "下午茶",
+                "session_id": []
+            },
+            {
+                "start": "15:30",
+                "end": "16:10",
+                "rest": null,
+                "session_id": [
+                    108,
+                    109,
+                    110
+                ]
+            },
+            {
+                "start": "",
+                "end": "",
+                "rest": "休息",
+                "session_id": []
+            },
+            {
+                "start": "16:25",
+                "end": "17:05",
+                "rest": null,
+                "session_id": [
+                    111,
+                    112,
+                    113
+                ]
+            },
+            {
+                "start": "",
+                "end": "",
+                "rest": "休息",
+                "session_id": []
+            },
+            {
+                "start": "17:10",
+                "end": "17:30",
+                "rest": "閉幕",
+                "session_id": []
+            }
+        ],
+        "workshop": [
+            {
+                "start": "13:30",
+                "end": "15:05",
+                "rest": "工作坊",
+                "session_id": [
+                    114
+                ]
+            }
+        ]
+    }
+}
