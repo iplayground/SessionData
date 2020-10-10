@@ -24,7 +24,7 @@
                             {
                                 "name": "John Lin",
                                 "bio": "Swift Taipei 主辦人。從 iOS 2 開始寫 App、參與 Swift.org 中文版編寫,同時拜訪不同技術社群( App Girl、CocoaHeads Taipei ),積極挹注Swift社群的學習動能。",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/JohnLin.jpeg",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/JohnLin.jpeg"
                             }
                         ],
                         "description": "",
@@ -52,7 +52,7 @@
                             {
                                 "name": "游諭",
                                 "bio": "Swift iOS 開發者，2018 年開始認真轉職成軟體工程師，自認目前還沒有成功。完全自學程式，喜歡 Combine 與像 Combine 的東西，時常三不五時在 GitHub 做沒有用的 Swift Package。",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/yu.jpg",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/yu.jpg"
                             }
                         ],
                         "description": "Combine 是怎麼在 Swift 原本的物件導向設計與指令式設計的架構下，編寫出使用方法完全不一樣的 Combine。這個 Session 將討論 Combine 關鍵角色: Publishers、Subscribers、Operators，了解 Combine 如何運作！",
@@ -80,7 +80,7 @@
                             {
                                 "name": "DaGin",
                                 "bio": "大家好我是大軍，我是一位iOS開發者，對設計、圖像、程式充滿興趣，自iOS7開始接觸iOS開發，深深愛上Swift這個語言，也喜歡開發原生的iOS程式。",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/dagun.jpg",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/dagun.jpg"
                             }
                         ],
                         "description": "從Swift4.2開始導入了Swift Random，終於不用Arc4random了，但是新的亂數是怎麼來的呢？以前Ｃ lib的亂數的種子是什麼意思？電腦可以做出真的亂數嗎？我們平凡的麻瓜要怎麼對Swift的源碼提出貢獻呢？",
