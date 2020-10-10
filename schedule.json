@@ -22,7 +22,7 @@
                         ],
                         "description": "Massive ViewController 是所有 iOS 工程師的夢魘, 但是使用 MVVM 之後, 大家真的就過著幸福快樂的日子了嗎? 如果沒有, 其實你可以試試 Clean Swift.在 Clean Swift 當中, 所有物件都只有一個職責, 所有的資料流也只有一個流向. 這讓我們設計單元測試時, 可以一次只專注在一件事. 我們希望和你分享在中型團隊 (4-7 人) 中使用 Clean Swift 的愉快體驗, 分享 Clean Swift 如何在撰寫單元測試、可讀性和 code review 中幫助團隊有一致且清晰的程式碼撰寫風格.這個 work shop 將帶你從一個略為混亂的 MVC 專案逐漸往 Clean Swift 重構, 讓原本複雜的資料流和畫面控制變得簡單純粹. 如果還有時間, 我們會展示核心程式碼加上單元測試的保護在 Clean Swift 中有多容易, 讓最後的程式碼不但單純也非常可靠.",
                         "tags": [],
-                        "room": "1002",
+                        "room": "1005",
                         "programId": 245
                     }
                 ]
@@ -63,11 +63,6 @@
                         "programId": 248
                     }
                 ]
-            },
-            {
-                "start": "",
-                "end": "",
-                "rest": "休息"
             },
             {
                 "start": "10:30",
@@ -117,11 +112,6 @@
                         "programId": 243
                     }
                 ]
-            },
-            {
-                "start": "",
-                "end": "",
-                "rest": "休息"
             },
             {
                 "start": "11:25",
@@ -227,12 +217,6 @@
                 ]
             },
             {
-                "start": "",
-                "end": "",
-                "rest": "休息",
-                "session_id": []
-            },
-            {
                 "start": "14:25",
                 "end": "15:05",
                 "rest": null,
@@ -336,12 +320,6 @@
                 ]
             },
             {
-                "start": "",
-                "end": "",
-                "rest": "休息",
-                "session_id": []
-            },
-            {
                 "start": "16:25",
                 "end": "17:05",
                 "rest": null,
@@ -389,11 +367,6 @@
                         "programId": 234
                     }
                 ]
-            },
-            {
-                "start": "",
-                "end": "",
-                "rest": "休息"
             },
             {
                 "start": "17:10",
