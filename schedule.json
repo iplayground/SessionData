@@ -22,7 +22,7 @@
                         ],
                         "description": "Massive ViewController 是所有 iOS 工程師的夢魘, 但是使用 MVVM 之後, 大家真的就過著幸福快樂的日子了嗎? 如果沒有, 其實你可以試試 Clean Swift.在 Clean Swift 當中, 所有物件都只有一個職責, 所有的資料流也只有一個流向. 這讓我們設計單元測試時, 可以一次只專注在一件事. 我們希望和你分享在中型團隊 (4-7 人) 中使用 Clean Swift 的愉快體驗, 分享 Clean Swift 如何在撰寫單元測試、可讀性和 code review 中幫助團隊有一致且清晰的程式碼撰寫風格.這個 work shop 將帶你從一個略為混亂的 MVC 專案逐漸往 Clean Swift 重構, 讓原本複雜的資料流和畫面控制變得簡單純粹. 如果還有時間, 我們會展示核心程式碼加上單元測試的保護在 Clean Swift 中有多容易, 讓最後的程式碼不但單純也非常可靠.",
                         "tags": [],
-                        "room": "801",
+                        "room": "1002",
                         "programId": 245
                     }
                 ]
@@ -113,7 +113,7 @@
                         ],
                         "description": "從Swift4.2開始導入了Swift Random，終於不用Arc4random了，但是新的亂數是怎麼來的呢？以前Ｃ lib的亂數的種子是什麼意思？電腦可以做出真的亂數嗎？我們平凡的麻瓜要怎麼對Swift的源碼提出貢獻呢？",
                         "tags": [],
-                        "room": "1001",
+                        "room": "1002",
                         "programId": 243
                     }
                 ]
@@ -167,7 +167,7 @@
                         ],
                         "description": "\u003cp\u003e自2015年的WWDC，蘋果宣布開放Swift原始碼後，Swift正以通用程式語言為目標前進著，目前有越來越多用Swift撰寫的後端程式上了production環境，單憑著Swift成為全端工程師已不再是不可能。此主題以入門為目的，帶大家初探Swift編寫的web框架，並做出一個可動的簡易Line聊天機器人。\u003c/p\u003e\r\n",
                         "tags": [],
-                        "room": "1001",
+                        "room": "1002",
                         "programId": 252
                     }
                 ]
@@ -221,7 +221,7 @@
                         ],
                         "description": "如果你覺得「既然 IAP 簡單好用，開發起來也只要一兩週就完成了吧！」\r\n強烈建議你修但幾咧，先聽聽一些鬼故事再作夢不遲。\r\n\r\n這場演講不是給技術控看的，大家應該知道職場人生最難的通常都不是技術。\r\n主題是一些 IAP 開發的坑，什麼情況下你必須實作 IAP，以及 App Store Review Guidelines 的相關變革與案例探討。",
                         "tags": [],
-                        "room": "1001",
+                        "room": "1002",
                         "programId": 256
                     }
                 ]
@@ -276,7 +276,7 @@
                         ],
                         "description": "\u003cp\u003e以iOS Developer的角度去介紹與比較Android和Flutter\u003cbr\u003e\r\n搭配程式碼跟Demo並佐以採坑實錄\u003cbr\u003e\r\n用最入門與淺顯易懂的說明\u003cbr\u003e\r\n讓聽眾可以在很短的時間內\u003cbr\u003e\r\n對另外兩個平台的開發有一定瞭解\u003c/p\u003e\r\n",
                         "tags": [],
-                        "room": "1001",
+                        "room": "1002",
                         "programId": 244
                     }
                 ]
@@ -330,7 +330,7 @@
                         ],
                         "description": "封裝！把 Code 都塞進 Function 裡面 ~ ♪\r\n封裝！把 Function 都塞進 Class 裡面 ~ ♪♪\r\n再封裝！把 Class 都塞進 Framework 裡面 ~ ♪♪♪\r\n都 2020 年了還有人在講物件導向？對！！我就是要講！！而且一次講 40 分鐘！！！\r\n\r\n這個 seesion 想跟大家分享：\r\n1. 一些簡單的封裝手法與流程，並透過開發、測試、維護不同的角度去看待封裝這件事。\r\n2. 如何使用 XCode 提供的工具來完成封裝的夢想，包含 Dynamic Framework, Swift Package Manager 等\r\n3. 在現實世界裡我如何去封裝一個專案？他對我開發有什麼影響？以 iCHEF 為例\r\n",
                         "tags": [],
-                        "room": "1001",
+                        "room": "1002",
                         "programId": 234
                     }
                 ]
@@ -385,7 +385,7 @@
                         ],
                         "description": "當MVVM充斥在我們生活，可曾有人想起那被遺忘的MVC？ MVC做錯了？還是MVVM做對了？讓我們來聊聊時代是怎麼走到MVVM的，也關心一下那MVC，接著想想未來會往哪邊走",
                         "tags": [],
-                        "room": "1001",
+                        "room": "1002",
                         "programId": 234
                     }
                 ]
