@@ -23,7 +23,8 @@
                         "presenter": [
                             {
                                 "name": "John Lin",
-                                "bio": "Swift Taipei 主辦人。從 iOS 2 開始寫 App、參與 Swift.org 中文版編寫,同時拜訪不同技術社群( App Girl、CocoaHeads Taipei ),積極挹注Swift社群的學習動能。"
+                                "bio": "Swift Taipei 主辦人。從 iOS 2 開始寫 App、參與 Swift.org 中文版編寫,同時拜訪不同技術社群( App Girl、CocoaHeads Taipei ),積極挹注Swift社群的學習動能。",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/JohnLin.jpeg",
                             }
                         ],
                         "description": "",
@@ -50,7 +51,8 @@
                         "presenter": [
                             {
                                 "name": "游諭",
-                                "bio": "Swift iOS 開發者，2018 年開始認真轉職成軟體工程師，自認目前還沒有成功。完全自學程式，喜歡 Combine 與像 Combine 的東西，時常三不五時在 GitHub 做沒有用的 Swift Package。"
+                                "bio": "Swift iOS 開發者，2018 年開始認真轉職成軟體工程師，自認目前還沒有成功。完全自學程式，喜歡 Combine 與像 Combine 的東西，時常三不五時在 GitHub 做沒有用的 Swift Package。",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/yu.jpg",
                             }
                         ],
                         "description": "Combine 是怎麼在 Swift 原本的物件導向設計與指令式設計的架構下，編寫出使用方法完全不一樣的 Combine。這個 Session 將討論 Combine 關鍵角色: Publishers、Subscribers、Operators，了解 Combine 如何運作！",
@@ -63,7 +65,8 @@
                         "presenter": [
                             {
                                 "name": "Marvin Lin",
-                                "bio": "iOS 工程師，嘗試在多種不同地方、場合使用 Swift 來完成自己覺得有趣的事"
+                                "bio": "iOS 工程師，嘗試在多種不同地方、場合使用 Swift 來完成自己覺得有趣的事",
+                                "imgURL": null
                             }
                         ],
                         "description": "\u003cp\u003eApple 自已的 Machine Learning 框架在 iOS 11 問世之後，一直期待有一天能在線上的產品中加入這個框架的需求。在今年，公司線上討論區類型 App，不斷的受到廣告發文騷擾。這個情況讓客服部門的服務電話不停的響。在我們嘗試過各種方法後，最後使用了 Apple 所出的 ML 框架，配合 Natural Language 進行情緒分析，來剔除廣告發文。\u003c/p\u003e\r\n\r\n\u003cp\u003e如果你的團隊人數不夠，短期間內也沒有配法配置資料科學團隊，蠻建議使用 Apple 的 ML 框架。這個框架可以快速的實驗 ML 對線上產品是不是能有正面影響。如果你的團隊不大、或是短期內沒辦法找到 ML 相關人員，建議你試試這個框架。\u003c/p\u003e\r\n\r\n\u003cp\u003e這個 talk  會介紹所使用的標記資料數量，運行的基本概念，還有在部署上線後，對產品、還有使用者的變化。\u003c/p\u003e\r\n",
@@ -76,7 +79,8 @@
                         "presenter": [
                             {
                                 "name": "DaGin",
-                                "bio": "大家好我是大軍，我是一位iOS開發者，對設計、圖像、程式充滿興趣，自iOS7開始接觸iOS開發，深深愛上Swift這個語言，也喜歡開發原生的iOS程式。"
+                                "bio": "大家好我是大軍，我是一位iOS開發者，對設計、圖像、程式充滿興趣，自iOS7開始接觸iOS開發，深深愛上Swift這個語言，也喜歡開發原生的iOS程式。",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/dagun.jpg",
                             }
                         ],
                         "description": "從Swift4.2開始導入了Swift Random，終於不用Arc4random了，但是新的亂數是怎麼來的呢？以前Ｃ lib的亂數的種子是什麼意思？電腦可以做出真的亂數嗎？我們平凡的麻瓜要怎麼對Swift的源碼提出貢獻呢？",
@@ -101,7 +105,8 @@
                         "presenter": [
                             {
                                 "name": "Shuo-Yen Wang 王碩彥",
-                                "bio": "I'm shuoyen (碩彥),\r\n5+ years of iOS App development experiences in the e-commerce and network news industry.\r\nI also participated in news app development for the 16 members team.\r\n\r\nMedium: https://medium.com@yusatrtru \r\nGithub: https://github.com/danishuotw"
+                                "bio": "I'm shuoyen (碩彥),\r\n5+ years of iOS App development experiences in the e-commerce and network news industry.\r\nI also participated in news app development for the 16 members team.\r\n\r\nMedium: https://medium.com@yusatrtru \r\nGithub: https://github.com/danishuotw",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/wang.jpg"
                             }
                         ],
                         "description": "\u003cp\u003eAgenda 💻\u003c/p\u003e\r\n\r\n\u003cp\u003eWhat’s Swift Argument Parser?\u003cbr\u003e\r\nHow to use it?\u003c/p\u003e\r\n\r\n\u003cp\u003eProperty wrapper\u003cbr\u003e\r\nCustomizing help\u003cbr\u003e\r\nValidation\u003cbr\u003e\r\nSubcommands\u003cbr\u003e\r\nCompletion Scripts\u003cbr\u003e\r\nManual Parsing and Testing\u003cbr\u003e\r\n\u003cbr\u003e\r\nDemo: Designing Command-Line Tools\u003c/p\u003e\r\n\r\n\u003cp\u003eSample: \u003ca href=\"https://docs.google.com/presentation/d/1RzPlGLzrmJmwa5FzalP6CNVrb3sIAa8Walp9Z1mVlwE/edit?usp=sharing\"\u003ehttps://docs.google.com/presentation/d/1RzPlGLzrmJmwa5FzalP6CNVrb3sIAa8Walp9Z1mVlwE/edit?usp=sharing\u003c/a\u003e\u003c/p\u003e\r\n",
@@ -114,7 +119,8 @@
                         "presenter": [
                             {
                                 "name": "Ethan Fan",
-                                "bio": "Cofounder of Vimo Labs. Our app Gymatic is the only Apple Watch app that Auto recognizes any gesture and Deep analysis for fitness and sports movements. SleepMatic till today is still one of the top paid health app in the US that track you sleep using Apple Watch. FowardSwift Speaker 2017."
+                                "bio": "Cofounder of Vimo Labs. Our app Gymatic is the only Apple Watch app that Auto recognizes any gesture and Deep analysis for fitness and sports movements. SleepMatic till today is still one of the top paid health app in the US that track you sleep using Apple Watch. FowardSwift Speaker 2017.",
+                                "imgURL": null
                             }
                         ],
                         "description": "With the new AirPods Pro Motion API opens this year we can start collecting Core Motion data from AirPod Pro. Using the Core Motion data collected I am going to show how to create a model using CreateML to classify head motion e.g. shaking your head, nodding, or even exercise like a squad. I want to get everybody excited about AI.",
@@ -127,7 +133,8 @@
                         "presenter": [
                             {
                                 "name": "鄭宇哲",
-                                "bio": "目前任職myVideo APP工程師。興趣是看電影和吃美食，有經營Instagram，在上面寫影評和食記。喜歡玩動物森友會，為了不想常常上網查攻略，所以才自己寫LINE聊天機器人。"
+                                "bio": "目前任職myVideo APP工程師。興趣是看電影和吃美食，有經營Instagram，在上面寫影評和食記。喜歡玩動物森友會，為了不想常常上網查攻略，所以才自己寫LINE聊天機器人。",
+                                "imgURL": null
                             }
                         ],
                         "description": "\u003cp\u003e自2015年的WWDC，蘋果宣布開放Swift原始碼後，Swift正以通用程式語言為目標前進著，目前有越來越多用Swift撰寫的後端程式上了production環境，單憑著Swift成為全端工程師已不再是不可能。此主題以入門為目的，帶大家初探Swift編寫的web框架，並做出一個可動的簡易Line聊天機器人。\u003c/p\u003e\r\n",
@@ -152,7 +159,8 @@
                         "presenter": [
                             {
                                 "name": "陳涵宇",
-                                "bio": "2015年開始專注在 iOS 平台的開發者，Cocoaheads Taipei 的主持人，Side project 為 Shõto。目前在 Pinkoi 任職。"
+                                "bio": "2015年開始專注在 iOS 平台的開發者，Cocoaheads Taipei 的主持人，Side project 為 Shõto。目前在 Pinkoi 任職。",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/hanyu.png"
                             }
                         ],
                         "description": "會現場實際透過測試的方式來重構一段複雜 Web API request。\r\n\r\n使用 OperationBlock 包住的 MKDirection.request，為的是讓多重 Web API request 能夠在所有 response 回傳的時候才 callback 到 ViewController。\r\n\r\n但因為設計的不良，對 OperationBlock 及 concurrent thread 的理解不夠，因此產生了些許的 bug。\r\n\r\n而透過對該 method 的 inject 來使用測試的方式，一步一步從 OperationBlock 的設計改善至 DispatchGroup，最後透過遞迴來處理這個功能，而避免 concurrent thread 的所有 issue。",
@@ -165,7 +173,8 @@
                         "presenter": [
                             {
                                 "name": "Frank",
-                                "bio": "iOS Developer@17media, ex-iOS Developer@DiDi"
+                                "bio": "iOS Developer@17media, ex-iOS Developer@DiDi",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/frank.jpeg"
                             }
                         ],
                         "description": "\u003cp\u003e希望可以藉由這次分享，讓大家了解什麼是 App 模塊化（或稱組件化）以及為了模塊間通訊解耦、頁面跳轉的路由方案，讓大家在設計 App 架構的時候可以用不同的思維去設計你的 App。\u003c/p\u003e\r\n",
@@ -178,7 +187,8 @@
                         "presenter": [
                             {
                                 "name": "Denken Chen",
-                                "bio": "自由工作者，雙棲 iOS App 開發與寫作，也開了 Podcast 節目。\r\nhttps://denkeni.org"
+                                "bio": "自由工作者，雙棲 iOS App 開發與寫作，也開了 Podcast 節目。\r\nhttps://denkeni.org",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/denkeni.jpg"
                             }
                         ],
                         "description": "如果你覺得「既然 IAP 簡單好用，開發起來也只要一兩週就完成了吧！」\r\n強烈建議你修但幾咧，先聽聽一些鬼故事再作夢不遲。\r\n\r\n這場演講不是給技術控看的，大家應該知道職場人生最難的通常都不是技術。\r\n主題是一些 IAP 開發的坑，什麼情況下你必須實作 IAP，以及 App Store Review Guidelines 的相關變革與案例探討。",
@@ -204,7 +214,8 @@
                         "presenter": [
                             {
                                 "name": "Johnny Sung",
-                                "bio": "Freelance iOS / Android Developer"
+                                "bio": "Freelance iOS / Android Developer",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/johnny.png"
                             }
                         ],
                         "description": "\u003cp\u003e注重用戶隱私的 Apple 在開發者大會 WWDC 2019 發表了 Sign in with Apple 的功能，iOS 13 後皆支援。今年（2020 年） 4 月之後強制要求所有新上架的 App（包含更新）皆要支援這個服務。  \u003c/p\u003e\r\n\r\n\u003cp\u003eSign in with Apple 怎麼接？跟其他第三方服務有什麼不同？\u003cbr\u003e\u003cbr\u003e\r\nApp 端、網站前端、後端要如何因應？會有什麼樣的雷？\u003cbr\u003e\r\n讓我來跟你娓娓到來...\u003c/p\u003e\r\n",
@@ -217,7 +228,8 @@
                         "presenter": [
                             {
                                 "name": "羊小咩",
-                                "bio": "電子支付/第三方支付 App team manager，致力於支付 App 架構和安全以及更好用支付體驗。 平時為雜工一枚。"
+                                "bio": "電子支付/第三方支付 App team manager，致力於支付 App 架構和安全以及更好用支付體驗。 平時為雜工一枚。",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/sheep.jpg"
                             }
                         ],
                         "description": "AI 圖像辨識近年來越來越多風行，影像辨識應用在越來越多的領域出現，讓我們來了解 IOS 上使用OpenCV進行影像分析及辨識，辨識影像時是如何設定辨識目標，分析特徵達到辨識目標的方法。",
@@ -230,7 +242,8 @@
                         "presenter": [
                             {
                                 "name": "MarkFly",
-                                "bio": "覺得寫扣很帥才來寫扣，寫了之後發現真的很帥"
+                                "bio": "覺得寫扣很帥才來寫扣，寫了之後發現真的很帥",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/markfly.png"
                             }
                         ],
                         "description": "\u003cp\u003e以iOS Developer的角度去介紹與比較Android和Flutter\u003cbr\u003e\r\n搭配程式碼跟Demo並佐以採坑實錄\u003cbr\u003e\r\n用最入門與淺顯易懂的說明\u003cbr\u003e\r\n讓聽眾可以在很短的時間內\u003cbr\u003e\r\n對另外兩個平台的開發有一定瞭解\u003c/p\u003e\r\n",
@@ -255,7 +268,8 @@
                         "presenter": [
                             {
                                 "name": "13",
-                                "bio": "就是那個 13，應該也沒有別人了。平時工作是等 Xcode 時滑推特、一邊追劇一邊指揮同事寫 App，偶爾充當人體文件庫給他們查詢。假日興趣是幫別人剪 podcast 然後用自己的名義發佈"
+                                "bio": "就是那個 13，應該也沒有別人了。平時工作是等 Xcode 時滑推特、一邊追劇一邊指揮同事寫 App，偶爾充當人體文件庫給他們查詢。假日興趣是幫別人剪 podcast 然後用自己的名義發佈",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/ethan.jpg"
                             }
                         ],
                         "description": "武士要保養自己的劍，開發者也應該磨練自己的工具。有沒有看過同事在使用 Xcode 的時候按幾個鍵，就輕鬆完成要點很多次才能完成的操作？你是否有系統地把 Xcode 的操作技巧學起來？我會集結數十個 iOS 開發與 Xcode 的使用技巧，現場操作給你一次學會。不論新手或老手都可以來交流幾招。",
@@ -268,7 +282,8 @@
                         "presenter": [
                             {
                                 "name": "JackyChen",
-                                "bio": "對AR有極度熱忱的白日夢工程師，幻想有一天能創造自己的異世界冒險，為此不斷的修煉開發技能"
+                                "bio": "對AR有極度熱忱的白日夢工程師，幻想有一天能創造自己的異世界冒險，為此不斷的修煉開發技能",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/JackyChen.jpg"
                             }
                         ],
                         "description": "\u003cp\u003eARKit 開發雖然有趣，但總覺得和想像中的擴增實境有段距離，難道只能這樣了嗎？想要體驗更棒，除了等待 Apple Glass 的到來，我們還能作些什麼？快來看看搭配 ARKit 開發的組合技巧\u003c/p\u003e\r\n",
@@ -281,7 +296,8 @@
                         "presenter": [
                             {
                                 "name": "丁沛堯",
-                                "bio": "iCHEF iOS Lead Engineer, 每天都要吸貓才能開始工作"
+                                "bio": "iCHEF iOS Lead Engineer, 每天都要吸貓才能開始工作",
+                                "imgURL": null
                             }
                         ],
                         "description": "封裝！把 Code 都塞進 Function 裡面 ~ ♪\r\n封裝！把 Function 都塞進 Class 裡面 ~ ♪♪\r\n再封裝！把 Class 都塞進 Framework 裡面 ~ ♪♪♪\r\n都 2020 年了還有人在講物件導向？對！！我就是要講！！而且一次講 40 分鐘！！！\r\n\r\n這個 seesion 想跟大家分享：\r\n1. 一些簡單的封裝手法與流程，並透過開發、測試、維護不同的角度去看待封裝這件事。\r\n2. 如何使用 XCode 提供的工具來完成封裝的夢想，包含 Dynamic Framework, Swift Package Manager 等\r\n3. 在現實世界裡我如何去封裝一個專案？他對我開發有什麼影響？以 iCHEF 為例\r\n",
@@ -307,7 +323,8 @@
                         "presenter": [
                             {
                                 "name": "Jacky",
-                                "bio": "我的職涯對我來說是一個刺激好玩的成長冒險\r\n​​在台灣 (KKBOX) → 香港 (9GAG) → 加州 (Messenger) → 紐約(Instagram) 做過 iOS developer.\r\n​​目前還任職於Instagram / Facebook 4 年\r\n​​現在剛好疫情在台灣遠端工作 想好好重新認識台灣的 developer community 做學習跟分享\r\n​​IG: jackywangadventures"
+                                "bio": "我的職涯對我來說是一個刺激好玩的成長冒險\r\n​​在台灣 (KKBOX) → 香港 (9GAG) → 加州 (Messenger) → 紐約(Instagram) 做過 iOS developer.\r\n​​目前還任職於Instagram / Facebook 4 年\r\n​​現在剛好疫情在台灣遠端工作 想好好重新認識台灣的 developer community 做學習跟分享\r\n​​IG: jackywangadventures",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/JackyChen.jpg"
                             }
                         ],
                         "description": "\u003cp\u003e2016 年買了單程機票參加 WWDC，結束後前往矽谷，經過重重考驗，最後拿到 Facebook 的 offer，目前轉戰 Instagram 紐約工作。在這場議程，將會介紹如何挑戰矽谷大聯盟面試、美國與亞洲的工作差異以及與百位來自各國的工程師協同開發億級使用者 App 的經驗。\u003c/p\u003e\r\n",
@@ -320,7 +337,8 @@
                         "presenter": [
                             {
                                 "name": "Hokila Jan",
-                                "bio": "iOS 開發正好進入第 10 年，iPlayground 發起人，之前都在當總召，今年終於有時間來講一場了，寫過沒有人用的 app，也寫過千萬人甚至上億人用的 app。今年變成頂尖開發者協會理事長，平常喜歡陪女兒到處玩跟潛水。"
+                                "bio": "iOS 開發正好進入第 10 年，iPlayground 發起人，之前都在當總召，今年終於有時間來講一場了，寫過沒有人用的 app，也寫過千萬人甚至上億人用的 app。今年變成頂尖開發者協會理事長，平常喜歡陪女兒到處玩跟潛水。",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/hokila.png"
                             }
                         ],
                         "description": "CI/CD 可以把重複的事讓機器去做，工程師就可以把時間省下來，去做更有創造力的事。參與過大大小小的專案，從獨立開發的 side project，到接別人做一半的半成品，或者是自己全程參與的作品。不管開發時間長短或規模，一個作品最重要的是品質。重複的事就該交給機器人去做，我會介紹各種 CI/CD 的使用經驗，讓不同規模的開發團隊挑選適合的工具，跟每種工具的甘苦談。這是一個進階的題目，請先了解 CI/CD 是在做什麼再來聽。\r\n\r\n內容包含：\r\n- schell script\r\n- fastlane\r\n- jenkins\r\n- bitrise\r\n",
@@ -333,7 +351,8 @@
                         "presenter": [
                             {
                                 "name": "賴柏宏(Devin)",
-                                "bio": "iCHEF iOS Developer，iOS開發很久，所以網頁跟後端都不會寫，所以我只好繼續寫iOS App"
+                                "bio": "iCHEF iOS Developer，iOS開發很久，所以網頁跟後端都不會寫，所以我只好繼續寫iOS App",
+                                "imgURL": null
                             }
                         ],
                         "description": "當MVVM充斥在我們生活，可曾有人想起那被遺忘的MVC？ MVC做錯了？還是MVVM做對了？讓我們來聊聊時代是怎麼走到MVVM的，也關心一下那MVC，接著想想未來會往哪邊走",
