@@ -2,6 +2,26 @@
     "schedule": {
         "workshop": [
             {
+                "start": "10:30",
+                "end": "12:05",
+                "rest": null,
+                "talks": [
+                    {
+                        "topic": "軟工相談室",
+                        "presenter": [
+                            {
+                                "name": "Pofat",
+                                "bio": "波肥的軟工相談室 @ iPlayground 現場特別活動"
+                            }
+                        ],
+                        "description": "Pofat 有感這些年來的經驗也許能夠幫助一些開發者或團隊，所以決定開辦相談室幫忙解決大家的疑難雜症，主要會針對:架構與效能個人成長與技術團隊成長與工作流程若有興趣、需要或想聊聊的朋友歡迎預約參加。",
+                        "tags": [],
+                        "room": "1005",
+                        "programId": 999
+                    }
+                ]
+            },
+            {
                 "start": "13:30",
                 "end": "15:05",
                 "rest": null,
@@ -24,6 +44,26 @@
                         "tags": [],
                         "room": "1005",
                         "programId": 239
+                    }
+                ]
+            },
+            {
+                "start": "15:05",
+                "end": "17:05",
+                "rest": null,
+                "talks": [
+                    {
+                        "topic": "軟工相談室",
+                        "presenter": [
+                            {
+                                "name": "Pofat",
+                                "bio": "波肥的軟工相談室 @ iPlayground 現場特別活動"
+                            }
+                        ],
+                        "description": "Pofat 有感這些年來的經驗也許能夠幫助一些開發者或團隊，所以決定開辦相談室幫忙解決大家的疑難雜症，主要會針對:架構與效能個人成長與技術團隊成長與工作流程若有興趣、需要或想聊聊的朋友歡迎預約參加。",
+                        "tags": [],
+                        "room": "1005",
+                        "programId": 999
                     }
                 ]
             }
