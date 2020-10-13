@@ -89,7 +89,7 @@
                             {
                                 "name": "Marvin Lin",
                                 "bio": "iOS 工程師，嘗試在多種不同地方、場合使用 Swift 來完成自己覺得有趣的事",
-                                "imgURL": null
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/marvin.jpg"
                             }
                         ],
                         "description": "\u003cp\u003eApple 自已的 Machine Learning 框架在 iOS 11 問世之後，一直期待有一天能在線上的產品中加入這個框架的需求。在今年，公司線上討論區類型 App，不斷的受到廣告發文騷擾。這個情況讓客服部門的服務電話不停的響。在我們嘗試過各種方法後，最後使用了 Apple 所出的 ML 框架，配合 Natural Language 進行情緒分析，來剔除廣告發文。\u003c/p\u003e\r\n\r\n\u003cp\u003e如果你的團隊人數不夠，短期間內也沒有配法配置資料科學團隊，蠻建議使用 Apple 的 ML 框架。這個框架可以快速的實驗 ML 對線上產品是不是能有正面影響。如果你的團隊不大、或是短期內沒辦法找到 ML 相關人員，建議你試試這個框架。\u003c/p\u003e\r\n\r\n\u003cp\u003e這個 talk  會介紹所使用的標記資料數量，運行的基本概念，還有在部署上線後，對產品、還有使用者的變化。\u003c/p\u003e\r\n",
@@ -127,7 +127,7 @@
                                 "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/wang.jpg"
                             }
                         ],
-                        "description": "\u003cp\u003eAgenda 💻\u003c/p\u003e\r\n\r\n\u003cp\u003eWhat’s Swift Argument Parser?\u003cbr\u003e\r\nHow to use it?\u003c/p\u003e\r\n\r\n\u003cp\u003eProperty wrapper\u003cbr\u003e\r\nCustomizing help\u003cbr\u003e\r\nValidation\u003cbr\u003e\r\nSubcommands\u003cbr\u003e\r\nCompletion Scripts\u003cbr\u003e\r\nManual Parsing and Testing\u003cbr\u003e\r\n\u003cbr\u003e\r\nDemo: Designing Command-Line Tools\u003c/p\u003e\r\n\r\n\u003cp\u003eSample: \u003ca href=\"https://docs.google.com/presentation/d/1RzPlGLzrmJmwa5FzalP6CNVrb3sIAa8Walp9Z1mVlwE/edit?usp=sharing\"\u003ehttps://docs.google.com/presentation/d/1RzPlGLzrmJmwa5FzalP6CNVrb3sIAa8Walp9Z1mVlwE/edit?usp=sharing\u003c/a\u003e\u003c/p\u003e\r\n",
+                        "description": "主要會跟大家介紹什麼是 Swift Argument Parser，它能做什麼？也會介紹目前 0.3.0 version 的功能，包括建立參數、客製化 help 訊息、設計驗證規則與錯誤處理。最後在分享如何用 Argument Parser 設計自己的小工具，帶聽眾深入淺出 Swift Argument Parser。聽眾可以學到 希望的聽眾在參與後，能對設計指令和 Command-Line Tools 有基本的概念。 Example:善用 -h 幫助你的使用者Command-Line 指令可以調換位置嗎？ 指令 -- or - (% example --verbose --strip-whitespace) 後面代表是什麼意思？ Swift 能開發 iOS / Mac / Watch App，還有 Server-side 的 Vapor，現在也能開發 Command-Line Tools，所以興奮的想分享給大家，一方面想傳達學習 Swift 的價值越來越高，一方面也想分享 ArgumentParser 有趣之處並推廣給各位大大。",
                         "tags": [],
                         "room": "801",
                         "programId": 254
@@ -358,13 +358,13 @@
                             {
                                 "name": "賴柏宏(Devin)",
                                 "bio": "iCHEF iOS Developer，iOS開發很久，所以網頁跟後端都不會寫，所以我只好繼續寫iOS App",
-                                "imgURL": null
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/devin.jpeg"
                             }
                         ],
                         "description": "當MVVM充斥在我們生活，可曾有人想起那被遺忘的MVC？ MVC做錯了？還是MVVM做對了？讓我們來聊聊時代是怎麼走到MVVM的，也關心一下那MVC，接著想想未來會往哪邊走",
                         "tags": [],
                         "room": "1002",
-                        "programId": 235
+                        "programId": 234
                     }
                 ]
             },
