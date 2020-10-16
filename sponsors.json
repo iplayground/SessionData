@@ -13,19 +13,14 @@
         {
             "items": [
                 {
-                    "name": "17 Media",
-                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_17_Media.png",
-                    "link": "https://m17.asia/"
-                },
-                {
                     "name": "Dcard",
                     "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_dcard.png",
                     "link": "https://www.dcard.tw"
                 },
                 {
-                    "name": "iCHEF",
-                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_ichef.jpeg",
-                    "link": "https://www.ichefpos.com/zh-tw"
+                    "name": "Tomofun",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_tomofun.png",
+                    "link": "https://shoptw.furbo.com/"
                 },
                 {
                     "name": "PicCollage",
@@ -33,9 +28,14 @@
                     "link": "https://picc.co/"
                 },
                 {
-                    "name": "Tomofun",
-                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_tomofun.png",
-                    "link": "https://shoptw.furbo.com/"
+                    "name": "iCHEF",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_ichef.jpeg",
+                    "link": "https://www.ichefpos.com/zh-tw"
+                },
+                {
+                    "name": "17 Media",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_17_Media.png",
+                    "link": "https://m17.asia/"
                 }
             ],
             "title": "白銀級"
