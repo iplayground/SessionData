@@ -20,7 +20,7 @@
                         "programId": 999
                     },
                     {
-                        "topic": "Tomofun @ iPlayground 現場特別活動",
+                        "topic": "上半場：How Tomofun built a cloud infrastructure capable of billions daily API requests / 下半場：工程師轉職產品經理如何再戰十年",
                         "presenter": [
                             {
                                 "name": "Tomofun",
@@ -33,7 +33,7 @@
                         "programId": 999
                     },
                     {
-                        "topic": "iCHEF @ iPlayground 現場特別活動",
+                        "topic": "iCHEF 以目標為導向的開發方式 / Tech Infra- 如何處理技術債？ / 平行開發團隊如何整合部署？",
                         "presenter": [
                             {
                                 "name": "iCHEF",
@@ -72,7 +72,7 @@
                         "programId": 239
                     },
                     {
-                        "topic": "CMoney @ iPlayground 現場特別活動",
+                        "topic": "有錢就可以任性嗎？是的，有錢真的可以任性。快來 CMoney 從開發 App 中學投資",
                         "presenter": [
                             {
                                 "name": "CMoney",
@@ -126,7 +126,7 @@
                         "programId": 999
                     },
                     {
-                        "topic": "Dcard @ iPlayground 現場特別活動",
+                        "topic": "Dcard 團隊面對面大揭秘",
                         "presenter": [
                             {
                                 "name": "Dcard",
