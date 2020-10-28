@@ -84,7 +84,14 @@
                         "room": "1006",
                         "programId": 999
                     },
-                    {}
+                    {
+                        "topic": "",
+                        "presenter": null,
+                        "description": "",
+                        "tags": [],
+                        "room": "",
+                        "programId": 999
+                    }
                 ]
             },
             {
