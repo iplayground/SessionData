@@ -19,8 +19,32 @@
                         "room": "1005",
                         "programId": 999
                     },
-                    {},
-                    {}
+                    {
+                        "topic": "Tomofun @ iPlayground 現場特別活動",
+                        "presenter": [
+                            {
+                                "name": "Tomofun",
+                                "bio": "Tomofun @ iPlayground 現場特別活動"
+                            }
+                        ],
+                        "description": "How Tomofun built a cloud infrastructure capable of billions daily API requests / 工程師轉職產品經理如何再戰十年",
+                        "tags": [],
+                        "room": "1006",
+                        "programId": 999
+                    },
+                    {
+                        "topic": "iCHEF @ iPlayground 現場特別活動",
+                        "presenter": [
+                            {
+                                "name": "iCHEF",
+                                "bio": "iCHEF @ iPlayground 現場特別活動"
+                            }
+                        ],
+                        "description": " iCHEF 以目標為導向的開發方式 / Tech Infra- 如何處理技術債？ / 平行開發團隊如何整合部署？",
+                        "tags": [],
+                        "room": "1007",
+                        "programId": 999
+                    }
                 ]
             },
             {
@@ -47,7 +71,19 @@
                         "room": "1005",
                         "programId": 239
                     },
-                    {},
+                    {
+                        "topic": "CMoney @ iPlayground 現場特別活動",
+                        "presenter": [
+                            {
+                                "name": "CMoney",
+                                "bio": "CMoney @ iPlayground 現場特別活動"
+                            }
+                        ],
+                        "description": "有錢就可以任性嗎？是的，有錢真的可以任性。快來 CMoney 從開發 App 中學投資",
+                        "tags": [],
+                        "room": "1006",
+                        "programId": 999
+                    },
                     {}
                 ]
             },
@@ -69,8 +105,32 @@
                         "room": "1005",
                         "programId": 999
                     },
-                    {},
-                    {}
+                    {
+                        "topic": "PicCollage @ iPlayground 現場特別活動",
+                        "presenter": [
+                            {
+                                "name": "PicCollage",
+                                "bio": "PicCollage @ iPlayground 現場特別活動"
+                            }
+                        ],
+                        "description": "",
+                        "tags": [],
+                        "room": "1006",
+                        "programId": 999
+                    },
+                    {
+                        "topic": "Dcard @ iPlayground 現場特別活動",
+                        "presenter": [
+                            {
+                                "name": "Dcard",
+                                "bio": "Dcard @ iPlayground 現場特別活動"
+                            }
+                        ],
+                        "description": "Dcard 團隊面對面大揭秘",
+                        "tags": [],
+                        "room": "1007",
+                        "programId": 999
+                    }
                 ]
             }
         ],
