@@ -85,11 +85,16 @@
                         "programId": 999
                     },
                     {
-                        "topic": "",
-                        "presenter": null,
+                        "topic": "No Session, No Bug",
+                        "presenter": [
+                            {
+                                "name": "Nobody",
+                                "bio": ""
+                            }
+                        ],
                         "description": "",
                         "tags": [],
-                        "room": "",
+                        "room": "1007",
                         "programId": 999
                     }
                 ]
