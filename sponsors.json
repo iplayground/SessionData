@@ -36,6 +36,11 @@
                     "name": "17 Media",
                     "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_17_Media.png",
                     "link": "https://m17.asia/"
+                },
+                {
+                    "name": "RevenueCat",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_RevenueCat.jpg",
+                    "link": "https://www.revenuecat.com/"
                 }
             ],
             "title": "白銀級"
