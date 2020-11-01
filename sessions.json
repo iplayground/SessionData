@@ -239,6 +239,90 @@
             "room_name": "801",
             "track_name": null,
             "desc": "從各個角度探討 App 卡卡的成因，還有解決的方法。\r\n"
+        },
+        {
+            "conference_day": 1,
+            "start_time": "10:30",
+            "end_time": "12:05",
+            "session_id": 500,
+            "proposal_id": "prop_500",
+            "title": "軟工相談室",
+            "presenter": "Pofat",
+            "room_name": "1005",
+            "track_name": null,
+            "desc": "Pofat 有感這些年來的經驗也許能夠幫助一些開發者或團隊，所以決定開辦相談室幫忙解決大家的疑難雜症，主要會針對:架構與效能個人成長與技術團隊成長與工作流程若有興趣、需要或想聊聊的朋友歡迎預約參加。"
+        },
+        {
+            "conference_day": 1,
+            "start_time": "10:30",
+            "end_time": "12:05",
+            "session_id": 501,
+            "proposal_id": "prop_501",
+            "title": "上半場：How Tomofun built a cloud infrastructure capable of billions daily API requests / 下半場：工程師轉職產品經理如何再戰十年",
+            "presenter": "Tomofun",
+            "room_name": "1006",
+            "track_name": null,
+            "desc": "How Tomofun built a cloud infrastructure capable of billions daily API requests / 工程師轉職產品經理如何再戰十年"
+        },
+        {
+            "conference_day": 1,
+            "start_time": "10:30",
+            "end_time": "12:05",
+            "session_id": 502,
+            "proposal_id": "prop_502",
+            "title": "iCHEF 以目標為導向的開發方式 / Tech Infra- 如何處理技術債？ / 平行開發團隊如何整合部署？",
+            "presenter": "iCHEF",
+            "room_name": "1007",
+            "track_name": null,
+            "desc": "iCHEF 以目標為導向的開發方式 / Tech Infra- 如何處理技術債？ / 平行開發團隊如何整合部署？"
+        },
+        {
+            "conference_day": 1,
+            "start_time": "13:30",
+            "end_time": "15:05",
+            "session_id": 503,
+            "proposal_id": "prop_503",
+            "title": "有錢就可以任性嗎？是的，有錢真的可以任性。快來 CMoney 從開發 App 中學投資",
+            "presenter": "CMoney",
+            "room_name": "1006",
+            "track_name": null,
+            "desc": "有錢就可以任性嗎？是的，有錢真的可以任性。快來 CMoney 從開發 App 中學投資"
+        },
+        {
+            "conference_day": 1,
+            "start_time": "15:05",
+            "end_time": "17:05",
+            "session_id": 500,
+            "proposal_id": "prop_500",
+            "title": "軟工相談室",
+            "presenter": "Pofat",
+            "room_name": "1005",
+            "track_name": null,
+            "desc": "Pofat 有感這些年來的經驗也許能夠幫助一些開發者或團隊，所以決定開辦相談室幫忙解決大家的疑難雜症，主要會針對:架構與效能個人成長與技術團隊成長與工作流程若有興趣、需要或想聊聊的朋友歡迎預約參加。"
+        },
+        {
+            "conference_day": 1,
+            "start_time": "15:05",
+            "end_time": "17:05",
+            "session_id": 504,
+            "proposal_id": "prop_504",
+            "title": "這次就決定是你了！皮..皮..PicCollage！",
+            "presenter": "PicCollage",
+            "room_name": "1006",
+            "track_name": null,
+            "desc": "(團隊近況/ 技術分享/ 一起打電動)"
+        },
+        {
+            "conference_day": 1,
+            "start_time": "15:05",
+            "end_time": "17:05",
+            "session_id": 504,
+            "proposal_id": "prop_504",
+            "title": "Dcard 團隊面對面大揭秘",
+            "presenter": "Dcard",
+            "room_name": "1007",
+            "track_name": null,
+            "desc": "Dcard 團隊面對面大揭秘"
         }
     ]
 }
