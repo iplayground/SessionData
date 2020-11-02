@@ -46,7 +46,7 @@
             "presenter": "Hokila Jan",
             "room_name": "803",
             "track_name": null,
-            "desc": "\u003cp\u003eCI/CD 可以把重複的事讓機器去做，工程師就可以把時間省下來，去做更有創造力的事。參與過大大小小的專案，從獨立開發的 side project，到接別人做一半的半成品，或者是自己全程參與的作品。不管開發時間長短或規模，一個作品最重要的是品質。重複的事就該交給機器人去做，我會介紹各種 CI/CD 的使用經驗，讓不同規模的開發團隊挑選適合的工具，跟每種工具的甘苦談。這是一個進階的題目，請先了解 CI/CD 是在做什麼再來聽。\u003c/p\u003e\r\n\r\n\u003cp\u003e內容包含：\u003cbr\u003e\r\n- schell script\u003cbr\u003e\r\n- fastlane\u003cbr\u003e\r\n- jenkins\u003cbr\u003e\r\n- bitrise\u003c/p\u003e\r\n"
+            "desc": "\u003cp\u003eCI/CD 可以把重複的事讓機器去做，工程師就可以把時間省下來，去做更有創造力的事。參與過大大小小的專案，從獨立開發的 side project，到接別人做一半的半成品，或者是自己全程參與的作品。不管開發時間長短或規模，一個作品最重要的是品質。重複的事就該交給機器人去做，我會介紹各種 CI/CD 的使用經驗，讓不同規模的開發團隊挑選適合的工具，跟每種工具的甘苦談。這是一個進階的題目，請先了解 CI/CD 是在做什麼再來聽。\u003c/p\u003e\r\n\r\n\u003cp\u003e內容包含：\u003cbr\u003e\r\n- shell script\u003cbr\u003e\r\n- fastlane\u003cbr\u003e\r\n- jenkins\u003cbr\u003e\r\n- bitrise\u003c/p\u003e\r\n"
         },
         {
             "conference_day": 1,
