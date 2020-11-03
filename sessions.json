@@ -290,7 +290,7 @@
         },
         {
             "conference_day": 1,
-            "start_time": "15:05",
+            "start_time": "15:30",
             "end_time": "17:05",
             "session_id": 500,
             "proposal_id": "prop_500",
@@ -302,7 +302,7 @@
         },
         {
             "conference_day": 1,
-            "start_time": "15:05",
+            "start_time": "15:30",
             "end_time": "17:05",
             "session_id": 504,
             "proposal_id": "prop_504",
@@ -314,7 +314,7 @@
         },
         {
             "conference_day": 1,
-            "start_time": "15:05",
+            "start_time": "15:30",
             "end_time": "17:05",
             "session_id": 504,
             "proposal_id": "prop_504",
