@@ -263,7 +263,7 @@
                         ],
                         "description": "With the new AirPods Pro Motion API opens this year we can start collecting Core Motion data from AirPod Pro. Using the Core Motion data collected I am going to show how to create a model using CreateML to classify head motion e.g. shaking your head, nodding, or even exercise like a squad. I want to get everybody excited about AI.",
                         "tags": [],
-                        "room": "802",
+                        "room": "803",
                         "programId": 228
                     },
                     {
@@ -317,7 +317,7 @@
                         ],
                         "description": "\u003cp\u003e希望可以藉由這次分享，讓大家了解什麼是 App 模塊化（或稱組件化）以及為了模塊間通訊解耦、頁面跳轉的路由方案，讓大家在設計 App 架構的時候可以用不同的思維去設計你的 App。\u003c/p\u003e\r\n",
                         "tags": [],
-                        "room": "802",
+                        "room": "803",
                         "programId": 261
                     },
                     {
@@ -366,7 +366,7 @@
                         ],
                         "description": "AI 圖像辨識近年來越來越多風行，影像辨識應用在越來越多的領域出現，讓我們來了解 IOS 上使用OpenCV進行影像分析及辨識，辨識影像時是如何設定辨識目標，分析特徵達到辨識目標的方法。",
                         "tags": [],
-                        "room": "802",
+                        "room": "803",
                         "programId": 241
                     },
                     {
@@ -420,7 +420,7 @@
                         ],
                         "description": "\u003cp\u003eARKit 開發雖然有趣，但總覺得和想像中的擴增實境有段距離，難道只能這樣了嗎？想要體驗更棒，除了等待 Apple Glass 的到來，我們還能作些什麼？快來看看搭配 ARKit 開發的組合技巧\u003c/p\u003e\r\n",
                         "tags": [],
-                        "room": "802",
+                        "room": "803",
                         "programId": 246
                     },
                     {
@@ -469,7 +469,7 @@
                         ],
                         "description": "CI/CD 可以把重複的事讓機器去做，工程師就可以把時間省下來，去做更有創造力的事。參與過大大小小的專案，從獨立開發的 side project，到接別人做一半的半成品，或者是自己全程參與的作品。不管開發時間長短或規模，一個作品最重要的是品質。重複的事就該交給機器人去做，我會介紹各種 CI/CD 的使用經驗，讓不同規模的開發團隊挑選適合的工具，跟每種工具的甘苦談。這是一個進階的題目，請先了解 CI/CD 是在做什麼再來聽。\r\n\r\n內容包含：\r\n- schell script\r\n- fastlane\r\n- jenkins\r\n- bitrise\r\n",
                         "tags": [],
-                        "room": "802",
+                        "room": "803",
                         "programId": 232
                     },
                     {
