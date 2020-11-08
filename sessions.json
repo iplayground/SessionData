@@ -98,8 +98,8 @@
         },
         {
             "conference_day": 1,
-            "start_time": "14:25",
-            "end_time": "15:05",
+            "start_time": "13:30",
+            "end_time": "14:10",
             "session_id": 107,
             "proposal_id": "prop_244",
             "title": "iOS、Android、Flutter超級比一比",
@@ -122,8 +122,8 @@
         },
         {
             "conference_day": 1,
-            "start_time": "13:30",
-            "end_time": "14:10",
+            "start_time": "13:25",
+            "end_time": "15:05",
             "session_id": 104,
             "proposal_id": "prop_256",
             "title": "十年目睹之 In-App Purchase 怪現狀",

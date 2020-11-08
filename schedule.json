@@ -321,18 +321,18 @@
                         "programId": 261
                     },
                     {
-                        "topic": "十年目睹之 In-App Purchase 怪現狀",
+                        "topic": "iOS、Android、Flutter超級比一比",
                         "presenter": [
                             {
-                                "name": "Denken Chen",
-                                "bio": "自由工作者，雙棲 iOS App 開發與寫作，也開了 Podcast 節目。\r\nhttps://denkeni.org",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/denkeni.jpg"
+                                "name": "MarkFly",
+                                "bio": "覺得寫扣很帥才來寫扣，寫了之後發現真的很帥",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/markfly.png"
                             }
                         ],
-                        "description": "如果你覺得「既然 IAP 簡單好用，開發起來也只要一兩週就完成了吧！」\r\n強烈建議你修但幾咧，先聽聽一些鬼故事再作夢不遲。\r\n\r\n這場演講不是給技術控看的，大家應該知道職場人生最難的通常都不是技術。\r\n主題是一些 IAP 開發的坑，什麼情況下你必須實作 IAP，以及 App Store Review Guidelines 的相關變革與案例探討。",
+                        "description": "\u003cp\u003e以iOS Developer的角度去介紹與比較Android和Flutter\u003cbr\u003e\r\n搭配程式碼跟Demo並佐以採坑實錄\u003cbr\u003e\r\n用最入門與淺顯易懂的說明\u003cbr\u003e\r\n讓聽眾可以在很短的時間內\u003cbr\u003e\r\n對另外兩個平台的開發有一定瞭解\u003c/p\u003e\r\n",
                         "tags": [],
                         "room": "1002",
-                        "programId": 256
+                        "programId": 244
                     }
                 ]
             },
@@ -370,18 +370,18 @@
                         "programId": 241
                     },
                     {
-                        "topic": "iOS、Android、Flutter超級比一比",
+                        "topic": "十年目睹之 In-App Purchase 怪現狀",
                         "presenter": [
                             {
-                                "name": "MarkFly",
-                                "bio": "覺得寫扣很帥才來寫扣，寫了之後發現真的很帥",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/markfly.png"
+                                "name": "Denken Chen",
+                                "bio": "自由工作者，雙棲 iOS App 開發與寫作，也開了 Podcast 節目。\r\nhttps://denkeni.org",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/denkeni.jpg"
                             }
                         ],
-                        "description": "\u003cp\u003e以iOS Developer的角度去介紹與比較Android和Flutter\u003cbr\u003e\r\n搭配程式碼跟Demo並佐以採坑實錄\u003cbr\u003e\r\n用最入門與淺顯易懂的說明\u003cbr\u003e\r\n讓聽眾可以在很短的時間內\u003cbr\u003e\r\n對另外兩個平台的開發有一定瞭解\u003c/p\u003e\r\n",
+                        "description": "如果你覺得「既然 IAP 簡單好用，開發起來也只要一兩週就完成了吧！」\r\n強烈建議你修但幾咧，先聽聽一些鬼故事再作夢不遲。\r\n\r\n這場演講不是給技術控看的，大家應該知道職場人生最難的通常都不是技術。\r\n主題是一些 IAP 開發的坑，什麼情況下你必須實作 IAP，以及 App Store Review Guidelines 的相關變革與案例探討。",
                         "tags": [],
                         "room": "1002",
-                        "programId": 244
+                        "programId": 256
                     }
                 ]
             },
