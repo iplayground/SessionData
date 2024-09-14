@@ -2,55 +2,55 @@
 	"staff": [
 		{
 			"name": "hokila",
-			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/Hokila.HEIC",
+			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/Hokila.png",
             "position": "痛みを感じろ",
             "SNS": "https://x.com/hokilaJ"
 		},
 		{
 			"name": "David Kuo",
-			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/davidKuo.heic",
+			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/davidKuo.png",
             "position": "軟體士兵，什麼都會一點的那種",
             "SNS": "https://www.facebook.com/chunyyikuo/"
 		},
 		{
 			"name": "Michelle",
-			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/Michelle.HEIC",
+			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/Michelle.png",
             "position": "iOS Developer，養了一隻貓",
             "SNS": "https://twitter.com/Satty9753/"
 		},
 		{
             "name": "Johnny Sung",
-            "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/johnnysung.HEIC",
+            "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/johnnysung.png",
             "position": "Full-stack developer",
             "SNS": "https://fb.me/j796160836"
         },
 		{
 			"name": "Jess",
-			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/jess.HEIC",
+			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/jess.png",
             "position": "UI/UX Designer",
             "SNS": "https://www.instagram.com/jesss_0302?igsh=MTJxNzBkbG5jcmhvYw%3D%3D&utm_source=qr"
 		},
 		{
 			"name": "Terry Kuo",
-			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/Terry_Kuo.heic",
+			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/Terry_Kuo.png",
             "position": "Apple Lifer + Developer",
             "SNS": "https://x.com/yoyokuoo"
 		},
 		{
 			"name": "Logan Hsiao",
-			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/Logan.heic",
+			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/Logan.png",
             "position": "iOS Developer@Taipei",
             "SNS": "https://x.com/jhsiao21"
 		},
 		{
 			"name": "Harry",
-			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/HARRY.HEIC",
+			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/HARRY.png",
             "position": "iOS 工程師，軟體開發導師",
             "SNS": "https://twitter.com/harryworld"
 		},
 		{
 			"name": "DinDin",
-			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/DinDin.HEIC",
+			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/DinDin.png",
             "position": "跟著廚師擠牙膏式提升自我",
             "SNS": "https://x.com/PeterDin87"
 		},
@@ -62,7 +62,7 @@
 		},
 		{
 			"name": "Dawei",
-			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/Dawei.HEIC",
+			"imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2024/v1/images/staff/Dawei.png",
             "position": "把蘋果當信仰",
             "SNS": "https://twitter.com/dawei84_dev"
 		}
