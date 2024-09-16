@@ -1,8 +1,9 @@
 {
   "program": [
-      {
-          "title": "那些面試的時候學到的技術",
-          "abstract": "",
+    {
+      "title": "那些年在面試學會的東西",
+      "topicIntro": "身為資深被資遣工程師，面試過很多間公司只是剛好而已。幸運地在每個面試過程當中都學會不同的東西，接下來就來分享給大家聽聽。",
+      "abstract": "",
           "review_tags": [],
           "id": 202401,
           "track": null,
@@ -12,24 +13,100 @@
           "speakers": [
               {
                   "name": "陳涵宇 Hanyu, Chen",
-                  "bio": "喜歡寫 Unit Test 來驗證程式碼的運作，喜歡用蘋果原生的作法解決需求，喜歡分享厲害的東西給全世界。"
+                  "bio": "CocoaHeads Taipei 主持人",
+                  "bioDetail": "喜歡寫 Unit Test 來驗證程式碼的運作，喜歡用蘋果原生的作法解決需求，喜歡分享厲害的東西給全世界。"
               }
           ]
-      },{
-        "title": "TCA +LiveCoding",
+      }, 
+    {
+      "title": "關於我在 visionOS 上寫影片貼圖 app 這檔事",
+      "topicIntro": "介紹一些 visionOS 專有概念、介紹一些 visionOS 跟一般 app 的差別、介紹怎麼幫影片 app 寫一個 timeline、介紹怎麼幫影片 app 加上貼圖功能、並不會出現 Vision Pro，請勿期待",
+      "abstract": "",
+          "review_tags": [],
+          "id": 202402,
+          "track": null,
+          "video_url": "https://drive.google.com/file/d/1ZG4g1YTXGiO_o4TQu3wCXYYVmHo2uohC/view?usp=sharing",
+          "slides_url": null,
+          "custom_fields": {},
+          "speakers": [
+              {
+                  "name": "MarkFly",
+                  "bio": "三心二意工程師",
+                  "bioDetail": "興趣：洗碗、吸地、截圖、剪指甲旁邊的死皮。容器收集癖。喜歡蔥花，討厭蔥段。最喜歡的健身環動作是向下推壓。最近沈迷於收集紀念章、紀念幣。"
+              }
+          ]
+      }, 
+      {
+        "title": "用 AI 幫助開發 Apple Watch App 實戰分享",
+        "topicIntro": "如何使用 Claude AI 跟 ChatGPT 提升製作 Apple Watch App 的開發效率，強調 AI 生成出來的東西可能不是自己想要的內容，介紹如果遇到 AI 生成出來的東西不是自己想要的，要怎麼處理，開發過程中，因為使用 AI 而大幅加快開發進度，最後會分享自己開發的「9歲記帳」這款 App 使用到的 Claude AI prompt 和 GitHub repository 給大家參考，並介紹我開發過程中的實戰經驗！",
         "abstract": "",
-        "review_tags": [],
-        "id": 202402,
-        "track": null,
-        "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/ethan.jpg",
-        "slides_url": null,
-        "custom_fields": {},
-        "speakers": [
-            {
-                "name": "黃十三",
-                "bio": "就是那個13，應該也沒有別人了。平時工作 是等Xcode時滑推特、一邊追劇一邊指揮同 事寫App，偶爾充當人體文件庫給他們查詢。假日興趣是幫別人剪podcast然後用自己的名義發佈"
-            }
-        ]
-    }
+            "review_tags": [],
+            "id": 202403,
+            "track": null,
+            "video_url": "https://www.dropbox.com/scl/fi/varx6ebqqjqzv5x187w6t/IMG_8707.PNG?rlkey=oeekezsa3zlyp9ch0gsdwhsik&dl=0",
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "海馬",
+                    "bio": "我是海家帶你游程式的海馬！",
+                    "bioDetail": "我第一次接觸程式是在大班的時候，玩一款關於遊戲程式設計的 Switch 遊戲，現在，我跟海星、海苔一起錄製了一個 Podcast 節目「海家帶你游程式」，最近開始學習 Python 跟 Swift，並透過 Claude AI 跟 ChatGPT 等生成式 AI 的補助，最後我終於完成第一個開發的 Apple Watch App 「9歲記帳」！"
+                }
+            ]
+        }, 
+        {
+          "title": "用 App 讓台語「潮」起來：芋圓字典的開發經驗談",
+          "topicIntro": "說到台語，許多人第一個聯想到的可能是阿公阿媽常看的八點檔、本土劇，或是長輩常唱的那種很苦很苦的老情歌。「芋圓台語字典」希望藉由科技與活潑的設計來改變大眾對台語的認知，同時達到推廣台語書寫的效果。我會分享我的開發動機、理念和歷程，以及我如何用半年的時間在 Threads 上達成破萬追蹤的里程碑。透過社群媒體的經營，除了吸引大眾對本土語言議題的關注，我也不花任何一毛錢就達成 App 宣傳的效果。",
+          "abstract": "",
+              "review_tags": [],
+              "id": 202404,
+              "track": null,
+              "video_url": "https://drive.google.com/file/d/1zk_FiU3EvHdeDwOW5cKJEGkgh4Kh8itM/view?usp=share_link",
+              "slides_url": null,
+              "custom_fields": {},
+              "speakers": [
+                  {
+                      "name": "芋圓",
+                      "bio": "iOS菜鳥兼研究生，想用程式解決語言問題",
+                      "bioDetail": "一個普通的研究生，主修語言學。去年初開始學 iOS 開發，今年初上架人生第一個 App「芋圓台語字典」意外地取得初步的成功。夢想是打造專為台灣本土語言設計的全方位語言學習 App，讓我們的母語都可以傳承下去。"
+                  }
+              ]
+          }, 
+          {
+            "title": "物件導向的文藝復興：用DCI重塑程式設計的藝術",
+            "topicIntro": "物件導向編程在軟體業中產生了深遠的影響，但也帶來了許多意想不到的災難。在這次演講中，我們將回顧物件導向的歷史，重新審視其最初的核心理念。我們將探討為什麼某些物件導向實踐可能導致了軟體設計的困境，並介紹如何通過Data Context Interaction (DCI)來重新組織我們的程式碼，以更好地實現物件導向的原始願景。",
+            "abstract": "",
+                "review_tags": [],
+                "id": 202405,
+                "track": null,
+                "video_url": "https://instagram.ftpe2-2.fna.fbcdn.net/v/t51.2885-19/408759088_355505033835822_360758826495991945_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.ftpe2-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=BQ1loSx1hNAQ7kNvgECxeT8&_nc_gid=bf286db6ce004dbe939b459c04ae826e&edm=AAZTMJEBAAAA&ccb=7-5&oh=00_AYAmDQy62njz_88iw2egEDxRaMQZmoJXR_Gqog_iPLVOHA&oe=66ECAD68&_nc_sid=49cb7f",
+                "slides_url": null,
+                "custom_fields": {},
+                "speakers": [
+                    {
+                        "name": "Hai Feng Kao",
+                        "bio": "iOS獨立開發者",
+                        "bioDetail": "Swift Python Flutter Tensforflow 全能打雜工"
+                    }
+                ]
+            }, 
+          {
+            "title": "Why Swift? Why TCA?",
+            "topicIntro": "SwiftUI 已經推出五年，如果你還沒有開始學的話，希望這場演講會是最後的一根稻草。我會結合自己在公司團隊及個人專案使用 SwiftUI + TCA 超過三年時間的經驗來推坑。",
+            "abstract": "",
+            "review_tags": [],
+            "id": 202406,
+            "track": null,
+            "video_url": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/ethan.jpg",
+            "slides_url": null,
+            "custom_fields": {},
+            "speakers": [
+                {
+                    "name": "13",
+                    "bio": "iOS Team Lead。目前任職的公司名稱用來命名 iOS 框架的話，很不巧會變成「UIKit」。",
+                    "bioDetail": "就是那個13，應該也沒有別人了。平時工作是等 Xcode 時滑推特、一邊指揮同事寫 App，偶爾充當人體文件庫給他們查詢。假日興趣是幫別人剪 podcast然後用自己的名義發佈。"
+                }
+            ]
+          }
     ]
 }
