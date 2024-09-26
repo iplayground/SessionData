@@ -204,6 +204,12 @@
                 ]
             },
             {
+                "start": "15:00",
+                "end": "15:10",
+                "rest": "Break",
+                "session_id": []
+            },
+            {
                 "start": "11:25",
                 "end": "12:05",
                 "rest": null,
@@ -221,34 +227,6 @@
                         "tags": [],
                         "room": "801",
                         "programId": 254
-                    },
-                    {
-                        "topic": "Activity Classification with CreateML using AirPod Pro",
-                        "presenter": [
-                            {
-                                "name": "Ethan Fan",
-                                "bio": "Cofounder of Vimo Labs. Our app Gymatic is the only Apple Watch app that Auto recognizes any gesture and Deep analysis for fitness and sports movements. SleepMatic till today is still one of the top paid health app in the US that track you sleep using Apple Watch. FowardSwift Speaker 2017.",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/ethanfan.jpeg"
-                            }
-                        ],
-                        "description": "With the new AirPods Pro Motion API opens this year we can start collecting Core Motion data from AirPod Pro. Using the Core Motion data collected I am going to show how to create a model using CreateML to classify head motion e.g. shaking your head, nodding, or even exercise like a squad. I want to get everybody excited about AI.",
-                        "tags": [],
-                        "room": "803",
-                        "programId": 228
-                    },
-                    {
-                        "topic": "用你我都會的 Swift 語言寫出 Line 聊天機器人",
-                        "presenter": [
-                            {
-                                "name": "鄭宇哲",
-                                "bio": "目前任職myVideo APP工程師。興趣是看電影和吃美食，有經營Instagram，在上面寫影評和食記。喜歡玩動物森友會，為了不想常常上網查攻略，所以才自己寫LINE聊天機器人。",
-                                "imgURL": null
-                            }
-                        ],
-                        "description": "\u003cp\u003e自2015年的WWDC，蘋果宣布開放Swift原始碼後，Swift正以通用程式語言為目標前進著，目前有越來越多用Swift撰寫的後端程式上了production環境，單憑著Swift成為全端工程師已不再是不可能。此主題以入門為目的，帶大家初探Swift編寫的web框架，並做出一個可動的簡易Line聊天機器人。\u003c/p\u003e\r\n",
-                        "tags": [],
-                        "room": "1002",
-                        "programId": 252
                     }
                 ]
             },
@@ -275,34 +253,6 @@
                         "tags": [],
                         "room": "801",
                         "programId": 245
-                    },
-                    {
-                        "topic": "打造你的 App 架構 - iOS 模塊化及路由方案",
-                        "presenter": [
-                            {
-                                "name": "Frank",
-                                "bio": "iOS Developer@17media, ex-iOS Developer@DiDi",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/frank.jpeg"
-                            }
-                        ],
-                        "description": "\u003cp\u003e希望可以藉由這次分享，讓大家了解什麼是 App 模塊化（或稱組件化）以及為了模塊間通訊解耦、頁面跳轉的路由方案，讓大家在設計 App 架構的時候可以用不同的思維去設計你的 App。\u003c/p\u003e\r\n",
-                        "tags": [],
-                        "room": "803",
-                        "programId": 261
-                    },
-                    {
-                        "topic": "iOS、Android、Flutter超級比一比",
-                        "presenter": [
-                            {
-                                "name": "MarkFly",
-                                "bio": "覺得寫扣很帥才來寫扣，寫了之後發現真的很帥",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/markfly.png"
-                            }
-                        ],
-                        "description": "\u003cp\u003e以iOS Developer的角度去介紹與比較Android和Flutter\u003cbr\u003e\r\n搭配程式碼跟Demo並佐以採坑實錄\u003cbr\u003e\r\n用最入門與淺顯易懂的說明\u003cbr\u003e\r\n讓聽眾可以在很短的時間內\u003cbr\u003e\r\n對另外兩個平台的開發有一定瞭解\u003c/p\u003e\r\n",
-                        "tags": [],
-                        "room": "1002",
-                        "programId": 244
                     }
                 ]
             },
@@ -324,34 +274,6 @@
                         "tags": [],
                         "room": "801",
                         "programId": 231
-                    },
-                    {
-                        "topic": "使用openCV做影像辨識",
-                        "presenter": [
-                            {
-                                "name": "羊小咩",
-                                "bio": "電子支付/第三方支付 App team manager，致力於支付 App 架構和安全以及更好用支付體驗。 平時為雜工一枚。",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/sheep.jpg"
-                            }
-                        ],
-                        "description": "AI 圖像辨識近年來越來越多風行，影像辨識應用在越來越多的領域出現，讓我們來了解 IOS 上使用OpenCV進行影像分析及辨識，辨識影像時是如何設定辨識目標，分析特徵達到辨識目標的方法。",
-                        "tags": [],
-                        "room": "803",
-                        "programId": 241
-                    },
-                    {
-                        "topic": "十年目睹之 In-App Purchase 怪現狀",
-                        "presenter": [
-                            {
-                                "name": "Denken Chen",
-                                "bio": "自由工作者，雙棲 iOS App 開發與寫作，也開了 Podcast 節目。\r\nhttps://denkeni.org",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/denkeni.jpg"
-                            }
-                        ],
-                        "description": "如果你覺得「既然 IAP 簡單好用，開發起來也只要一兩週就完成了吧！」\r\n強烈建議你修但幾咧，先聽聽一些鬼故事再作夢不遲。\r\n\r\n這場演講不是給技術控看的，大家應該知道職場人生最難的通常都不是技術。\r\n主題是一些 IAP 開發的坑，什麼情況下你必須實作 IAP，以及 App Store Review Guidelines 的相關變革與案例探討。",
-                        "tags": [],
-                        "room": "1002",
-                        "programId": 256
                     }
                 ]
             },
@@ -378,34 +300,6 @@
                         "tags": [],
                         "room": "801",
                         "programId": 258
-                    },
-                    {
-                        "topic": "提升擴增實境體驗的夢幻組合技",
-                        "presenter": [
-                            {
-                                "name": "JackyChen",
-                                "bio": "對AR有極度熱忱的白日夢工程師，幻想有一天能創造自己的異世界冒險，為此不斷的修煉開發技能",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/JackyChen.jpg"
-                            }
-                        ],
-                        "description": "\u003cp\u003eARKit 開發雖然有趣，但總覺得和想像中的擴增實境有段距離，難道只能這樣了嗎？想要體驗更棒，除了等待 Apple Glass 的到來，我們還能作些什麼？快來看看搭配 ARKit 開發的組合技巧\u003c/p\u003e\r\n",
-                        "tags": [],
-                        "room": "803",
-                        "programId": 246
-                    },
-                    {
-                        "topic": "封裝！封裝！再封裝！我要成為封裝大師！",
-                        "presenter": [
-                            {
-                                "name": "丁沛堯",
-                                "bio": "iCHEF iOS Lead Engineer, 每天都要吸貓才能開始工作",
-                                "imgURL": null
-                            }
-                        ],
-                        "description": "封裝！把 Code 都塞進 Function 裡面 ~ ♪\r\n封裝！把 Function 都塞進 Class 裡面 ~ ♪♪\r\n再封裝！把 Class 都塞進 Framework 裡面 ~ ♪♪♪\r\n都 2020 年了還有人在講物件導向？對！！我就是要講！！而且一次講 40 分鐘！！！\r\n\r\n這個 seesion 想跟大家分享：\r\n1. 一些簡單的封裝手法與流程，並透過開發、測試、維護不同的角度去看待封裝這件事。\r\n2. 如何使用 XCode 提供的工具來完成封裝的夢想，包含 Dynamic Framework, Swift Package Manager 等\r\n3. 在現實世界裡我如何去封裝一個專案？他對我開發有什麼影響？以 iCHEF 為例\r\n",
-                        "tags": [],
-                        "room": "1002",
-                        "programId": 234
                     }
                 ]
             },
@@ -427,34 +321,6 @@
                         "tags": [],
                         "room": "801",
                         "programId": 265
-                    },
-                    {
-                        "topic": "從獨立開發到大型專案的 CI/CD 攻略",
-                        "presenter": [
-                            {
-                                "name": "Hokila Jan",
-                                "bio": "iOS 開發正好進入第 10 年，iPlayground 發起人，之前都在當總召，今年終於有時間來講一場了，寫過沒有人用的 app，也寫過千萬人甚至上億人用的 app。今年變成頂尖開發者協會理事長，平常喜歡陪女兒到處玩跟潛水。",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/hokila.png"
-                            }
-                        ],
-                        "description": "CI/CD 可以把重複的事讓機器去做，工程師就可以把時間省下來，去做更有創造力的事。參與過大大小小的專案，從獨立開發的 side project，到接別人做一半的半成品，或者是自己全程參與的作品。不管開發時間長短或規模，一個作品最重要的是品質。重複的事就該交給機器人去做，我會介紹各種 CI/CD 的使用經驗，讓不同規模的開發團隊挑選適合的工具，跟每種工具的甘苦談。這是一個進階的題目，請先了解 CI/CD 是在做什麼再來聽。\r\n\r\n內容包含：\r\n- schell script\r\n- fastlane\r\n- jenkins\r\n- bitrise\r\n",
-                        "tags": [],
-                        "room": "803",
-                        "programId": 232
-                    },
-                    {
-                        "topic": "放開那個 MVC",
-                        "presenter": [
-                            {
-                                "name": "賴柏宏(Devin)",
-                                "bio": "iCHEF iOS Developer，iOS開發很久，所以網頁跟後端都不會寫，所以我只好繼續寫iOS App",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/devin.jpeg"
-                            }
-                        ],
-                        "description": "當MVVM充斥在我們生活，可曾有人想起那被遺忘的MVC？ MVC做錯了？還是MVVM做對了？讓我們來聊聊時代是怎麼走到MVVM的，也關心一下那MVC，接著想想未來會往哪邊走",
-                        "tags": [],
-                        "room": "1002",
-                        "programId": 235
                     }
                 ]
             },
