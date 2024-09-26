@@ -150,86 +150,56 @@
         ],
         "session": [
             {
-                "start": "8:30",
-                "end": "9:00",
-                "rest": "報到",
+                "start": "13:00",
+                "end": "14:00",
+                "rest": "入場",
                 "session_id": []
             },
             {
-                "start": "9:00",
-                "end": "9:30",
-                "rest": "開場",
+                "start": "13:55",
+                "end": "14:00",
+                "rest": "Opening",
                 "session_id": []
             },
             {
-                "start": "9:30",
-                "end": "10:10",
+                "start": "14:00",
+                "end": "14:30",
                 "rest": null,
                 "talks": [
                     {
-                        "topic": "為什麼 App 卡卡的？",
+                        "topic": "Why Swift? Why TCA?",
                         "presenter": [
                             {
-                                "name": "John Lin",
-                                "bio": "Swift Taipei 主辦人。從 iOS 2 開始寫 App、參與 Swift.org 中文版編寫,同時拜訪不同技術社群( App Girl、CocoaHeads Taipei ),積極挹注Swift社群的學習動能。",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/JohnLin.jpeg"
+                                "name": "13",
+                                "bio": "iOS Team Lead。目前任職的公司名稱用來命名 iOS 框架的話，很不巧會變成「UIKit」。",
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/ethan.jpg"
                             }
                         ],
-                        "description": "從各個角度探討 App 卡卡的成因，還有解決的方法。\r\n",
-                        "tags": [
-                            "public_address"
-                        ],
+                        "description": "SwiftUI 已經推出五年，如果你還沒有開始學的話，希望這場演講會是最後的一根稻草。我會結合自己在公司團隊及個人專案使用 SwiftUI + TCA 超過三年時間的經驗來推坑。",
+                        "tags": [],
                         "room": "801",
                         "programId": 248
                     }
                 ]
             },
             {
-                "start": "10:30",
-                "end": "11:10",
+                "start": "14:30",
+                "end": "15:00",
                 "rest": null,
                 "talks": [
                     {
-                        "topic": "打開 Combine 的引擎蓋來看看",
+                        "topic": "關於我在visionOS上寫影片貼圖app這檔事",
                         "presenter": [
                             {
-                                "name": "游諭",
-                                "bio": "Swift iOS 開發者，2018 年開始認真轉職成軟體工程師，自認目前還沒有成功。完全自學程式，喜歡 Combine 與像 Combine 的東西，時常三不五時在 GitHub 做沒有用的 Swift Package。",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/yu.jpg"
+                                "name": "MarkFly",
+                                "bio": "三心二意工程師",
+                                "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/markFly.jpg?raw=true"
                             }
                         ],
-                        "description": "Combine 是怎麼在 Swift 原本的物件導向設計與指令式設計的架構下，編寫出使用方法完全不一樣的 Combine。這個 Session 將討論 Combine 關鍵角色: Publishers、Subscribers、Operators，了解 Combine 如何運作！",
+                        "description": "介紹一些 visionOS 專有概念、介紹一些 visionOS 跟一般 app 的差別、介紹怎麼幫影片 app 寫一個 timeline、介紹怎麼幫影片 app 加上貼圖功能、並不會出現 Vision Pro，請勿期待",
                         "tags": [],
                         "room": "801",
                         "programId": 253
-                    },
-                    {
-                        "topic": "與廣告帳戶間的頂尖對決 - CoreML、CreateML 在線上產品中做為輔助角色的應用案例",
-                        "presenter": [
-                            {
-                                "name": "Marvin Lin",
-                                "bio": "iOS 工程師，嘗試在多種不同地方、場合使用 Swift 來完成自己覺得有趣的事",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/marvin.jpg"
-                            }
-                        ],
-                        "description": "\u003cp\u003eApple 自已的 Machine Learning 框架在 iOS 11 問世之後，一直期待有一天能在線上的產品中加入這個框架的需求。在今年，公司線上討論區類型 App，不斷的受到廣告發文騷擾。這個情況讓客服部門的服務電話不停的響。在我們嘗試過各種方法後，最後使用了 Apple 所出的 ML 框架，配合 Natural Language 進行情緒分析，來剔除廣告發文。\u003c/p\u003e\r\n\r\n\u003cp\u003e如果你的團隊人數不夠，短期間內也沒有配法配置資料科學團隊，蠻建議使用 Apple 的 ML 框架。這個框架可以快速的實驗 ML 對線上產品是不是能有正面影響。如果你的團隊不大、或是短期內沒辦法找到 ML 相關人員，建議你試試這個框架。\u003c/p\u003e\r\n\r\n\u003cp\u003e這個 talk  會介紹所使用的標記資料數量，運行的基本概念，還有在部署上線後，對產品、還有使用者的變化。\u003c/p\u003e\r\n",
-                        "tags": [],
-                        "room": "803",
-                        "programId": 229
-                    },
-                    {
-                        "topic": "Random? 你搞得我好亂啊",
-                        "presenter": [
-                            {
-                                "name": "DaGin",
-                                "bio": "大家好我是大軍，我是一位iOS開發者，對設計、圖像、程式充滿興趣，自iOS7開始接觸iOS開發，深深愛上Swift這個語言，也喜歡開發原生的iOS程式。",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/dagun.jpg"
-                            }
-                        ],
-                        "description": "從Swift4.2開始導入了Swift Random，終於不用Arc4random了，但是新的亂數是怎麼來的呢？以前Ｃ lib的亂數的種子是什麼意思？電腦可以做出真的亂數嗎？我們平凡的麻瓜要怎麼對Swift的源碼提出貢獻呢？",
-                        "tags": [],
-                        "room": "1002",
-                        "programId": 243
                     }
                 ]
             },
