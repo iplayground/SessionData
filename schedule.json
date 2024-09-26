@@ -206,24 +206,23 @@
             {
                 "start": "15:00",
                 "end": "15:10",
-                "rest": "Break",
-                "session_id": []
+                "rest": "Break"
             },
             {
-                "start": "11:25",
-                "end": "12:05",
+                "start": "15:10",
+                "end": "15:40",
                 "rest": null,
                 "talks": [
                     {
-                        "topic": "Let's build Command-Line Tools: Swift Argument Parser",
+                        "topic": "終於可讀了ＴvＴ 一起來探索 Swift Testing 的魅力！",
                         "presenter": [
                             {
-                                "name": "Shuo-Yen Wang 王碩彥",
-                                "bio": "I'm shuoyen (碩彥),\r\n5+ years of iOS App development experiences in the e-commerce and network news industry.\r\nI also participated in news app development for the 16 members team.\r\n\r\nMedium: https://medium.com@yusatrtru \r\nGithub: https://github.com/danishuotw",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/wang.jpg"
+                                "name": "ChiaoteNi / Ouyang",
+                                "bio": "PicCollage iOS工程師 ＆ iOS@Taipei主持人 / iOS Developer @PicCollage",
+                                "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/ChiaoteNi.jpeg?raw=true"
                             }
                         ],
-                        "description": "主要會跟大家介紹什麼是 Swift Argument Parser，它能做什麼？也會介紹目前 0.3.0 version 的功能，包括建立參數、客製化 help 訊息、設計驗證規則與錯誤處理。最後在分享如何用 Argument Parser 設計自己的小工具，帶聽眾深入淺出 Swift Argument Parser。聽眾可以學到 希望的聽眾在參與後，能對設計指令和 Command-Line Tools 有基本的概念。 Example:善用 -h 幫助你的使用者Command-Line 指令可以調換位置嗎？ 指令 -- or - (% example --verbose --strip-whitespace) 後面代表是什麼意思？ Swift 能開發 iOS / Mac / Watch App，還有 Server-side 的 Vapor，現在也能開發 Command-Line Tools，所以興奮的想分享給大家，一方面想傳達學習 Swift 的價值越來越高，一方面也想分享 ArgumentParser 有趣之處並推廣給各位大大。",
+                        "description": "覺得寫測試很麻煩嗎？\n好不容易寫完測試，但最終變成了讓自己都看不懂的天書？\n還是業務邏輯改變後，想到要維護並閱讀既有測試就崩潰？\n\n讓我們一起擁抱 Swift Testing吧！這場 session 將帶你一步步探索這個新框架，了解他的特性和功能，提供了什麼服務，以及他能如何改變我們的測試案例。",
                         "tags": [],
                         "room": "801",
                         "programId": 254
@@ -231,25 +230,20 @@
                 ]
             },
             {
-                "start": "",
-                "end": "",
-                "rest": "午餐"
-            },
-            {
-                "start": "13:30",
-                "end": "14:10",
+                "start": "15:40",
+                "end": "16:10",
                 "rest": null,
                 "talks": [
                     {
-                        "topic": "Refactoring legacy and concurrent thread API with Testing.",
+                        "topic": "物件導向的文藝復興：用DCI重塑程式設計的藝術",
                         "presenter": [
                             {
-                                "name": "陳涵宇",
-                                "bio": "2015年開始專注在 iOS 平台的開發者，Cocoaheads Taipei 的主持人，Side project 為 Shõto。目前在 Pinkoi 任職。",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/hanyu.png"
+                                "name": "Hai Feng Kao",
+                                "bio": "iOS獨立開發者",
+                                "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/haiFengKao.jpg?raw=true"
                             }
                         ],
-                        "description": "會現場實際透過測試的方式來重構一段複雜 Web API request。\r\n\r\n使用 OperationBlock 包住的 MKDirection.request，為的是讓多重 Web API request 能夠在所有 response 回傳的時候才 callback 到 ViewController。\r\n\r\n但因為設計的不良，對 OperationBlock 及 concurrent thread 的理解不夠，因此產生了些許的 bug。\r\n\r\n而透過對該 method 的 inject 來使用測試的方式，一步一步從 OperationBlock 的設計改善至 DispatchGroup，最後透過遞迴來處理這個功能，而避免 concurrent thread 的所有 issue。",
+                        "description": "物件導向編程在軟體業中產生了深遠的影響，但也帶來了許多意想不到的災難。在這次演講中，我們將回顧物件導向的歷史，重新審視其最初的核心理念。我們將探討為什麼某些物件導向實踐可能導致了軟體設計的困境，並介紹如何通過Data Context Interaction (DCI)來重新組織我們的程式碼，以更好地實現物件導向的原始願景。",
                         "tags": [],
                         "room": "801",
                         "programId": 245
@@ -257,20 +251,25 @@
                 ]
             },
             {
-                "start": "14:25",
-                "end": "15:05",
+                "start": "16:10",
+                "end": "16:20",
+                "rest": "Break"
+            },
+            {
+                "start": "16:20",
+                "end": "16:35",
                 "rest": null,
                 "talks": [
                     {
-                        "topic": "跟 Sign in with Apple 的愛恨情仇",
+                        "topic": "數碼遊牧及遠端工作的利與弊",
                         "presenter": [
                             {
-                                "name": "Johnny Sung",
-                                "bio": "Freelance iOS / Android Developer",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/johnny.png"
+                                "name": "Harry 吳卓強",
+                                "bio": "iOS 工程師、程式開發講師",
+                                "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/harry.jpg?raw=true"
                             }
                         ],
-                        "description": "\u003cp\u003e注重用戶隱私的 Apple 在開發者大會 WWDC 2019 發表了 Sign in with Apple 的功能，iOS 13 後皆支援。今年（2020 年） 4 月之後強制要求所有新上架的 App（包含更新）皆要支援這個服務。  \u003c/p\u003e\r\n\r\n\u003cp\u003eSign in with Apple 怎麼接？跟其他第三方服務有什麼不同？\u003cbr\u003e\u003cbr\u003e\r\nApp 端、網站前端、後端要如何因應？會有什麼樣的雷？\u003cbr\u003e\r\n讓我來跟你娓娓到來...\u003c/p\u003e\r\n",
+                        "description": "過10年的遠端工作經驗，雖然能遊歷各地，但也有孤獨的時候，為了能與世界各地的用戶走得更近，曾花上不少時間研究本地化，才發展這是一個大坑。",
                         "tags": [],
                         "room": "801",
                         "programId": 231
@@ -278,25 +277,20 @@
                 ]
             },
             {
-                "start": "",
-                "end": "",
-                "rest": "下午茶"
-            },
-            {
-                "start": "15:30",
-                "end": "16:10",
+                "start": "16:35",
+                "end": "16:50",
                 "rest": null,
                 "talks": [
                     {
-                        "topic": "iOS 開發者 13 倍速技巧",
+                        "topic": "用 App 讓台語「潮」起來：芋圓字典的開發經驗談",
                         "presenter": [
                             {
-                                "name": "13",
-                                "bio": "就是那個 13，應該也沒有別人了。平時工作是等 Xcode 時滑推特、一邊追劇一邊指揮同事寫 App，偶爾充當人體文件庫給他們查詢。假日興趣是幫別人剪 podcast 然後用自己的名義發佈",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/ethan.jpg"
+                                "name": "芋圓",
+                                "bio": "iOS菜鳥兼研究生，想用程式解決語言問題",
+                                "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/taroBall.png?raw=true"
                             }
                         ],
-                        "description": "武士要保養自己的劍，開發者也應該磨練自己的工具。有沒有看過同事在使用 Xcode 的時候按幾個鍵，就輕鬆完成要點很多次才能完成的操作？你是否有系統地把 Xcode 的操作技巧學起來？我會集結數十個 iOS 開發與 Xcode 的使用技巧，現場操作給你一次學會。不論新手或老手都可以來交流幾招。",
+                        "description": "說到台語，許多人第一個聯想到的可能是阿公阿媽常看的八點檔、本土劇，或是長輩常唱的那種很苦很苦的老情歌。「芋圓台語字典」希望藉由科技與活潑的設計來改變大眾對台語的認知，同時達到推廣台語書寫的效果。我會分享我的開發動機、理念和歷程，以及我如何用半年的時間在 Threads 上達成破萬追蹤的里程碑。透過社群媒體的經營，除了吸引大眾對本土語言議題的關注，我也不花任何一毛錢就達成 App 宣傳的效果。",
                         "tags": [],
                         "room": "801",
                         "programId": 258
@@ -304,20 +298,20 @@
                 ]
             },
             {
-                "start": "16:25",
+                "start": "16:50",
                 "end": "17:05",
                 "rest": null,
                 "talks": [
                     {
-                        "topic": "克服恐懼 追求夢想 Instagram iOS 4年經驗分享",
+                        "topic": "用 AI 幫助開發 Apple Watch App 實戰分享",
                         "presenter": [
                             {
-                                "name": "Jacky",
-                                "bio": "我的職涯對我來說是一個刺激好玩的成長冒險\r\n​​在台灣 (KKBOX) → 香港 (9GAG) → 加州 (Messenger) → 紐約(Instagram) 做過 iOS developer.\r\n​​目前還任職於Instagram / Facebook 4 年\r\n​​現在剛好疫情在台灣遠端工作 想好好重新認識台灣的 developer community 做學習跟分享\r\n​​IG: jackywangadventures",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/jacky.jpeg"
+                                "name": "海馬",
+                                "bio": "我是海家帶你游程式的海馬",
+                                "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/seahorse.PNG?raw=true"
                             }
                         ],
-                        "description": "\u003cp\u003e2016 年買了單程機票參加 WWDC，結束後前往矽谷，經過重重考驗，最後拿到 Facebook 的 offer，目前轉戰 Instagram 紐約工作。在這場議程，將會介紹如何挑戰矽谷大聯盟面試、美國與亞洲的工作差異以及與百位來自各國的工程師協同開發億級使用者 App 的經驗。\u003c/p\u003e\r\n",
+                        "description": "如何使用 Claude AI 跟 ChatGPT 提升製作 Apple Watch App 的開發效率，強調 AI 生成出來的東西可能不是自己想要的內容，介紹如果遇到 AI 生成出來的東西不是自己想要的，要怎麼處理，開發過程中，因為使用 AI 而大幅加快開發進度，最後會分享自己開發的「9歲記帳」這款 App 使用到的 Claude AI prompt 和 GitHub repository 給大家參考，並介紹我開發過程中的實戰經驗！",
                         "tags": [],
                         "room": "801",
                         "programId": 265
@@ -325,9 +319,40 @@
                 ]
             },
             {
-                "start": "17:10",
+                "start": "17:05",
+                "end": "17:20",
+                "rest": null,
+                "talks": [
+                    {
+                        "topic": "那些年在面試學會的東西",
+                        "presenter": [
+                            {
+                                "name": "陳涵宇 Hanyu, Chen",
+                                "bio": "CocoaHeads Taipei 主持人",
+                                "imgURL": "https://s.gravatar.com/avatar/cc8c9b6f42948a80987949a6b31f41f1?s=200"
+                            }
+                        ],
+                        "description": "身為資深被資遣工程師，面試過很多間公司只是剛好而已。幸運地在每個面試過程當中都學會不同的東西，接下來就來分享給大家聽聽。",
+                        "tags": [],
+                        "room": "801",
+                        "programId": 266
+                    }
+                ]
+            },
+            {
+                "start": "17:20",
                 "end": "17:30",
+                "rest": "Photo Time"
+            },
+            {
+                "start": "17:30",
+                "end": "17:40",
                 "rest": "閉幕"
+            },
+            {
+                "start": "17:40",
+                "end": "18:30",
+                "rest": "After Party"
             }
         ]
     }
