@@ -217,9 +217,16 @@
                         "topic": "終於可讀了ＴvＴ 一起來探索 Swift Testing 的魅力！",
                         "presenter": [
                             {
-                                "name": "ChiaoteNi / Ouyang",
-                                "bio": "PicCollage iOS工程師 ＆ iOS@Taipei主持人 / iOS Developer @PicCollage",
+                                "name": "ChiaoteNi",
+                                "bio": "PicCollage iOS工程師 ＆ iOS@Taipei主持人",
                                 "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/ChiaoteNi.jpeg?raw=true"
+                            }
+                        ],
+                        "presenter2": [
+                            {
+                                "name": "Ouyang",
+                                "bio": "iOS Developer @PicCollage",
+                                "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/Ouyang.jpg?raw=true"
                             }
                         ],
                         "description": "覺得寫測試很麻煩嗎？\n好不容易寫完測試，但最終變成了讓自己都看不懂的天書？\n還是業務邏輯改變後，想到要維護並閱讀既有測試就崩潰？\n\n讓我們一起擁抱 Swift Testing吧！這場 session 將帶你一步步探索這個新框架，了解他的特性和功能，提供了什麼服務，以及他能如何改變我們的測試案例。",
