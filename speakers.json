@@ -26,6 +26,7 @@
             "id": 202405,
             "track": null,
             "video_url": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/haiFengKao.jpg?raw=true",
+            "sns_url": "https://www.threads.net/@haifengkao",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
@@ -62,6 +63,7 @@
         "id": 202407,
         "track": null,
         "video_url": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/ChiaoteNi.jpeg?raw=true",
+        "sns_url": "https://github.com/ChiaoteNi",
         "slides_url": null,
         "custom_fields": {},
         "speakers": [
@@ -80,6 +82,7 @@
           "id": 202401,
           "track": null,
           "video_url": "https://s.gravatar.com/avatar/cc8c9b6f42948a80987949a6b31f41f1?s=200",
+          "sns_url": "https://x.com/hanyu_chen_ios",
           "slides_url": null,
           "custom_fields": {},
           "speakers": [
@@ -98,6 +101,7 @@
         "id": 202409,
         "track": null,
         "video_url": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/harry.jpg?raw=true",
+        "sns_url": "https://buildwithharry.com/",
         "slides_url": null,
         "custom_fields": {},
         "speakers": [
@@ -116,6 +120,7 @@
             "id": 202404,
             "track": null,
             "video_url": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/taroBall.png?raw=true",
+            "sns_url": "https://portaly.cc/taro.dict",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
@@ -134,6 +139,7 @@
             "id": 202403,
             "track": null,
             "video_url": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/seahorse.PNG?raw=true",
+            "sns_url": "https://linktr.ee/leethi",
             "slides_url": null,
             "custom_fields": {},
             "speakers": [
