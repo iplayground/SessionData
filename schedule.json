@@ -172,8 +172,7 @@
                             {
                                 "name": "13",
                                 "bio": "iOS Team Lead。目前任職的公司名稱用來命名 iOS 框架的話，很不巧會變成「UIKit」。",
-                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/ethan.jpg",
-                                "snsURL": ""
+                                "imgURL": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/speakers/ethan.jpg"
                             }
                         ],
                         "description": "SwiftUI 已經推出五年，如果你還沒有開始學的話，希望這場演講會是最後的一根稻草。我會結合自己在公司團隊及個人專案使用 SwiftUI + TCA 超過三年時間的經驗來推坑。",
@@ -194,8 +193,7 @@
                             {
                                 "name": "MarkFly",
                                 "bio": "三心二意工程師",
-                                "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/markFly.jpg?raw=true",
-                                "snsURL": ""
+                                "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/markFly.jpg?raw=true"
                             }
                         ],
                         "description": "介紹一些 visionOS 專有概念、介紹一些 visionOS 跟一般 app 的差別、介紹怎麼幫影片 app 寫一個 timeline、介紹怎麼幫影片 app 加上貼圖功能、並不會出現 Vision Pro，請勿期待",
@@ -229,8 +227,7 @@
                             {
                                 "name": "Ouyang",
                                 "bio": "iOS Developer @PicCollage",
-                                "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/Ouyang.jpg?raw=true",
-                                "snsURL": ""
+                                "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/Ouyang.jpg?raw=true"
                             }
                         ],
                         "description": "覺得寫測試很麻煩嗎？\n好不容易寫完測試，但最終變成了讓自己都看不懂的天書？\n還是業務邏輯改變後，想到要維護並閱讀既有測試就崩潰？\n\n讓我們一起擁抱 Swift Testing吧！這場 session 將帶你一步步探索這個新框架，了解他的特性和功能，提供了什麼服務，以及他能如何改變我們的測試案例。",
@@ -252,7 +249,7 @@
                                 "name": "Hai Feng Kao",
                                 "bio": "iOS獨立開發者",
                                 "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/haiFengKao.jpg?raw=true",
-                                "sns_url": "https://www.threads.net/@haifengkao"
+                                "snsURL": "https://www.threads.net/@haifengkao"
                             }
                         ],
                         "description": "物件導向編程在軟體業中產生了深遠的影響，但也帶來了許多意想不到的災難。在這次演講中，我們將回顧物件導向的歷史，重新審視其最初的核心理念。我們將探討為什麼某些物件導向實踐可能導致了軟體設計的困境，並介紹如何通過Data Context Interaction (DCI)來重新組織我們的程式碼，以更好地實現物件導向的原始願景。",
@@ -279,7 +276,7 @@
                                 "name": "Harry 吳卓強",
                                 "bio": "iOS 工程師、程式開發講師",
                                 "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/harry.jpg?raw=true",
-                                "sns_url": "https://buildwithharry.com/"
+                                "snsURL": "https://buildwithharry.com/"
                             }
                         ],
                         "description": "過10年的遠端工作經驗，雖然能遊歷各地，但也有孤獨的時候，為了能與世界各地的用戶走得更近，曾花上不少時間研究本地化，才發展這是一個大坑。",
@@ -301,7 +298,7 @@
                                 "name": "芋圓",
                                 "bio": "iOS菜鳥兼研究生，想用程式解決語言問題",
                                 "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/taroBall.png?raw=true",
-                                "sns_url": "https://portaly.cc/taro.dict"
+                                "snsURL": "https://portaly.cc/taro.dict"
                             }
                         ],
                         "description": "說到台語，許多人第一個聯想到的可能是阿公阿媽常看的八點檔、本土劇，或是長輩常唱的那種很苦很苦的老情歌。「芋圓台語字典」希望藉由科技與活潑的設計來改變大眾對台語的認知，同時達到推廣台語書寫的效果。我會分享我的開發動機、理念和歷程，以及我如何用半年的時間在 Threads 上達成破萬追蹤的里程碑。透過社群媒體的經營，除了吸引大眾對本土語言議題的關注，我也不花任何一毛錢就達成 App 宣傳的效果。",
@@ -323,7 +320,7 @@
                                 "name": "海馬",
                                 "bio": "我是海家帶你游程式的海馬",
                                 "imgURL": "https://github.com/iplayground/SessionData/blob/2024/v1/images/speakers/seahorse.PNG?raw=true",
-                                "sns_url": "https://linktr.ee/leethi"
+                                "snsURL": "https://linktr.ee/leethi"
                             }
                         ],
                         "description": "如何使用 Claude AI 跟 ChatGPT 提升製作 Apple Watch App 的開發效率，強調 AI 生成出來的東西可能不是自己想要的內容，介紹如果遇到 AI 生成出來的東西不是自己想要的，要怎麼處理，開發過程中，因為使用 AI 而大幅加快開發進度，最後會分享自己開發的「9歲記帳」這款 App 使用到的 Claude AI prompt 和 GitHub repository 給大家參考，並介紹我開發過程中的實戰經驗！",
@@ -345,7 +342,7 @@
                                 "name": "陳涵宇 Hanyu, Chen",
                                 "bio": "CocoaHeads Taipei 主持人",
                                 "imgURL": "https://s.gravatar.com/avatar/cc8c9b6f42948a80987949a6b31f41f1?s=200",
-                                "sns_url": "https://x.com/hanyu_chen_ios"
+                                "snsURL": "https://x.com/hanyu_chen_ios"
                             }
                         ],
                         "description": "身為資深被資遣工程師，面試過很多間公司只是剛好而已。幸運地在每個面試過程當中都學會不同的東西，接下來就來分享給大家聽聽。",
