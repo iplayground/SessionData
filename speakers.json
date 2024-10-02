@@ -1,7 +1,7 @@
 {
   "program": [
     {
-        "title": "Why Swift? Why TCA?",
+        "title": "Why SwiftUI? Why TCA?",
         "topicIntro": "SwiftUI 已經推出五年，如果你還沒有開始學的話，希望這場演講會是最後的一根稻草。我會結合自己在公司團隊及個人專案使用 SwiftUI + TCA 超過三年時間的經驗來推坑。",
         "abstract": "",
         "review_tags": [],
