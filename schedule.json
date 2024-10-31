@@ -22,6 +22,8 @@
                 "talks": [
                     {
                         "topic": "Why SwiftUI? Why TCA?",
+                        "vodURL": "https://youtube.com/@iplaygroundtaiwan",
+                        "hackmdURL": "https://hackmd.io/@iPlayground/2024/%2FWWkTikN6RK6AROZE--58xA",
                         "presenter": [
                             {
                                 "name": "13",
@@ -43,6 +45,8 @@
                 "talks": [
                     {
                         "topic": "關於我在visionOS上寫影片貼圖app這檔事",
+                        "vodURL": "https://youtube.com/@iplaygroundtaiwan",
+                        "hackmdURL": "https://hackmd.io/@iPlayground/2024/%2F8geotSGSSy2LG4MH9g38RA",
                         "presenter": [
                             {
                                 "name": "MarkFly",
@@ -69,6 +73,8 @@
                 "talks": [
                     {
                         "topic": "終於可讀了ＴvＴ 一起來探索 Swift Testing 的魅力！",
+                        "vodURL": "https://youtube.com/@iplaygroundtaiwan",
+                        "hackmdURL": "https://hackmd.io/@iPlayground/2024/%2F2uebkNWhRhGS-Lg_O7j-Mw",
                         "presenter": [
                             {
                                 "name": "ChiaoteNi",
@@ -98,6 +104,8 @@
                 "talks": [
                     {
                         "topic": "物件導向的文藝復興：用DCI重塑程式設計的藝術",
+                        "vodURL": "https://youtube.com/@iplaygroundtaiwan",
+                        "hackmdURL": "https://hackmd.io/@iPlayground/2024/%2Fz8HaHWxrRWSaGEc_S5lvww",
                         "presenter": [
                             {
                                 "name": "Hai Feng Kao",
@@ -125,6 +133,8 @@
                 "talks": [
                     {
                         "topic": "數碼遊牧及遠端工作的利與弊",
+                        "vodURL": "https://youtube.com/@iplaygroundtaiwan",
+                        "hackmdURL": "https://hackmd.io/@iPlayground/2024/%2FUFW_R3lMSC2hrJxhdxGG_A",
                         "presenter": [
                             {
                                 "name": "Harry 吳卓強",
@@ -147,6 +157,8 @@
                 "talks": [
                     {
                         "topic": "用 App 讓台語「潮」起來：芋圓字典的開發經驗談",
+                        "vodURL": "https://youtube.com/@iplaygroundtaiwan",
+                        "hackmdURL": "https://hackmd.io/@iPlayground/2024/%2FOeraHlcMQJGlwR9E81A6Ig",
                         "presenter": [
                             {
                                 "name": "芋圓",
@@ -169,6 +181,8 @@
                 "talks": [
                     {
                         "topic": "用 AI 幫助開發 Apple Watch App 實戰分享",
+                        "vodURL": "https://youtube.com/@iplaygroundtaiwan",
+                        "hackmdURL": "https://hackmd.io/@iPlayground/2024/%2F3ZD8WkRpRyeD4bIWqm9TKQ",
                         "presenter": [
                             {
                                 "name": "海馬",
@@ -191,6 +205,8 @@
                 "talks": [
                     {
                         "topic": "那些年在面試學會的東西",
+                        "vodURL": "https://youtube.com/@iplaygroundtaiwan",
+                        "hackmdURL": "https://hackmd.io/@iPlayground/2024/%2FZNH8i31BRwqGmEBqNBw_gQ",
                         "presenter": [
                             {
                                 "name": "陳涵宇 Hanyu, Chen",
