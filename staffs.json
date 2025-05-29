@@ -31,7 +31,7 @@
 	},
 	{
 	  "name": "Hanpo",
-	  "title": "",
+	  "title": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_Ethan.jpg",
 	  "photo": "",
 	  "url": ""
 	},
@@ -62,13 +62,13 @@
 	{
 	  "name": "Kimbely",
 	  "title": "Coding in Swift, living on snacks.",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_KimbelyLiu.png",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_KimbelyLiu.jpg",
 	  "url": "https://x.com/kimbely0320"
 	},
 	{
 	  "name": "Kyle",
-	  "title": "",
-	  "photo": "",
+	  "title": "iOS 學生開發者",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_Kyle.jpg",
 	  "url": ""
 	},
 	{
