@@ -19,5 +19,34 @@
       "intro": "",
 	  "photo": "",
 	  "url": ""
-	}
+	},
+    {
+      "id": 3,
+	  "name": "13",
+	  "title": "iOS Developer",
+      "intro": "喜歡分享，不賣焦慮。Love to be inspired and share to inspire. ➕iOS Developer+、📰Apple 開發者週報、🎙️weak self podcast",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/speakers/speaker_13.jpeg",
+	  "url": "https://www.ethanhuang13.com",
+      "github": "github.com/ethanhuang13",
+      "threads": "threads.net/ethanhuang13"
+	},
+    {
+      "id": 4,
+	  "name": "zonble",
+	  "title": "",
+      "intro": "",
+	  "photo": "",
+	  "url": ""
+	},
+    {
+      "id": 5,
+      "name": "Ben",
+      "title": "笑貓咖哩 創辦人",
+      "intro": "iOS Developer , 笑貓咖哩 co-founder , 世界上最適合寫code的地方一定要有雪",
+      "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/speakers/speaker_阿邦Ben.jpg",
+      "url": "https://xiaomao.com.tw",
+      "fb": "https://www.facebook.com/benchen714/",
+      "github": "https://github.com/hsinpangchen",
+      "x": "https://x.com/iamkuni"
+    }
   ]
