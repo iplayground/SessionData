@@ -5,7 +5,12 @@
 	  "title": "Garmin Advanced Software Engineer",
       "intro": "Advanced Software Engineer at Garmin. 10 years of iOS development experience since college. Love solving the LeetCode problems with Swift.",
 	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/speakers/speaker_%E9%84%AD%E5%AE%87%E5%93%B2.jpg",
-	  "url": "https://leetcode.com/u/iamhands0me"
+	  "url": "https://leetcode.com/u/iamhands0me",
+      "fb": "https://www.facebook.com/hands0me.cheng",
+      "github": "https://github.com/iamhands0me",
+      "linkedin": "https://www.linkedin.com/in/iamhands0me/",
+      "threads": "https://www.threads.com/@iamhands0me",
+      "x": "https://x.com/iamhands0me"
 	},
     {
       "id": 2,
