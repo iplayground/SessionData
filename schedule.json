@@ -17,6 +17,120 @@
             "title": "Let’s Functional Programming in Your Swift Code",
             "tags": ["Swift", "函數式"],
             "speaker": "鄭宇哲 YuChe Cheng"
+        },
+        {
+            "time": "10:40 – 10:55",
+            "title": "休息",
+            "tags": [],
+            "speaker": ""
+        },
+        {
+            "time": "10:55 – 11:15",
+            "title": "Swift C++ Interop",
+            "tags": ["Swift", "Interop"],
+            "speaker": "Zonble"
+        },
+        {
+            "time": "11:15 – 11:35",
+            "title": "從 Array 探索 Swift 的效能設計",
+            "tags": ["Swift", "效能"],
+            "speaker": "Yuki Aki"
+        },
+        {
+            "time": "11:15 – 11:35",
+            "title": "從 Array 探索 Swift 的效能設計",
+            "tags": ["Swift", "效能"],
+            "speaker": "Yuki Aki"
+        },
+        {
+            "time": "11:35 – 11:55",
+            "title": "Neumorphism × Liquid Glass：設計系統新進化",
+            "tags": ["設計", "UI"],
+            "speaker": "東東"
+        },
+        {
+            "time": "11:55 – 12:15",
+            "title": "一人全端開發《台灣地震速報》的真實旅程",
+            "tags": ["案例研究", "全端"],
+            "speaker": "林子祐"
+        },
+        {
+            "time": "12:15 – 13:15",
+            "title": "午餐",
+            "tags": [],
+            "speaker": ""
+        },
+        {
+            "time": "13:15 – 14:05",
+            "title": "Live Activities in LINE：經驗與技術挑戰",
+            "tags": ["SwiftUI", "Widget"],
+            "speaker": "qcl"
+        },
+        {
+            "time": "14:05 – 14:20",
+            "title": "休息",
+            "tags": [],
+            "speaker": ""
+        },
+        {
+            "time": "14:20 – 14:40",
+            "title": "不是「哪個架構最好」，而是「你怎麼走到現在這裡」",
+            "tags": ["架構", "決策"],
+            "speaker": "Eric Chen"
+        },
+        {
+            "time": "14:40 – 15:00",
+            "title": "接手 10 年大雜燴：專案優化與產品開發掙扎",
+            "tags": ["Refactor", "Legacy"],
+            "speaker": "Vincent"
+        },
+        {
+            "time": "15:00 – 15:20",
+            "title": "Building a Production App with TCA",
+            "tags": ["架構", "TCA", "專案治理" ],
+            "speaker": "YC Hsu"
+        },
+        {
+            "time": "15:20 – 15:40",
+            "title": "休息",
+            "tags": [],
+            "speaker": ""
+        },
+        {
+            "time": "15:40 – 16:30",
+            "title": "TCA 演化史：單向資料流如何繁衍成架構雨林",
+            "tags": ["架構", "TCA"],
+            "speaker": "Art"
+        },
+        {
+            "time": "16:30 – 16:45",
+            "title": "休息",
+            "tags": [],
+            "speaker": ""
+        },
+        {
+            "time": "16:45 – 17:05",
+            "title": "逃出隔離區：Swift 6 編譯錯誤逃脫秀",
+            "tags": ["Swift", "Build"],
+            "speaker": "高海峰"
+        },
+        {
+            "time": "17:05 – 17:25",
+            "title": "坐在面試桌兩端：Interviewer × Candidate",
+            "tags": ["職涯", "面試"],
+            "speaker": "Allen Lai"
+        },
+        {
+            "time": "17:25 – 17:45",
+            "title": "從軟體到餐飲：自家製咖哩與自家製系統的冒險",
+            "tags": ["職涯", "創業"],
+            "speaker": "Ben"
+        },
+        {
+            "time": "17:45 – 17:50",
+            "title": "閉幕",
+            "tags": [],
+            "speaker": "總召"
         }
     ],
     "day2": [
@@ -35,6 +149,108 @@
             "title": "廟口長大的工程師可以做些什麼？",
             "tags": ["職涯", "Indie Dev"],
             "speaker": "吳政賢 (OAWU)"
+        },
+        {
+            "time": "10:35 – 10:50",
+            "title": "休息",
+            "tags": [],
+            "speaker": ""
+        },
+        {
+            "time": "10:50 – 11:10",
+            "title": "使用 Cursor AI Coding 後學到的 5 件事",
+            "tags": ["AI", "工具"],
+            "speaker": "Harry 吳卓強"
+        },
+        {
+            "time": "11:10 – 11:30",
+            "title": "Vibe Coding：用直覺寫出 AI 時代的速度感",
+            "tags": ["AI", "開發體驗"],
+            "speaker": "海總理"
+        },
+        {
+            "time": "11:30 – 11:50",
+            "title": "大語言模型塞進 iPhone：LLM on-device 的黑魔法與白嫖指南",
+            "tags": ["AI", "LLM", "On-device"],
+            "speaker": "大軍"
+        },
+        {
+            "time": "11:50 – 12:10",
+            "title": "Build Mobile Identity into your app with mDL/mDoc",
+            "tags": ["身分驗證", "Security"],
+            "speaker": "Daiki Matsudate"
+        },
+        {
+            "time": "12:10 – 13:10",
+            "title": "午餐",
+            "tags": [],
+            "speaker": ""
+        },
+        {
+            "time": "13:10 – 14:00",
+            "title": "好想要 Swift iOS App 也能有的 Flutter & Jetpack Compose 功能",
+            "tags": ["跨平台", "UI"],
+            "speaker": "彼得潘"
+        },
+        {
+            "time": "14:00 – 14:15",
+            "title": "休息",
+            "tags": [],
+            "speaker": ""
+        },
+        {
+            "time": "14:15 – 14:35",
+            "title": "App 資安知多少：我只是略懂略懂",
+            "tags": ["資安", "iOS"],
+            "speaker": "羊小咩"
+        },
+        {
+            "time": "14:35 – 14:55",
+            "title": "When Your App Needs a New Business Model: StoreKit Migration Without Breaking Everything",
+            "tags": [],
+            "speaker": "Astrid Lin"
+        },
+        {
+            "time": "14:55 – 15:15",
+            "title": "Realtime Face Liveness Detection using TrueDepth",
+            "tags": ["CV", "Security"],
+            "speaker": "Ethan"
+        },
+        {
+            "time": "15:15 – 15:35",
+            "title": "休息",
+            "tags": [],
+            "speaker": ""
+        },
+        {
+            "time": "15:35 – 16:25",
+            "title": "iOS 工程師視角下的 MCP 協議",
+            "tags": ["網路協定", "Swift"],
+            "speaker": "倪僑德 Aaron Ni"
+        },
+        {
+            "time": "16:25 – 16:40",
+            "title": "大合照 & 休息",
+            "tags": [],
+            "speaker": ""
+        },
+        {
+            "time": "16:40 – 17:00",
+            "title": "Learning Engineering for Software Engineers",
+            "tags": ["職涯", "學習"],
+            "speaker": "劉信"
+        },
+        {
+            "time": "17:00 – 17:20",
+            "title": "個人軟體時代",
+            "tags": ["職涯", "未來展望"],
+            "speaker": "13"
+        },
+        {
+            "time": "17:20 – 17:30",
+            "title": "閉幕",
+            "tags": [],
+            "speaker": "總召"
         }
     ]
 }
