@@ -10,7 +10,7 @@
         {
             "time": "09:40 – 09:50",
             "title": "工商時間",
-            "tags": [],
+            "tags": ["英文"],
             "speaker": "",
             "description": ""
         },
@@ -18,7 +18,7 @@
             "time": "09:50 – 10:40",
             "title": "Let’s Functional Programming in Your Swift Code",
             "tags": ["Swift", "函數式"],
-            "speaker": "鄭宇哲 YuChe Cheng",
+            "speaker": "鄭宇哲 UJ Cheng",
             "description": "如何讓 Swift 程式碼更簡潔、可讀，是許多開發者追求的目標。函數式編程提供了一種更具表達力的寫法，讓我們能以直觀的語意處理資料與邏輯。本演講將介紹 Swift 到目前為止有的高階函數與使用技巧，並實際示範它們如何應用在 iOS 專案開發中，甚至是在刷題過程中。無論是提升演算法解題效率，還是改善專案架構，Functional Programming 都能為你的 Swift 程式碼帶來優雅的轉變。"
         },
         {
@@ -38,7 +38,7 @@
         {
             "time": "11:15 – 11:35",
             "title": "從 Array 探索 Swift 的效能設計",
-            "tags": ["Swift", "效能"],
+            "tags": ["Swift", "效能", "英文"],
             "speaker": "Yuki Aki",
             "description": "This talk explores the evolving concept of performance in Swift, focusing on SE-0453, which introduces InlineArray—a fixed-size array type offering performance benefits over traditional Array. It addresses why InlineArray was introduced, when to use it, and what performance truly means in Swift. By diving into memory models (heap, stack, buffer), array history, and real-world performance implications, the talk aims to deepen understanding and reveal Swift’s potential on broader platforms, including embedded systems. Attendees will gain insights beyond everyday development, unlocking new perspectives on Swift’s roadmap and performance-driven future."
         },
@@ -92,8 +92,8 @@
         },
         {
             "time": "15:00 – 15:20",
-            "title": "Building a Production App with TCA",
-            "tags": ["架構", "TCA", "專案治理" ],
+            "title": "What We Learned from Building a Production App with TCA",
+            "tags": ["架構", "TCA", "專案治理", "英文"],
             "speaker": "YC Hsu",
             "description": "TCA(The Composable Architecture) changed how we think about building apps. In this session, I’ll share our experience using TCA in production: what made us choose it, what surprised us, what helped us succeed, and what we suggest to you before you try TCA."
         },
@@ -154,7 +154,8 @@
         {
             "time": "09:35 – 09:45",
             "title": "工商時間",
-            "speaker": ""
+            "speaker": "",
+            "tags": ["英文"]
         },
         {
             "time": "09:45 – 10:35",
@@ -193,7 +194,7 @@
         {
             "time": "11:50 – 12:10",
             "title": "Build Mobile Identity into your app with mDL/mDoc",
-            "tags": ["身分驗證", "Security"],
+            "tags": ["身分驗證", "Security", "英文"],
             "speaker": "Daiki Matsudate",
             "description": "Smartphones are becoming digital wallets for our identities. In this session, we’ll explore how international standards like ISO/IEC 18013-5/7 and 23220 series are shaping the way governments and tech giants adopt mobile identity solutions. We’ll walk through Apple’s APIs for identity and age verification using mDLs and mDocs, and discuss real-world use cases that blend security, privacy, and user experience."
         },
@@ -226,7 +227,7 @@
         {
             "time": "14:35 – 14:55",
             "title": "When Your App Needs a New Business Model: StoreKit Migration Without Breaking Everything",
-            "tags": [],
+            "tags": ["英文"],
             "speaker": "Astrid Lin",
             "description": "Adding new purchase types to mature apps is risky business. When KKBOX needed to introduce a new in-app purchase model, we couldn't afford to disrupt existing users. This talk shares our real-world experience using StoreKit 2 for new features while keeping the original StoreKit API for legacy flows. Learn the technical gotchas, App Store review surprises, and practical strategies for payment system evolution in production apps. Perfect for developers facing similar legacy modernization challenges."
         },
@@ -246,9 +247,9 @@
         {
             "time": "15:35 – 16:25",
             "title": "iOS 工程師視角下的 MCP 協議",
-            "tags": ["網路協定", "Swift"],
+            "tags": ["通訊協定", "Swift"],
             "speaker": "倪僑德 Aaron Ni",
-            "description": "每次寫 Commit message、PR description 或 code review 都覺得累嗎？\n還是每次 QA 報 bug，你都得自己手動打 API 查資料，再把結果貼給 LLM 幫忙 debug，覺得這流程超繁瑣？其實這些重複動作，都能靠 MCP 協議加上 Swift 幫你自動化！\n這場分享會帶你從 iOS 工程師的角度，一起搞懂 Model Context Protocol（MCP）到底怎麼運作，並實際用官方 Swift SDK 手把手打造屬於自己的 MCP Tool，讓 Cursor、Windsurf 這類 AI 助手可以直接和你的工具對話。歡迎所有對自動化、AI 協作、Swift 實作有興趣的朋友一起來交流！"
+            "description": "想讓LLM使用自家的工具做事嗎？\n想讓LLM幫你用你想要的方式，加速開發中瑣碎的流程嗎？\n抑或是看著github上玲琅滿目的MCP service，想下載，卻又擔心裡面不知是否有暗藏什麼有資安風險，可能竊取你資料的邏輯嗎？那表示是時候，該由你自己寫一個了\n\n這場分享會帶你從 iOS 工程師的角度，一起搞懂 Model Context Protocol（MCP）到底定義了什麼，怎麼運作\n並以簡單的案例示範如何打造屬於自己的 MCP Tool，讓 Cursor、Windsurf 這類 AI 助手可以直接和你自己的工具對話，再也不用自己複製貼上自家API的結果給AI。\n歡迎所有對自動化、AI 協作、Swift 實作有興趣的朋友一起來交流"
         },
         {
             "time": "16:25 – 16:40",
