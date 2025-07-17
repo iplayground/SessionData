@@ -28,6 +28,7 @@
 ## 講者群
 資訊處理規則
 1. 陣列配置順序，即為顯示的排序（由左到右，上而下）
+2. 網址格式內容，請用 https:// 開頭避免跳轉失敗，並在有填寫內容的情況才會顯示對應 icon
 
 參數說明：
 * id - 唯一辨識碼，不重複整數，無特定格式轉換（必要欄位）
@@ -40,13 +41,13 @@
 以下欄位點開頭像後可見
 ```
 * intro - 詳細介紹，純文字，支援換行顯示（請使用\n）
-* url - 自訂網站，網址形式（請用 https:// 開頭避免跳轉失敗），有連結才會顯示 icon
-* fb - facebook 頁面，網址形式（請用 https:// 開頭避免跳轉失敗），有連結才會顯示 icon
-* github - GitHub 頁面，網址形式（請用 https:// 開頭避免跳轉失敗），有連結才會顯示 icon
-* linkedin - LinkedIn 頁面，網址形式（請用 https:// 開頭避免跳轉失敗），有連結才會顯示 icon
-* threads - Threads 頁面，網址形式（請用 https:// 開頭避免跳轉失敗），有連結才會顯示 icon
-* x - x.com 頁面，網址形式（請用 https:// 開頭避免跳轉失敗），有連結才會顯示 icon
-* ig[尚未實作，可先配置] - Instagram 頁面，網址形式（請用 https:// 開頭避免跳轉失敗），有連結才會顯示 icon
+* url - 自訂網站，網址格式
+* fb - facebook 頁面，網址格式
+* github - GitHub 頁面，網址格式
+* linkedin - LinkedIn 頁面，網址格式
+* threads - Threads 頁面，網址格式
+* x - x.com 頁面，網址形式
+* ig[尚未實作，可先配置] - Instagram 頁面，網址格式
 
 
 範例：
