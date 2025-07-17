@@ -1,282 +1,424 @@
 {
-    "day1": [
-        {
-            "time": "09:30 – 09:40",
-            "title": "開場",
-            "tags": [],
-            "speaker": "總召",
-            "description": ""
-        },
-        {
-            "time": "09:40 – 09:50",
-            "title": "工商時間",
-            "tags": ["英文"],
-            "speaker": "",
-            "description": ""
-        },
-        {
-            "time": "09:50 – 10:40",
-            "title": "Let’s Functional Programming in Your Swift Code",
-            "tags": ["Swift", "函數式"],
-            "speaker": "鄭宇哲 UJ Cheng",
-            "description": "如何讓 Swift 程式碼更簡潔、可讀，是許多開發者追求的目標。函數式編程提供了一種更具表達力的寫法，讓我們能以直觀的語意處理資料與邏輯。本演講將介紹 Swift 到目前為止有的高階函數與使用技巧，並實際示範它們如何應用在 iOS 專案開發中，甚至是在刷題過程中。無論是提升演算法解題效率，還是改善專案架構，Functional Programming 都能為你的 Swift 程式碼帶來優雅的轉變。"
-        },
-        {
-            "time": "10:40 – 10:55",
-            "title": "休息",
-            "tags": [],
-            "speaker": "",
-            "description": ""
-        },
-        {
-            "time": "10:55 – 11:15",
-            "title": "Swift C++ Interop",
-            "tags": ["Swift", "Interop"],
-            "speaker": "Zonble",
-            "description": "Swift C++ Interop 是在 2020 年左右開始開發，在 2023 年 WWDC 上宣布的特性，這幾年也不斷有新的變化。在這個 talk 中，會提到如何在 Swift 專案中混用 C++ 語法，以及使用時會遇到的限制與挑戰。"
-        },
-        {
-            "time": "11:15 – 11:35",
-            "title": "從 Array 探索 Swift 的效能設計",
-            "tags": ["Swift", "效能", "英文"],
-            "speaker": "Yuki Aki",
-            "description": "This talk explores the evolving concept of performance in Swift, focusing on SE-0453, which introduces InlineArray—a fixed-size array type offering performance benefits over traditional Array. It addresses why InlineArray was introduced, when to use it, and what performance truly means in Swift. By diving into memory models (heap, stack, buffer), array history, and real-world performance implications, the talk aims to deepen understanding and reveal Swift’s potential on broader platforms, including embedded systems. Attendees will gain insights beyond everyday development, unlocking new perspectives on Swift’s roadmap and performance-driven future."
-        },
-        {
-            "time": "11:35 – 11:55",
-            "title": "Neumorphism × Liquid Glass：設計系統新進化",
-            "tags": ["設計", "UI"],
-            "speaker": "東東",
-            "description": "隨著 Apple 在 WWDC 2025 正式發布 Liquid Glass 設計語言，我們正見證繼 iOS 7 扁平化以來最重大的視覺革新。作為曾深度實作 Neumorphism 並應用於線上產品的開發者。本次分享將透過實際案例，深入探討 Neumorphism 與 Liquid Glass 的設計哲學，幫助大家從「什麼是好設計」進階到「為什麼這樣設計」的思維層次。"
-        },
-        {
-            "time": "11:55 – 12:15",
-            "title": "一人全端開發《台灣地震速報》的真實旅程",
-            "tags": ["案例研究", "全端"],
-            "speaker": "林子祐",
-            "description": "這是一個從 Side Project 開始、卻意外成為全台超過 200 萬下載防災 App 的真實故事。《台灣地震速報 - Taiwan EEW》如何在資源有限的情況下，從一人開發逐步打造出穩定的全端地震預警系統？本場分享將介紹如何透過 Firebase Firestore 傳遞即時地震資料、以 AWS SNS 完成高速推播通知，並在 iOS 前端設計清晰直覺的 UI。該 App 曾獲選台灣 Apple App Store 年度排行榜第五名、取得相關專利、也成為中央氣象署的合作對象。這不僅是一段技術整合的經驗，也是一位開發者如何用有限資源撐起公共服務的實踐記錄"
-        },
-        {
-            "time": "12:15 – 13:15",
-            "title": "午餐",
-            "tags": [],
-            "speaker": ""
-        },
-        {
-            "time": "13:15 – 14:05",
-            "title": "Live Activities in LINE：經驗與技術挑戰",
-            "tags": ["SwiftUI", "Widget"],
-            "speaker": "qcl",
-            "description": "您是否曾經在動態島上看過動態通知？您知道LINE及其相關App也有動態通知嗎？\n\n在這次到分享中將會介紹動態通知的技術細節、實作過程中遇到的挑戰及在大型組織內推動新功能的經驗。"
-        },
-        {
-            "time": "14:05 – 14:20",
-            "title": "休息",
-            "tags": [],
-            "speaker": "",
-            "description": ""
-        },
-        {
-            "time": "14:20 – 14:40",
-            "title": "不是「哪個架構最好」，而是「你怎麼走到現在這裡」",
-            "tags": ["架構", "決策"],
-            "speaker": "Eric Chen",
-            "description": "架構的選擇從來不是「對」或「錯」，而是來自開發過程中的現實取捨。\n本場分享回顧講者在接手一個混亂 iOS 專案時，如何從基礎的 MVVM 出發，依據每個階段遇到的問題，逐步導入 Combine、Swift Concurrency、Repository、Closure DI，到最後設計出模組化的 Coordinator 架構。\n除了介紹技術選擇的實作方式，也會分享每一步背後的選擇動機與過程，讓你能從中找到可能適合自己團隊的做法。"
-        },
-        {
-            "time": "14:40 – 15:00",
-            "title": "接手 10 年大雜燴：專案優化與產品開發掙扎",
-            "tags": ["Refactor", "Legacy"],
-            "speaker": "Vincent",
-            "description": "本議程將分享自己一人接手大型專案的心路歷程。將分享如何面對長期未維護的程式碼，同時滿足排著隊的商業需求、A/B測試，以及從多面向優化使用者體驗。詳細會分享與不同團隊負責人協調、設定目標、迭代改善，以及導入新工具的實務經驗。最後，講者將分享對專案未來的展望與規劃。"
-        },
-        {
-            "time": "15:00 – 15:20",
-            "title": "What We Learned from Building a Production App with TCA",
-            "tags": ["架構", "TCA", "專案治理", "英文"],
-            "speaker": "YC Hsu",
-            "description": "TCA(The Composable Architecture) changed how we think about building apps. In this session, I’ll share our experience using TCA in production: what made us choose it, what surprised us, what helped us succeed, and what we suggest to you before you try TCA."
-        },
-        {
-            "time": "15:20 – 15:40",
-            "title": "休息",
-            "tags": [],
-            "speaker": ""
-        },
-        {
-            "time": "15:40 – 16:30",
-            "title": "TCA 演化史：單向資料流如何繁衍成架構雨林",
-            "tags": ["架構", "TCA"],
-            "speaker": "Art",
-            "description": "從單向資料流出發，TCA 歷經 Dependency、Reducer Protocol、Navigation、Macro、Observation、Sharing State 等七次關鍵「突變」，Point-Free 以實驗般的嚴謹與巧思，逐步把凌亂樣板淬煉成高可測、易組裝的架構雨林。本場次將帶你拆解每一次演化背後的痛點、策略與收穫，一窺現代 iOS 架構的進化路徑。"
-        },
-        {
-            "time": "16:30 – 16:45",
-            "title": "休息",
-            "tags": [],
-            "speaker": ""
-        },
-        {
-            "time": "16:45 – 17:05",
-            "title": "逃出隔離區：Swift 6 編譯錯誤逃脫秀",
-            "tags": ["Swift", "Build"],
-            "speaker": "高海峰",
-            "description": "Swift Concurrency 將在 Swift 6 中全面啟用，這雖然提升了安全性，卻也讓原本看似合理的程式碼突然無法編譯。本議程將帶你深入理解常見錯誤訊息背後的原理，解析 @MainActor、Sendable、nonisolated 等關鍵概念，並透過實際案例展示 Swift Concurrency 中容易踩到的地雷與解法。不論你是剛接觸並發，或已在大型專案中實戰，這場分享都能幫助你更穩健地迎接 Swift 6 的變革"
-        },
-        {
-            "time": "17:05 – 17:25",
-            "title": "坐在面試桌兩端：Interviewer × Candidate",
-            "tags": ["職涯", "面試"],
-            "speaker": "Allen Lai",
-            "description": "因緣際會下成為公司 Staff Engineer 職位的 technical interviewer, 期間受到管理層與 HR 肯定。\n反思自己可能做對了什麼，並回顧作為 candidate 時的錯誤與教訓。\n藉由自己作為 candidate 與 interviewer 的雙重經驗，分享如何以健康的心態和充分的準備迎接面試與被面試，打造更友善的職場面試環境。"
-        },
-        {
-            "time": "17:25 – 17:45",
-            "title": "從軟體到餐飲：自家製咖哩與自家製系統的冒險",
-            "tags": ["職涯", "創業"],
-            "speaker": "Ben",
-            "description": "軟體和咖哩的研發有很多相似之處，至少在知識的脈絡上，軟體的開發經驗是幫助很多的。\n這不是逃避現實的夢，是一段用肉身證明脫離舒適圈只有不舒適的冒險旅程。軟體和咖哩雙線已經邁向第六年，有了第二間店，自家製的系統也持續進行中。從餐飲的第一線悟出產品開發的經驗，絕對是別的地方聽不到的經驗分享。"
-        },
-        {
-            "time": "17:45 – 17:50",
-            "title": "閉幕",
-            "tags": [],
-            "speaker": "總召"
-        }
-    ],
-    "day2": [
-        {
-            "time": "09:30 – 09:35",
-            "title": "開場",
-            "speaker": "總召",
-            "description": ""
-        },
-        {
-            "time": "09:35 – 09:45",
-            "title": "工商時間",
-            "speaker": "",
-            "tags": ["英文"]
-        },
-        {
-            "time": "09:45 – 10:35",
-            "title": "廟口長大的工程師可以做些什麼？",
-            "tags": ["職涯", "Indie Dev"],
-            "speaker": "吳政賢 (OAWU)",
-            "description": "宗教與軟體開發可以做些什麼？身為沒有正職 App 職場經驗的後端工程師，如何就自己經驗開發出一款在 App Store 上評價不錯的作品。開發中又要考量到什麼？合作？設計？體驗？行銷？經營？我將在這場會議中分享這個 APP 的開發心得！"
-        },
-        {
-            "time": "10:35 – 10:50",
-            "title": "休息",
-            "tags": [],
-            "speaker": ""
-        },
-        {
-            "time": "10:50 – 11:10",
-            "title": "使用 Cursor AI Coding 後學到的 5 件事",
-            "tags": ["AI", "工具"],
-            "speaker": "Harry 吳卓強",
-            "description": "在使用 Cursor 作為我的 AI 編碼夥伴數月後，我發現了意想不到的優勢和陷阱。本次演講分享了您在行銷文案中找不到的 5 個教訓。"
-        },
-        {
-            "time": "11:10 – 11:30",
-            "title": "Vibe Coding：用直覺寫出 AI 時代的速度感",
-            "tags": ["AI", "開發體驗"],
-            "speaker": "海總理",
-            "description": "過去半年嘗試用 Vibe Coding 的方式，每個月開發並上線一個產品。這場分享聚焦在實戰過程中與 AI 協作所獲得的心得，以及如何達成快速產出。"
-        },
-        {
-            "time": "11:30 – 11:50",
-            "title": "大語言模型塞進 iPhone：LLM on-device 的黑魔法與白嫖指南",
-            "tags": ["AI", "LLM", "On-device"],
-            "speaker": "大軍",
-            "description": "你可能聽過 ChatGPT、LLaMA、GPT-4，這些超強的語言模型通常都住在雲端大機房。但你知道嗎？現在有辦法把它們塞進你的 iPhone，隨時隨地自己跑、自己回話、完全不上雲！\n\n這場分享要帶你看看我怎麼讓一隻草泥馬（LLaMA）住進 iPhone 裡，還能即時跟你聊天不 lag。不靠網路、不丟雲端，純靠本地算力，把 open source 的 llama.cpp 跑起來，從 Swift 包到 Metal GPU，實現「裝置端生成式 AI」。"
-        },
-        {
-            "time": "11:50 – 12:10",
-            "title": "Build Mobile Identity into your app with mDL/mDoc",
-            "tags": ["身分驗證", "Security", "英文"],
-            "speaker": "Daiki Matsudate",
-            "description": "Smartphones are becoming digital wallets for our identities. In this session, we’ll explore how international standards like ISO/IEC 18013-5/7 and 23220 series are shaping the way governments and tech giants adopt mobile identity solutions. We’ll walk through Apple’s APIs for identity and age verification using mDLs and mDocs, and discuss real-world use cases that blend security, privacy, and user experience."
-        },
-        {
-            "time": "12:10 – 13:10",
-            "title": "午餐",
-            "tags": [],
-            "speaker": ""
-        },
-        {
-            "time": "13:10 – 14:00",
-            "title": "好想要 Swift iOS App 也能有的 Flutter & Jetpack Compose 功能",
-            "tags": ["跨平台", "UI"],
-            "speaker": "彼得潘",
-            "description": "學習 Flutter & Jetpack Compose 後，彼得潘還是喜歡開發 Swift iOS App，但也發現了它們一些方便和好用的地方，本分享將介紹 Flutter、Jetpack Compose、Dart、Kotlin、VS Code & Android Studio 不錯的功能，期待 Swift、Xcode & SwiftUI 未來有一天也能擁有這些功能。"
-        },
-        {
-            "time": "14:00 – 14:15",
-            "title": "休息",
-            "tags": [],
-            "speaker": ""
-        },
-        {
-            "time": "14:15 – 14:35",
-            "title": "App 資安知多少：我只是略懂略懂",
-            "tags": ["資安", "iOS"],
-            "speaker": "羊小咩",
-            "description": "寫App大家都說「要加密、要用 HTTPS、不要存明文」，但你有沒有想過，為什麼？很多時候我們只是照做，但不懂為什麼要這麼做。這場分享從開發者角度切入，深入剖析 OWASP Mobile Top 10 熱門資安問題，像是 Keychain 被偷看、怎樣會被中間人攻擊、為什麼破解工具可以讓駭客直接翻你的底牌。資安不是額外工作，而是寫程式的一部分。學會用加解密、MobSF、了解逆向攻擊方式，讓你從「照做」變「懂做」，不再只是知其然，也能知其所以然。"
-        },
-        {
-            "time": "14:35 – 14:55",
-            "title": "When Your App Needs a New Business Model: StoreKit Migration Without Breaking Everything",
-            "tags": ["英文"],
-            "speaker": "Astrid Lin",
-            "description": "Adding new purchase types to mature apps is risky business. When KKBOX needed to introduce a new in-app purchase model, we couldn't afford to disrupt existing users. This talk shares our real-world experience using StoreKit 2 for new features while keeping the original StoreKit API for legacy flows. Learn the technical gotchas, App Store review surprises, and practical strategies for payment system evolution in production apps. Perfect for developers facing similar legacy modernization challenges."
-        },
-        {
-            "time": "14:55 – 15:15",
-            "title": "Realtime Face Liveness Detection using TrueDepth",
-            "tags": ["CV", "Security"],
-            "speaker": "Ethan",
-            "description": "Ethan Fan 現任 9count 亞洲區總經理。在加入 9count 之前，他曾共同創辦兩家矽谷新創公司，並入選史丹佛創業加速器 StartX 和 Techstar Toronto。這兩家新創公司開發的技術和行動應用程式曾在 Google I/O 主題演講、TC Disrupt Battlefield 和 Apple Watch App Store 上亮相。他還擁有 10 多項美國專利。"
-        },
-        {
-            "time": "15:15 – 15:35",
-            "title": "休息",
-            "tags": [],
-            "speaker": ""
-        },
-        {
-            "time": "15:35 – 16:25",
-            "title": "iOS 工程師視角下的 MCP 協議",
-            "tags": ["通訊協定", "Swift"],
-            "speaker": "倪僑德 Aaron Ni",
-            "description": "想讓LLM使用自家的工具做事嗎？\n想讓LLM幫你用你想要的方式，加速開發中瑣碎的流程嗎？\n抑或是看著github上玲琅滿目的MCP service，想下載，卻又擔心裡面不知是否有暗藏什麼有資安風險，可能竊取你資料的邏輯嗎？那表示是時候，該由你自己寫一個了\n\n這場分享會帶你從 iOS 工程師的角度，一起搞懂 Model Context Protocol（MCP）到底定義了什麼，怎麼運作\n並以簡單的案例示範如何打造屬於自己的 MCP Tool，讓 Cursor、Windsurf 這類 AI 助手可以直接和你自己的工具對話，再也不用自己複製貼上自家API的結果給AI。\n歡迎所有對自動化、AI 協作、Swift 實作有興趣的朋友一起來交流"
-        },
-        {
-            "time": "16:25 – 16:40",
-            "title": "大合照 & 休息",
-            "tags": [],
-            "speaker": ""
-        },
-        {
-            "time": "16:40 – 17:00",
-            "title": "Learning Engineering for Software Engineers",
-            "tags": ["職涯", "學習"],
-            "speaker": "劉信",
-            "description": "過去半個世紀內，我們在有效學習的科學理解上有長足的進展，可惜的是這些研究成果並不常被應用在個人的學習上。身為工程師，我們善於運用理論和科學思維來解決問題，但我們是否有用這個專長來面對「如何提升自身專業能力」這個問題？\n\n本議程會試著用工程師的語言，探討如何用工程思維來最佳化學習，並評估 AI 對學習帶來的威脅與機會。\n\n這場分享將帶你從工程師的角度，重新思考學習的方式，並探索如何在 AI 時代中持續成長。\nOver the last half-century, scientific understanding of how we learn has made significant strides.  Unfortunately, few of us apply those understandings to accelerate our growth.  As software engineers, we are experts at applying theory and scientific thinking to solve real-world problems, but have we applied the same mindset toward improving our own skills?\n\nIn this session, we'll use the language of software engineers to explore how we could use engineering principles to optimize our professional growth.  We'll also evaluate the threats and opportunities that AI brings to our growth."
-        },
-        {
-            "time": "17:00 – 17:20",
-            "title": "個人軟體時代",
-            "tags": ["職涯", "未來展望"],
-            "speaker": "13",
-            "description": "在合適的條件下，AI 可以快速產出優秀的程式碼。因此，未來將是許多人能輕鬆創造完全屬於自己軟體的時代。我將公開「透過 AI 工具打造完全屬於自己工作流程與生活風格的 Apps」的實驗過程，並且分享我對於 AI 會改變（或不會改變）人類哪些方面的看法。"
-        },
-        {
-            "time": "17:20 – 17:30",
-            "title": "閉幕",
-            "tags": [],
-            "speaker": "總召",
-            "description": ""
-        }
-    ]
+  "day1": [
+    {
+      "time": "09:30 – 09:40",
+      "title": "開場",
+      "tags": [],
+      "speaker": "總召",
+      "description": ""
+    },
+    {
+      "time": "09:40 – 09:50",
+      "title": "工商時間",
+      "tags": [
+        "英文"
+      ],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "09:50 – 10:40",
+      "title": "Let’s Functional Programming in Your Swift Code",
+      "tags": [
+        "Swift",
+        "架構",
+        "性能",
+        "函數式"
+      ],
+      "speaker": "鄭宇哲 UJ Cheng",
+      "description": "如何讓 Swift 程式碼更簡潔、可讀，是許多開發者追求的目標。函數式編程提供了一種更具表達力的寫法，讓我們能以直觀的語意處理資料與邏輯。本演講將介紹 Swift 到目前為止有的高階函數與使用技巧，並實際示範它們如何應用在 iOS 專案開發中，甚至是在刷題過程中。無論是提升演算法解題效率，還是改善專案架構，Functional Programming 都能為你的 Swift 程式碼帶來優雅的轉變。"
+    },
+    {
+      "time": "10:40 – 10:55",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "10:55 – 11:15",
+      "title": "Swift C++ Interop",
+      "tags": [
+        "Swift",
+        "性能",
+        "Interop",
+        "原生"
+      ],
+      "speaker": "zonble",
+      "description": "Swift C++ Interop 是在 2020 年左右開始開發，在 2023 年 WWDC 上宣布的特性，這幾年也不斷有新的變化。在這個 talk 中，會提到如何在 Swift 專案中混用 C++ 語法，以及使用時會遇到的限制與挑戰。"
+    },
+    {
+      "time": "11:15 – 11:35",
+      "title": "從 Array 探索 Swift 的效能設計",
+      "tags": [
+        "Swift",
+        "性能",
+        "編譯",
+        "英文"
+      ],
+      "speaker": "Yuki Aki",
+      "description": "This talk explores the evolving concept of performance in Swift, focusing on SE-0453, which introduces InlineArray—a fixed-size array type offering performance benefits over traditional Array. It addresses why InlineArray was introduced, when to use it, and what performance truly means in Swift. By diving into memory models (heap, stack, buffer), array history, and real-world performance implications, the talk aims to deepen understanding and reveal Swift’s potential on broader platforms, including embedded systems. Attendees will gain insights beyond everyday development, unlocking new perspectives on Swift’s roadmap and performance-driven future."
+    },
+    {
+      "time": "11:35 – 11:55",
+      "title": "Neumorphism × Liquid Glass：設計系統新進化",
+      "tags": [
+        "UI/UX",
+        "未來展望",
+        "設計",
+        "視覺"
+      ],
+      "speaker": "東東",
+      "description": "隨著 Apple 在 WWDC 2025 正式發布 Liquid Glass 設計語言，我們正見證繼 iOS 7 扁平化以來最重大的視覺革新。作為曾深度實作 Neumorphism 並應用於線上產品的開發者。本次分享將透過實際案例，深入探討 Neumorphism 與 Liquid Glass 的設計哲學，幫助大家從「什麼是好設計」進階到「為什麼這樣設計」的思維層次。"
+    },
+    {
+      "time": "11:55 – 12:15",
+      "title": "一人全端開發《台灣地震速報》的真實旅程",
+      "tags": [
+        "AI",
+        "獨立開發",
+        "公共服務",
+        "Side",
+        "Project"
+      ],
+      "speaker": "林子祐",
+      "description": "這是一個從 Side Project 開始、卻意外成為全台超過 200 萬下載防災 App 的真實故事。《台灣地震速報 - Taiwan EEW》如何在資源有限的情況下，從一人開發逐步打造出穩定的全端地震預警系統？本場分享將介紹如何透過 Firebase Firestore 傳遞即時地震資料、以 AWS SNS 完成高速推播通知，並在 iOS 前端設計清晰直覺的 UI。該 App 曾獲選台灣 Apple App Store 年度排行榜第五名、取得相關專利、也成為中央氣象署的合作對象。這不僅是一段技術整合的經驗，也是一位開發者如何用有限資源撐起公共服務的實踐記錄"
+    },
+    {
+      "time": "12:15 – 13:15",
+      "title": "午餐",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "13:15 – 14:05",
+      "title": "Live Activities in LINE：經驗與技術挑戰",
+      "tags": [
+        "UI/UX",
+        "架構",
+        "團隊合作",
+        "通知"
+      ],
+      "speaker": "qcl",
+      "description": "您是否曾經在動態島上看過動態通知？您知道LINE及其相關App也有動態通知嗎？\n\n在這次到分享中將會介紹動態通知的技術細節、實作過程中遇到的挑戰及在大型組織內推動新功能的經驗。"
+    },
+    {
+      "time": "14:05 – 14:20",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "14:20 – 14:40",
+      "title": "不是「哪個架構最好」，而是「你怎麼走到現在這裡」",
+      "tags": [
+        "架構",
+        "職涯",
+        "成長",
+        "決策"
+      ],
+      "speaker": "Eric Chen",
+      "description": "架構的選擇從來不是「對」或「錯」，而是來自開發過程中的現實取捨。\n本場分享回顧講者在接手一個混亂 iOS 專案時，如何從基礎的 MVVM 出發，依據每個階段遇到的問題，逐步導入 Combine、Swift Concurrency、Repository、Closure DI，到最後設計出模組化的 Coordinator 架構。\n除了介紹技術選擇的實作方式，也會分享每一步背後的選擇動機與過程，讓你能從中找到可能適合自己團隊的做法。"
+    },
+    {
+      "time": "14:40 – 15:00",
+      "title": "接手 10 年大雜燴：專案優化與產品開發掙扎",
+      "tags": [
+        "架構",
+        "團隊合作",
+        "職涯",
+        "性能"
+      ],
+      "speaker": "Vincent",
+      "description": "本議程將分享自己一人接手大型專案的心路歷程。將分享如何面對長期未維護的程式碼，同時滿足排著隊的商業需求、A/B測試，以及從多面向優化使用者體驗。詳細會分享與不同團隊負責人協調、設定目標、迭代改善，以及導入新工具的實務經驗。最後，講者將分享對專案未來的展望與規劃。"
+    },
+    {
+      "time": "15:00 – 15:20",
+      "title": "What We Learned from Building a Production App with TCA",
+      "tags": [
+        "架構",
+        "TCA",
+        "可維護性",
+        "英文"
+      ],
+      "speaker": "YC Hsu",
+      "description": "TCA(The Composable Architecture) changed how we think about building apps. In this session, I’ll share our experience using TCA in production: what made us choose it, what surprised us, what helped us succeed, and what we suggest to you before you try TCA."
+    },
+    {
+      "time": "15:20 – 15:40",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "15:40 – 16:30",
+      "title": "TCA 演化史：單向資料流如何繁衍成架構雨林",
+      "tags": [
+        "架構",
+        "TCA",
+        "模組化",
+        "演化"
+      ],
+      "speaker": "Art",
+      "description": "從單向資料流出發，TCA 歷經 Dependency、Reducer Protocol、Navigation、Macro、Observation、Sharing State 等七次關鍵「突變」，Point-Free 以實驗般的嚴謹與巧思，逐步把凌亂樣板淬煉成高可測、易組裝的架構雨林。本場次將帶你拆解每一次演化背後的痛點、策略與收穫，一窺現代 iOS 架構的進化路徑。"
+    },
+    {
+      "time": "16:30 – 16:45",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "16:45 – 17:05",
+      "title": "逃出隔離區：Swift 6 編譯錯誤逃脫秀",
+      "tags": [
+        "Swift",
+        "Concurrency",
+        "調試",
+        "兼容性"
+      ],
+      "speaker": "高海峰 Hai Feng Kao",
+      "description": "Swift Concurrency 將在 Swift 6 中全面啟用，這雖然提升了安全性，卻也讓原本看似合理的程式碼突然無法編譯。本議程將帶你深入理解常見錯誤訊息背後的原理，解析 @MainActor、Sendable、nonisolated 等關鍵概念，並透過實際案例展示 Swift Concurrency 中容易踩到的地雷與解法。不論你是剛接觸並發，或已在大型專案中實戰，這場分享都能幫助你更穩健地迎接 Swift 6 的變革"
+    },
+    {
+      "time": "17:05 – 17:25",
+      "title": "坐在面試桌兩端：Interviewer × Candidate",
+      "tags": [
+        "職涯",
+        "面試",
+        "成長"
+      ],
+      "speaker": "Allen Lai",
+      "description": "因緣際會下成為公司 Staff Engineer 職位的 technical interviewer, 期間受到管理層與 HR 肯定。\n反思自己可能做對了什麼，並回顧作為 candidate 時的錯誤與教訓。\n藉由自己作為 candidate 與 interviewer 的雙重經驗，分享如何以健康的心態和充分的準備迎接面試與被面試，打造更友善的職場面試環境。"
+    },
+    {
+      "time": "17:25 – 17:45",
+      "title": "從軟體到餐飲：自家製咖哩與自家製系統的冒險",
+      "tags": [
+        "職涯",
+        "獨立開發",
+        "創業",
+        "Side",
+        "Project"
+      ],
+      "speaker": "Ben",
+      "description": "軟體和咖哩的研發有很多相似之處，至少在知識的脈絡上，軟體的開發經驗是幫助很多的。\n這不是逃避現實的夢，是一段用肉身證明脫離舒適圈只有不舒適的冒險旅程。軟體和咖哩雙線已經邁向第六年，有了第二間店，自家製的系統也持續進行中。從餐飲的第一線悟出產品開發的經驗，絕對是別的地方聽不到的經驗分享。"
+    },
+    {
+      "time": "17:45 – 17:50",
+      "title": "閉幕",
+      "tags": [],
+      "speaker": "總召",
+      "description": ""
+    }
+  ],
+  "day2": [
+    {
+      "time": "09:30 – 09:35",
+      "title": "開場",
+      "tags": [],
+      "speaker": "總召",
+      "description": ""
+    },
+    {
+      "time": "09:35 – 09:45",
+      "title": "工商時間",
+      "tags": [
+        "英文"
+      ],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "09:45 – 10:35",
+      "title": "廟口長大的工程師可以做些什麼？",
+      "tags": [
+        "職涯",
+        "獨立開發",
+        "開發經驗",
+        "Side",
+        "Project"
+      ],
+      "speaker": "吳政賢 OAWU",
+      "description": "宗教與軟體開發可以做些什麼？身為沒有正職 App 職場經驗的後端工程師，如何就自己經驗開發出一款在 App Store 上評價不錯的作品。開發中又要考量到什麼？合作？設計？體驗？行銷？經營？我將在這場會議中分享這個 APP 的開發心得！"
+    },
+    {
+      "time": "10:35 – 10:50",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "10:50 – 11:10",
+      "title": "使用 AI Coding 後學到的 5 件事",
+      "tags": [
+        "AI",
+        "開發經驗",
+        "職涯",
+        "快速開發"
+      ],
+      "speaker": "Harry 吳卓強",
+      "description": "在使用 Cursor 作為我的 AI 編碼夥伴數月後，我發現了意想不到的優勢和陷阱。本次演講分享了您在行銷文案中找不到的 5 個教訓。"
+    },
+    {
+      "time": "11:10 – 11:30",
+      "title": "Vibe Coding：用直覺寫出 AI 時代的速度感",
+      "tags": [
+        "AI",
+        "快速開發",
+        "職涯",
+        "獨立開發"
+      ],
+      "speaker": "海總理",
+      "description": "過去半年嘗試用 Vibe Coding 的方式，每個月開發並上線一個產品。這場分享聚焦在實戰過程中與 AI 協作所獲得的心得，以及如何達成快速產出。"
+    },
+    {
+      "time": "11:30 – 11:50",
+      "title": "大語言模型塞進 iPhone：LLM on-device 的黑魔法與白嫖指南",
+      "tags": [
+        "AI",
+        "性能",
+        "LLM",
+        "On-device"
+      ],
+      "speaker": "大軍",
+      "description": "你可能聽過 ChatGPT、LLaMA、GPT-4，這些超強的語言模型通常都住在雲端大機房。但你知道嗎？現在有辦法把它們塞進你的 iPhone，隨時隨地自己跑、自己回話、完全不上雲！\n\n這場分享要帶你看看我怎麼讓一隻草泥馬（LLaMA）住進 iPhone 裡，還能即時跟你聊天不 lag。不靠網路、不丟雲端，純靠本地算力，把 open source 的 llama.cpp 跑起來，從 Swift 包到 Metal GPU，實現「裝置端生成式 AI」。"
+    },
+    {
+      "time": "11:50 – 12:10",
+      "title": "Build Mobile Identity into your app with mDL/mDoc",
+      "tags": [
+        "資安",
+        "API",
+        "隱私",
+        "英文"
+      ],
+      "speaker": "Daiki Matsudate",
+      "description": "Smartphones are becoming digital wallets for our identities. In this session, we’ll explore how international standards like ISO/IEC 18013-5/7 and 23220 series are shaping the way governments and tech giants adopt mobile identity solutions. We’ll walk through Apple’s APIs for identity and age verification using mDLs and mDocs, and discuss real-world use cases that blend security, privacy, and user experience."
+    },
+    {
+      "time": "12:10 – 13:10",
+      "title": "午餐",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "13:10 – 14:00",
+      "title": "好想要 Swift iOS App 也能有的 Flutter & Jetpack Compose 功能",
+      "tags": [
+        "Swift",
+        "UI/UX",
+        "跨平台",
+        "生產力"
+      ],
+      "speaker": "彼得潘",
+      "description": "學習 Flutter & Jetpack Compose 後，彼得潘還是喜歡開發 Swift iOS App，但也發現了它們一些方便和好用的地方，本分享將介紹 Flutter、Jetpack Compose、Dart、Kotlin、VS Code & Android Studio 不錯的功能，期待 Swift、Xcode & SwiftUI 未來有一天也能擁有這些功能。"
+    },
+    {
+      "time": "14:00 – 14:15",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "14:15 – 14:35",
+      "title": "App 資安知多少：我只是略懂略懂",
+      "tags": [
+        "資安",
+        "防禦",
+        "架構",
+        "漏洞"
+      ],
+      "speaker": "羊小咩",
+      "description": "寫App⼤家都說「要加密、要⽤ HTTPS、不要存明⽂」，但你有沒有想過，為什麼？ 很多時候我們只是照做，但不懂為什麼要這麼做。這場分享從開發者⾓度切入，介紹 OWASP Mobile Top 10 熱⾨資安問題，中間⼈攻擊、為什麼破解⼯具可以讓駭客直接翻你的底牌。資安不是額外⼯作，⽽是寫程 式的⼀部分。學會⽤加解密、MobSF、了解逆向攻擊⽅式，讓你從「照做」變「懂做」，不再只是知其然，也能知其所以然。"
+    },
+    {
+      "time": "14:35 – 14:55",
+      "title": "When Your App Needs a New Business Model: StoreKit Migration Without Breaking Everything",
+      "tags": [
+        "架構",
+        "API",
+        "StoreKit",
+        "英文"
+      ],
+      "speaker": "Astrid Lin",
+      "description": "Adding new purchase types to mature apps is risky business. When KKBOX needed to introduce a new in-app purchase model, we couldn't afford to disrupt existing users. This talk shares our real-world experience using StoreKit 2 for new features while keeping the original StoreKit API for legacy flows. Learn the technical gotchas, App Store review surprises, and practical strategies for payment system evolution in production apps. Perfect for developers facing similar legacy modernization challenges."
+    },
+    {
+      "time": "14:55 – 15:15",
+      "title": "Realtime Face Liveness Detection using TrueDepth",
+      "tags": [
+        "AI",
+        "資安",
+        "TrueDepth",
+        "生物辨識"
+      ],
+      "speaker": "Ethan",
+      "description": "Ethan Fan 現任 9count 亞洲區總經理。在加入 9count 之前，他曾共同創辦兩家矽谷新創公司，並入選史丹佛創業加速器 StartX 和 Techstar Toronto。這兩家新創公司開發的技術和行動應用程式曾在 Google I/O 主題演講、TC Disrupt Battlefield 和 Apple Watch App Store 上亮相。他還擁有 10 多項美國專利。"
+    },
+    {
+      "time": "15:15 – 15:35",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "15:35 – 16:25",
+      "title": "iOS 工程師視角下的 MCP 協議",
+      "tags": [
+        "AI",
+        "API",
+        "架構",
+        "通訊協定"
+      ],
+      "speaker": "倪僑德 Aaron Ni",
+      "description": "想讓LLM使用自家的工具做事嗎？\n想讓LLM幫你用你想要的方式，加速開發中瑣碎的流程嗎？\n抑或是看著github上玲琅滿目的MCP service，想下載，卻又擔心裡面不知是否有暗藏什麼有資安風險，可能竊取你資料的邏輯嗎？那表示是時候，該由你自己寫一個了\n\n這場分享會帶你從 iOS 工程師的角度，一起搞懂 Model Context Protocol（MCP）到底定義了什麼，怎麼運作\n並以簡單的案例示範如何打造屬於自己的 MCP Tool，讓 Cursor、Windsurf 這類 AI 助手可以直接和你自己的工具對話，再也不用自己複製貼上自家API的結果給AI。\n歡迎所有對自動化、AI 協作、Swift 實作有興趣的朋友一起來交流"
+    },
+    {
+      "time": "16:25 – 16:40",
+      "title": "大合照 & 休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "16:40 – 17:00",
+      "title": "Learning Engineering for Software Engineers",
+      "tags": [
+        "AI",
+        "職涯",
+        "未來展望",
+        "成長"
+      ],
+      "speaker": "劉信",
+      "description": "過去半個世紀內，我們在有效學習的科學理解上有長足的進展，可惜的是這些研究成果並不常被應用在個人的學習上。身為工程師，我們善於運用理論和科學思維來解決問題，但我們是否有用這個專長來面對「如何提升自身專業能力」這個問題？\n\n本議程會試著用工程師的語言，探討如何用工程思維來最佳化學習，並評估 AI 對學習帶來的威脅與機會。\n\nOver the last half-century, scientific understanding of how we learn has made significant strides.  Unfortunately, few of us apply those understandings to accelerate our growth.  As software engineers, we are experts at applying theory and scientific thinking to solve real-world problems, but have we applied the same mindset toward improving our own skills?\n\nIn this session, we'll use the language of software engineers to explore how we could use engineering principles to optimize our professional growth.  We'll also evaluate the threats and opportunities that AI brings to our growth."
+    },
+    {
+      "time": "17:00 – 17:20",
+      "title": "個人軟體時代",
+      "tags": [
+        "AI",
+        "職涯",
+        "未來展望",
+        "獨立開發"
+      ],
+      "speaker": "13",
+      "description": "在合適的條件下，AI 可以快速產出優秀的程式碼。因此，未來將是許多人能輕鬆創造完全屬於自己軟體的時代。我將公開「透過 AI 工具打造完全屬於自己工作流程與生活風格的 Apps」的實驗過程，並且分享我對於 AI 會改變（或不會改變）人類哪些方面的看法。"
+    },
+    {
+      "time": "17:20 – 17:30",
+      "title": "閉幕",
+      "tags": [],
+      "speaker": "總召",
+      "description": ""
+    }
+  ]
 }
