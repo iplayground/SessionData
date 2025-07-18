@@ -14,6 +14,19 @@
   },
   {
     "id": 2,
+    "name": "吳政賢 OAWU",
+    "title": "一個普通的 Web 工程師",
+    "intro": "我是一位熱愛寫程式的軟體開發者，對領域沒有特別偏好，重點是能解決問題、實現目的，手段不限。\n常被問喜歡前端、後端、App 還是系統？老實說我也不確定。對我來說，開發出「有人用、有人喜歡」的產品才是成就感來源。\n我不太追求新技術，比起技術，我更在乎的是作品能被喜歡。\n也因為對廟會的熱愛，我從後端、前端、系統一路做到 App，做出了一個獲得超過五萬人好評的服務。",
+    "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/speakers/speaker_吳政賢.jpg",
+    "url": "",
+    "fb": "https://www.facebook.com/oawu.tw/",
+    "github": "https://github.com/oawu",
+    "linkedin": "",
+    "threads": "https://www.threads.com/@oawu.tw",
+    "x": ""
+  },
+  {
+    "id": 3,
     "name": "zonble",
     "title": "Flutter GDE. 軟體工程師.",
     "intro": "Flutter GDE. 軟體工程師.",
@@ -26,7 +39,7 @@
     "x": "https://x.com/zonble"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Yuki Aki",
     "title": "LY Corporation iOS Engineer",
     "intro": "Yuki is an iOS Engineer at LY Corporation. He works for LINE, improving the Build System of the LINE application (which is most popular messaging application in Japan). He has spoken at many conferences and meetups as he enjoys talking about what he learned while coding in Swift. He also contributed to OSS projects, like Swift Compiler, fastlane, and XcodeGen.",
@@ -39,7 +52,7 @@
     "x": "https://x.com/___freddi___"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "東東",
     "title": "PicCollage iOS Developer",
     "intro": "自稱雜學系工程師。\n名片上寫 iOS 工程師，技能樹卻點滿了 React 和 Vue。\n有時候會忍不住手癢，跑去寫點 Go 和 Rust。\n希望用自己的產品，為這個世界添一點新鮮感。",
@@ -52,7 +65,7 @@
     "x": ""
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "林子祐",
     "title": "美國華盛頓大學 (University of Washington)\nTaiwan EEW App 擁有者 / 獨立開發者",
     "intro": "我是林子祐，目前是美國華盛頓大學工程學院的大二學生，準備往電腦工程的方向發展。平常熱愛寫程式、折騰硬體，也很喜歡把小點子變成真的東西。《台灣地震速報》原本只是我課餘自學、動手做的小專案，沒想一路做到全台 200 萬人下載，變成大家地震來時第一時間會打開的 App。一路上我學到的不只是寫程式，還包括怎麼應對用戶回饋、怎麼在半夜地震時冷靜 debug，還有怎麼不被自己設計的推播嚇醒。除了 App，我也有在工研院實習，參與智慧機器人（Jetson Nano 平台）開發，學期間也在校內 Husky Robotics 社團開發 STM32 的韌體。希望透過這次分享，把我的開發故事講給你聽，也許能讓你少踩幾個雷，多做一點你想完成的東西。",
@@ -65,7 +78,7 @@
     "x": ""
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "qcl",
     "title": "LINE Taiwan Limited  Senior iOS Developer",
     "intro": "曾效力於台灣 Yahoo、荷蘭 Booking.com，現任職於 LINE Taiwan Limited 的資深 iOS 工程師。不知不覺從產品功能開發、使用者介面實作一路到基礎建設及架構設計累積了 10 年經驗，負責的產品使用者規模越來越龐大。除了寫程式之外也很喜歡城市模擬類的遊戲，有破千小時的 Cities: Skylines 遊玩時數，比起遊戲，近年更在育兒領域投入了破萬的時數。",
@@ -78,7 +91,7 @@
     "x": "https://x.com/qingchengli"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Eric Chen",
     "title": "iOS Developer",
     "intro": "Hi，我是 Eric，OpenNet 的 iOS 工程師，也是一位正在兼職育兒的奶爸。\n有幸參與過幾次架構改善的計畫，過程中受惠於團隊同事與社群分享的豐富經驗，讓我能從混亂的專案中一點一滴摸索出可行的做法。\n這次想用最真實的方式，分享那些我們實際走過的過程與選擇。",
@@ -91,7 +104,7 @@
     "x": ""
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Vincent",
     "title": "楽天グループ株式会社\nAssistant Manager / Lead of iOS team, Rebates Section",
     "intro": "Vincent 目前任職於楽天集團株式會社，帶領 Rebates iOS 團隊。他是一位從 LAMP 起家的資深 iOS 開發者，擁有超過 10 年經驗，擅長跨職能協作與探討老舊專案重構。曾獨自接手長年未維護的 iOS 專案，同時逐步導入現代化工具與建立團隊。現居日本，冬天時熱愛滑雪，平時喜歡開車、編織和在家做台灣料理。近期積極探索各類 AI 工具在既有專案中的實用性。",
@@ -104,7 +117,7 @@
     "x": "https://x.com/vince78718"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "YC Hsu",
     "title": "vocus Mobile Product Lead",
     "intro": "Mobile Product Lead at vocus; practitioner of TCA; passionate about crafting delightful and impactful products for the creator economy. ✨",
@@ -117,7 +130,7 @@
     "x": "https://x.com/echim2021"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Art",
     "title": "Ubiquiti Inc. iOS Team Lead",
     "intro": "從在 WWDC 2019 親眼見證到 SwiftUI 的誕生開始，Art 就熱衷於研究 SwiftUI 相關技術，而在 2022 加入 Ubiquiti 之後，更是一直使用 SwiftUI + TCA 開發至今。目前正因為一隻腳踏進管理而處於能寫 code 與不能寫 code 的疊加態。",
@@ -130,7 +143,7 @@
     "x": "https://x.com/jutoart"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "高海峰 Hai Feng Kao",
     "title": "",
     "intro": "iOS@Tapipei苦命固定講者",
@@ -143,7 +156,7 @@
     "x": ""
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Allen Lai",
     "title": "KKCompany(KKBOX) Senior Engineer",
     "intro": "從 iOS 9 開始成為 Apple 生態系開發者，在校時主修多媒體設計與生物影像辨識，第一份工作是軟體接案公司的 PM, 負責除了 coding 以外的大小事，待過多家公司與數次面試挑戰，目前在 KKCompany(KKBOX) 擔任 senior iOS engineer, 有一個可愛的女兒 :)",
@@ -156,7 +169,7 @@
     "x": "https://x.com/AllenEzailLai"
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Ben",
     "title": "笑貓咖哩 創辦人",
     "intro": "iOS Developer , 笑貓咖哩 co-founder , 世界上最適合寫code的地方一定要有雪",
@@ -167,19 +180,6 @@
     "linkedin": "",
     "threads": "",
     "x": "https://x.com/iamkuni"
-  },
-  {
-    "id": 14,
-    "name": "吳政賢 OAWU",
-    "title": "一個普通的 Web 工程師",
-    "intro": "我是一位熱愛寫程式的軟體開發者，對領域沒有特別偏好，重點是能解決問題、實現目的，手段不限。\n常被問喜歡前端、後端、App 還是系統？老實說我也不確定。對我來說，開發出「有人用、有人喜歡」的產品才是成就感來源。\n我不太追求新技術，比起技術，我更在乎的是作品能被喜歡。\n也因為對廟會的熱愛，我從後端、前端、系統一路做到 App，做出了一個獲得超過五萬人好評的服務。",
-    "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/speakers/speaker_吳政賢.jpg",
-    "url": "",
-    "fb": "https://www.facebook.com/oawu.tw/",
-    "github": "https://github.com/oawu",
-    "linkedin": "",
-    "threads": "https://www.threads.com/@oawu.tw",
-    "x": ""
   },
   {
     "id": 15,
