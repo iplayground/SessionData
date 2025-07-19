@@ -1,5 +1,15 @@
 import Foundation
 
+extension KeyedDecodingContainer {
+  func decodeURL(forKey key: Key) throws -> URL? {
+    guard let urlString = try decodeIfPresent(String.self, forKey: key),
+          !urlString.isEmpty else {
+      return nil
+    }
+    return URL(string: urlString)
+  }
+}
+
 public struct Speaker: Codable {
   public let id: Int
   public let name: String
@@ -22,24 +32,15 @@ public struct Speaker: Codable {
     title = try container.decodeIfPresent(String.self, forKey: .title)
     intro = try container.decode(String.self, forKey: .intro)
     
-    // Helper function to decode optional URLs from strings
-    func decodeURL(forKey key: CodingKeys) throws -> URL? {
-      guard let urlString = try container.decodeIfPresent(String.self, forKey: key),
-            !urlString.isEmpty else {
-        return nil
-      }
-      return URL(string: urlString)
-    }
-    
-    // Decode all URL fields
-    photo = try decodeURL(forKey: .photo)
-    url = try decodeURL(forKey: .url)
-    fb = try decodeURL(forKey: .fb)
-    github = try decodeURL(forKey: .github)
-    linkedin = try decodeURL(forKey: .linkedin)
-    threads = try decodeURL(forKey: .threads)
-    x = try decodeURL(forKey: .x)
-    ig = try decodeURL(forKey: .ig)
+    // Decode all URL fields using shared extension
+    photo = try container.decodeURL(forKey: .photo)
+    url = try container.decodeURL(forKey: .url)
+    fb = try container.decodeURL(forKey: .fb)
+    github = try container.decodeURL(forKey: .github)
+    linkedin = try container.decodeURL(forKey: .linkedin)
+    threads = try container.decodeURL(forKey: .threads)
+    x = try container.decodeURL(forKey: .x)
+    ig = try container.decodeURL(forKey: .ig)
   }
 }
 
@@ -81,7 +82,7 @@ public struct SponsorsData: Codable {
 public struct Staff: Codable {
   public let name: String
   public let title: String?
-  public let photo: URL
+  public let photo: URL?
   public let url: URL?
 
   public init(from decoder: Decoder) throws {
@@ -89,17 +90,9 @@ public struct Staff: Codable {
 
     name = try container.decode(String.self, forKey: .name)
     title = try container.decodeIfPresent(String.self, forKey: .title)
-    photo = try container.decode(URL.self, forKey: .photo)
-
-    // Helper function to decode optional URLs from strings
-    func decodeURL(forKey key: CodingKeys) throws -> URL? {
-      guard let urlString = try container.decodeIfPresent(String.self, forKey: key),
-            !urlString.isEmpty else {
-        return nil
-      }
-      return URL(string: urlString)
-    }
     
-    url = try decodeURL(forKey: .url)
+    // Decode URL fields using shared extension
+    photo = try container.decodeURL(forKey: .photo)
+    url = try container.decodeURL(forKey: .url)
   }
 }
