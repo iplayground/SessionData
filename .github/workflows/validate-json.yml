@@ -82,9 +82,6 @@ jobs:
         with:
           swift-version: "6.1"
       
-      - name: Build Swift Package
-        run: swift build --verbose
-        
       - name: Run Swift tests
         run: swift test --verbose
   
