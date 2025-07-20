@@ -4,21 +4,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "SessionDataValidator",
+    name: "SessionData",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "SessionDataValidator",
-            targets: ["SessionDataValidator"]),
+            name: "SessionData",
+            targets: ["SessionData"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SessionDataValidator"),
+            name: "SessionData"),
         .testTarget(
-            name: "SessionDataValidatorTests",
-            dependencies: ["SessionDataValidator"],
+            name: "SessionDataTests",
+            dependencies: ["SessionData"],
             resources: [
                 .copy("../../speakers.json"),
                 .copy("../../schedule.json"),

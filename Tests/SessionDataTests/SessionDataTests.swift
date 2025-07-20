@@ -1,9 +1,9 @@
 import Testing
 import Foundation
-@testable import SessionDataValidator
+@testable import SessionData
 
 @Suite("Session Data JSON Validation")
-struct SessionDataValidatorTests {
+struct SessionDataTests {
   
   @Test("Speakers JSON can be decoded")
   func speakersJSONDecoding() throws {
