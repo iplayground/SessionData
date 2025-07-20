@@ -1,0 +1,108 @@
+name: Validate JSON Files
+
+on:
+  push:
+    branches: [ '2025/v1' ]
+    paths:
+      - '**.json'
+      - 'Sources/**'
+      - 'Tests/**'
+      - 'Package.swift'
+      - '.github/workflows/validate-json.yml'
+  pull_request:
+    branches: [ '2025/v1' ]
+    paths:
+      - '**.json'
+      - 'Sources/**'
+      - 'Tests/**'
+      - 'Package.swift'
+      - '.github/workflows/validate-json.yml'
+  workflow_dispatch:
+
+jobs:
+  validate-json-syntax:
+    name: JSON Syntax Validation
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Validate JSON syntax with jq
+        run: |
+          echo "Validating JSON files with jq..."
+          
+          # Array of JSON files to validate
+          json_files=(
+            "schedule.json"
+            "sponsors.json"
+            "staffs.json"
+            "speakers.json"
+          )
+          
+          # Flag to track if any validation fails
+          has_error=0
+          
+          # Validate each JSON file
+          for file in "${json_files[@]}"; do
+            echo "Checking $file..."
+            if [ -f "$file" ]; then
+              if jq empty "$file" 2>/dev/null; then
+                echo "✅ $file is valid JSON"
+              else
+                echo "❌ $file is invalid JSON"
+                jq . "$file" 2>&1 || true
+                has_error=1
+              fi
+            else
+              echo "⚠️  $file not found"
+            fi
+            echo ""
+          done
+          
+          # Exit with error if any validation failed
+          if [ $has_error -eq 1 ]; then
+            echo "❌ JSON validation failed"
+            exit 1
+          else
+            echo "✅ All JSON files are valid"
+          fi
+  
+  validate-json-swift:
+    name: Swift Codable Validation
+    runs-on: ubuntu-latest
+    needs: validate-json-syntax
+    container:
+      image: swift:6.1
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Run Swift tests
+        run: swift test --verbose
+  
+  summary:
+    name: Validation Summary
+    runs-on: ubuntu-latest
+    needs: [validate-json-syntax, validate-json-swift]
+    if: always()
+    
+    steps:
+      - name: Summary
+        run: |
+          echo "## JSON Validation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ needs.validate-json-syntax.result }}" == "success" ] && [ "${{ needs.validate-json-swift.result }}" == "success" ]; then
+            echo "✅ All JSON files are valid and can be decoded by Swift Codable" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ JSON syntax validation (jq) passed" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ Swift Codable validation passed" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ All tests passed on Ubuntu" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ JSON validation failed" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            [ "${{ needs.validate-json-syntax.result }}" != "success" ] && echo "- ❌ JSON syntax validation (jq) failed" >> $GITHUB_STEP_SUMMARY
+            [ "${{ needs.validate-json-swift.result }}" != "success" ] && echo "- ❌ Swift Codable validation failed" >> $GITHUB_STEP_SUMMARY
+          fi

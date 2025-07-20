@@ -5,6 +5,8 @@
 ehthumbs.db
 Icon?
 Thumbs.db
+.build/
+.swiftpm/
 
 # VCS #
 #######
