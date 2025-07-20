@@ -9,7 +9,7 @@ struct SessionDataValidatorTests {
   func speakersJSONDecoding() throws {
     let jsonURL = Bundle.module.url(forResource: "speakers", withExtension: "json")!
     let data = try Data(contentsOf: jsonURL)
-    let speakers = try SessionDataValidator.validateSpeakers(from: data)
+    let speakers = try JSONDecoder().decode([Speaker].self, from: data)
     
     #expect(!speakers.isEmpty)
   }
@@ -18,7 +18,7 @@ struct SessionDataValidatorTests {
   func scheduleJSONDecoding() throws {
     let jsonURL = Bundle.module.url(forResource: "schedule", withExtension: "json")!
     let data = try Data(contentsOf: jsonURL)
-    let schedule = try SessionDataValidator.validateSchedule(from: data)
+    let schedule = try JSONDecoder().decode(Schedule.self, from: data)
     
     #expect(!schedule.day1.isEmpty)
     #expect(!schedule.day2.isEmpty)
@@ -28,7 +28,7 @@ struct SessionDataValidatorTests {
   func sponsorsJSONDecoding() throws {
     let jsonURL = Bundle.module.url(forResource: "sponsors", withExtension: "json")!
     let data = try Data(contentsOf: jsonURL)
-    let sponsorsData = try SessionDataValidator.validateSponsors(from: data)
+    let sponsorsData = try JSONDecoder().decode(SponsorsData.self, from: data)
     
     #expect(!sponsorsData.sponsors.isEmpty)
     #expect(!sponsorsData.partner.isEmpty)
@@ -38,7 +38,7 @@ struct SessionDataValidatorTests {
   func staffsJSONDecoding() throws {
     let jsonURL = Bundle.module.url(forResource: "staffs", withExtension: "json")!
     let data = try Data(contentsOf: jsonURL)
-    let staffs = try SessionDataValidator.validateStaffs(from: data)
+    let staffs = try JSONDecoder().decode([Staff].self, from: data)
     
     #expect(!staffs.isEmpty)
   }
