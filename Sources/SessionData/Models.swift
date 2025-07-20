@@ -1,16 +1,5 @@
 import Foundation
 
-extension KeyedDecodingContainer {
-  func decodeURL(forKey key: Key) throws -> URL? {
-    guard let urlString = try decodeIfPresent(String.self, forKey: key),
-      !urlString.isEmpty
-    else {
-      return nil
-    }
-    return URL(string: urlString)
-  }
-}
-
 public struct Speaker: Codable {
   public let id: Int
   public let name: String
@@ -62,12 +51,12 @@ public struct SponsorItem: Codable {
   public let name: String
   public let picture: URL?
   public let link: URL?
-  
+
   public init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: CodingKeys.self)
-    
+
     name = try container.decode(String.self, forKey: .name)
-    
+
     // Decode URL fields using shared extension
     picture = try container.decodeURL(forKey: .picture)
     link = try container.decodeURL(forKey: .link)
@@ -88,7 +77,7 @@ public struct Partner: Codable {
     let container = try decoder.container(keyedBy: CodingKeys.self)
 
     name = try container.decode(String.self, forKey: .name)
-    
+
     // Decode URL fields using shared extension
     icon = try container.decodeURL(forKey: .icon)
     link = try container.decodeURL(forKey: .link)
@@ -115,5 +104,16 @@ public struct Staff: Codable {
     // Decode URL fields using shared extension
     photo = try container.decodeURL(forKey: .photo)
     url = try container.decodeURL(forKey: .url)
+  }
+}
+
+extension KeyedDecodingContainer {
+  fileprivate func decodeURL(forKey key: Key) throws -> URL? {
+    guard let urlString = try decodeIfPresent(String.self, forKey: key),
+      !urlString.isEmpty
+    else {
+      return nil
+    }
+    return URL(string: urlString)
   }
 }
