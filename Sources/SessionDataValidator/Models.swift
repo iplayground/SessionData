@@ -3,7 +3,8 @@ import Foundation
 extension KeyedDecodingContainer {
   func decodeURL(forKey key: Key) throws -> URL? {
     guard let urlString = try decodeIfPresent(String.self, forKey: key),
-          !urlString.isEmpty else {
+      !urlString.isEmpty
+    else {
       return nil
     }
     return URL(string: urlString)
@@ -31,7 +32,7 @@ public struct Speaker: Codable {
     name = try container.decode(String.self, forKey: .name)
     title = try container.decodeIfPresent(String.self, forKey: .title)
     intro = try container.decode(String.self, forKey: .intro)
-    
+
     // Decode all URL fields using shared extension
     photo = try container.decodeURL(forKey: .photo)
     url = try container.decodeURL(forKey: .url)
@@ -70,8 +71,18 @@ public struct SponsorGroup: Codable {
 
 public struct Partner: Codable {
   public let name: String
-  public let icon: String
+  public let icon: URL?
   public let link: String
+  
+  public init(from decoder: Decoder) throws {
+    let container = try decoder.container(keyedBy: CodingKeys.self)
+    
+    name = try container.decode(String.self, forKey: .name)
+    link = try container.decode(String.self, forKey: .link)
+    
+    // Decode URL field using shared extension
+    icon = try container.decodeURL(forKey: .icon)
+  }
 }
 
 public struct SponsorsData: Codable {
@@ -90,7 +101,7 @@ public struct Staff: Codable {
 
     name = try container.decode(String.self, forKey: .name)
     title = try container.decodeIfPresent(String.self, forKey: .title)
-    
+
     // Decode URL fields using shared extension
     photo = try container.decodeURL(forKey: .photo)
     url = try container.decodeURL(forKey: .url)
