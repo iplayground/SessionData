@@ -1,6 +1,6 @@
 import Foundation
 
-public struct SponsorItem: Codable {
+public struct SponsorItem: Codable, Sendable, Equatable, Hashable {
   public let name: String
   public let picture: URL?
   public let link: URL?

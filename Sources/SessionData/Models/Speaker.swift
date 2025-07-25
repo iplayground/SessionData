@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Speaker: Codable {
+public struct Speaker: Codable, Sendable, Equatable, Hashable {
   public let id: Int
   public let name: String
   public let title: String?
