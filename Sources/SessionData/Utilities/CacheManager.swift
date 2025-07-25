@@ -4,11 +4,12 @@ import OSLog
 actor CacheManager {
   private let cacheDirectory: URL
   private let logger = Logger(subsystem: "SessionData", category: "CacheManager")
-  
+
   init(directory: String) {
-    let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+    let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+      .first!
     self.cacheDirectory = documentsPath.appendingPathComponent(directory, isDirectory: true)
-    
+
     // Create cache directory if it doesn't exist
     do {
       try FileManager.default.createDirectory(at: cacheDirectory, withIntermediateDirectories: true)
@@ -16,7 +17,7 @@ actor CacheManager {
       logger.error("Failed to create cache directory: \(error.localizedDescription)")
     }
   }
-  
+
   func save(_ data: Data, for key: String) {
     let fileURL = cacheDirectory.appendingPathComponent(key)
     do {
@@ -26,7 +27,7 @@ actor CacheManager {
       logger.error("Failed to save cache for key \(key): \(error.localizedDescription)")
     }
   }
-  
+
   func load(for key: String) -> Data? {
     let fileURL = cacheDirectory.appendingPathComponent(key)
     do {
@@ -38,7 +39,7 @@ actor CacheManager {
       return nil
     }
   }
-  
+
   func clear(for key: String) {
     let fileURL = cacheDirectory.appendingPathComponent(key)
     do {
@@ -48,10 +49,11 @@ actor CacheManager {
       logger.debug("Failed to clear cache for key \(key): \(error.localizedDescription)")
     }
   }
-  
+
   func clearAll() {
     do {
-      let files = try FileManager.default.contentsOfDirectory(at: cacheDirectory, includingPropertiesForKeys: nil)
+      let files = try FileManager.default.contentsOfDirectory(
+        at: cacheDirectory, includingPropertiesForKeys: nil)
       for file in files {
         try FileManager.default.removeItem(at: file)
       }
