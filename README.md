@@ -67,3 +67,58 @@
       "ig": ""
 	},
 
+
+## Swift Package
+
+此專案同時提供 Swift Package，讓 iOS/macOS 專案可以直接整合使用。
+
+### 安裝方式
+
+在 Xcode 中：
+1. File → Add Package Dependencies
+2. 輸入：`https://github.com/iplayground/SessionData`
+3. 選擇適當的版本
+
+或在 Package.swift 中添加：
+
+```swift
+dependencies: [
+    .package(
+        url: "https://github.com/iplayground/SessionData", 
+        from: "2025.0.0"
+    )
+]
+```
+
+### 使用方式
+
+```swift
+import SessionData
+
+let client = SessionDataClient.live
+
+// 取得所有行程
+let allSessions = try await client.fetchSchedules(nil)
+
+// 取得特定天數的行程（1 或 2）
+let day1Sessions = try await client.fetchSchedules(1)
+
+// 取得講者資料
+let speakers = try await client.fetchSpeakers()
+
+// 取得贊助商資料
+let sponsors = try await client.fetchSponsors()
+
+// 取得工作人員資料
+let staffs = try await client.fetchStaffs()
+```
+
+### 資料來源
+
+Swift Package 使用三層資料獲取策略：
+1. **網路優先**：從 GitHub 獲取最新的 JSON 資料
+2. **本地緩存**：網路失敗時使用之前緩存的資料
+3. **內建資源**：完全離線時使用打包在 app 內的 JSON 檔案
+
+這確保了在各種網路環境下都能正常運作。
+

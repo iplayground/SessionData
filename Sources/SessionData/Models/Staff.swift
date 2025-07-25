@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Staff: Codable {
+public struct Staff: Codable, Sendable, Equatable, Hashable {
   public let name: String
   public let title: String?
   public let photo: URL?

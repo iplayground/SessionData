@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Partner: Codable {
+public struct Partner: Codable, Sendable, Equatable, Hashable {
   public let name: String
   public let icon: URL?
   public let link: URL?

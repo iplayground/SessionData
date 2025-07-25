@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Session: Codable {
+public struct Session: Codable, Sendable, Equatable, Hashable {
   public let time: String
   public let title: String
   public let tags: [String]
