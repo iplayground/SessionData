@@ -85,7 +85,7 @@
 dependencies: [
     .package(
         url: "https://github.com/iplayground/SessionData", 
-        from: "1.0.0"
+        from: "2025.0.0"
     )
 ]
 ```
