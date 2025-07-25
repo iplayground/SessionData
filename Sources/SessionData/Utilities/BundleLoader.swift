@@ -1,14 +1,23 @@
 import Foundation
 
 struct BundleLoader {
-  func load(file: String) -> Data {
+  enum BundleLoaderError: Error {
+    case resourceNotFound(String)
+    case dataLoadingFailed(String)
+  }
+
+  func load(file: String) throws -> Data {
     guard
       let url = Bundle.sessionData.url(
-        forResource: file.replacingOccurrences(of: ".json", with: ""), withExtension: "json"),
-      let data = try? Data(contentsOf: url)
+        forResource: file.replacingOccurrences(of: ".json", with: ""), withExtension: "json")
     else {
-      fatalError("Failed to load \(file) from bundle")
+      throw BundleLoaderError.resourceNotFound("Resource \(file) not found in bundle")
     }
-    return data
+
+    do {
+      return try Data(contentsOf: url)
+    } catch {
+      throw BundleLoaderError.dataLoadingFailed("Failed to load data from \(file): \(error)")
+    }
   }
 }

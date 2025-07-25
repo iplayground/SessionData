@@ -91,7 +91,7 @@ extension LiveSessionDataClient {
       }
 
       // Fall back to bundle
-      return bundleLoader.load(file: endpoint)
+      return try bundleLoader.load(file: endpoint)
     }
   }
 }
