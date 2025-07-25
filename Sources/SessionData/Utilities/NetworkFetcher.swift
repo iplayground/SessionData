@@ -1,4 +1,7 @@
 import Foundation
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 
 protocol NetworkFetching {
   func fetch(endpoint: String) async throws -> Data
@@ -9,7 +12,9 @@ struct NetworkFetcher: NetworkFetching {
   private let urlSession: URLSession
   
   init() {
-    self.urlSession = URLSession(configuration: .default)
+    let configuration = URLSessionConfiguration.default
+    configuration.timeoutIntervalForRequest = 30
+    self.urlSession = URLSession(configuration: configuration)
   }
 
   func fetch(endpoint: String) async throws -> Data {
