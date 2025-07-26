@@ -5,6 +5,12 @@ import PackageDescription
 
 let package = Package(
   name: "SessionData",
+  platforms: [
+    .iOS(.v14),
+    .macOS(.v11),
+    .tvOS(.v14),
+    .watchOS(.v7)
+  ],
   products: [
     // Products define the executables and libraries a package produces, making them visible to other packages.
     .library(
@@ -15,7 +21,14 @@ let package = Package(
     // Targets are the basic building blocks of a package, defining a module or a test suite.
     // Targets can depend on other targets in this package and products from dependencies.
     .target(
-      name: "SessionData"),
+      name: "SessionData",
+      resources: [
+        .copy("../../speakers.json"),
+        .copy("../../schedule.json"),
+        .copy("../../sponsors.json"),
+        .copy("../../staffs.json"),
+      ]
+    ),
     .testTarget(
       name: "SessionDataTests",
       dependencies: ["SessionData"],
