@@ -15,7 +15,7 @@
 * description - 詳細描述，純文字，支援換行顯示（請使用\n），展開後可見
 
 範例：
-
+```json
     {
         "time": "09:50 – 10:40",
         "title": "Let’s Functional Programming in Your Swift Code",
@@ -23,7 +23,7 @@
         "speaker": "鄭宇哲 UJ Cheng",
         "description": "如何讓 Swift 程式碼更簡潔、可讀，是許多開發者追求的目標。函數式編程提供了一種更具表達力的寫法，讓我們能以直觀的語意處理資料與邏輯。本演講將介紹 Swift 到目前為止有的高階函數與使用技巧，並實際示範它們如何應用在 iOS 專案開發中，甚至是在刷題過程中。無論是提升演算法解題效率，還是改善專案架構，Functional Programming 都能為你的 Swift 程式碼帶來優雅的轉變。"
     }
-
+```
 
 ## 講者群
 資訊處理規則
@@ -51,7 +51,7 @@
 
 
 範例：
-
+```json
 	{
       "id": 1,
 	  "name": "鄭宇哲 UJ Cheng",
@@ -66,7 +66,57 @@
       "x": "https://x.com/iamhands0me",
       "ig": ""
 	},
+```
 
+## 贊助商和合作夥伴
+資訊處理規則
+1. sponsors 為分級陣列，依照配置順序顯示（由上到下）
+2. 每個分級下 items 為贊助商陣列，依照配置順序顯示（由左到右）
+3. partner 為合作夥伴陣列，依照配置順序顯示
+
+參數說明：
+* `sponsors.title` - 分級名稱，純文字
+* `sponsors.items[].name` - 贊助商名稱，純文字
+* `sponsors.items[].picture` - logo 圖片網址，純文字
+* `sponsors.items[].link` - 贊助商網址，純文字
+* `partner[].name` - 合作夥伴名稱，純文字
+* `partner[].icon` - 合作夥伴 logo 圖片網址，純文字
+* `partner[].link` - 合作夥伴網址，純文字
+
+範例：
+```json
+{
+  "sponsors": [
+    {
+      "title": "鑽石級",
+      "items": [
+        {
+          "name": "RevenueCat",
+          "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/sponsors/logo_revenuecat.png",
+          "link": "https://www.revenuecat.com/"
+        }
+      ]
+    },
+    {
+      "title": "白銀級",
+      "items": [
+        {
+          "name": "Dcard",
+          "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/sponsors/logo_dcard.png",
+          "link": "https://www.dcard.tw"
+        }
+      ]
+    }
+  ],
+  "partner": [
+    {
+      "name": "CoocaHeads Taipei",
+      "icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/partner/logo_cocoaheads_taipei.png",
+      "link": "https://www.facebook.com/groups/cocoaheads.taipei/"
+    }
+  ]
+}
+```
 
 ## Swift Package
 
