@@ -1,6 +1,7 @@
 import Foundation
+
 #if canImport(FoundationNetworking)
-import FoundationNetworking
+  import FoundationNetworking
 #endif
 
 protocol NetworkFetching {
@@ -10,7 +11,7 @@ protocol NetworkFetching {
 struct NetworkFetcher: NetworkFetching {
   let baseURL = "https://raw.githubusercontent.com/iplayground/SessionData/refs/heads/2025/v1/"
   private let urlSession: URLSession
-  
+
   init() {
     let configuration = URLSessionConfiguration.default
     configuration.timeoutIntervalForRequest = 30

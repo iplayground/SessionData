@@ -1,12 +1,13 @@
 import Foundation
+
 #if canImport(OSLog)
-import OSLog
+  import OSLog
 #endif
 
 actor CacheManager {
   private let cacheDirectory: URL
   #if canImport(OSLog)
-  private let logger = Logger(subsystem: "SessionData", category: "CacheManager")
+    private let logger = Logger(subsystem: "SessionData", category: "CacheManager")
   #endif
 
   init(directory: String) {
@@ -19,9 +20,9 @@ actor CacheManager {
       try FileManager.default.createDirectory(at: cacheDirectory, withIntermediateDirectories: true)
     } catch {
       #if canImport(OSLog)
-      logger.error("Failed to create cache directory: \(error.localizedDescription)")
+        logger.error("Failed to create cache directory: \(error.localizedDescription)")
       #else
-      print("[CacheManager] Failed to create cache directory: \(error.localizedDescription)")
+        print("[CacheManager] Failed to create cache directory: \(error.localizedDescription)")
       #endif
     }
   }
@@ -31,15 +32,15 @@ actor CacheManager {
     do {
       try data.write(to: fileURL)
       #if canImport(OSLog)
-      logger.debug("Successfully cached data for key: \(key)")
+        logger.debug("Successfully cached data for key: \(key)")
       #else
-      print("[CacheManager] Successfully cached data for key: \(key)")
+        print("[CacheManager] Successfully cached data for key: \(key)")
       #endif
     } catch {
       #if canImport(OSLog)
-      logger.error("Failed to save cache for key \(key): \(error.localizedDescription)")
+        logger.error("Failed to save cache for key \(key): \(error.localizedDescription)")
       #else
-      print("[CacheManager] Failed to save cache for key \(key): \(error.localizedDescription)")
+        print("[CacheManager] Failed to save cache for key \(key): \(error.localizedDescription)")
       #endif
     }
   }
@@ -49,16 +50,16 @@ actor CacheManager {
     do {
       let data = try Data(contentsOf: fileURL)
       #if canImport(OSLog)
-      logger.debug("Successfully loaded cached data for key: \(key)")
+        logger.debug("Successfully loaded cached data for key: \(key)")
       #else
-      print("[CacheManager] Successfully loaded cached data for key: \(key)")
+        print("[CacheManager] Successfully loaded cached data for key: \(key)")
       #endif
       return data
     } catch {
       #if canImport(OSLog)
-      logger.debug("Failed to load cache for key \(key): \(error.localizedDescription)")
+        logger.debug("Failed to load cache for key \(key): \(error.localizedDescription)")
       #else
-      print("[CacheManager] Failed to load cache for key \(key): \(error.localizedDescription)")
+        print("[CacheManager] Failed to load cache for key \(key): \(error.localizedDescription)")
       #endif
       return nil
     }
@@ -69,15 +70,15 @@ actor CacheManager {
     do {
       try FileManager.default.removeItem(at: fileURL)
       #if canImport(OSLog)
-      logger.debug("Successfully cleared cache for key: \(key)")
+        logger.debug("Successfully cleared cache for key: \(key)")
       #else
-      print("[CacheManager] Successfully cleared cache for key: \(key)")
+        print("[CacheManager] Successfully cleared cache for key: \(key)")
       #endif
     } catch {
       #if canImport(OSLog)
-      logger.debug("Failed to clear cache for key \(key): \(error.localizedDescription)")
+        logger.debug("Failed to clear cache for key \(key): \(error.localizedDescription)")
       #else
-      print("[CacheManager] Failed to clear cache for key \(key): \(error.localizedDescription)")
+        print("[CacheManager] Failed to clear cache for key \(key): \(error.localizedDescription)")
       #endif
     }
   }
@@ -90,15 +91,15 @@ actor CacheManager {
         try FileManager.default.removeItem(at: file)
       }
       #if canImport(OSLog)
-      logger.debug("Successfully cleared all cache")
+        logger.debug("Successfully cleared all cache")
       #else
-      print("[CacheManager] Successfully cleared all cache")
+        print("[CacheManager] Successfully cleared all cache")
       #endif
     } catch {
       #if canImport(OSLog)
-      logger.error("Failed to clear all cache: \(error.localizedDescription)")
+        logger.error("Failed to clear all cache: \(error.localizedDescription)")
       #else
-      print("[CacheManager] Failed to clear all cache: \(error.localizedDescription)")
+        print("[CacheManager] Failed to clear all cache: \(error.localizedDescription)")
       #endif
     }
   }
