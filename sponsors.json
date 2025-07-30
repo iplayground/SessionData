@@ -49,33 +49,28 @@
 	"partner": [
 		{
 			"name": "CoocaHeads Taipei",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/partner/logo_cocoaheads_taipei.png",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/partner/logo_cocoaheads_taipei.png",
 			"link": "https://www.facebook.com/groups/cocoaheads.taipei/"
 		},
 		{
-			"name": "CakeResume",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/sponsor/logo_cake_resume.png",
-			"link": "https://www.cakeresume.com"
-		},
-		{
-			"name": "Swift Taipei",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/partner/logo_swift_taipei.png",
-			"link": "https://www.meetup.com/Swift-Taipei-User-Group/"
-		},
-		{
-			"name": "weak self",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/partner/logo_weakself.jpg",
-			"link": "https://weakself.dev/"
-		},
-		{
 			"name": "iOS@Taipei",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/partner/logo_iOS_taipei.png",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/partner/logo_iOS_taipei.png",
 			"link": "https://www.facebook.com/groups/ios.taipei/"
 		},
 		{
-			"name": "APP Girls",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2020/v1/images/partner/logo_app_girls.png",
-			"link": "https://www.facebook.com/groups/1260405513988915/"
+			"name": "Swift Taichung",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/partner/logo_swifttaichung.jpg",
+			"link": "https://lu.ma/swift-taichung?k=c"
+		},
+		{
+			"name": "weak self",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/partner/logo_weakself.jpg",
+			"link": "https://weakself.dev/"
+		},
+        {
+			"name": "HackMD",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/partner/logo_HackMD.png",
+			"link": "https://hackmd.io/"
 		}
 	]
 }
