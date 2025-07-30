@@ -3,20 +3,8 @@ name: Validate JSON Files
 on:
   push:
     branches: [ '2025/v1' ]
-    paths:
-      - '**.json'
-      - 'Sources/**'
-      - 'Tests/**'
-      - 'Package.swift'
-      - '.github/workflows/validate-json.yml'
   pull_request:
     branches: [ '2025/v1' ]
-    paths:
-      - '**.json'
-      - 'Sources/**'
-      - 'Tests/**'
-      - 'Package.swift'
-      - '.github/workflows/validate-json.yml'
   workflow_dispatch:
 
 jobs:
