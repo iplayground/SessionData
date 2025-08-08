@@ -46,6 +46,14 @@
             ]
         }
 	],
+    "personal": [
+        {
+            "name": "Johnny",
+            "icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/personal/logo_johnny.png",
+            "link": "",
+            "description": "喬粉"
+        }
+    ],
 	"partner": [
 		{
 			"name": "CoocaHeads Taipei",
