@@ -48,10 +48,24 @@
 	],
     "personal": [
         {
+            "name": "Andy",
+            "icon": null,
+            "link": null
+        },
+        {
+            "name": "Dada",
+            "icon": "https://iplayground.io/2018/static/media/14362711_1443783055638586_3924866533217962148_o.e5215d5b.jpg",
+            "link": "https://twitter.com/nalydadad"
+        },
+        {
+            "name": "Superbil",
+            "icon": "https://avatars1.githubusercontent.com/u/59567?s=460&v=4",
+            "link": "https://twitter.com/superbil"
+        },
+        {
             "name": "Johnny",
             "icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/personal/logo_johnny.png",
-            "link": "",
-            "description": "喬粉"
+            "link": null
         }
     ],
 	"partner": [
