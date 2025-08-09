@@ -56,7 +56,7 @@
     },
     {
       "time": "11:15 – 11:35",
-      "title": "Understand Swift's performance from the Array: motivation, evolution, and future",
+      "title": "從 Array 探索 Swift 的效能設計",
       "tags": [
         "Swift",
         "性能",
@@ -137,7 +137,7 @@
         "職涯",
         "性能"
       ],
-      "speaker": "Vincent Chen",
+      "speaker": "Vincent",
       "description": "本議程將分享自己一人接手大型專案的心路歷程。將分享如何面對長期未維護的程式碼，同時滿足排著隊的商業需求、A/B測試，以及從多面向優化使用者體驗。詳細會分享與不同團隊負責人協調、設定目標、迭代改善，以及導入新工具的實務經驗。最後，講者將分享對專案未來的展望與規劃。"
     },
     {
@@ -274,7 +274,7 @@
         "快速開發"
       ],
       "speaker": "Harry 吳卓強",
-      "description": "在使用 AI 輔助寫程式數月後，我發現了意想不到的優勢和陷阱。本次演講分享了您在自媒體行銷文中找不到的 5 個教訓。"
+      "description": "在使用 Cursor 作為我的 AI 編碼夥伴數月後，我發現了意想不到的優勢和陷阱。本次演講分享了您在行銷文案中找不到的 5 個教訓。"
     },
     {
       "time": "11:10 – 11:30",
