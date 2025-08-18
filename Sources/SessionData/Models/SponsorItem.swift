@@ -1,9 +1,19 @@
 import Foundation
 
 public struct SponsorItem: Codable, Sendable, Equatable, Hashable {
-  public let name: String
-  public let picture: URL?
-  public let link: URL?
+  public var name: String
+  public var picture: URL?
+  public var link: URL?
+
+  public init(
+    name: String,
+    picture: URL?,
+    link: URL?
+  ) {
+    self.name = name
+    self.picture = picture
+    self.link = link
+  }
 
   public init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: CodingKeys.self)

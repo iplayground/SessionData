@@ -1,18 +1,47 @@
 import Foundation
 
 public struct Speaker: Codable, Sendable, Equatable, Hashable {
-  public let id: Int
-  public let name: String
-  public let title: String?
-  public let intro: String
-  public let photo: URL?
-  public let url: URL?
-  public let fb: URL?
-  public let github: URL?
-  public let linkedin: URL?
-  public let threads: URL?
-  public let x: URL?
-  public let ig: URL?
+  public var id: Int
+  public var name: String
+  public var title: String?
+  public var intro: String
+  public var photo: URL?
+  public var url: URL?
+  public var fb: URL?
+  public var github: URL?
+  public var linkedin: URL?
+  public var threads: URL?
+  public var x: URL?
+  public var ig: URL?
+
+  public init(
+    id: Int,
+    name: String,
+    title: String?,
+    intro: String,
+    photo: URL?,
+    url: URL?,
+    fb: URL?,
+    github: URL?,
+    linkedin: URL?,
+    threads: URL?,
+    x: URL?,
+    ig: URL?
+  ) {
+
+    self.id = id
+    self.name = name
+    self.title = title
+    self.intro = intro
+    self.photo = photo
+    self.url = url
+    self.fb = fb
+    self.github = github
+    self.linkedin = linkedin
+    self.threads = threads
+    self.x = x
+    self.ig = ig
+  }
 
   public init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: CodingKeys.self)

@@ -1,9 +1,19 @@
 import Foundation
 
 public struct Partner: Codable, Sendable, Equatable, Hashable {
-  public let name: String
-  public let icon: URL?
-  public let link: URL?
+  public var name: String
+  public var icon: URL?
+  public var link: URL?
+
+  public init(
+    name: String,
+    icon: URL?,
+    link: URL?
+  ) {
+    self.name = name
+    self.icon = icon
+    self.link = link
+  }
 
   public init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: CodingKeys.self)
