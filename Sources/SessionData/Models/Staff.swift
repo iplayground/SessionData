@@ -1,10 +1,22 @@
 import Foundation
 
 public struct Staff: Codable, Sendable, Equatable, Hashable {
-  public let name: String
-  public let title: String?
-  public let photo: URL?
-  public let url: URL?
+  public var name: String
+  public var title: String?
+  public var photo: URL?
+  public var url: URL?
+
+  public init(
+    name: String,
+    title: String?,
+    photo: URL?,
+    url: URL?
+  ) {
+    self.name = name
+    self.title = title
+    self.photo = photo
+    self.url = url
+  }
 
   public init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: CodingKeys.self)
