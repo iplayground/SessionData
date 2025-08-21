@@ -13,6 +13,11 @@ struct SessionDataTests {
     let speakers = try JSONDecoder().decode([Speaker].self, from: data)
 
     #expect(!speakers.isEmpty)
+
+    // Ensure speakers have unique id
+    let ids = speakers.map { $0.id }
+    let uniqueIDs = Set(ids)
+    #expect(ids.count == uniqueIDs.count, "Speakers should have unique ids")
   }
 
   @Test("Schedule JSON can be decoded")

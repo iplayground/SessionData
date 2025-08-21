@@ -13,13 +13,23 @@ struct LiveSessionDataClientTests {
     let expectedSchedule = Schedule(
       day1: [
         Session(
-          time: "09:00", title: "Keynote", tags: [], speaker: "Tim Cook",
-          description: "Opening keynote")
+          time: "09:00",
+          title: "Keynote",
+          tags: [],
+          speaker: "Tim Cook",
+          speakerID: nil,
+          description: "Opening keynote"
+        )
       ],
       day2: [
         Session(
-          time: "10:00", title: "SwiftUI", tags: ["UI"], speaker: "John Doe",
-          description: "Advanced SwiftUI")
+          time: "10:00",
+          title: "SwiftUI",
+          tags: ["UI"],
+          speaker: "John Doe",
+          speakerID: nil,
+          description: "Advanced SwiftUI"
+        )
       ]
     )
 
@@ -44,11 +54,23 @@ struct LiveSessionDataClientTests {
     let expectedSchedule = Schedule(
       day1: [
         Session(
-          time: "09:00", title: "Day 1 Session", tags: [], speaker: "Speaker 1", description: "")
+          time: "09:00",
+          title: "Day 1 Session",
+          tags: [],
+          speaker: "Speaker 1",
+          speakerID: nil,
+          description: ""
+        )
       ],
       day2: [
         Session(
-          time: "10:00", title: "Day 2 Session", tags: [], speaker: "Speaker 2", description: "")
+          time: "10:00",
+          title: "Day 2 Session",
+          tags: [],
+          speaker: "Speaker 2",
+          speakerID: nil,
+          description: ""
+        )
       ]
     )
 
@@ -77,8 +99,13 @@ struct LiveSessionDataClientTests {
     let cachedSchedule = Schedule(
       day1: [
         Session(
-          time: "09:00", title: "Cached Session", tags: [], speaker: "Cached Speaker",
-          description: "")
+          time: "09:00",
+          title: "Cached Session",
+          tags: [],
+          speaker: "Cached Speaker",
+          speakerID: nil,
+          description: ""
+        )
       ],
       day2: []
     )
@@ -106,8 +133,13 @@ struct LiveSessionDataClientTests {
     let bundleSchedule = Schedule(
       day1: [
         Session(
-          time: "09:00", title: "Bundle Session", tags: [], speaker: "Bundle Speaker",
-          description: "")
+          time: "09:00",
+          title: "Bundle Session",
+          tags: [],
+          speaker: "Bundle Speaker",
+          speakerID: nil,
+          description: ""
+        )
       ],
       day2: []
     )
