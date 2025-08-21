@@ -14,8 +14,13 @@ struct LiveSessionDataClientErrorTests {
     let testSchedule = Schedule(
       day1: [
         Session(
-          time: "09:00", title: "Cached Session", tags: [], speaker: "Cached Speaker",
-          description: "From cache")
+          time: "09:00",
+          title: "Cached Session",
+          tags: [],
+          speaker: "Cached Speaker",
+          speakerID: nil,
+          description: "From cache"
+        )
       ],
       day2: []
     )
