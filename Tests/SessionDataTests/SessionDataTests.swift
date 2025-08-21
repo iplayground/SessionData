@@ -25,11 +25,12 @@ struct SessionDataTests {
   func speakersJSONPropertiesConsistency() throws {
     // 讀取所有語言的 speakers 檔案，依 id 分組，檢查同 id 的 speaker 除了 name 與 title 外其他欄位都相同
     let allSpeakersByLanguage: [[Speaker]] = try DataLanguage.allCases.map { lang in
-      let url = Bundle.module.url(forResource: "speakers\(lang.fileNameSuffix)", withExtension: "json")!
+      let url = Bundle.module.url(
+        forResource: "speakers\(lang.fileNameSuffix)", withExtension: "json")!
       let data = try Data(contentsOf: url)
       return try JSONDecoder().decode([Speaker].self, from: data)
     }
-    
+
     // 建立 id -> [Speaker] 的對照表
     var speakersByID: [Int: [Speaker]] = [:]
     for speakers in allSpeakersByLanguage {
@@ -37,7 +38,7 @@ struct SessionDataTests {
         speakersByID[speaker.id, default: []].append(speaker)
       }
     }
-    
+
     // 檢查每個 id 的 speakers，除了 name 與 title 外其他欄位都要相同
     for (id, speakers) in speakersByID {
       guard let first = speakers.first else { continue }
@@ -45,9 +46,9 @@ struct SessionDataTests {
         // 比較除了 name 與 title 以外的欄位
         let firstComparable = Speaker(
           id: first.id,
-          name: "", // ignore
-          title: nil, // ignore
-          intro: "", // ignore
+          name: "",  // ignore
+          title: nil,  // ignore
+          intro: "",  // ignore
           photo: first.photo,
           url: first.url,
           fb: first.fb,
@@ -59,9 +60,9 @@ struct SessionDataTests {
         )
         let otherComparable = Speaker(
           id: other.id,
-          name: "", // ignore
-          title: nil, // ignore
-          intro: "", // ignore
+          name: "",  // ignore
+          title: nil,  // ignore
+          intro: "",  // ignore
           photo: other.photo,
           url: other.url,
           fb: other.fb,
