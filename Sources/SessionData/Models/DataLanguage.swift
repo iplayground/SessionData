@@ -14,6 +14,14 @@ public enum DataLanguage: Sendable, CaseIterable {
 }
 
 extension DataLanguage {
+  public var speakersFileName: String {
+    "speakers\(fileNameSuffix)"
+  }
+
+  public var scheduleFileName: String {
+    "schedule\(fileNameSuffix)"
+  }
+
   public var fileNameSuffix: String {
     switch self {
     case .traditionalChinese:
