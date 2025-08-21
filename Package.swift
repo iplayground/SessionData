@@ -25,6 +25,8 @@ let package = Package(
       resources: [
         .copy("../../speakers.json"),
         .copy("../../schedule.json"),
+        .copy("../../schedule_en.json"),
+        .copy("../../schedule_jp.json"),
         .copy("../../sponsors.json"),
         .copy("../../staffs.json"),
       ]
@@ -36,6 +38,8 @@ let package = Package(
         // Keep the relative path because other projects fetch the resources from the root of the project
         .copy("../../speakers.json"),
         .copy("../../schedule.json"),
+        .copy("../../schedule_en.json"),
+        .copy("../../schedule_jp.json"),
         .copy("../../sponsors.json"),
         .copy("../../staffs.json"),
       ]

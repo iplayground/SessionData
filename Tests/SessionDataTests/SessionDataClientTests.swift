@@ -39,9 +39,21 @@ struct SessionDataClientTests {
   func scheduleDayFiltering() async throws {
     // Create a test client with known data
     let testSession1 = Session(
-      time: "09:00", title: "Day 1 Session", tags: [], speaker: "Speaker 1", description: "")
+      time: "09:00",
+      title: "Day 1 Session",
+      tags: [],
+      speaker: "Speaker 1",
+      speakerID: nil,
+      description: ""
+    )
     let testSession2 = Session(
-      time: "10:00", title: "Day 2 Session", tags: [], speaker: "Speaker 2", description: "")
+      time: "10:00",
+      title: "Day 2 Session",
+      tags: [],
+      speaker: "Speaker 2",
+      speakerID: nil,
+      description: ""
+    )
 
     let client = SessionDataClient(
       fetchSchedules: { day in
