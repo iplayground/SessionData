@@ -21,62 +21,75 @@ struct SessionDataTests {
     #expect(ids.count == uniqueIDs.count, "Speakers should have unique ids")
   }
 
-  @Test("Speakers JSON files have the same properties except name, title, and intro")
+  @Test("Translated speakers JSON files match source of truth for non-translatable fields")
   func speakersJSONPropertiesConsistency() throws {
-    // 讀取所有語言的 speakers 檔案，依 id 分組，檢查同 id 的 speaker 除了 name 與 title 外其他欄位都相同
-    let allSpeakersByLanguage: [[Speaker]] = try DataLanguage.allCases.map { lang in
-      let url = Bundle.module.url(
-        forResource: "speakers\(lang.fileNameSuffix)", withExtension: "json")!
-      let data = try Data(contentsOf: url)
-      return try JSONDecoder().decode([Speaker].self, from: data)
-    }
+    let sourceOfTruthSpeakers = try loadSpeakers(for: .traditionalChinese)
+    let sourceByID = Dictionary(uniqueKeysWithValues: sourceOfTruthSpeakers.map { ($0.id, $0) })
 
-    // 建立 id -> [Speaker] 的對照表
-    var speakersByID: [Int: [Speaker]] = [:]
-    for speakers in allSpeakersByLanguage {
-      for speaker in speakers {
-        speakersByID[speaker.id, default: []].append(speaker)
-      }
-    }
+    let translatedLanguages = DataLanguage.allCases.filter { $0 != .traditionalChinese }
 
-    // 檢查每個 id 的 speakers，除了 name 與 title 外其他欄位都要相同
-    for (id, speakers) in speakersByID {
-      guard let first = speakers.first else { continue }
-      for other in speakers.dropFirst() {
-        // 比較除了 name 與 title 以外的欄位
-        let firstComparable = Speaker(
-          id: first.id,
-          name: "",  // ignore
-          title: nil,  // ignore
-          intro: "",  // ignore
-          photo: first.photo,
-          url: first.url,
-          fb: first.fb,
-          github: first.github,
-          linkedin: first.linkedin,
-          threads: first.threads,
-          x: first.x,
-          ig: first.ig
-        )
-        let otherComparable = Speaker(
-          id: other.id,
-          name: "",  // ignore
-          title: nil,  // ignore
-          intro: "",  // ignore
-          photo: other.photo,
-          url: other.url,
-          fb: other.fb,
-          github: other.github,
-          linkedin: other.linkedin,
-          threads: other.threads,
-          x: other.x,
-          ig: other.ig
-        )
-        #expect(
-          firstComparable == otherComparable,
-          "Speaker with id \(id) has mismatched properties (except name/title) between languages"
+    for language in translatedLanguages {
+      let translatedSpeakers = try loadSpeakers(for: language)
+      let fileName = "\(language.speakersFileName).json"
+
+      for translatedSpeaker in translatedSpeakers {
+        guard let sourceSpeaker = sourceByID[translatedSpeaker.id] else {
+          Issue.record(
+            "Speaker ID \(translatedSpeaker.id) exists in \(fileName) but not in source speakers.json"
+          )
+          continue
+        }
+
+        validateSpeakerFieldsMatch(
+          source: sourceSpeaker,
+          translated: translatedSpeaker,
+          translatedFileName: fileName
         )
       }
+
+      let translatedIDs = Set(translatedSpeakers.map(\.id))
+      let sourceIDs = Set(sourceOfTruthSpeakers.map(\.id))
+      let missingInTranslation = sourceIDs.subtracting(translatedIDs)
+
+      for missingID in missingInTranslation {
+        Issue.record(
+          "Speaker ID \(missingID) exists in source speakers.json but missing in \(fileName)")
+      }
+    }
+  }
+
+  private func loadSpeakers(for language: DataLanguage) throws -> [Speaker] {
+    let url = Bundle.module.url(
+      forResource: language.speakersFileName,
+      withExtension: "json"
+    )!
+    let data = try Data(contentsOf: url)
+    return try JSONDecoder().decode([Speaker].self, from: data)
+  }
+
+  private func validateSpeakerFieldsMatch(
+    source: Speaker,
+    translated: Speaker,
+    translatedFileName: String
+  ) {
+    let urlFields: [(keyPath: KeyPath<Speaker, URL?>, name: String)] = [
+      (\.photo, "photo"),
+      (\.url, "personal"),
+      (\.fb, "Facebook"),
+      (\.github, "GitHub"),
+      (\.linkedin, "LinkedIn"),
+      (\.threads, "Threads"),
+      (\.x, "X"),
+      (\.ig, "Instagram"),
+    ]
+
+    for (keyPath, fieldName) in urlFields {
+      let sourceValue = source[keyPath: keyPath]
+      let translatedValue = translated[keyPath: keyPath]
+      #expect(
+        sourceValue == translatedValue,
+        "Fix \(translatedFileName): Speaker \(source.id) \(fieldName) URL should be '\(sourceValue?.absoluteString ?? "nil")' but is '\(translatedValue?.absoluteString ?? "nil")'"
+      )
     }
   }
 
@@ -117,6 +130,98 @@ struct SessionDataTests {
           "Session '\(session.title)' has unknown speakerID: \(speakerID)")
       }
     }
+  }
+
+  @Test("Translated schedule JSON files match source of truth for speakerID and time")
+  func schedulesJSONPropertiesConsistency() throws {
+    let sourceSchedule = try loadSchedule(for: .traditionalChinese)
+
+    let translatedLanguages = DataLanguage.allCases.filter { $0 != .traditionalChinese }
+
+    for language in translatedLanguages {
+      let translatedSchedule = try loadSchedule(for: language)
+      let fileName = "\(language.scheduleFileName).json"
+
+      validateScheduleConsistency(
+        source: sourceSchedule,
+        translated: translatedSchedule,
+        translatedFileName: fileName
+      )
+    }
+  }
+
+  private func loadSchedule(for language: DataLanguage) throws -> Schedule {
+    let url = Bundle.module.url(
+      forResource: language.scheduleFileName,
+      withExtension: "json"
+    )!
+    let data = try Data(contentsOf: url)
+    return try JSONDecoder().decode(Schedule.self, from: data)
+  }
+
+  private func validateScheduleConsistency(
+    source: Schedule,
+    translated: Schedule,
+    translatedFileName: String
+  ) {
+    #expect(
+      source.day1.count == translated.day1.count,
+      "Fix \(translatedFileName): Day1 should have \(source.day1.count) sessions but has \(translated.day1.count)"
+    )
+    #expect(
+      source.day2.count == translated.day2.count,
+      "Fix \(translatedFileName): Day2 should have \(source.day2.count) sessions but has \(translated.day2.count)"
+    )
+
+    validateSessionConsistency(
+      source.day1, translated.day1, day: 1, translatedFileName: translatedFileName)
+    validateSessionConsistency(
+      source.day2, translated.day2, day: 2, translatedFileName: translatedFileName)
+  }
+
+  private func validateSessionConsistency(
+    _ sourceSessions: [Session],
+    _ translatedSessions: [Session],
+    day: Int,
+    translatedFileName: String
+  ) {
+    for (sessionIndex, (sourceSession, translatedSession)) in zip(
+      sourceSessions, translatedSessions
+    ).enumerated() {
+      validateSessionField(
+        sourceSession, translatedSession,
+        keyPath: \.speakerID,
+        fieldName: "speakerID",
+        formatter: { String(describing: $0) },
+        day: day, sessionIndex: sessionIndex, translatedFileName: translatedFileName
+      )
+
+      validateSessionField(
+        sourceSession, translatedSession,
+        keyPath: \.time,
+        fieldName: "time",
+        formatter: { "'\($0)'" },
+        day: day, sessionIndex: sessionIndex, translatedFileName: translatedFileName
+      )
+    }
+  }
+
+  private func validateSessionField<T: Equatable>(
+    _ source: Session,
+    _ translated: Session,
+    keyPath: KeyPath<Session, T>,
+    fieldName: String,
+    formatter: (T) -> String,
+    day: Int,
+    sessionIndex: Int,
+    translatedFileName: String
+  ) {
+    let sourceValue = source[keyPath: keyPath]
+    let translatedValue = translated[keyPath: keyPath]
+    #expect(
+      sourceValue == translatedValue,
+      "Fix \(translatedFileName): Day\(day) Session\(sessionIndex) \(fieldName) should be \(formatter(sourceValue)) but is \(formatter(translatedValue))"
+    )
   }
 
   @Test("Sponsors JSON can be decoded")
