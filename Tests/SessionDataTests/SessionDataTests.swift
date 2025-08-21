@@ -22,7 +22,8 @@ struct SessionDataTests {
 
   @Test("Schedule JSON can be decoded", arguments: DataLanguage.allCases)
   func scheduleJSONDecoding(dataLanguage: DataLanguage) throws {
-    let jsonURL = Bundle.module.url(forResource: "schedule\(dataLanguage.fileNameSuffix)", withExtension: "json")!
+    let jsonURL = Bundle.module.url(
+      forResource: "schedule\(dataLanguage.fileNameSuffix)", withExtension: "json")!
     let data = try Data(contentsOf: jsonURL)
     let schedule = try JSONDecoder().decode(Schedule.self, from: data)
 
@@ -39,7 +40,8 @@ struct SessionDataTests {
     let speakerIDs = Set(speakers.map { $0.id })
 
     // Load schedule
-    let scheduleURL = Bundle.module.url(forResource: "schedule\(dataLanguage.fileNameSuffix)", withExtension: "json")!
+    let scheduleURL = Bundle.module.url(
+      forResource: "schedule\(dataLanguage.fileNameSuffix)", withExtension: "json")!
     let scheduleData = try Data(contentsOf: scheduleURL)
     let schedule = try JSONDecoder().decode(Schedule.self, from: scheduleData)
 

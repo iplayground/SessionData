@@ -13,8 +13,8 @@ public enum DataLanguage: Sendable, CaseIterable {
   case japanese
 }
 
-public extension DataLanguage {
-  var fileNameSuffix: String {
+extension DataLanguage {
+  public var fileNameSuffix: String {
     switch self {
     case .traditionalChinese:
       return ""
