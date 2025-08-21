@@ -9,7 +9,7 @@ let package = Package(
     .iOS(.v14),
     .macOS(.v11),
     .tvOS(.v14),
-    .watchOS(.v7)
+    .watchOS(.v7),
   ],
   products: [
     // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -24,6 +24,8 @@ let package = Package(
       name: "SessionData",
       resources: [
         .copy("../../speakers.json"),
+        .copy("../../speakers_en.json"),
+        .copy("../../speakers_jp.json"),
         .copy("../../schedule.json"),
         .copy("../../schedule_en.json"),
         .copy("../../schedule_jp.json"),
@@ -37,6 +39,8 @@ let package = Package(
       resources: [
         // Keep the relative path because other projects fetch the resources from the root of the project
         .copy("../../speakers.json"),
+        .copy("../../speakers_en.json"),
+        .copy("../../speakers_jp.json"),
         .copy("../../schedule.json"),
         .copy("../../schedule_en.json"),
         .copy("../../schedule_jp.json"),
