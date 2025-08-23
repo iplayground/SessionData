@@ -32,4 +32,16 @@ extension DataLanguage {
       return "_jp"
     }
   }
+
+  /// Initialize DataLanguage from a locale identifier string
+  /// - Parameter localeIdentifier: A locale identifier like "en_US", "zh_TW", "ja_JP"
+  public init(localeIdentifier: String) {
+    if localeIdentifier.hasPrefix("zh") {
+      self = .traditionalChinese
+    } else if localeIdentifier.hasPrefix("ja") {
+      self = .japanese
+    } else {
+      self = .english
+    }
+  }
 }
