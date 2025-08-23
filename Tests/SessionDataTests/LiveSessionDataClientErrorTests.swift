@@ -76,7 +76,7 @@ struct LiveSessionDataClientErrorTests {
     #expect(!speakers.isEmpty)
     
     let sponsors = try await client.fetchSponsors(strategy: .remote)
-    #expect(!sponsors.sponsors.isEmpty || !sponsors.partner.isEmpty)
+    #expect(!sponsors.sponsors.isEmpty || !sponsors.personal.isEmpty || !sponsors.partner.isEmpty)
     
     let staffs = try await client.fetchStaffs(strategy: .remote)
     #expect(!staffs.isEmpty)

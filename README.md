@@ -71,17 +71,21 @@
 	},
 ```
 
-## 贊助商和合作夥伴
+## 贊助商、個人贊助者和合作夥伴
 資訊處理規則
 1. sponsors 為分級陣列，依照配置順序顯示（由上到下）
 2. 每個分級下 items 為贊助商陣列，依照配置順序顯示（由左到右）
-3. partner 為合作夥伴陣列，依照配置順序顯示
+3. personal 為個人贊助者陣列，依照配置順序顯示
+4. partner 為合作夥伴陣列，依照配置順序顯示
 
 參數說明：
 * `sponsors.title` - 分級名稱，純文字
 * `sponsors.items[].name` - 贊助商名稱，純文字
 * `sponsors.items[].picture` - logo 圖片網址，純文字
 * `sponsors.items[].link` - 贊助商網址，純文字
+* `personal[].name` - 個人贊助者名稱，純文字（必要欄位）
+* `personal[].icon` - 個人贊助者頭像網址，純文字（可為 null）
+* `personal[].link` - 個人贊助者網址，純文字（可為 null）
 * `partner[].name` - 合作夥伴名稱，純文字
 * `partner[].icon` - 合作夥伴 logo 圖片網址，純文字
 * `partner[].link` - 合作夥伴網址，純文字
@@ -109,6 +113,18 @@
           "link": "https://www.dcard.tw"
         }
       ]
+    }
+  ],
+  "personal": [
+    {
+      "name": "Andy",
+      "icon": null,
+      "link": null
+    },
+    {
+      "name": "Dada",
+      "icon": "https://iplayground.io/2018/static/media/14362711_1443783055638586_3924866533217962148_o.e5215d5b.jpg",
+      "link": "https://twitter.com/nalydadad"
     }
   ],
   "partner": [

@@ -31,7 +31,7 @@ struct FetchStrategyTests {
     #expect(!speakers.isEmpty, "LocalOnly strategy should return bundled speakers")
     
     let sponsors = try await client.fetchSponsors(strategy: .localOnly)
-    #expect(!sponsors.sponsors.isEmpty || !sponsors.partner.isEmpty, "LocalOnly strategy should return bundled sponsors")
+    #expect(!sponsors.sponsors.isEmpty || !sponsors.personal.isEmpty || !sponsors.partner.isEmpty, "LocalOnly strategy should return bundled sponsors")
     
     let staffs = try await client.fetchStaffs(strategy: .localOnly)
     #expect(!staffs.isEmpty, "LocalOnly strategy should return bundled staffs")
