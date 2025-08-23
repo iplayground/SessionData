@@ -1,12 +1,12 @@
 import Foundation
 
-public enum LinkType: String, Codable, CaseIterable {
+public enum LinkType: String, Codable, CaseIterable, Sendable {
   case primary = "primary"
   case social = "social"
   case appInfo = "appInfo"
 }
 
-public struct Link: Codable, Equatable, Identifiable {
+public struct Link: Codable, Equatable, Identifiable, Sendable {
   public var id: String
   public var title: String
   public var url: URL
