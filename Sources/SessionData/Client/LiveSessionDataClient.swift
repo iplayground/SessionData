@@ -1,11 +1,11 @@
 import Foundation
 
-public struct LiveSessionDataClient: Sendable {
+struct LiveSessionDataClient: Sendable {
   private let networkFetcher: any NetworkFetching
   private let cacheManager: CacheManager
   private let bundleLoader: BundleLoader
 
-  public init() {
+  init() {
     self.networkFetcher = NetworkFetcher()
     self.cacheManager = CacheManager(directory: "SessionDataCache")
     self.bundleLoader = BundleLoader()
@@ -26,60 +26,20 @@ extension SessionDataClient {
   public static let live: SessionDataClient = {
     let client = LiveSessionDataClient()
     return SessionDataClient(
-      fetchSchedules: { day, dataLanguage in
-        try await client.fetchSchedules(day: day, dataLanguage: dataLanguage)
+      fetchSchedules: { day, dataLanguage, strategy in
+        try await client.fetchSchedules(day: day, dataLanguage: dataLanguage, strategy: strategy)
       },
-      fetchSpeakers: { dataLanguage in
-        try await client.fetchSpeakers(dataLanguage: dataLanguage)
+      fetchSpeakers: { dataLanguage, strategy in
+        try await client.fetchSpeakers(dataLanguage: dataLanguage, strategy: strategy)
       },
-      fetchSponsors: {
-        try await client.fetchSponsors()
+      fetchSponsors: { strategy in
+        try await client.fetchSponsors(strategy: strategy)
       },
-      fetchStaffs: {
-        try await client.fetchStaffs()
+      fetchStaffs: { strategy in
+        try await client.fetchStaffs(strategy: strategy)
       },
-      fetchLinks: {
-        try await client.fetchLinks()
-      }
-    )
-  }()
-
-  public static let local: SessionDataClient = {
-    let bundleLoader = BundleLoader()
-
-    return SessionDataClient(
-      fetchSchedules: { day, dataLanguage in
-        let fileName = dataLanguage.scheduleFileName
-        let data = try bundleLoader.load(file: "\(fileName).json")
-        let schedule = try JSONDecoder().decode(Schedule.self, from: data)
-
-        switch day {
-        case 1:
-          return schedule.day1
-        case 2:
-          return schedule.day2
-        case nil:
-          return schedule.day1 + schedule.day2
-        default:
-          return []
-        }
-      },
-      fetchSpeakers: { dataLanguage in
-        let fileName = dataLanguage.speakersFileName
-        let data = try bundleLoader.load(file: "\(fileName).json")
-        return try JSONDecoder().decode([Speaker].self, from: data)
-      },
-      fetchSponsors: {
-        let data = try bundleLoader.load(file: "sponsors.json")
-        return try JSONDecoder().decode(SponsorsData.self, from: data)
-      },
-      fetchStaffs: {
-        let data = try bundleLoader.load(file: "staffs.json")
-        return try JSONDecoder().decode([Staff].self, from: data)
-      },
-      fetchLinks: {
-        let data = try bundleLoader.load(file: "links.json")
-        return try JSONDecoder().decode([Link].self, from: data)
+      fetchLinks: { strategy in
+        try await client.fetchLinks(strategy: strategy)
       }
     )
   }()
@@ -88,9 +48,11 @@ extension SessionDataClient {
 // MARK: - Fetch Implementation
 
 extension LiveSessionDataClient {
-  func fetchSchedules(day: Int?, dataLanguage: DataLanguage) async throws -> [Session] {
+  func fetchSchedules(day: Int?, dataLanguage: DataLanguage, strategy: FetchStrategy) async throws
+    -> [Session]
+  {
     let fileName = dataLanguage.scheduleFileName
-    let data = try await fetchData(endpoint: "\(fileName).json")
+    let data = try await fetchData(endpoint: "\(fileName).json", strategy: strategy)
     let schedule = try JSONDecoder().decode(Schedule.self, from: data)
 
     switch day {
@@ -105,32 +67,43 @@ extension LiveSessionDataClient {
     }
   }
 
-  func fetchSpeakers(dataLanguage: DataLanguage) async throws -> [Speaker] {
+  func fetchSpeakers(dataLanguage: DataLanguage, strategy: FetchStrategy) async throws -> [Speaker]
+  {
     let fileName = dataLanguage.speakersFileName
-    let data = try await fetchData(endpoint: "\(fileName).json")
+    let data = try await fetchData(endpoint: "\(fileName).json", strategy: strategy)
     return try JSONDecoder().decode([Speaker].self, from: data)
   }
 
-  func fetchSponsors() async throws -> SponsorsData {
-    let data = try await fetchData(endpoint: "sponsors.json")
+  func fetchSponsors(strategy: FetchStrategy) async throws -> SponsorsData {
+    let data = try await fetchData(endpoint: "sponsors.json", strategy: strategy)
     return try JSONDecoder().decode(SponsorsData.self, from: data)
   }
 
-  func fetchStaffs() async throws -> [Staff] {
-    let data = try await fetchData(endpoint: "staffs.json")
+  func fetchStaffs(strategy: FetchStrategy) async throws -> [Staff] {
+    let data = try await fetchData(endpoint: "staffs.json", strategy: strategy)
     return try JSONDecoder().decode([Staff].self, from: data)
   }
 
-  func fetchLinks() async throws -> [Link] {
-    let data = try await fetchData(endpoint: "links.json")
+  func fetchLinks(strategy: FetchStrategy) async throws -> [Link] {
+    let data = try await fetchData(endpoint: "links.json", strategy: strategy)
     return try JSONDecoder().decode([Link].self, from: data)
   }
 
-  private func fetchData(endpoint: String) async throws -> Data {
+  private func fetchData(endpoint: String, strategy: FetchStrategy) async throws -> Data {
+    switch strategy {
+    case .remote:
+      return try await fetchRemote(endpoint: endpoint)
+    case .cacheFirst:
+      return try await fetchCacheFirst(endpoint: endpoint)
+    case .localOnly:
+      return try await fetchLocal(endpoint: endpoint)
+    }
+  }
+
+  private func fetchRemote(endpoint: String) async throws -> Data {
     // Try network first
     do {
       let data = try await networkFetcher.fetch(endpoint: endpoint)
-      // Save to cache on success
       await cacheManager.save(data, for: endpoint)
       return data
     } catch {
@@ -138,9 +111,21 @@ extension LiveSessionDataClient {
       if let cachedData = await cacheManager.load(for: endpoint) {
         return cachedData
       }
-
+      
       // Fall back to bundle
       return try bundleLoader.load(file: endpoint)
     }
+  }
+
+  private func fetchCacheFirst(endpoint: String) async throws -> Data {
+    if let cachedData = await cacheManager.load(for: endpoint) {
+      return cachedData
+    }
+
+    return try bundleLoader.load(file: endpoint)
+  }
+
+  private func fetchLocal(endpoint: String) async throws -> Data {
+    return try bundleLoader.load(file: endpoint)
   }
 }
