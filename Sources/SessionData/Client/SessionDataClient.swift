@@ -55,3 +55,14 @@ extension SessionDataClient {
     return try await fetchLinks(strategy)
   }
 }
+
+// MARK: - Mock Client
+extension SessionDataClient {
+  public static let mock = SessionDataClient(
+    fetchSchedules: { _, _, _ in [] },
+    fetchSpeakers: { _, _ in [] },
+    fetchSponsors: { _ in SponsorsData(sponsors: [], partner: []) },
+    fetchStaffs: { _ in [] },
+    fetchLinks: { _ in [] }
+  )
+}

@@ -189,13 +189,28 @@ import SessionData
 
 let client = SessionDataClient.live
 
-// 使用預設語言（繁體中文）取得資料
+// 使用預設語言（繁體中文）取得資料，預設為 .remote 策略
 let allSessions = try await client.fetchSchedules(nil, .fallback)
-let day1Sessions = try await client.fetchSchedules(1, .fallback)
+let day1Sessions = try await client.fetchSchedules(1, .fallback)  
 let speakers = try await client.fetchSpeakers(.fallback)
 let sponsors = try await client.fetchSponsors()
 let staffs = try await client.fetchStaffs()
 let links = try await client.fetchLinks()
+```
+
+### 獲取策略
+
+SessionData 提供三種資料獲取策略：
+
+```swift
+// .remote（預設）：網路 → 緩存 → 本地檔案的完整回退鏈
+let sessions = try await client.fetchSchedules(1, .fallback, strategy: .remote)
+
+// .cacheFirst：緩存 → 本地檔案（適合快速 UI 顯示）
+let cachedSessions = try await client.fetchSchedules(1, .fallback, strategy: .cacheFirst)
+
+// .localOnly：僅使用本地檔案（適合離線模式）
+let offlineSessions = try await client.fetchSchedules(1, .fallback, strategy: .localOnly)
 ```
 
 ### 多語言支援
@@ -203,10 +218,13 @@ let links = try await client.fetchLinks()
 SessionData 支援繁體中文、英文和日文三種語言：
 
 ```swift
-// 直接指定語言
+// 直接指定語言，使用預設 .remote 策略
 let englishSessions = try await client.fetchSchedules(1, .english)
 let japaneseSpeakers = try await client.fetchSpeakers(.japanese)
 let chineseSessions = try await client.fetchSchedules(1, .traditionalChinese)
+
+// 組合使用語言和策略
+let offlineEnglishSessions = try await client.fetchSchedules(1, .english, strategy: .localOnly)
 
 // 使用系統語言自動偵測
 import Foundation
@@ -234,24 +252,55 @@ let localizedSessions = try await client.fetchSchedules(2, language)
 | 工作人員 (Staffs) | ❌ | `staffs.json` |  
 | 相關連結 (Links) | ❌ | `links.json` |
 
-### 資料來源
+### 策略詳細說明
 
-Swift Package 使用三層資料獲取策略：
+#### `.remote`（預設策略）
+完整的三層回退機制：
 1. **網路優先**：從 GitHub 獲取最新的 JSON 資料
-2. **本地緩存**：網路失敗時使用之前緩存的資料
+2. **本地緩存**：網路失敗時使用之前緩存的資料  
 3. **內建資源**：完全離線時使用打包在 app 內的 JSON 檔案
 
-這確保了在各種網路環境下都能正常運作。
+#### `.cacheFirst`
+快速 UI 顯示策略：
+1. **緩存優先**：立即返回緩存的資料（如果有）
+2. **內建資源**：沒有緩存時使用打包的 JSON 檔案
 
-### 便利用法
+適合需要瞬間顯示 UI 的場景，app 端可同時觸發遠端資料更新。
+
+#### `.localOnly`  
+純離線策略：
+- **僅內建資源**：只使用打包在 app 內的 JSON 檔案
+- 適合完全離線模式或確保資料一致性的場景
+
+### 實用範例
 
 ```swift
-// 使用本地客戶端（僅從 bundle 讀取）
-let localClient = SessionDataClient.local
-let bundleSessions = try await localClient.fetchSchedules(nil, .fallback)
+// App 啟動時快速顯示 UI
+let cachedSessions = try await client.fetchSchedules(nil, .fallback, strategy: .cacheFirst)
+// 同時在背景更新資料
+Task {
+    let latestSessions = try await client.fetchSchedules(nil, .fallback, strategy: .remote)
+    // 更新 UI
+}
 
-// 使用 mock 客戶端（測試用）
+// 完全離線模式
+let offlineSessions = try await client.fetchSchedules(nil, .fallback, strategy: .localOnly)
+let offlineSpeakers = try await client.fetchSpeakers(.fallback, strategy: .localOnly)
+
+// 混合使用：關鍵資料用緩存，其他資料用網路
+let sessions = try await client.fetchSchedules(1, .fallback, strategy: .cacheFirst)
+let sponsors = try await client.fetchSponsors(strategy: .remote)
+```
+
+### 測試用法
+
+```swift
+// 注意：SessionDataClient.local 已移除
+// 請使用 .localOnly 策略替代
+let bundleSessions = try await client.fetchSchedules(nil, .fallback, strategy: .localOnly)
+
+// Mock 客戶端（測試用，返回空資料）
 let mockClient = SessionDataClient.mock
-let emptySessions = try await mockClient.fetchSchedules(nil, .fallback)
+let emptySessions = try await mockClient.fetchSchedules(nil, .fallback, strategy: .remote)
 ```
 
