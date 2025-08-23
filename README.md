@@ -6,21 +6,24 @@
 資訊處理規則
 1. 陣列配置順序，即為代表活動時間的排序
 2. 當 speaker 和 description 都沒有內容(沒有參數或是 "")的時候，展開功能和按鈕會消失
+3. speakerID 可用來關聯講者資料，建立講者詳細資訊的連結
 
 參數說明：
 * time - 時段，純文字，無特定格式轉換（必要欄位）
 * title - 標題，純文字，無特定格式轉換（必要欄位）
 * tags - 標籤欄位，陣列帶純文字，無特定格式轉換
 * speaker - 講者名稱，純文字，無特定格式轉換，展開後可見
+* speakerID - 講者 ID，整數，對應講者資料的 id 欄位（非必要）
 * description - 詳細描述，純文字，支援換行顯示（請使用\n），展開後可見
 
 範例：
 ```json
     {
         "time": "09:50 – 10:40",
-        "title": "Let’s Functional Programming in Your Swift Code",
+        "title": "Let's Functional Programming in Your Swift Code",
         "tags": ["Swift", "函數式"],
         "speaker": "鄭宇哲 UJ Cheng",
+        "speakerID": 1,
         "description": "如何讓 Swift 程式碼更簡潔、可讀，是許多開發者追求的目標。函數式編程提供了一種更具表達力的寫法，讓我們能以直觀的語意處理資料與邏輯。本演講將介紹 Swift 到目前為止有的高階函數與使用技巧，並實際示範它們如何應用在 iOS 專案開發中，甚至是在刷題過程中。無論是提升演算法解題效率，還是改善專案架構，Functional Programming 都能為你的 Swift 程式碼帶來優雅的轉變。"
     }
 ```
@@ -118,6 +121,45 @@
 }
 ```
 
+## 相關連結
+資訊處理規則
+1. 陣列配置順序，即為顯示的排序（由上到下）
+2. 透過 type 分類不同類型的連結
+
+參數說明：
+* id - 唯一辨識碼，純文字，無特定格式轉換（必要欄位）
+* title - 連結標題，純文字，無特定格式轉換（必要欄位）
+* url - 連結網址，網址格式（必要欄位）
+* icon - SF Symbols 圖示名稱，純文字（非必要）
+* type - 連結類型，枚舉值：`primary`、`social`、`appInfo`（必要欄位）
+
+範例：
+```json
+[
+  {
+    "id": "official-website",
+    "title": "iPlayground 官網",
+    "url": "https://iplayground.io",
+    "icon": "globe",
+    "type": "primary"
+  },
+  {
+    "id": "registration",
+    "title": "報名連結", 
+    "url": "https://iplayground.kktix.cc/events/iplayground2025",
+    "icon": "ticket",
+    "type": "primary"
+  },
+  {
+    "id": "facebook",
+    "title": "Facebook 粉絲頁",
+    "url": "https://www.facebook.com/iplayground.io",
+    "icon": "person.2",
+    "type": "social"
+  }
+]
+```
+
 ## Swift Package
 
 此專案同時提供 Swift Package，讓 iOS/macOS 專案可以直接整合使用。
@@ -140,28 +182,57 @@ dependencies: [
 ]
 ```
 
-### 使用方式
+### 基本使用方式
 
 ```swift
 import SessionData
 
 let client = SessionDataClient.live
 
-// 取得所有行程
-let allSessions = try await client.fetchSchedules(nil)
-
-// 取得特定天數的行程（1 或 2）
-let day1Sessions = try await client.fetchSchedules(1)
-
-// 取得講者資料
-let speakers = try await client.fetchSpeakers()
-
-// 取得贊助商資料
+// 使用預設語言（繁體中文）取得資料
+let allSessions = try await client.fetchSchedules(nil, .fallback)
+let day1Sessions = try await client.fetchSchedules(1, .fallback)
+let speakers = try await client.fetchSpeakers(.fallback)
 let sponsors = try await client.fetchSponsors()
-
-// 取得工作人員資料
 let staffs = try await client.fetchStaffs()
+let links = try await client.fetchLinks()
 ```
+
+### 多語言支援
+
+SessionData 支援繁體中文、英文和日文三種語言：
+
+```swift
+// 直接指定語言
+let englishSessions = try await client.fetchSchedules(1, .english)
+let japaneseSpeakers = try await client.fetchSpeakers(.japanese)
+let chineseSessions = try await client.fetchSchedules(1, .traditionalChinese)
+
+// 使用系統語言自動偵測
+import Foundation
+
+let userLocale = Locale.current.identifier
+let language = DataLanguage(localeIdentifier: userLocale)
+let localizedSessions = try await client.fetchSchedules(2, language)
+```
+
+### 語言偵測規則
+
+`DataLanguage(localeIdentifier:)` 支援從 locale 識別碼自動偵測語言：
+
+- `zh*` 開頭 → 繁體中文
+- `ja*` 開頭 → 日文  
+- 其他 → 英文
+
+### 支援的資料類型
+
+| 資料類型 | 支援多語言 | 對應檔案 |
+|---------|-----------|----------|
+| 行程表 (Sessions) | ✅ | `schedule.json`, `schedule_en.json`, `schedule_jp.json` |
+| 講者 (Speakers) | ✅ | `speakers.json`, `speakers_en.json`, `speakers_jp.json` |
+| 贊助商 (Sponsors) | ❌ | `sponsors.json` |
+| 工作人員 (Staffs) | ❌ | `staffs.json` |  
+| 相關連結 (Links) | ❌ | `links.json` |
 
 ### 資料來源
 
@@ -171,4 +242,16 @@ Swift Package 使用三層資料獲取策略：
 3. **內建資源**：完全離線時使用打包在 app 內的 JSON 檔案
 
 這確保了在各種網路環境下都能正常運作。
+
+### 便利用法
+
+```swift
+// 使用本地客戶端（僅從 bundle 讀取）
+let localClient = SessionDataClient.local
+let bundleSessions = try await localClient.fetchSchedules(nil, .fallback)
+
+// 使用 mock 客戶端（測試用）
+let mockClient = SessionDataClient.mock
+let emptySessions = try await mockClient.fetchSchedules(nil, .fallback)
+```
 
