@@ -15,7 +15,7 @@
   },
   {
     "id": "newsletter",
-    "title": "電子報",
+    "title": "Newsletter",
     "url": "https://iplayground.substack.com",
     "icon": "envelope",
     "type": "primary"
