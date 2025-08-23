@@ -43,6 +43,44 @@ extension SessionDataClient {
       }
     )
   }()
+
+  public static let local: SessionDataClient = {
+    let bundleLoader = BundleLoader()
+
+    return SessionDataClient(
+      fetchSchedules: { day in
+        let data = try bundleLoader.load(file: "schedule.json")
+        let schedule = try JSONDecoder().decode(Schedule.self, from: data)
+
+        switch day {
+        case 1:
+          return schedule.day1
+        case 2:
+          return schedule.day2
+        case nil:
+          return schedule.day1 + schedule.day2
+        default:
+          return []
+        }
+      },
+      fetchSpeakers: {
+        let data = try bundleLoader.load(file: "speakers.json")
+        return try JSONDecoder().decode([Speaker].self, from: data)
+      },
+      fetchSponsors: {
+        let data = try bundleLoader.load(file: "sponsors.json")
+        return try JSONDecoder().decode(SponsorsData.self, from: data)
+      },
+      fetchStaffs: {
+        let data = try bundleLoader.load(file: "staffs.json")
+        return try JSONDecoder().decode([Staff].self, from: data)
+      },
+      fetchLinks: {
+        let data = try bundleLoader.load(file: "links.json")
+        return try JSONDecoder().decode([Link].self, from: data)
+      }
+    )
+  }()
 }
 
 // MARK: - Fetch Implementation

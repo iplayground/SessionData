@@ -85,4 +85,101 @@ struct SessionDataClientTests {
     let allSessions = try await client.fetchSchedules(nil)
     #expect(allSessions.count == 2)
   }
+
+  @Test("Local client should decode schedules correctly")
+  func localClientDecodesSchedules() async throws {
+    let client = SessionDataClient.local
+
+    let schedules = try await client.fetchSchedules(nil)
+    #expect(!schedules.isEmpty)
+
+    // Verify structure of decoded sessions
+    if let firstSession = schedules.first {
+      #expect(!firstSession.title.isEmpty)
+      #expect(!firstSession.time.isEmpty)
+      // Note: speaker can be empty, so we don't check that
+      #expect(firstSession.tags.count >= 0)
+    }
+
+    // Test day filtering
+    let day1Sessions = try await client.fetchSchedules(1)
+    let day2Sessions = try await client.fetchSchedules(2)
+
+    #expect(!day1Sessions.isEmpty)
+    #expect(!day2Sessions.isEmpty)
+    #expect(day1Sessions.count + day2Sessions.count == schedules.count)
+  }
+
+  @Test("Local client should decode speakers correctly")
+  func localClientDecodesSpeakers() async throws {
+    let client = SessionDataClient.local
+
+    let speakers = try await client.fetchSpeakers()
+    #expect(!speakers.isEmpty)
+
+    // Verify structure of decoded speakers
+    if let firstSpeaker = speakers.first {
+      #expect(!firstSpeaker.name.isEmpty)
+    }
+  }
+
+  @Test("Local client should decode sponsors correctly")
+  func localClientDecodeSponsors() async throws {
+    let client = SessionDataClient.local
+
+    let sponsorsData = try await client.fetchSponsors()
+
+    // Verify structure of decoded sponsors
+    #expect(sponsorsData.sponsors.count >= 0)
+    #expect(sponsorsData.partner.count >= 0)
+  }
+
+  @Test("Local client should decode staffs correctly")
+  func localClientDecodesStaffs() async throws {
+    let client = SessionDataClient.local
+
+    let staffs = try await client.fetchStaffs()
+    #expect(!staffs.isEmpty)
+
+    // Verify structure of decoded staffs
+    if let firstStaff = staffs.first {
+      #expect(!firstStaff.name.isEmpty)
+    }
+  }
+
+  @Test("Local client should decode links correctly")
+  func localClientDecodesLinks() async throws {
+    let client = SessionDataClient.local
+
+    let links = try await client.fetchLinks()
+    #expect(!links.isEmpty)
+
+    // Verify structure of decoded links
+    if let firstLink = links.first {
+      #expect(!firstLink.title.isEmpty)
+      #expect(!firstLink.url.absoluteString.isEmpty)
+    }
+  }
+
+  @Test("Local client should return consistent data across multiple calls")
+  func localClientConsistentData() async throws {
+    let client = SessionDataClient.local
+
+    // Fetch data twice and compare
+    let schedules1 = try await client.fetchSchedules(nil)
+    let schedules2 = try await client.fetchSchedules(nil)
+    #expect(schedules1.count == schedules2.count)
+
+    let speakers1 = try await client.fetchSpeakers()
+    let speakers2 = try await client.fetchSpeakers()
+    #expect(speakers1.count == speakers2.count)
+
+    let staffs1 = try await client.fetchStaffs()
+    let staffs2 = try await client.fetchStaffs()
+    #expect(staffs1.count == staffs2.count)
+
+    let links1 = try await client.fetchLinks()
+    let links2 = try await client.fetchLinks()
+    #expect(links1.count == links2.count)
+  }
 }
