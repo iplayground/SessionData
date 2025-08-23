@@ -1,6 +1,6 @@
 import Foundation
 
-struct BundleLoader {
+struct BundleLoader: Sendable {
   enum BundleLoaderError: Error {
     case resourceNotFound(String)
     case dataLoadingFailed(String)

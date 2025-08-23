@@ -4,7 +4,7 @@ import Foundation
   import FoundationNetworking
 #endif
 
-protocol NetworkFetching {
+protocol NetworkFetching: Sendable {
   func fetch(endpoint: String) async throws -> Data
 }
 

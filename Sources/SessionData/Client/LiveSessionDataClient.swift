@@ -1,6 +1,6 @@
 import Foundation
 
-public struct LiveSessionDataClient {
+public struct LiveSessionDataClient: Sendable {
   private let networkFetcher: any NetworkFetching
   private let cacheManager: CacheManager
   private let bundleLoader: BundleLoader
@@ -23,28 +23,26 @@ public struct LiveSessionDataClient {
 // MARK: - SessionDataClient Extension
 
 extension SessionDataClient {
-  public static let live = SessionDataClient(
-    fetchSchedules: { day in
-      let client = LiveSessionDataClient()
-      return try await client.fetchSchedules(day: day)
-    },
-    fetchSpeakers: {
-      let client = LiveSessionDataClient()
-      return try await client.fetchSpeakers()
-    },
-    fetchSponsors: {
-      let client = LiveSessionDataClient()
-      return try await client.fetchSponsors()
-    },
-    fetchStaffs: {
-      let client = LiveSessionDataClient()
-      return try await client.fetchStaffs()
-    },
-    fetchLinks: {
-      let client = LiveSessionDataClient()
-      return try await client.fetchLinks()
-    }
-  )
+  public static let live: SessionDataClient = {
+    let client = LiveSessionDataClient()
+    return SessionDataClient(
+      fetchSchedules: { day in
+        try await client.fetchSchedules(day: day)
+      },
+      fetchSpeakers: {
+        try await client.fetchSpeakers()
+      },
+      fetchSponsors: {
+        try await client.fetchSponsors()
+      },
+      fetchStaffs: {
+        try await client.fetchStaffs()
+      },
+      fetchLinks: {
+        try await client.fetchLinks()
+      }
+    )
+  }()
 }
 
 // MARK: - Fetch Implementation
