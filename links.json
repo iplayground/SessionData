@@ -1,7 +1,7 @@
 [
   {
     "id": "website",
-    "title": "官網",
+    "title": "Website",
     "url": "https://iplayground.io",
     "icon": "globe",
     "type": "primary"
@@ -38,7 +38,7 @@
     "id": "twitter",
     "title": "Twitter (X)",
     "url": "https://x.com/theiPlayground",
-    "icon": "at",
+    "icon": "x.square",
     "type": "social"
   },
   {
@@ -59,27 +59,27 @@
     "id": "facebook",
     "title": "Facebook",
     "url": "https://www.facebook.com/theiPlayground",
-    "icon": "person.3",
+    "icon": "f.square",
     "type": "social"
   },
   {
     "id": "app-source",
-    "title": "App 開源專案網址",
+    "title": "iplayground-app-2025",
     "url": "https://github.com/iplayground/iplayground-app-2025",
     "icon": "chevron.left.forwardslash.chevron.right",
     "type": "appInfo"
   },
   {
     "id": "session-data-source",
-    "title": "SessionData 開源專案網址",
+    "title": "SessionData",
     "url": "https://github.com/iplayground/SessionData",
-    "icon": "doc.on.doc",
+    "icon": "chevron.left.forwardslash.chevron.right",
     "type": "appInfo"
   },
   {
     "id": "app-store",
-    "title": "App Store 連結",
-    "url": "https://apps.apple.com/app/iplayground/id123456789",
+    "title": "App Store",
+    "url": "https://apps.apple.com/us/app/iplayground-2025/id6751350620",
     "icon": "app.badge",
     "type": "appInfo"
   }
