@@ -11,6 +11,8 @@ public enum DataLanguage: Sendable, CaseIterable {
   case traditionalChinese
   case english
   case japanese
+
+  public static let fallback = DataLanguage.traditionalChinese
 }
 
 extension DataLanguage {

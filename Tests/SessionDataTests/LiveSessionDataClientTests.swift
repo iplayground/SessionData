@@ -40,7 +40,7 @@ struct LiveSessionDataClientTests {
     let client = createTestClient(networkData: networkData)
 
     // When: Fetching all schedules
-    let sessions = try await client.fetchSchedules(nil, nil)
+    let sessions = try await client.fetchSchedules(nil, .fallback)
 
     // Then: Should return combined sessions from both days
     #expect(sessions.count == 2)
@@ -81,12 +81,12 @@ struct LiveSessionDataClientTests {
     let client = createTestClient(networkData: networkData)
 
     // When: Fetching day 1 only
-    let day1Sessions = try await client.fetchSchedules(1, nil)
+    let day1Sessions = try await client.fetchSchedules(1, .fallback)
     #expect(day1Sessions.count == 1)
     #expect(day1Sessions[0].title == "Day 1 Session")
 
     // When: Fetching day 2 only
-    let day2Sessions = try await client.fetchSchedules(2, nil)
+    let day2Sessions = try await client.fetchSchedules(2, .fallback)
     #expect(day2Sessions.count == 1)
     #expect(day2Sessions[0].title == "Day 2 Session")
   }
@@ -120,7 +120,7 @@ struct LiveSessionDataClientTests {
     )
 
     // When: Fetching schedules
-    let sessions = try await client.fetchSchedules(nil, nil)
+    let sessions = try await client.fetchSchedules(nil, .fallback)
 
     // Then: Should return cached data
     #expect(sessions.count == 1)
@@ -154,7 +154,7 @@ struct LiveSessionDataClientTests {
     )
 
     // When: Fetching schedules
-    let sessions = try await client.fetchSchedules(nil, nil)
+    let sessions = try await client.fetchSchedules(nil, .fallback)
 
     // Then: Should return bundle data
     #expect(sessions.count == 1)
@@ -184,7 +184,7 @@ struct LiveSessionDataClientTests {
       networkData: networkData
     )
 
-    let speakers = try await client.fetchSpeakers(nil)
+    let speakers = try await client.fetchSpeakers(.fallback)
     #expect(speakers.count == 1)
     #expect(speakers[0].name == "Network Speaker")
   }
@@ -265,11 +265,11 @@ struct LiveSessionDataClientTests {
 
     let client = createTestClient(networkData: networkData)
 
-    let sessions = try await client.fetchSchedules(nil as Int?, nil as DataLanguage?)
+    let sessions = try await client.fetchSchedules(nil as Int?, .fallback)
     #expect(sessions.count == 1)
     #expect(sessions[0].title == "Traditional Chinese Session")
 
-    let speakers = try await client.fetchSpeakers(nil as DataLanguage?)
+    let speakers = try await client.fetchSpeakers(.fallback)
     #expect(speakers.count == 1)
     #expect(speakers[0].name == "Traditional Chinese Speaker")
   }
@@ -365,7 +365,7 @@ extension LiveSessionDataClientTests {
   ) -> SessionDataClient {
     SessionDataClient(
       fetchSchedules: { day, dataLanguage in
-        let fileName = (dataLanguage ?? .traditionalChinese).scheduleFileName
+        let fileName = dataLanguage.scheduleFileName
         let endpoint = "\(fileName).json"
 
         // Try network
@@ -404,7 +404,7 @@ extension LiveSessionDataClientTests {
         throw SessionDataError.decodingError
       },
       fetchSpeakers: { dataLanguage in
-        let fileName = (dataLanguage ?? .traditionalChinese).speakersFileName
+        let fileName = dataLanguage.speakersFileName
         let endpoint = "\(fileName).json"
 
         if !networkShouldFail, let data = networkData[endpoint] {

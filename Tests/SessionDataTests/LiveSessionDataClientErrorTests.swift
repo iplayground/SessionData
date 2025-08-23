@@ -41,7 +41,7 @@ struct LiveSessionDataClientErrorTests {
     )
 
     // Should fall back to cache
-    let sessions = try await client.fetchSchedules(day: nil, dataLanguage: nil)
+    let sessions = try await client.fetchSchedules(day: nil, dataLanguage: .fallback)
     #expect(sessions.count == 1)
     #expect(sessions[0].title == "Cached Session")
   }
@@ -66,7 +66,7 @@ struct LiveSessionDataClientErrorTests {
     )
 
     // Should fall back to bundle - this will load real JSON from bundle
-    let sessions = try await client.fetchSchedules(day: nil, dataLanguage: nil)
+    let sessions = try await client.fetchSchedules(day: nil, dataLanguage: .fallback)
     #expect(!sessions.isEmpty)  // Bundle should have data
   }
 
@@ -88,7 +88,7 @@ struct LiveSessionDataClientErrorTests {
     )
 
     // Test all endpoints fall back to bundle
-    let speakers = try await client.fetchSpeakers(dataLanguage: nil)
+    let speakers = try await client.fetchSpeakers(dataLanguage: .fallback)
     #expect(!speakers.isEmpty)
 
     let sponsors = try await client.fetchSponsors()
@@ -150,10 +150,10 @@ struct LiveSessionDataClientErrorTests {
     )
 
     // Both should fall back to bundle and succeed
-    let sessions1 = try await client1.fetchSchedules(day: 1, dataLanguage: nil)
+    let sessions1 = try await client1.fetchSchedules(day: 1, dataLanguage: .fallback)
     #expect(!sessions1.isEmpty)
 
-    let sessions2 = try await client2.fetchSchedules(day: 1, dataLanguage: nil)  // Use day 1 which we know has data
+    let sessions2 = try await client2.fetchSchedules(day: 1, dataLanguage: .fallback)  // Use day 1 which we know has data
     #expect(!sessions2.isEmpty)
   }
 }
