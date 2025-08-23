@@ -10,14 +10,14 @@ struct LiveClientIntegrationTests {
     let client = SessionDataClient.live
 
     // Test fetching schedules - should fall back to bundle if network fails
-    let allSchedules = try await client.fetchSchedules(nil)
+    let allSchedules = try await client.fetchSchedules(nil, nil)
     #expect(!allSchedules.isEmpty)
 
-    let day1Schedules = try await client.fetchSchedules(1)
+    let day1Schedules = try await client.fetchSchedules(1, nil)
     #expect(!day1Schedules.isEmpty)
 
     // Test fetching speakers
-    let speakers = try await client.fetchSpeakers()
+    let speakers = try await client.fetchSpeakers(nil)
     #expect(!speakers.isEmpty)
 
     // Test fetching sponsors

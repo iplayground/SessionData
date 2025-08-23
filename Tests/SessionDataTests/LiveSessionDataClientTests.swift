@@ -40,7 +40,7 @@ struct LiveSessionDataClientTests {
     let client = createTestClient(networkData: networkData)
 
     // When: Fetching all schedules
-    let sessions = try await client.fetchSchedules(nil)
+    let sessions = try await client.fetchSchedules(nil, nil)
 
     // Then: Should return combined sessions from both days
     #expect(sessions.count == 2)
@@ -81,12 +81,12 @@ struct LiveSessionDataClientTests {
     let client = createTestClient(networkData: networkData)
 
     // When: Fetching day 1 only
-    let day1Sessions = try await client.fetchSchedules(1)
+    let day1Sessions = try await client.fetchSchedules(1, nil)
     #expect(day1Sessions.count == 1)
     #expect(day1Sessions[0].title == "Day 1 Session")
 
     // When: Fetching day 2 only
-    let day2Sessions = try await client.fetchSchedules(2)
+    let day2Sessions = try await client.fetchSchedules(2, nil)
     #expect(day2Sessions.count == 1)
     #expect(day2Sessions[0].title == "Day 2 Session")
   }
@@ -120,7 +120,7 @@ struct LiveSessionDataClientTests {
     )
 
     // When: Fetching schedules
-    let sessions = try await client.fetchSchedules(nil)
+    let sessions = try await client.fetchSchedules(nil, nil)
 
     // Then: Should return cached data
     #expect(sessions.count == 1)
@@ -154,7 +154,7 @@ struct LiveSessionDataClientTests {
     )
 
     // When: Fetching schedules
-    let sessions = try await client.fetchSchedules(nil)
+    let sessions = try await client.fetchSchedules(nil, nil)
 
     // Then: Should return bundle data
     #expect(sessions.count == 1)
@@ -184,7 +184,7 @@ struct LiveSessionDataClientTests {
       networkData: networkData
     )
 
-    let speakers = try await client.fetchSpeakers()
+    let speakers = try await client.fetchSpeakers(nil)
     #expect(speakers.count == 1)
     #expect(speakers[0].name == "Network Speaker")
   }
@@ -232,6 +232,124 @@ struct LiveSessionDataClientTests {
     #expect(staffs.count == 1)
     #expect(staffs[0].name == "Network Staff")
   }
+
+  // MARK: - DataLanguage Tests
+
+  @Test("Should use Traditional Chinese files when dataLanguage is nil")
+  func fetchWithNilLanguageUsesTraditionalChinese() async throws {
+    let expectedSchedule = Schedule(
+      day1: [
+        Session(
+          time: "09:00",
+          title: "Traditional Chinese Session",
+          tags: [],
+          speaker: "Chinese Speaker",
+          speakerID: nil,
+          description: ""
+        )
+      ],
+      day2: []
+    )
+
+    let expectedSpeakers = [
+      Speaker(
+        id: 1, name: "Traditional Chinese Speaker", title: "Developer", intro: "From TC",
+        photo: nil, url: nil, fb: nil, github: nil, linkedin: nil, threads: nil, x: nil, ig: nil
+      )
+    ]
+
+    let networkData = [
+      "schedule.json": try JSONEncoder().encode(expectedSchedule),
+      "speakers.json": try JSONEncoder().encode(expectedSpeakers),
+    ]
+
+    let client = createTestClient(networkData: networkData)
+
+    let sessions = try await client.fetchSchedules(nil as Int?, nil as DataLanguage?)
+    #expect(sessions.count == 1)
+    #expect(sessions[0].title == "Traditional Chinese Session")
+
+    let speakers = try await client.fetchSpeakers(nil as DataLanguage?)
+    #expect(speakers.count == 1)
+    #expect(speakers[0].name == "Traditional Chinese Speaker")
+  }
+
+  @Test("Should use correct language-specific files", arguments: DataLanguage.allCases)
+  func fetchWithSpecificLanguage(dataLanguage: DataLanguage) async throws {
+    let languageTitle = "\(dataLanguage) Session"
+    let speakerName = "\(dataLanguage) Speaker"
+
+    let expectedSchedule = Schedule(
+      day1: [
+        Session(
+          time: "09:00",
+          title: languageTitle,
+          tags: [],
+          speaker: speakerName,
+          speakerID: nil,
+          description: ""
+        )
+      ],
+      day2: []
+    )
+
+    let expectedSpeakers = [
+      Speaker(
+        id: 1, name: speakerName, title: "Developer", intro: "From \(dataLanguage)",
+        photo: nil, url: nil, fb: nil, github: nil, linkedin: nil, threads: nil, x: nil, ig: nil
+      )
+    ]
+
+    let scheduleFileName = "\(dataLanguage.scheduleFileName).json"
+    let speakersFileName = "\(dataLanguage.speakersFileName).json"
+
+    let networkData = [
+      scheduleFileName: try JSONEncoder().encode(expectedSchedule),
+      speakersFileName: try JSONEncoder().encode(expectedSpeakers),
+    ]
+
+    let client = createTestClient(networkData: networkData)
+
+    let sessions = try await client.fetchSchedules(nil as Int?, dataLanguage)
+    #expect(sessions.count == 1)
+    #expect(sessions[0].title == languageTitle)
+
+    let speakers = try await client.fetchSpeakers(dataLanguage)
+    #expect(speakers.count == 1)
+    #expect(speakers[0].name == speakerName)
+  }
+
+  @Test("Should fall back to cache with language-specific files", arguments: DataLanguage.allCases)
+  func languageFallbackToCache(dataLanguage: DataLanguage) async throws {
+    let cachedTitle = "Cached \(dataLanguage) Session"
+    let cachedSchedule = Schedule(
+      day1: [
+        Session(
+          time: "09:00",
+          title: cachedTitle,
+          tags: [],
+          speaker: "Cached \(dataLanguage) Speaker",
+          speakerID: nil,
+          description: ""
+        )
+      ],
+      day2: []
+    )
+
+    let scheduleFileName = "\(dataLanguage.scheduleFileName).json"
+    let cacheData = [
+      scheduleFileName: try JSONEncoder().encode(cachedSchedule)
+    ]
+
+    let client = createTestClient(
+      cacheData: cacheData,
+      networkShouldFail: true
+    )
+
+    let sessions = try await client.fetchSchedules(nil as Int?, dataLanguage)
+    #expect(sessions.count == 1)
+    #expect(sessions[0].title == cachedTitle)
+  }
 }
 
 // MARK: - Mock Implementations
@@ -246,8 +364,9 @@ extension LiveSessionDataClientTests {
     networkShouldFail: Bool = false
   ) -> SessionDataClient {
     SessionDataClient(
-      fetchSchedules: { day in
-        let endpoint = "schedule.json"
+      fetchSchedules: { day, dataLanguage in
+        let fileName = (dataLanguage ?? .traditionalChinese).scheduleFileName
+        let endpoint = "\(fileName).json"
 
         // Try network
         if !networkShouldFail, let data = networkData[endpoint] {
@@ -284,8 +403,9 @@ extension LiveSessionDataClientTests {
 
         throw SessionDataError.decodingError
       },
-      fetchSpeakers: {
-        let endpoint = "speakers.json"
+      fetchSpeakers: { dataLanguage in
+        let fileName = (dataLanguage ?? .traditionalChinese).speakersFileName
+        let endpoint = "\(fileName).json"
 
         if !networkShouldFail, let data = networkData[endpoint] {
           return try JSONDecoder().decode([Speaker].self, from: data)

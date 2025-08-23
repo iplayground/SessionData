@@ -9,16 +9,16 @@ struct SessionDataClientTests {
     let client = SessionDataClient.mock
 
     // Test with different day parameters - should not throw
-    _ = try await client.fetchSchedules(nil)
-    _ = try await client.fetchSchedules(1)
-    _ = try await client.fetchSchedules(2)
+    _ = try await client.fetchSchedules(nil, nil)
+    _ = try await client.fetchSchedules(1, nil)
+    _ = try await client.fetchSchedules(2, nil)
   }
 
   @Test("Client should have fetchSpeakers method that returns speaker array")
   func clientHasFetchSpeakersMethod() async throws {
     let client = SessionDataClient.mock
 
-    _ = try await client.fetchSpeakers()
+    _ = try await client.fetchSpeakers(nil)
   }
 
   @Test("Client should have fetchSponsors method that returns sponsors data")
@@ -56,7 +56,7 @@ struct SessionDataClientTests {
     )
 
     let client = SessionDataClient(
-      fetchSchedules: { day in
+      fetchSchedules: { day, _ in
         switch day {
         case 1:
           return [testSession1]
@@ -68,21 +68,21 @@ struct SessionDataClientTests {
           return []
         }
       },
-      fetchSpeakers: { [] },
+      fetchSpeakers: { _ in [] },
       fetchSponsors: { SponsorsData(sponsors: [], partner: []) },
       fetchStaffs: { [] },
       fetchLinks: { [] }
     )
 
-    let day1Sessions = try await client.fetchSchedules(1)
+    let day1Sessions = try await client.fetchSchedules(1, nil)
     #expect(day1Sessions.count == 1)
     #expect(day1Sessions.first?.title == "Day 1 Session")
 
-    let day2Sessions = try await client.fetchSchedules(2)
+    let day2Sessions = try await client.fetchSchedules(2, nil)
     #expect(day2Sessions.count == 1)
     #expect(day2Sessions.first?.title == "Day 2 Session")
 
-    let allSessions = try await client.fetchSchedules(nil)
+    let allSessions = try await client.fetchSchedules(nil, nil)
     #expect(allSessions.count == 2)
   }
 
@@ -90,7 +90,7 @@ struct SessionDataClientTests {
   func localClientDecodesSchedules() async throws {
     let client = SessionDataClient.local
 
-    let schedules = try await client.fetchSchedules(nil)
+    let schedules = try await client.fetchSchedules(nil, nil)
     #expect(!schedules.isEmpty)
 
     // Verify structure of decoded sessions
@@ -102,8 +102,8 @@ struct SessionDataClientTests {
     }
 
     // Test day filtering
-    let day1Sessions = try await client.fetchSchedules(1)
-    let day2Sessions = try await client.fetchSchedules(2)
+    let day1Sessions = try await client.fetchSchedules(1, nil)
+    let day2Sessions = try await client.fetchSchedules(2, nil)
 
     #expect(!day1Sessions.isEmpty)
     #expect(!day2Sessions.isEmpty)
@@ -114,7 +114,7 @@ struct SessionDataClientTests {
   func localClientDecodesSpeakers() async throws {
     let client = SessionDataClient.local
 
-    let speakers = try await client.fetchSpeakers()
+    let speakers = try await client.fetchSpeakers(nil)
     #expect(!speakers.isEmpty)
 
     // Verify structure of decoded speakers
@@ -166,12 +166,12 @@ struct SessionDataClientTests {
     let client = SessionDataClient.local
 
     // Fetch data twice and compare
-    let schedules1 = try await client.fetchSchedules(nil)
-    let schedules2 = try await client.fetchSchedules(nil)
+    let schedules1 = try await client.fetchSchedules(nil, nil)
+    let schedules2 = try await client.fetchSchedules(nil, nil)
     #expect(schedules1.count == schedules2.count)
 
-    let speakers1 = try await client.fetchSpeakers()
-    let speakers2 = try await client.fetchSpeakers()
+    let speakers1 = try await client.fetchSpeakers(nil)
+    let speakers2 = try await client.fetchSpeakers(nil)
     #expect(speakers1.count == speakers2.count)
 
     let staffs1 = try await client.fetchStaffs()

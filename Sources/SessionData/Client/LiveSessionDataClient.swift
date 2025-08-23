@@ -26,11 +26,11 @@ extension SessionDataClient {
   public static let live: SessionDataClient = {
     let client = LiveSessionDataClient()
     return SessionDataClient(
-      fetchSchedules: { day in
-        try await client.fetchSchedules(day: day)
+      fetchSchedules: { day, dataLanguage in
+        try await client.fetchSchedules(day: day, dataLanguage: dataLanguage)
       },
-      fetchSpeakers: {
-        try await client.fetchSpeakers()
+      fetchSpeakers: { dataLanguage in
+        try await client.fetchSpeakers(dataLanguage: dataLanguage)
       },
       fetchSponsors: {
         try await client.fetchSponsors()
@@ -48,8 +48,9 @@ extension SessionDataClient {
     let bundleLoader = BundleLoader()
 
     return SessionDataClient(
-      fetchSchedules: { day in
-        let data = try bundleLoader.load(file: "schedule.json")
+      fetchSchedules: { day, dataLanguage in
+        let fileName = (dataLanguage ?? .traditionalChinese).scheduleFileName
+        let data = try bundleLoader.load(file: "\(fileName).json")
         let schedule = try JSONDecoder().decode(Schedule.self, from: data)
 
         switch day {
@@ -63,8 +64,9 @@ extension SessionDataClient {
           return []
         }
       },
-      fetchSpeakers: {
-        let data = try bundleLoader.load(file: "speakers.json")
+      fetchSpeakers: { dataLanguage in
+        let fileName = (dataLanguage ?? .traditionalChinese).speakersFileName
+        let data = try bundleLoader.load(file: "\(fileName).json")
         return try JSONDecoder().decode([Speaker].self, from: data)
       },
       fetchSponsors: {
@@ -86,8 +88,9 @@ extension SessionDataClient {
 // MARK: - Fetch Implementation
 
 extension LiveSessionDataClient {
-  func fetchSchedules(day: Int?) async throws -> [Session] {
-    let data = try await fetchData(endpoint: "schedule.json")
+  func fetchSchedules(day: Int?, dataLanguage: DataLanguage?) async throws -> [Session] {
+    let fileName = (dataLanguage ?? .traditionalChinese).scheduleFileName
+    let data = try await fetchData(endpoint: "\(fileName).json")
     let schedule = try JSONDecoder().decode(Schedule.self, from: data)
 
     switch day {
@@ -102,8 +105,9 @@ extension LiveSessionDataClient {
     }
   }
 
-  func fetchSpeakers() async throws -> [Speaker] {
-    let data = try await fetchData(endpoint: "speakers.json")
+  func fetchSpeakers(dataLanguage: DataLanguage?) async throws -> [Speaker] {
+    let fileName = (dataLanguage ?? .traditionalChinese).speakersFileName
+    let data = try await fetchData(endpoint: "\(fileName).json")
     return try JSONDecoder().decode([Speaker].self, from: data)
   }
 
