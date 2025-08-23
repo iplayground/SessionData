@@ -295,12 +295,5 @@ let sponsors = try await client.fetchSponsors(strategy: .remote)
 ### 測試用法
 
 ```swift
-// 注意：SessionDataClient.local 已移除
-// 請使用 .localOnly 策略替代
+// 使用 .localOnly 策略
 let bundleSessions = try await client.fetchSchedules(nil, .fallback, strategy: .localOnly)
-
-// Mock 客戶端（測試用，返回空資料）
-let mockClient = SessionDataClient.mock
-let emptySessions = try await mockClient.fetchSchedules(nil, .fallback, strategy: .remote)
-```
-
