@@ -41,7 +41,7 @@ struct LiveSessionDataClientErrorTests {
     )
 
     // Should fall back to cache
-    let sessions = try await client.fetchSchedules(day: nil as Int?)
+    let sessions = try await client.fetchSchedules(day: nil)
     #expect(sessions.count == 1)
     #expect(sessions[0].title == "Cached Session")
   }
@@ -66,7 +66,7 @@ struct LiveSessionDataClientErrorTests {
     )
 
     // Should fall back to bundle - this will load real JSON from bundle
-    let sessions = try await client.fetchSchedules(day: nil as Int?)
+    let sessions = try await client.fetchSchedules(day: nil)
     #expect(!sessions.isEmpty)  // Bundle should have data
   }
 

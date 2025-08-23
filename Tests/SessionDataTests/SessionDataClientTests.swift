@@ -70,7 +70,8 @@ struct SessionDataClientTests {
       },
       fetchSpeakers: { [] },
       fetchSponsors: { SponsorsData(sponsors: [], partner: []) },
-      fetchStaffs: { [] }
+      fetchStaffs: { [] },
+      fetchLinks: { [] }
     )
 
     let day1Sessions = try await client.fetchSchedules(1)

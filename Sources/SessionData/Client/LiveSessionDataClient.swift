@@ -39,6 +39,10 @@ extension SessionDataClient {
     fetchStaffs: {
       let client = LiveSessionDataClient()
       return try await client.fetchStaffs()
+    },
+    fetchLinks: {
+      let client = LiveSessionDataClient()
+      return try await client.fetchLinks()
     }
   )
 }
@@ -75,6 +79,11 @@ extension LiveSessionDataClient {
   func fetchStaffs() async throws -> [Staff] {
     let data = try await fetchData(endpoint: "staffs.json")
     return try JSONDecoder().decode([Staff].self, from: data)
+  }
+
+  func fetchLinks() async throws -> [Link] {
+    let data = try await fetchData(endpoint: "links.json")
+    return try JSONDecoder().decode([Link].self, from: data)
   }
 
   private func fetchData(endpoint: String) async throws -> Data {

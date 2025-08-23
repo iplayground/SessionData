@@ -325,6 +325,20 @@ extension LiveSessionDataClientTests {
           return try JSONDecoder().decode([Staff].self, from: data)
         }
         throw SessionDataError.decodingError
+      },
+      fetchLinks: {
+        let endpoint = "links.json"
+
+        if !networkShouldFail, let data = networkData[endpoint] {
+          return try JSONDecoder().decode([Link].self, from: data)
+        }
+        if let data = cacheData[endpoint] {
+          return try JSONDecoder().decode([Link].self, from: data)
+        }
+        if let data = bundleData[endpoint] {
+          return try JSONDecoder().decode([Link].self, from: data)
+        }
+        throw SessionDataError.decodingError
       }
     )
   }
