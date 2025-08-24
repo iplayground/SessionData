@@ -1,9 +1,16 @@
 [
   {
     "id": "website",
-    "title": "Website",
+    "title": "iPlayground Website",
     "url": "https://iplayground.io",
     "icon": "globe",
+    "type": "primary"
+  },
+  {
+    "id": "coc",
+    "title": "Code of Conduct",
+    "url": "https://github.com/iplayground/code_of_conduct",
+    "icon": "person.badge.shield.checkmark",
     "type": "primary"
   },
   {
@@ -30,9 +37,9 @@
   {
     "id": "discord",
     "title": "Discord",
-    "url": "https://discord.gg/xS8yMKbbjB",
+    "url": "https://discord.gg/B7GeKjKj",
     "icon": "bubble.left.and.bubble.right",
-    "type": "primary"
+    "type": "social"
   },
   {
     "id": "twitter",
