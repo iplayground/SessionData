@@ -231,7 +231,13 @@ struct SessionDataTests {
     let sponsorsData = try JSONDecoder().decode(SponsorsData.self, from: data)
 
     #expect(!sponsorsData.sponsors.isEmpty)
+    #expect(!sponsorsData.personal.isEmpty)
     #expect(!sponsorsData.partner.isEmpty)
+    
+    // Verify personal sponsors have required name field
+    for personal in sponsorsData.personal {
+      #expect(!personal.name.isEmpty, "Personal sponsor name should not be empty")
+    }
   }
 
   @Test("Staffs JSON can be decoded")

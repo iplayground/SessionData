@@ -5,13 +5,15 @@ import Testing
 
 struct LiveSessionDataClientErrorTests {
 
-  @Test("Should test cache fallback when network fails")
-  func testNetworkFailureFallbackToCache() async throws {
-    // Create a cache directory and save test data
-    let uniqueDir = "TestCache_\(UUID().uuidString)"
-    let cacheManager = CacheManager(directory: uniqueDir)
-
-    let testSchedule = Schedule(
+  @Test("Network failure triggers fallback chain to cache")
+  func testFallbackChainWhenNetworkFails() async throws {
+    // Create a mock network fetcher that always fails
+    let failingNetworkFetcher = FailingNetworkFetcher()
+    let cacheManager = CacheManager(directory: "TestCache_\(UUID().uuidString)")
+    let bundleLoader = BundleLoader()
+    
+    // Pre-populate cache with test data
+    let cachedSchedule = Schedule(
       day1: [
         Session(
           time: "09:00",
@@ -24,136 +26,115 @@ struct LiveSessionDataClientErrorTests {
       ],
       day2: []
     )
-    let cacheData = try JSONEncoder().encode(testSchedule)
-    await cacheManager.save(cacheData, for: "schedule.json")
-
-    // Create a network fetcher that always fails
-    struct FailingNetworkFetcher: NetworkFetching {
-      func fetch(endpoint: String) async throws -> Data {
-        throw URLError(.networkConnectionLost)
-      }
-    }
-
+    
+    let cachedData = try JSONEncoder().encode(cachedSchedule)
+    await cacheManager.save(cachedData, for: "schedule.json")
+    
     let client = LiveSessionDataClient(
-      networkFetcher: FailingNetworkFetcher(),
+      networkFetcher: failingNetworkFetcher,
       cacheManager: cacheManager,
-      bundleLoader: BundleLoader()
+      bundleLoader: bundleLoader
     )
-
-    // Should fall back to cache
-    let sessions = try await client.fetchSchedules(day: nil as Int?)
+    
+    // Should fall back to cache when network fails
+    let sessions = try await client.fetchSchedules(day: nil, dataLanguage: .fallback, strategy: .remote)
     #expect(sessions.count == 1)
     #expect(sessions[0].title == "Cached Session")
   }
 
-  @Test("Should test bundle fallback when both network and cache fail")
-  func testBundleFallbackWhenAllElseFails() async throws {
-    // Create empty cache manager
-    let uniqueDir = "TestCache_\(UUID().uuidString)"
-    let cacheManager = CacheManager(directory: uniqueDir)
-
-    // Create network fetcher that fails
-    struct FailingNetworkFetcher: NetworkFetching {
-      func fetch(endpoint: String) async throws -> Data {
-        throw URLError(.networkConnectionLost)
-      }
-    }
-
+  @Test("Network and cache failure triggers bundle fallback")
+  func testFallbackToBundleWhenNetworkAndCacheFail() async throws {
+    let failingNetworkFetcher = FailingNetworkFetcher()
+    let cacheManager = CacheManager(directory: "EmptyTestCache_\(UUID().uuidString)")
+    let bundleLoader = BundleLoader()
+    
     let client = LiveSessionDataClient(
-      networkFetcher: FailingNetworkFetcher(),
+      networkFetcher: failingNetworkFetcher,
       cacheManager: cacheManager,
-      bundleLoader: BundleLoader()
+      bundleLoader: bundleLoader
     )
-
+    
     // Should fall back to bundle - this will load real JSON from bundle
-    let sessions = try await client.fetchSchedules(day: nil as Int?)
-    #expect(!sessions.isEmpty)  // Bundle should have data
+    let sessions = try await client.fetchSchedules(day: nil, dataLanguage: .fallback, strategy: .remote)
+    #expect(!sessions.isEmpty, "Should have bundle data")
   }
 
-  @Test("Should test all endpoints with bundle fallback")
-  func testAllEndpointsBundleFallback() async throws {
-    struct FailingNetworkFetcher: NetworkFetching {
-      func fetch(endpoint: String) async throws -> Data {
-        throw URLError(.networkConnectionLost)
-      }
-    }
-
-    let uniqueDir = "TestCache_\(UUID().uuidString)"
-    let cacheManager = CacheManager(directory: uniqueDir)
-
+  @Test("All endpoints fallback to bundle when network fails")
+  func testAllEndpointsWithFallback() async throws {
+    let failingNetworkFetcher = FailingNetworkFetcher()
+    let cacheManager = CacheManager(directory: "EmptyTestCache_\(UUID().uuidString)")
+    let bundleLoader = BundleLoader()
+    
     let client = LiveSessionDataClient(
-      networkFetcher: FailingNetworkFetcher(),
+      networkFetcher: failingNetworkFetcher,
       cacheManager: cacheManager,
-      bundleLoader: BundleLoader()
+      bundleLoader: bundleLoader
     )
-
+    
     // Test all endpoints fall back to bundle
-    let speakers = try await client.fetchSpeakers()
+    let speakers = try await client.fetchSpeakers(dataLanguage: .fallback, strategy: .remote)
     #expect(!speakers.isEmpty)
-
-    let sponsors = try await client.fetchSponsors()
-    #expect(!sponsors.sponsors.isEmpty || !sponsors.partner.isEmpty)
-
-    let staffs = try await client.fetchStaffs()
+    
+    let sponsors = try await client.fetchSponsors(strategy: .remote)
+    #expect(!sponsors.sponsors.isEmpty || !sponsors.personal.isEmpty || !sponsors.partner.isEmpty)
+    
+    let staffs = try await client.fetchStaffs(strategy: .remote)
     #expect(!staffs.isEmpty)
+    
+    let links = try await client.fetchLinks(strategy: .remote)
+    #expect(!links.isEmpty)
   }
 
-  @Test("Should test cache manager load functionality")
-  func testCacheManagerLoad() async throws {
-    let uniqueDir = "TestCache_\(UUID().uuidString)"
-    let cacheManager = CacheManager(directory: uniqueDir)
-
-    let testKey = "test.json"
-    let testData = "Test cache data".data(using: .utf8)!
-
-    // Test saving and loading
-    await cacheManager.save(testData, for: testKey)
-
-    let loadedData = await cacheManager.load(for: testKey)
-    #expect(loadedData == testData, "Loaded data should match saved data")
-
-    // Test loading non-existent key
-    let nonExistentKey = "nonexistent.json"
-    let missingData = await cacheManager.load(for: nonExistentKey)
-    #expect(missingData == nil, "Loading non-existent key should return nil")
+  @Test("Day filtering works with bundle fallback")
+  func testDayFilteringWithFallback() async throws {
+    let failingNetworkFetcher = FailingNetworkFetcher()
+    let cacheManager = CacheManager(directory: "EmptyTestCache_\(UUID().uuidString)")
+    let bundleLoader = BundleLoader()
+    
+    let client = LiveSessionDataClient(
+      networkFetcher: failingNetworkFetcher,
+      cacheManager: cacheManager,
+      bundleLoader: bundleLoader
+    )
+    
+    // Test day filtering works with bundle fallback
+    let day1Sessions = try await client.fetchSchedules(day: 1, dataLanguage: .fallback, strategy: .remote)
+    #expect(!day1Sessions.isEmpty)
+    
+    let day2Sessions = try await client.fetchSchedules(day: 2, dataLanguage: .fallback, strategy: .remote)
+    #expect(!day2Sessions.isEmpty)
+    
+    let invalidDaySessions = try await client.fetchSchedules(day: 99, dataLanguage: .fallback, strategy: .remote)
+    #expect(invalidDaySessions.isEmpty, "Invalid day should return empty array")
   }
 
-  @Test("Should test network error handling")
-  func testNetworkErrors() async throws {
-    struct ErrorNetworkFetcher: NetworkFetching {
-      let error: Error
-      func fetch(endpoint: String) async throws -> Data {
-        throw error
-      }
+  @Test("All languages work with bundle fallback")
+  func testDifferentLanguagesWithFallback() async throws {
+    let failingNetworkFetcher = FailingNetworkFetcher()
+    let cacheManager = CacheManager(directory: "EmptyTestCache_\(UUID().uuidString)")
+    let bundleLoader = BundleLoader()
+    
+    let client = LiveSessionDataClient(
+      networkFetcher: failingNetworkFetcher,
+      cacheManager: cacheManager,
+      bundleLoader: bundleLoader
+    )
+    
+    // Test all languages work with bundle fallback
+    for language in DataLanguage.allCases {
+      let sessions = try await client.fetchSchedules(day: 1, dataLanguage: language, strategy: .remote)
+      #expect(!sessions.isEmpty, "Should have sessions for \(language)")
+      
+      let speakers = try await client.fetchSpeakers(dataLanguage: language, strategy: .remote)
+      #expect(!speakers.isEmpty, "Should have speakers for \(language)")
     }
+  }
+}
 
-    // Test with different network errors
-    let networkTimeoutFetcher = ErrorNetworkFetcher(error: URLError(.timedOut))
-    let networkNotFoundFetcher = ErrorNetworkFetcher(error: URLError(.fileDoesNotExist))
+// MARK: - Mock Implementations
 
-    let uniqueDir1 = "TestCache_\(UUID().uuidString)"
-    let cacheManager1 = CacheManager(directory: uniqueDir1)
-
-    let uniqueDir2 = "TestCache_\(UUID().uuidString)"
-    let cacheManager2 = CacheManager(directory: uniqueDir2)
-
-    let client1 = LiveSessionDataClient(
-      networkFetcher: networkTimeoutFetcher,
-      cacheManager: cacheManager1,
-      bundleLoader: BundleLoader()
-    )
-
-    let client2 = LiveSessionDataClient(
-      networkFetcher: networkNotFoundFetcher,
-      cacheManager: cacheManager2,
-      bundleLoader: BundleLoader()
-    )
-
-    // Both should fall back to bundle and succeed
-    let sessions1 = try await client1.fetchSchedules(day: 1)
-    #expect(!sessions1.isEmpty)
-
-    let sessions2 = try await client2.fetchSchedules(day: 1)  // Use day 1 which we know has data
-    #expect(!sessions2.isEmpty)
+struct FailingNetworkFetcher: NetworkFetching {
+  func fetch(endpoint: String) async throws -> Data {
+    throw SessionDataError.networkError
   }
 }

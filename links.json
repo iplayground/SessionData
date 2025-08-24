@@ -1,0 +1,86 @@
+[
+  {
+    "id": "website",
+    "title": "Website",
+    "url": "https://iplayground.io",
+    "icon": "globe",
+    "type": "primary"
+  },
+  {
+    "id": "hackmd",
+    "title": "HackMD",
+    "url": "https://hackmd.io/@iplayground/2025",
+    "icon": "doc.text",
+    "type": "primary"
+  },
+  {
+    "id": "newsletter",
+    "title": "Newsletter",
+    "url": "https://iplayground.substack.com",
+    "icon": "envelope",
+    "type": "primary"
+  },
+  {
+    "id": "youtube",
+    "title": "YouTube",
+    "url": "https://www.youtube.com/@iPlaygroundTaiwan",
+    "icon": "play.rectangle",
+    "type": "primary"
+  },
+  {
+    "id": "discord",
+    "title": "Discord",
+    "url": "https://discord.gg/xS8yMKbbjB",
+    "icon": "bubble.left.and.bubble.right",
+    "type": "primary"
+  },
+  {
+    "id": "twitter",
+    "title": "Twitter (X)",
+    "url": "https://x.com/theiPlayground",
+    "icon": "x.square",
+    "type": "social"
+  },
+  {
+    "id": "threads",
+    "title": "Threads",
+    "url": "https://www.threads.com/@iplayground.tw",
+    "icon": "at",
+    "type": "social"
+  },
+  {
+    "id": "mastodon",
+    "title": "Mastodon",
+    "url": "https://iosdev.space/@iplayground",
+    "icon": "number",
+    "type": "social"
+  },
+  {
+    "id": "facebook",
+    "title": "Facebook",
+    "url": "https://www.facebook.com/theiPlayground",
+    "icon": "f.square",
+    "type": "social"
+  },
+  {
+    "id": "app-source",
+    "title": "iplayground-app-2025",
+    "url": "https://github.com/iplayground/iplayground-app-2025",
+    "icon": "chevron.left.forwardslash.chevron.right",
+    "type": "appInfo"
+  },
+  {
+    "id": "session-data-source",
+    "title": "SessionData",
+    "url": "https://github.com/iplayground/SessionData",
+    "icon": "chevron.left.forwardslash.chevron.right",
+    "type": "appInfo"
+  },
+  {
+    "id": "app-store",
+    "title": "App Store",
+    "url": "https://apps.apple.com/us/app/iplayground-2025/id6751350620",
+    "icon": "app.badge",
+    "type": "appInfo"
+  }
+]
