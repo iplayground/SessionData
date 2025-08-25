@@ -89,5 +89,33 @@
     "url": "https://apps.apple.com/us/app/iplayground-2025/id6751350620",
     "icon": "app.badge",
     "type": "appInfo"
+  },
+  {
+    "id": "privacy-policy",
+    "title": "Privacy Policy",
+    "url": "https://github.com/iplayground/privacy-policy/blob/main/Privacy%20Policy.md",
+    "icon": "lock.shield",
+    "type": "appInfo"
+  },
+  {
+    "id": "kktix",
+    "title": "KKTIX",
+    "url": "https://kktix.com/account/events/2025general/tickets",
+    "icon": "ticket",
+    "type": "personal"
+  },
+  {
+    "id": "notice",
+    "title": "Notice",
+    "url": "https://hackmd.io/c1zam4AoTgaBbHEhRXc4Tg",
+    "icon": "exclamationmark.bubble",
+    "type": "personal"
+  },
+  {
+    "id": "lightning-talk",
+    "title": "Lightning Talk",
+    "url": "https://hackmd.io/36f8q1MQS_WN9pIpLX-Vjw",
+    "icon": "bolt.circle",
+    "type": "personal"
   }
 ]

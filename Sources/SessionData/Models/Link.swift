@@ -4,6 +4,7 @@ public enum LinkType: String, Codable, CaseIterable, Sendable {
   case primary = "primary"
   case social = "social"
   case appInfo = "appInfo"
+  case personal = "personal"
 }
 
 public struct Link: Codable, Equatable, Identifiable, Sendable {
