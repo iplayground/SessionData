@@ -46,9 +46,9 @@
   },
   {
     "id": 4,
-    "name": "Yuki Aki",
+    "name": "秋勇紀",
     "title": "LY Corporation iOS Engineer",
-    "intro": "Yuki は LY Corporation の iOS エンジニアです。LINE で働いており、日本で最も人気のあるメッセージングアプリケーションである LINE アプリのビルドシステムの改善に取り組んでいます。Swift でのコーディング中に学んだことについて話すのが好きで、多くのカンファレンスやミートアップで講演しています。また、Swift Compiler、fastlane、XcodeGen などの OSS プロジェクトにも貢献しています。",
+    "intro": "秋勇紀は LY Corporation の iOS エンジニアです。LINE で働いており、日本で最も人気のあるメッセージングアプリケーションである LINE アプリのビルドシステムの改善に取り組んでいます。Swift でのコーディング中に学んだことについて話すのが好きで、多くのカンファレンスやミートアップで講演しています。また、Swift Compiler、fastlane、XcodeGen などの OSS プロジェクトにも貢献しています。",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/speakers/speaker_Yuki_Aki.jpg",
     "url": "",
     "fb": "",

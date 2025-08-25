@@ -46,7 +46,7 @@
   },
   {
     "id": 4,
-    "name": "Yuki Aki",
+    "name": "秋勇紀",
     "title": "LY Corporation iOS Engineer",
     "intro": "Yuki is an iOS Engineer at LY Corporation. He works for LINE, improving the Build System of the LINE application (which is most popular messaging application in Japan). He has spoken at many conferences and meetups as he enjoys talking about what he learned while coding in Swift. He also contributed to OSS projects, like Swift Compiler, fastlane, and XcodeGen.",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/speakers/speaker_Yuki_Aki.jpg",
