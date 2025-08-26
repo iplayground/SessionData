@@ -35,7 +35,7 @@
       "speaker": "鄭宇哲 UJ Cheng",
       "speakerID": 1,
       "description": "如何讓 Swift 程式碼更簡潔、可讀，是許多開發者追求的目標。函數式編程提供了一種更具表達力的寫法，讓我們能以直觀的語意處理資料與邏輯。本演講將介紹 Swift 到目前為止有的高階函數與使用技巧，並實際示範它們如何應用在 iOS 專案開發中，甚至是在刷題過程中。無論是提升演算法解題效率，還是改善專案架構，Functional Programming 都能為你的 Swift 程式碼帶來優雅的轉變。",
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/S1rVR6Zugl"
     },
     {
       "time": "10:40 – 10:55",
@@ -56,7 +56,7 @@
       "speaker": "zonble",
       "speakerID": 3,
       "description": "Swift C++ Interop 是在 2020 年左右開始開發，在 2023 年 WWDC 上宣布的特性，這幾年也不斷有新的變化。在這個 talk 中，會提到如何在 Swift 專案中混用 C++ 語法，以及使用時會遇到的限制與挑戰。",
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/ryTTTJMOxe"
     },
     {
       "time": "11:15 – 11:35",
@@ -69,8 +69,8 @@
       ],
       "speaker": "秋勇紀",
       "speakerID": 4,
-      "description": "This talk explores the evolving concept of performance in Swift, focusing on SE-0453, which introduces InlineArray—a fixed-size array type offering performance benefits over traditional Array. It addresses why InlineArray was introduced, when to use it, and what performance truly means in Swift. By diving into memory models (heap, stack, buffer), array history, and real-world performance implications, the talk aims to deepen understanding and reveal Swift’s potential on broader platforms, including embedded systems. Attendees will gain insights beyond everyday development, unlocking new perspectives on Swift’s roadmap and performance-driven future.",
-      "hackMD": ""
+      "description": "This talk explores the evolving concept of performance in Swift, focusing on SE-0453, which introduces InlineArray—a fixed-size array type offering performance benefits over traditional Array. It addresses why InlineArray was introduced, when to use it, and what performance truly means in Swift. By diving into memory models (heap, stack, buffer), array history, and real-world performance implications, the talk aims to deepen understanding and reveal Swift's potential on broader platforms, including embedded systems. Attendees will gain insights beyond everyday development, unlocking new perspectives on Swift's roadmap and performance-driven future.",
+      "hackMD": "https://hackmd.io/@iPlayground/HJUHAkzOeg"
     },
     {
       "time": "11:35 – 11:55",
@@ -84,7 +84,7 @@
       "speaker": "東東",
       "speakerID": 5,
       "description": "隨著 Apple 在 WWDC 2025 正式發布 Liquid Glass 設計語言，我們正見證繼 iOS 7 扁平化以來最重大的視覺革新。作為曾深度實作 Neumorphism 並應用於線上產品的開發者。本次分享將透過實際案例，深入探討 Neumorphism 與 Liquid Glass 的設計哲學，幫助大家從「什麼是好設計」進階到「為什麼這樣設計」的思維層次。",
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/SJo_RkzOgl"
     },
     {
       "time": "11:55 – 12:15",
@@ -98,7 +98,7 @@
       "speaker": "林子祐",
       "speakerID": 6,
       "description": "這是一個從 Side Project 開始、卻意外成為全台超過 200 萬下載防災 App 的真實故事。《台灣地震速報 - Taiwan EEW》如何在資源有限的情況下，從一人開發逐步打造出穩定的全端地震預警系統？本場分享將介紹如何透過 Firebase Firestore 傳遞即時地震資料、以 AWS SNS 完成高速推播通知，並在 iOS 前端設計清晰直覺的 UI。該 App 曾獲選台灣 Apple App Store 年度排行榜第五名、取得相關專利、也成為中央氣象署的合作對象。這不僅是一段技術整合的經驗，也是一位開發者如何用有限資源撐起公共服務的實踐記錄",
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/rylTCJfdeg"
     },
     {
       "time": "12:15 – 13:15",
