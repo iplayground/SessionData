@@ -67,7 +67,7 @@
         "編譯",
         "英文"
       ],
-      "speaker": "Yuki Aki",
+      "speaker": "秋勇紀",
       "speakerID": 4,
       "description": "This talk explores the evolving concept of performance in Swift, focusing on SE-0453, which introduces InlineArray—a fixed-size array type offering performance benefits over traditional Array. It addresses why InlineArray was introduced, when to use it, and what performance truly means in Swift. By diving into memory models (heap, stack, buffer), array history, and real-world performance implications, the talk aims to deepen understanding and reveal Swift’s potential on broader platforms, including embedded systems. Attendees will gain insights beyond everyday development, unlocking new perspectives on Swift’s roadmap and performance-driven future.",
       "hackMD": ""
