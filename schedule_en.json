@@ -245,6 +245,17 @@
       "tags": [],
       "speaker": "General Convener",
       "description": ""
+    },
+    {
+      "time": "18:00 – 21:00",
+      "title": "After Party",
+      "tags": [
+        "Networking",
+        "Dinner",
+        "Lightning Talk"
+      ],
+      "speaker": "",
+      "description": "The conference doesn’t end here! Join the After Party to keep connecting, relax, and enjoy surprise Lightning Talks! Dinner will be served from 18:00–20:00, and Lightning Talks will take place from 19:00–20:00."
     }
   ],
   "day2": [
