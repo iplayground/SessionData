@@ -245,6 +245,17 @@
       "tags": [],
       "speaker": "總召",
       "description": ""
+    },
+    {
+      "time": "18:00 – 21:00",
+      "title": "After Party",
+      "tags": [
+        "交流",
+        "餐點",
+        "Lightning Talk"
+      ],
+      "speaker": "",
+      "description": "研討會結束後，別急著回家！一起來參加 After Party，繼續交流、放鬆聊天，還有驚喜的 Lightning Talk！供餐時間 18:00～20:00，Lightning Talk 時間 19:00～20:00。"
     }
   ],
   "day2": [
