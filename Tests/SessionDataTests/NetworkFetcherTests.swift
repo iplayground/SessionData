@@ -8,7 +8,7 @@ struct NetworkFetcherTests {
   @Test("Valid URLs are constructed correctly")
   func testURLConstruction() async throws {
     let networkFetcher = NetworkFetcher()
-    
+
     // Test that the URL construction doesn't fail for valid endpoints
     do {
       // This might fail due to network, but we want to test URL construction
@@ -24,7 +24,7 @@ struct NetworkFetcherTests {
   @Test("Invalid endpoints trigger network error")
   func testInvalidEndpoints() async throws {
     let networkFetcher = NetworkFetcher()
-    
+
     // URLs with spaces are actually handled by URL encoding, so they become network errors
     await #expect(throws: SessionDataError.networkError) {
       try await networkFetcher.fetch(endpoint: "invalid endpoint that does not exist")
@@ -34,7 +34,7 @@ struct NetworkFetcherTests {
   @Test("Network errors are handled gracefully")
   func testNetworkErrorHandling() async throws {
     let networkFetcher = NetworkFetcher()
-    
+
     // Test with a non-existent endpoint that should return network error
     do {
       _ = try await networkFetcher.fetch(endpoint: "nonexistent-file-12345.json")
@@ -49,8 +49,10 @@ struct NetworkFetcherTests {
   @Test("Base URL is configured correctly")
   func testBaseURLConfiguration() {
     let networkFetcher = NetworkFetcher()
-    
+
     // Verify the base URL is correctly set
-    #expect(networkFetcher.baseURL == "https://raw.githubusercontent.com/iplayground/SessionData/refs/heads/2025/v1/")
+    #expect(
+      networkFetcher.baseURL
+        == "https://raw.githubusercontent.com/iplayground/SessionData/refs/heads/2025/v1/")
   }
 }

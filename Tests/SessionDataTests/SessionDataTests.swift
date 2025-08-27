@@ -185,43 +185,43 @@ struct SessionDataTests {
     day: Int,
     translatedFileName: String
   ) {
+    let fieldsToValidate:
+      [(keyPath: PartialKeyPath<Session>, name: String, formatter: (Any?) -> String)] = [
+        (\.speakerID, "speakerID", { String(describing: $0) }),
+        (\.time, "time", { "'\($0 as? String ?? "nil")'" }),
+        (
+          \.hackMD, "hackMD",
+          {
+            if let url = $0 as? URL? {
+              return "'\(url?.absoluteString ?? "nil")'"
+            } else {
+              return "'nil'"
+            }
+          }
+        ),
+      ]
+
     for (sessionIndex, (sourceSession, translatedSession)) in zip(
       sourceSessions, translatedSessions
     ).enumerated() {
-      validateSessionField(
-        sourceSession, translatedSession,
-        keyPath: \.speakerID,
-        fieldName: "speakerID",
-        formatter: { String(describing: $0) },
-        day: day, sessionIndex: sessionIndex, translatedFileName: translatedFileName
-      )
-
-      validateSessionField(
-        sourceSession, translatedSession,
-        keyPath: \.time,
-        fieldName: "time",
-        formatter: { "'\($0)'" },
-        day: day, sessionIndex: sessionIndex, translatedFileName: translatedFileName
-      )
+      for (keyPath, fieldName, formatter) in fieldsToValidate {
+        let sourceValue = sourceSession[keyPath: keyPath]
+        let translatedValue = translatedSession[keyPath: keyPath]
+        #expect(
+          areEqual(sourceValue, translatedValue),
+          "Fix \(translatedFileName): Day\(day) Session\(sessionIndex) \(fieldName) should be \(formatter(sourceValue)) but is \(formatter(translatedValue))"
+        )
+      }
     }
   }
 
-  private func validateSessionField<T: Equatable>(
-    _ source: Session,
-    _ translated: Session,
-    keyPath: KeyPath<Session, T>,
-    fieldName: String,
-    formatter: (T) -> String,
-    day: Int,
-    sessionIndex: Int,
-    translatedFileName: String
-  ) {
-    let sourceValue = source[keyPath: keyPath]
-    let translatedValue = translated[keyPath: keyPath]
-    #expect(
-      sourceValue == translatedValue,
-      "Fix \(translatedFileName): Day\(day) Session\(sessionIndex) \(fieldName) should be \(formatter(sourceValue)) but is \(formatter(translatedValue))"
-    )
+  private func areEqual(_ lhs: Any?, _ rhs: Any?) -> Bool {
+    switch (lhs, rhs) {
+    case let (l as Speaker.ID?, r as Speaker.ID?): return l == r
+    case let (l as String, r as String): return l == r
+    case let (l as URL?, r as URL?): return l == r
+    default: return false
+    }
   }
 
   @Test("Sponsors JSON can be decoded")
@@ -233,7 +233,7 @@ struct SessionDataTests {
     #expect(!sponsorsData.sponsors.isEmpty)
     #expect(!sponsorsData.personal.isEmpty)
     #expect(!sponsorsData.partner.isEmpty)
-    
+
     // Verify personal sponsors have required name field
     for personal in sponsorsData.personal {
       #expect(!personal.name.isEmpty, "Personal sponsor name should not be empty")

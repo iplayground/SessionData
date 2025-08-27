@@ -11,7 +11,7 @@ struct LiveSessionDataClientErrorTests {
     let failingNetworkFetcher = FailingNetworkFetcher()
     let cacheManager = CacheManager(directory: "TestCache_\(UUID().uuidString)")
     let bundleLoader = BundleLoader()
-    
+
     // Pre-populate cache with test data
     let cachedSchedule = Schedule(
       day1: [
@@ -26,18 +26,19 @@ struct LiveSessionDataClientErrorTests {
       ],
       day2: []
     )
-    
+
     let cachedData = try JSONEncoder().encode(cachedSchedule)
     await cacheManager.save(cachedData, for: "schedule.json")
-    
+
     let client = LiveSessionDataClient(
       networkFetcher: failingNetworkFetcher,
       cacheManager: cacheManager,
       bundleLoader: bundleLoader
     )
-    
+
     // Should fall back to cache when network fails
-    let sessions = try await client.fetchSchedules(day: nil, dataLanguage: .fallback, strategy: .remote)
+    let sessions = try await client.fetchSchedules(
+      day: nil, dataLanguage: .fallback, strategy: .remote)
     #expect(sessions.count == 1)
     #expect(sessions[0].title == "Cached Session")
   }
@@ -47,15 +48,16 @@ struct LiveSessionDataClientErrorTests {
     let failingNetworkFetcher = FailingNetworkFetcher()
     let cacheManager = CacheManager(directory: "EmptyTestCache_\(UUID().uuidString)")
     let bundleLoader = BundleLoader()
-    
+
     let client = LiveSessionDataClient(
       networkFetcher: failingNetworkFetcher,
       cacheManager: cacheManager,
       bundleLoader: bundleLoader
     )
-    
+
     // Should fall back to bundle - this will load real JSON from bundle
-    let sessions = try await client.fetchSchedules(day: nil, dataLanguage: .fallback, strategy: .remote)
+    let sessions = try await client.fetchSchedules(
+      day: nil, dataLanguage: .fallback, strategy: .remote)
     #expect(!sessions.isEmpty, "Should have bundle data")
   }
 
@@ -64,23 +66,23 @@ struct LiveSessionDataClientErrorTests {
     let failingNetworkFetcher = FailingNetworkFetcher()
     let cacheManager = CacheManager(directory: "EmptyTestCache_\(UUID().uuidString)")
     let bundleLoader = BundleLoader()
-    
+
     let client = LiveSessionDataClient(
       networkFetcher: failingNetworkFetcher,
       cacheManager: cacheManager,
       bundleLoader: bundleLoader
     )
-    
+
     // Test all endpoints fall back to bundle
     let speakers = try await client.fetchSpeakers(dataLanguage: .fallback, strategy: .remote)
     #expect(!speakers.isEmpty)
-    
+
     let sponsors = try await client.fetchSponsors(strategy: .remote)
     #expect(!sponsors.sponsors.isEmpty || !sponsors.personal.isEmpty || !sponsors.partner.isEmpty)
-    
+
     let staffs = try await client.fetchStaffs(strategy: .remote)
     #expect(!staffs.isEmpty)
-    
+
     let links = try await client.fetchLinks(strategy: .remote)
     #expect(!links.isEmpty)
   }
@@ -90,21 +92,24 @@ struct LiveSessionDataClientErrorTests {
     let failingNetworkFetcher = FailingNetworkFetcher()
     let cacheManager = CacheManager(directory: "EmptyTestCache_\(UUID().uuidString)")
     let bundleLoader = BundleLoader()
-    
+
     let client = LiveSessionDataClient(
       networkFetcher: failingNetworkFetcher,
       cacheManager: cacheManager,
       bundleLoader: bundleLoader
     )
-    
+
     // Test day filtering works with bundle fallback
-    let day1Sessions = try await client.fetchSchedules(day: 1, dataLanguage: .fallback, strategy: .remote)
+    let day1Sessions = try await client.fetchSchedules(
+      day: 1, dataLanguage: .fallback, strategy: .remote)
     #expect(!day1Sessions.isEmpty)
-    
-    let day2Sessions = try await client.fetchSchedules(day: 2, dataLanguage: .fallback, strategy: .remote)
+
+    let day2Sessions = try await client.fetchSchedules(
+      day: 2, dataLanguage: .fallback, strategy: .remote)
     #expect(!day2Sessions.isEmpty)
-    
-    let invalidDaySessions = try await client.fetchSchedules(day: 99, dataLanguage: .fallback, strategy: .remote)
+
+    let invalidDaySessions = try await client.fetchSchedules(
+      day: 99, dataLanguage: .fallback, strategy: .remote)
     #expect(invalidDaySessions.isEmpty, "Invalid day should return empty array")
   }
 
@@ -113,18 +118,19 @@ struct LiveSessionDataClientErrorTests {
     let failingNetworkFetcher = FailingNetworkFetcher()
     let cacheManager = CacheManager(directory: "EmptyTestCache_\(UUID().uuidString)")
     let bundleLoader = BundleLoader()
-    
+
     let client = LiveSessionDataClient(
       networkFetcher: failingNetworkFetcher,
       cacheManager: cacheManager,
       bundleLoader: bundleLoader
     )
-    
+
     // Test all languages work with bundle fallback
     for language in DataLanguage.allCases {
-      let sessions = try await client.fetchSchedules(day: 1, dataLanguage: language, strategy: .remote)
+      let sessions = try await client.fetchSchedules(
+        day: 1, dataLanguage: language, strategy: .remote)
       #expect(!sessions.isEmpty, "Should have sessions for \(language)")
-      
+
       let speakers = try await client.fetchSpeakers(dataLanguage: language, strategy: .remote)
       #expect(!speakers.isEmpty, "Should have speakers for \(language)")
     }
