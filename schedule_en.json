@@ -35,7 +35,7 @@
       "speaker": "UJ Cheng",
       "description": "How to make Swift code more concise and readable is a goal pursued by many developers. Functional programming provides a more expressive way of writing code that allows us to handle data and logic with intuitive semantics. This talk will introduce the higher-order functions and usage techniques that Swift has so far, and demonstrate how they can be applied in iOS project development, and even in algorithm problem-solving. Whether improving algorithm solution efficiency or enhancing project architecture, Functional Programming can bring elegant transformation to your Swift code.",
       "speakerID": 1,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/S1rVR6Zugl"
     },
     {
       "time": "10:40 – 10:55",
@@ -56,7 +56,7 @@
       "speaker": "zonble",
       "description": "Swift C++ Interop began development around 2020 and was announced as a feature at WWDC 2023, with continuous new changes over the years. In this talk, we'll discuss how to mix C++ syntax in Swift projects, as well as the limitations and challenges encountered during use.",
       "speakerID": 3,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/ryTTTJMOxe"
     },
     {
       "time": "11:15 – 11:35",
@@ -70,7 +70,7 @@
       "speaker": "Yuki Aki",
       "description": "This talk explores the evolving concept of performance in Swift, focusing on SE-0453, which introduces InlineArray—a fixed-size array type offering performance benefits over traditional Array. It addresses why InlineArray was introduced, when to use it, and what performance truly means in Swift. By diving into memory models (heap, stack, buffer), array history, and real-world performance implications, the talk aims to deepen understanding and reveal Swift's potential on broader platforms, including embedded systems. Attendees will gain insights beyond everyday development, unlocking new perspectives on Swift's roadmap and performance-driven future.",
       "speakerID": 4,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/HJUHAkzOeg"
     },
     {
       "time": "11:35 – 11:55",
@@ -84,7 +84,7 @@
       "speaker": "DongDong",
       "description": "With Apple's official release of the Liquid Glass design language at WWDC 2025, we are witnessing the most significant visual revolution since iOS 7's flat design. As a developer who has deeply implemented Neumorphism and applied it to online products, this sharing will explore the design philosophy of Neumorphism and Liquid Glass through practical cases, helping everyone advance from 'what is good design' to the thinking level of 'why design this way.'",
       "speakerID": 5,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/SJo_RkzOgl"
     },
     {
       "time": "11:55 – 12:15",
@@ -98,7 +98,7 @@
       "speaker": "Lin Ziyou",
       "description": "This is a real story that started as a side project but unexpectedly became a disaster prevention app with over 2 million downloads across Taiwan. How did \"Taiwan Earthquake Alert - Taiwan EEW\" gradually build a stable full-stack earthquake warning system from one-person development under limited resources? This session will introduce how to transmit real-time earthquake data through Firebase Firestore, complete high-speed push notifications with AWS SNS, and design clear and intuitive UI on the iOS frontend. The app was selected as the fifth place in Taiwan's Apple App Store annual rankings, obtained related patents, and became a partner of the Central Weather Administration. This is not only an experience of technical integration but also a practical record of how a developer can support public services with limited resources.",
       "speakerID": 6,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/rylTCJfdeg"
     },
     {
       "time": "12:15 – 13:15",
@@ -119,7 +119,7 @@
       "speaker": "qcl",
       "description": "Have you ever seen dynamic notifications on the Dynamic Island? Do you know that LINE and its related apps also have dynamic notifications?\n\nIn this sharing session, we will introduce the technical details of dynamic notifications, challenges encountered during implementation, and the experience of promoting new features within large organizations.",
       "speakerID": 7,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/rkL71efuxe"
     },
     {
       "time": "14:05 – 14:20",
@@ -140,7 +140,7 @@
       "speaker": "Eric Chen",
       "description": "Architectural choices have never been about 'right' or 'wrong,' but come from real-world trade-offs in the development process.\nThis session reviews how the speaker, when taking over a chaotic iOS project, started from basic MVVM and gradually introduced Combine, Swift Concurrency, Repository, Closure DI, and finally designed a modular Coordinator architecture based on problems encountered at each stage.\nBesides introducing the implementation methods of technical choices, it will also share the motivation and process behind each step, allowing you to find approaches that might suit your team.",
       "speakerID": 8,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/HyaBJgf_ll"
     },
     {
       "time": "14:40 – 15:00",
@@ -154,7 +154,7 @@
       "speaker": "Vincent Chen",
       "description": "This session will share the speaker's journey of single-handedly taking over a large project. It will share how to face long-unmaintained code while satisfying queued business requirements, A/B testing, and optimizing user experience from multiple perspectives. Detailed sharing will include practical experience in coordinating with different team leaders, setting goals, iterative improvements, and introducing new tools. Finally, the speaker will share prospects and plans for the project's future.",
       "speakerID": 9,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/Bkov1lMull"
     },
     {
       "time": "15:00 – 15:20",
@@ -168,7 +168,7 @@
       "speaker": "YC Hsu",
       "description": "TCA(The Composable Architecture) changed how we think about building apps. In this session, I'll share our experience using TCA in production: what made us choose it, what surprised us, what helped us succeed, and what we suggest to you before you try TCA.",
       "speakerID": 10,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/ry09yxMugg"
     },
     {
       "time": "15:20 – 15:40",
@@ -189,7 +189,7 @@
       "speaker": "Art",
       "description": "Starting from unidirectional data flow, TCA has undergone seven key 'mutations' including Dependency, Reducer Protocol, Navigation, Macro, Observation, and Sharing State. Point-Free has gradually refined chaotic boilerplate into a highly testable and easily composable architectural ecosystem with experimental rigor and ingenuity. This session will take you through the pain points, strategies, and gains behind each evolution, providing insight into the evolutionary path of modern iOS architecture.",
       "speakerID": 11,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/HkV0JxM_xx"
     },
     {
       "time": "16:30 – 16:45",
@@ -210,7 +210,7 @@
       "speaker": "Hai Feng Kao",
       "description": "Swift Concurrency will be fully enabled in Swift 6, which improves safety but also makes previously reasonable code suddenly unable to compile. This session will take you deep into understanding the principles behind common error messages, analyzing key concepts like @MainActor, Sendable, nonisolated, and demonstrating common pitfalls and solutions in Swift Concurrency through practical cases. Whether you're new to concurrency or have battle-tested experience in large projects, this sharing can help you more steadily embrace the changes of Swift 6.",
       "speakerID": 12,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/B1l7xgGuex"
     },
     {
       "time": "17:05 – 17:25",
@@ -223,7 +223,7 @@
       "speaker": "Allen Lai",
       "description": "By chance, I became a technical interviewer for the company's Staff Engineer position and received recognition from management and HR.\nReflecting on what I might have done right and reviewing mistakes and lessons learned as a candidate.\nThrough my dual experience as both candidate and interviewer, I share how to approach interviews and being interviewed with a healthy mindset and thorough preparation, creating a more friendly workplace interview environment.",
       "speakerID": 13,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/S1RSxeM_xe"
     },
     {
       "time": "17:25 – 17:45",
@@ -237,7 +237,7 @@
       "speaker": "Ben",
       "description": "Software and curry development have many similarities, at least in terms of knowledge context, software development experience is very helpful.\nThis is not a dream of escaping reality, but an adventure journey proving with flesh and blood that leaving the comfort zone only brings discomfort. The dual track of software and curry has entered its sixth year, with a second store, and the homemade system continues to progress. The experience gained from the frontlines of food service for product development is definitely something you can't hear elsewhere.",
       "speakerID": 14,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/H1gcllfOgl"
     },
     {
       "time": "17:45 – 17:50",
@@ -283,7 +283,7 @@
       "speaker": "Wu Zhengxian OAWU",
       "description": "What can religion and software development do together? As a backend engineer without formal App workplace experience, how to develop a work with good reviews on the App Store based on my own experience. What should be considered during development? Collaboration? Design? Experience? Marketing? Management? I will share the development insights of this APP in this conference!",
       "speakerID": 2,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/ryGBPgfugg"
     },
     {
       "time": "10:35 – 10:50",
@@ -304,7 +304,7 @@
       "speaker": "Harry Wu Zhuoqiang",
       "description": "After using AI to assist programming for several months, I discovered unexpected advantages and pitfalls. This talk shares 5 lessons you won't find in social media marketing articles.",
       "speakerID": 15,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/rkDPPxGOel"
     },
     {
       "time": "11:10 – 11:30",
@@ -318,7 +318,7 @@
       "speaker": "Prime Minister Hai",
       "description": "Over the past six months, I've tried using Vibe Coding to develop and launch a product every month. This sharing focuses on insights gained from collaborating with AI in actual combat and how to achieve rapid output.",
       "speakerID": 16,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/B1dYPlzuel"
     },
     {
       "time": "11:30 – 11:50",
@@ -332,7 +332,7 @@
       "speaker": "Da Jun",
       "description": "You may have heard of ChatGPT, LLaMA, GPT-4 - these super-strong language models usually live in cloud data centers. But did you know? There's now a way to stuff them into your iPhone, run locally anytime, anywhere, completely offline!\n\nThis sharing will show you how I made a llama (LLaMA) live inside an iPhone and chat with you in real-time without lag. No internet, no cloud, purely local computing power, running open source llama.cpp, from Swift wrapping to Metal GPU, implementing 'on-device generative AI.'",
       "speakerID": 17,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/SJAsPlz_le"
     },
     {
       "time": "11:50 – 12:10",
@@ -346,7 +346,7 @@
       "speaker": "Daiki Matsudate",
       "description": "Smartphones are becoming digital wallets for our identities. In this session, we'll explore how international standards like ISO/IEC 18013-5/7 and 23220 series are shaping the way governments and tech giants adopt mobile identity solutions. We'll walk through Apple's APIs for identity and age verification using mDLs and mDocs, and discuss real-world use cases that blend security, privacy, and user experience.",
       "speakerID": 18,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/ryeCvxz_ge"
     },
     {
       "time": "12:10 – 13:10",
@@ -367,7 +367,7 @@
       "speaker": "Peter Pan",
       "description": "After learning Flutter & Jetpack Compose, Peter Pan still loves developing Swift iOS Apps, but also discovered some convenient and useful aspects of them. This sharing will introduce nice features of Flutter, Jetpack Compose, Dart, Kotlin, VS Code & Android Studio, hoping that Swift, Xcode & SwiftUI can have these features someday in the future.",
       "speakerID": 19,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/rJv1dlfuex"
     },
     {
       "time": "14:00 – 14:15",
@@ -388,7 +388,7 @@
       "speaker": "Yang Xiaomie",
       "description": "When developing apps, everyone says 'encrypt, use HTTPS, don't store plaintext,' but have you ever thought about why? Often we just follow instructions without understanding why we need to do this. This sharing approaches from a developer's perspective, introducing OWASP Mobile Top 10 popular security issues, man-in-the-middle attacks, and why cracking tools can let hackers directly expose your cards. Security isn't extra work, but part of programming. Learn to use encryption/decryption, MobSF, understand reverse attack methods, transforming you from 'following instructions' to 'understanding,' no longer just knowing what, but also knowing why.",
       "speakerID": 20,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/BkkWueGOll"
     },
     {
       "time": "14:35 – 14:55",
@@ -402,7 +402,7 @@
       "speaker": "Astrid Lin",
       "description": "Adding new purchase types to mature apps is risky business. When KKBOX needed to introduce a new in-app purchase model, we couldn't afford to disrupt existing users. This talk shares our real-world experience using StoreKit 2 for new features while keeping the original StoreKit API for legacy flows. Learn the technical gotchas, App Store review surprises, and practical strategies for payment system evolution in production apps. Perfect for developers facing similar legacy modernization challenges.",
       "speakerID": 21,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/H1omdxfuxl"
     },
     {
       "time": "14:55 – 15:15",
@@ -416,7 +416,7 @@
       "speaker": "Ethan",
       "description": "Face liveness detection is a security measure used to verify whether captured face images or videos belong to a real person, not photos, videos, or masks. It is an important component of face recognition systems that can prevent someone from trying to impersonate others by providing fake face images.\n\nFace liveness detection becomes particularly important in the generative AI era, with the core reason being:\nPreventing AI-generated or forged faces from impersonating real humans for identity verification, access control, or identification.\n\nWhy it's especially important in this era:\n\n1. Rapid proliferation of deepfake and AI face-swapping technology\n2. Identity verification increasingly relies on biometric identification\n3. AI-generated identities can easily bypass weak detection mechanisms\n4. Maintaining trust and security on digital platforms",
       "speakerID": 22,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/BykYugz_ge"
     },
     {
       "time": "15:15 – 15:35",
@@ -437,7 +437,7 @@
       "speaker": "Aaron Ni",
       "description": "Want LLMs to use your own tools to get things done?\nWant LLMs to help you accelerate tedious processes in development in the way you want?\nOr are you looking at the dazzling array of MCP services on GitHub, wanting to download them but worried about hidden security risks or data-stealing logic? Then it's time to write your own.\n\nThis sharing will take you through understanding what the Model Context Protocol (MCP) defines and how it works from an iOS engineer's perspective.\nWe'll demonstrate with simple examples how to build your own MCP Tool, allowing AI assistants like Cursor and Windsurf to directly communicate with your own tools, eliminating the need to manually copy and paste your API results to AI.\nWelcome all friends interested in automation, AI collaboration, and Swift implementation to join the discussion.",
       "speakerID": 23,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/HkVsdxfuxe"
     },
     {
       "time": "16:25 – 16:40",
@@ -458,7 +458,7 @@
       "speaker": "Liu Xin",
       "description": "Over the past half-century, we have made significant progress in our scientific understanding of effective learning, unfortunately these research results are not often applied to personal learning. As engineers, we are good at using theory and scientific thinking to solve problems, but have we used this expertise to face the problem of 'how to improve our professional capabilities'?\n\nThis session will try to use engineers' language to explore how to use engineering thinking to optimize learning and evaluate the threats and opportunities that AI brings to learning.\n\nOver the last half-century, scientific understanding of how we learn has made significant strides. Unfortunately, few of us apply those understandings to accelerate our growth. As software engineers, we are experts at applying theory and scientific thinking to solve real-world problems, but have we applied the same mindset toward improving our own skills?\n\nIn this session, we'll use the language of software engineers to explore how we could use engineering principles to optimize our professional growth. We'll also evaluate the threats and opportunities that AI brings to our growth.",
       "speakerID": 24,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/HJanOez_el"
     },
     {
       "time": "17:00 – 17:20",
@@ -472,7 +472,7 @@
       "speaker": "13",
       "description": "Under suitable conditions, AI can quickly produce excellent code. Therefore, the future will be an era where many people can easily create software that belongs entirely to themselves. I will publicly share the experimental process of 'creating Apps that belong entirely to your own workflow and lifestyle through AI tools,' and share my views on which aspects of humanity AI will change (or won't change).",
       "speakerID": 25,
-      "hackMD": ""
+      "hackMD": "https://hackmd.io/@iPlayground/B141txfugg"
     },
     {
       "time": "17:20 – 17:30",

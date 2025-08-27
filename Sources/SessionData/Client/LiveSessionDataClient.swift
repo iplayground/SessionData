@@ -111,7 +111,7 @@ extension LiveSessionDataClient {
       if let cachedData = await cacheManager.load(for: endpoint) {
         return cachedData
       }
-      
+
       // Fall back to bundle
       return try bundleLoader.load(file: endpoint)
     }
