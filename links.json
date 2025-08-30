@@ -91,6 +91,13 @@
     "type": "appInfo"
   },
   {
+    "id": "testflight",
+    "title": "TestFlight",
+    "url": "https://testflight.apple.com/join/gH5gENXq",
+    "icon": "arrow.down.app",
+    "type": "appInfo"
+  },
+  {
     "id": "privacy-policy",
     "title": "Privacy Policy",
     "url": "https://github.com/iplayground/privacy-policy/blob/main/Privacy%20Policy.md",
