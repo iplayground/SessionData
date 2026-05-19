@@ -35,7 +35,8 @@
       "speaker": "UJ Cheng",
       "description": "How to make Swift code more concise and readable is a goal pursued by many developers. Functional programming provides a more expressive way of writing code that allows us to handle data and logic with intuitive semantics. This talk will introduce the higher-order functions and usage techniques that Swift has so far, and demonstrate how they can be applied in iOS project development, and even in algorithm problem-solving. Whether improving algorithm solution efficiency or enhancing project architecture, Functional Programming can bring elegant transformation to your Swift code.",
       "speakerID": 1,
-      "hackMD": "https://hackmd.io/@iPlayground/S1rVR6Zugl"
+      "hackMD": "https://hackmd.io/@iPlayground/S1rVR6Zugl",
+      "isRecording": true
     },
     {
       "time": "10:40 – 10:55",
@@ -56,7 +57,8 @@
       "speaker": "zonble",
       "description": "Swift C++ Interop began development around 2020 and was announced as a feature at WWDC 2023, with continuous new changes over the years. In this talk, we'll discuss how to mix C++ syntax in Swift projects, as well as the limitations and challenges encountered during use.",
       "speakerID": 3,
-      "hackMD": "https://hackmd.io/@iPlayground/ryTTTJMOxe"
+      "hackMD": "https://hackmd.io/@iPlayground/ryTTTJMOxe",
+      "isRecording": false
     },
     {
       "time": "11:15 – 11:35",
@@ -70,7 +72,8 @@
       "speaker": "Yuki Aki",
       "description": "This talk explores the evolving concept of performance in Swift, focusing on SE-0453, which introduces InlineArray—a fixed-size array type offering performance benefits over traditional Array. It addresses why InlineArray was introduced, when to use it, and what performance truly means in Swift. By diving into memory models (heap, stack, buffer), array history, and real-world performance implications, the talk aims to deepen understanding and reveal Swift's potential on broader platforms, including embedded systems. Attendees will gain insights beyond everyday development, unlocking new perspectives on Swift's roadmap and performance-driven future.",
       "speakerID": 4,
-      "hackMD": "https://hackmd.io/@iPlayground/HJUHAkzOeg"
+      "hackMD": "https://hackmd.io/@iPlayground/HJUHAkzOeg",
+      "isRecording": true
     },
     {
       "time": "11:35 – 11:55",
@@ -84,7 +87,8 @@
       "speaker": "DongDong",
       "description": "With Apple's official release of the Liquid Glass design language at WWDC 2025, we are witnessing the most significant visual revolution since iOS 7's flat design. As a developer who has deeply implemented Neumorphism and applied it to online products, this sharing will explore the design philosophy of Neumorphism and Liquid Glass through practical cases, helping everyone advance from 'what is good design' to the thinking level of 'why design this way.'",
       "speakerID": 5,
-      "hackMD": "https://hackmd.io/@iPlayground/SJo_RkzOgl"
+      "hackMD": "https://hackmd.io/@iPlayground/SJo_RkzOgl",
+      "isRecording": true
     },
     {
       "time": "11:55 – 12:15",
@@ -98,7 +102,8 @@
       "speaker": "Lin Ziyou",
       "description": "This is a real story that started as a side project but unexpectedly became a disaster prevention app with over 2 million downloads across Taiwan. How did \"Taiwan Earthquake Alert - Taiwan EEW\" gradually build a stable full-stack earthquake warning system from one-person development under limited resources? This session will introduce how to transmit real-time earthquake data through Firebase Firestore, complete high-speed push notifications with AWS SNS, and design clear and intuitive UI on the iOS frontend. The app was selected as the fifth place in Taiwan's Apple App Store annual rankings, obtained related patents, and became a partner of the Central Weather Administration. This is not only an experience of technical integration but also a practical record of how a developer can support public services with limited resources.",
       "speakerID": 6,
-      "hackMD": "https://hackmd.io/@iPlayground/rylTCJfdeg"
+      "hackMD": "https://hackmd.io/@iPlayground/rylTCJfdeg",
+      "isRecording": true
     },
     {
       "time": "12:15 – 13:15",
@@ -119,7 +124,8 @@
       "speaker": "qcl",
       "description": "Have you ever seen dynamic notifications on the Dynamic Island? Do you know that LINE and its related apps also have dynamic notifications?\n\nIn this sharing session, we will introduce the technical details of dynamic notifications, challenges encountered during implementation, and the experience of promoting new features within large organizations.",
       "speakerID": 7,
-      "hackMD": "https://hackmd.io/@iPlayground/rkL71efuxe"
+      "hackMD": "https://hackmd.io/@iPlayground/rkL71efuxe",
+      "isRecording": false
     },
     {
       "time": "14:05 – 14:20",
