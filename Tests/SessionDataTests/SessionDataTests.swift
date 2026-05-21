@@ -248,4 +248,25 @@ struct SessionDataTests {
 
     #expect(!staffs.isEmpty)
   }
+
+  @Test("Links JSON can be decoded")
+  func linksJSONDecoding() throws {
+    let jsonURL = Bundle.module.url(forResource: "links", withExtension: "json")!
+    let data = try Data(contentsOf: jsonURL)
+    let links = try JSONDecoder().decode([Link].self, from: data)
+
+    #expect(!links.isEmpty)
+  }
+
+  @Test("News JSON can be decoded", arguments: [DataLanguage.traditionalChinese, .english])
+  func newsJSONDecoding(dataLanguage: DataLanguage) throws {
+    let jsonURL = Bundle.module.url(
+      forResource: dataLanguage.newsFileName,
+      withExtension: "json"
+    )!
+    let data = try Data(contentsOf: jsonURL)
+    let news = try JSONDecoder().decode([News].self, from: data)
+
+    #expect(!news.isEmpty)
+  }
 }

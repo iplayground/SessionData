@@ -23,6 +23,15 @@ extension DataLanguage {
     "schedule\(fileNameSuffix)"
   }
 
+  public var newsFileName: String {
+    switch self {
+    case .traditionalChinese:
+      return "news"
+    case .english:
+      return "news_en"
+    }
+  }
+
   public var fileNameSuffix: String {
     switch self {
     case .traditionalChinese:

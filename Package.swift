@@ -30,6 +30,8 @@ let package = Package(
         .copy("../../sponsors.json"),
         .copy("../../staffs.json"),
         .copy("../../links.json"),
+        .copy("../../news.json"),
+        .copy("../../news_en.json"),
       ]
     ),
     .testTarget(
@@ -44,6 +46,8 @@ let package = Package(
         .copy("../../sponsors.json"),
         .copy("../../staffs.json"),
         .copy("../../links.json"),
+        .copy("../../news.json"),
+        .copy("../../news_en.json"),
       ]
     ),
   ]

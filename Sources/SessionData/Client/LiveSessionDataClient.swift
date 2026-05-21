@@ -40,6 +40,9 @@ extension SessionDataClient {
       },
       fetchLinks: { strategy in
         try await client.fetchLinks(strategy: strategy)
+      },
+      fetchNews: { dataLanguage, strategy in
+        try await client.fetchNews(dataLanguage: dataLanguage, strategy: strategy)
       }
     )
   }()
@@ -87,6 +90,12 @@ extension LiveSessionDataClient {
   func fetchLinks(strategy: FetchStrategy) async throws -> [Link] {
     let data = try await fetchData(endpoint: "links.json", strategy: strategy)
     return try JSONDecoder().decode([Link].self, from: data)
+  }
+
+  func fetchNews(dataLanguage: DataLanguage, strategy: FetchStrategy) async throws -> [News] {
+    let fileName = dataLanguage.newsFileName
+    let data = try await fetchData(endpoint: "\(fileName).json", strategy: strategy)
+    return try JSONDecoder().decode([News].self, from: data)
   }
 
   private func fetchData(endpoint: String, strategy: FetchStrategy) async throws -> Data {
