@@ -8,6 +8,7 @@ public struct Session: Codable, Sendable, Equatable, Hashable {
   public var speakerID: Speaker.ID?
   public var description: String
   public var hackMD: URL?
+  public var isRecording: Bool?
 
   public init(
     time: String,
@@ -16,7 +17,8 @@ public struct Session: Codable, Sendable, Equatable, Hashable {
     speaker: String,
     speakerID: Speaker.ID?,
     description: String,
-    hackMD: URL? = nil
+    hackMD: URL? = nil,
+    isRecording: Bool? = nil
   ) {
     self.time = time
     self.title = title
@@ -25,6 +27,7 @@ public struct Session: Codable, Sendable, Equatable, Hashable {
     self.speakerID = speakerID
     self.description = description
     self.hackMD = hackMD
+    self.isRecording = isRecording
   }
 
   public init(from decoder: Decoder) throws {
@@ -37,9 +40,10 @@ public struct Session: Codable, Sendable, Equatable, Hashable {
     speakerID = try container.decodeIfPresent(Speaker.ID.self, forKey: .speakerID)
     description = try container.decode(String.self, forKey: .description)
     hackMD = try container.decodeURL(forKey: .hackMD)
+    isRecording = try container.decodeIfPresent(Bool.self, forKey: .isRecording)
   }
 
   private enum CodingKeys: String, CodingKey {
-    case time, title, tags, speaker, speakerID, description, hackMD
+    case time, title, tags, speaker, speakerID, description, hackMD, isRecording
   }
 }
