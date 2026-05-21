@@ -37,10 +37,9 @@ struct LiveSessionDataClientErrorTests {
     )
 
     // Should fall back to cache when network fails
-    let sessions = try await client.fetchSchedules(
-      day: nil, dataLanguage: .fallback, strategy: .remote)
-    #expect(sessions.count == 1)
-    #expect(sessions[0].title == "Cached Session")
+    let schedule = try await client.fetchSchedules(dataLanguage: .fallback, strategy: .remote)
+    #expect(schedule.allSessions.count == 1)
+    #expect(schedule.day1[0].title == "Cached Session")
   }
 
   @Test("Network and cache failure triggers bundle fallback")
@@ -56,9 +55,8 @@ struct LiveSessionDataClientErrorTests {
     )
 
     // Should fall back to bundle - this will load real JSON from bundle
-    let sessions = try await client.fetchSchedules(
-      day: nil, dataLanguage: .fallback, strategy: .remote)
-    #expect(!sessions.isEmpty, "Should have bundle data")
+    let schedule = try await client.fetchSchedules(dataLanguage: .fallback, strategy: .remote)
+    #expect(!schedule.allSessions.isEmpty, "Should have bundle data")
   }
 
   @Test("All endpoints fallback to bundle when network fails")
@@ -90,8 +88,8 @@ struct LiveSessionDataClientErrorTests {
     #expect(!news.isEmpty)
   }
 
-  @Test("Day filtering works with bundle fallback")
-  func testDayFilteringWithFallback() async throws {
+  @Test("Day filtering works after schedule fallback")
+  func testDayFilteringAfterFallback() async throws {
     let failingNetworkFetcher = FailingNetworkFetcher()
     let cacheManager = CacheManager(directory: "EmptyTestCache_\(UUID().uuidString)")
     let bundleLoader = BundleLoader()
@@ -102,18 +100,11 @@ struct LiveSessionDataClientErrorTests {
       bundleLoader: bundleLoader
     )
 
-    // Test day filtering works with bundle fallback
-    let day1Sessions = try await client.fetchSchedules(
-      day: 1, dataLanguage: .fallback, strategy: .remote)
-    #expect(!day1Sessions.isEmpty)
+    let schedule = try await client.fetchSchedules(dataLanguage: .fallback, strategy: .remote)
 
-    let day2Sessions = try await client.fetchSchedules(
-      day: 2, dataLanguage: .fallback, strategy: .remote)
-    #expect(!day2Sessions.isEmpty)
-
-    let invalidDaySessions = try await client.fetchSchedules(
-      day: 99, dataLanguage: .fallback, strategy: .remote)
-    #expect(invalidDaySessions.isEmpty, "Invalid day should return empty array")
+    #expect(!schedule.sessions(day: 1).isEmpty)
+    #expect(!schedule.sessions(day: 2).isEmpty)
+    #expect(schedule.sessions(day: 99).isEmpty, "Invalid day should return empty array")
   }
 
   @Test("All languages work with bundle fallback")
@@ -130,9 +121,8 @@ struct LiveSessionDataClientErrorTests {
 
     // Test all languages work with bundle fallback
     for language in DataLanguage.allCases {
-      let sessions = try await client.fetchSchedules(
-        day: 1, dataLanguage: language, strategy: .remote)
-      #expect(!sessions.isEmpty, "Should have sessions for \(language)")
+      let schedule = try await client.fetchSchedules(dataLanguage: language, strategy: .remote)
+      #expect(!schedule.day1.isEmpty, "Should have sessions for \(language)")
 
       let speakers = try await client.fetchSpeakers(dataLanguage: language, strategy: .remote)
       #expect(!speakers.isEmpty, "Should have speakers for \(language)")
