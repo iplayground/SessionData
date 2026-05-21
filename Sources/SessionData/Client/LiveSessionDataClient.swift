@@ -7,7 +7,7 @@ struct LiveSessionDataClient: Sendable {
 
   init() {
     self.networkFetcher = NetworkFetcher()
-    self.cacheManager = CacheManager(directory: "SessionDataCache")
+    self.cacheManager = CacheManager(directory: "SessionDataCache-2026-v1")
     self.bundleLoader = BundleLoader()
   }
 
