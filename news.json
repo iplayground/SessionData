@@ -9,5 +9,20 @@
         "url": "https://forms.gle/r6MNJnEb3T8PpRwf9"
       }
     ]
+  },
+  {
+    "date": "2026.05.19",
+    "title": "公布邀請海外講者",
+    "content": "大家好，感謝各位去年對 iPlayground 的支持。由於去年活動有部分經費結餘，今年我們決定將這些資源全數投入邀請海外講者。這些講者都是工作人員親自前往海外研討會時所接觸到的熱門議程講者，希望能將國際級的分享帶回台灣。\n\n第一位講者 Rudrank Riyam 剛好在日前獲選為 Apple Community Contributor。Rudrank 自 2018 年投入 Apple 平台開發，撰寫過 MusicKit、MLX Swift、Foundation Models 等熱門框架教學，也維護 MusadoraKit、ASC CLI 等知名開源專案。他長期活躍於全球 iOS conference，並參與 WWDC 後 Cupertino 的 AiOS meetup 社群活動。本次將帶來《For Agents, By Agents: Building AI Tools That Maintain Themselves》，分享 AI Agent 如何參與開源工具的開發、維護與演進。\n\n第二位講者 Minkyung Kim 是 Apple Developer Academy @ POSTECH 的 Learning Lead，也是結合 Computer Science 與 Education 的 EdTech 專家。她長期研究學習理論與科技產品的結合。本次將帶來《Designing Adaptive UX Through Learning Theory & AI》，探討 Cognitive Load Theory、ZPD 與 Flow Theory 等概念如何應用於產品設計，並透過 On-Device AI 打造能夠理解使用者狀態、即時調整互動方式的 Adaptive UX。\n\n第三位講者 JungMin Ahn 來自 KakaoBank，擁有超過 13 年 iOS 開發經驗，專注於大型專案架構、生產力與維護性議題。本次將帶來《Lessons from Operating Large-Scale Modular iOS Projects with Tuist》，分享大型模組化 iOS 專案在 project file 管理、dependency 規範、測試策略以及團隊協作上的實務經驗，以及如何避免架構隨著專案規模擴大而逐漸失控。\n\n此外，iPlayground 目前已正式開放售票，議程投稿也同步進行中，截止日期為 6/19。今年特別新增 5 分鐘的 Lightning Talk，希望降低分享門檻，讓更多人有機會站上舞台。也歡迎大家踴躍投稿，與社群分享你的經驗與故事。畢竟 iPlayground 一年只有一次。",
+    "buttons": [
+      {
+        "title": "立即購票",
+        "url": "https://iplayground.kktix.cc/events/2026"
+      },
+      {
+        "title": "投稿議程",
+        "url": "https://forms.gle/GfDT4xm5EKq7d84i9"
+      }
+    ]
   }
 ]

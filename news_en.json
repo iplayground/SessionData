@@ -9,5 +9,20 @@
         "url": "https://forms.gle/r6MNJnEb3T8PpRwf9"
       }
     ]
+  },
+  {
+    "date": "2026.05.19",
+    "title": "Announcing Our International Guest Speakers",
+    "content": "Hello everyone, and thank you for supporting iPlayground last year. Thanks to a surplus in last year's event budget, we've decided to invest all of those remaining resources into inviting international speakers for iPlayground 2026. These speakers were personally selected by our team after attending conferences around the world and discovering some of the most inspiring and highly regarded sessions in the global Apple developer community. We're excited to bring these world-class perspectives to Taiwan.\n\nOur first speaker is Rudrank Riyam, who was recently recognized as an Apple Community Contributor. Since joining the Apple developer ecosystem in 2018, Rudrank has published tutorials covering MusicKit, MLX Swift, Foundation Models, and other cutting-edge frameworks. He is also the maintainer of popular open-source projects such as MusadoraKit and ASC CLI. As an active member of the global iOS community and one of the organizers behind the AiOS meetup in Cupertino following WWDC, Rudrank will present \"For Agents, By Agents: Building AI Tools That Maintain Themselves,\" sharing how AI agents can participate in the development, maintenance, and evolution of open-source tools.\n\nOur second speaker, Minkyung Kim, is the Learning Lead at Apple Developer Academy @ POSTECH and an EdTech specialist whose work bridges Computer Science and Education. Her research focuses on how people learn and how technology can support that process. In her session, \"Designing Adaptive UX Through Learning Theory & AI,\" she will explore how concepts such as Cognitive Load Theory, the Zone of Proximal Development (ZPD), and Flow Theory can be applied to product design. She will also demonstrate how On-Device AI can enable adaptive user experiences that understand user progress and dynamically adjust interactions in real time.\n\nOur third speaker is JungMin Ahn, a Senior Software Engineer at KakaoBank with more than 13 years of iOS development experience. He specializes in large-scale architecture, developer productivity, and long-term maintainability. In his session, \"Lessons from Operating Large-Scale Modular iOS Projects with Tuist,\" he will share practical lessons from managing large modularized iOS codebases, covering project file management, dependency organization, testing strategies, team collaboration, and how to prevent architecture from becoming increasingly difficult to maintain as projects grow.\n\nIn addition, tickets for iPlayground 2026 are now available, and our Call for Papers is officially open until June 19. This year, we are introducing a new 5-minute Lightning Talk format to lower the barrier for first-time speakers and encourage more community participation. We warmly invite you to submit a session proposal and share your experience, insights, and stories with the community. After all, iPlayground only happens once a year.",
+    "buttons": [
+      {
+        "title": "Buy Tickets",
+        "url": "https://iplayground.kktix.cc/events/2026"
+      },
+      {
+        "title": "Submit a Session",
+        "url": "https://forms.gle/GfDT4xm5EKq7d84i9"
+      }
+    ]
   }
 ]
