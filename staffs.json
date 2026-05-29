@@ -1,122 +1,44 @@
 [
 	{
-	  "name": "13",
-	  "title": "Apple 開發者週報作者、weak self podcast 主持人。歡迎訂閱 13+ 專欄",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_13.jpeg",
-	  "url": "https://ethanhuang13.plus"
+	  "name": "Ethan Chen",
+	  "title": "",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/develop/images/staff/staff_Ethan.jpg",
+	  "url": "https://www.facebook.com/imGGT"
 	},
 	{
-	  "name": "Andy",
-	  "title": "iOS 工程師 | @escaping from bugs since 2022🐛",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_andy.png",
-	  "url": ""
+	  "name": "UJ Cheng",
+	  "title": "",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/develop/images/staff/staff_ujcheng.jpg",
+	  "url": "https://www.linkedin.com/in/iamhands0me/"
+	},
+	{
+	  "name": "Andy Lin",
+	  "title": "",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/develop/images/staff/staff_andy.png",
+	  "url": "https://x.com/andyYlllinn"
+	},
+	{
+	  "name": "Will Chen",
+	  "title": "",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/develop/images/staff/staff_will.jpg",
+	  "url": "https://x.com/willchen00"
+	},
+	{
+	  "name": "Kyle Lin",
+	  "title": "",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/develop/images/staff/staff_kyle.jpeg",
+	  "url": "https://www.instagram.com/kylelin0501"
+	},
+	{
+	  "name": "Hokila Jan",
+	  "title": "",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/develop/images/staff/staff_hokila.jpg",
+	  "url": "https://x.com/hokilaJ"
 	},
 	{
 	  "name": "David Kuo",
-	  "title": "什麼都會一點的工具工程師",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_davidKuo.png",
-	  "url": "https://www.instagram.com/chunykuo?igsh=MTEzcmozZ2o1czZuYw%3D%3D&utm_source=qr"
-	},
-	{
-	  "name": "DinDin",
-	  "title": "有AI碼農真是棒",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_DinDin.jpg",
-	  "url": "https://x.com/PeterDin87"
-	},
-	{
-	  "name": "Ethan",
-	  "title": "UI設計，網頁工程師",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_Ethan.jpg",
-	  "url": "https://www.threads.com/@cchenzongting?hl=zh-tw"
-	},
-	{
-	  "name": "Hanpo",
 	  "title": "",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_Hanpo.jpg",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/develop/images/staff/staff_david.jpeg",
 	  "url": ""
-	},
-	{
-	  "name": "Hao Lee",
-	  "title": "Swift 外包給 GPT",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_hao.jpeg",
-	  "url": "https://x.com/twhaolee"
-	},
-	{
-	  "name": "Jack",
-	  "title": "我寫了一行程式碼，可是我忘了",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_jack.png",
-	  "url": ""
-	},
-	{
-	  "name": "Johnny Sung",
-	  "title": "iOS/Android 工程師，買了一件蘋果 T-shirt",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_johnny.jpg",
-	  "url": "https://fb.me/j796160836"
-	},
-	{
-	  "name": "Joy",
-	  "title": "iOS 工程師 也是小仙子",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_joychen.png",
-	  "url": "https://x.com/joyy1227"
-	},
-	{
-	  "name": "Kimbely",
-	  "title": "Coding in Swift, living on snacks.",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_KimbelyLiu.jpg",
-	  "url": "https://x.com/kimbely0320"
-	},
-	{
-	  "name": "Kyle",
-	  "title": "iOS 學生開發者",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_Kyle.jpg",
-	  "url": ""
-	},
-	{
-	  "name": "MarkFly",
-	  "title": "三心二意工程師",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_markFly.jpg",
-	  "url": "https://x.com/MarkFlyyyyy"
-	},
-	{
-	  "name": "Michelle",
-	  "title": "iOS 工程師，養了一隻貓",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_michelle.png",
-	  "url": ""
-	},
-	{
-	  "name": "ricky",
-	  "title": "",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_RickyChen.jpg",
-	  "url": ""
-	},
-	{
-	  "name": "Tank",
-	  "title": "ENTP: Error out, Nature scout, Train no doubt, Pet chillout",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_tank.png",
-	  "url": "http://instagram.com/tank1005"
-	},
-	{
-	  "name": "Terry",
-	  "title": "iOS Engineer",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_terrykuo.jpg",
-	  "url": "https://x.com/yoyokuoo"
-	},
-	{
-	  "name": "hokila",
-	  "title": "搭舞台的人",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_hokila.jpg",
-	  "url": "https://x.com/hokilaJ/photo"
-	},
-	{
-	  "name": "mandy",
-	  "title": "iOS Ｅ人工程師",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_mandy.png",
-	  "url": "https://www.threads.com/@mandy.ios"
-	},
-	{
-	  "name": "Jess",
-	  "title": "UI/UX Designer",
-	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_jess.png",
-	  "url": "https://www.instagram.com/jesss_0302/"
 	}
   ]
