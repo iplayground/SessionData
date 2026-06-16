@@ -24,5 +24,31 @@
         "url": "https://forms.gle/GfDT4xm5EKq7d84i9"
       }
     ]
+  },
+  {
+    "date": "2026.06.15",
+    "title": "捐款回饋區",
+    "content": "iPlayground 2026 限定周邊登場！今年準備了限定御守、冷水壺、兩款造型磁鐵、限定紀念潮 T，以及運動毛巾，把今年主視覺與「Code a Future, Build the Amazing」一起帶進日常。無論是想收藏活動回憶、支持社群，或挑一件實用的周邊陪你工作、運動、參加研討會，都很適合入手。本次周邊可選擇活動現場領取，也可加購運送服務，活動後寄送給你。預購截止時間為 7/15，超過時間購買者，可能無法在現場領取，將於活動後補寄。現場也會準備少量現貨，但數量有限，建議提早預購。所有捐款將開立捐款收據，活動報到後可至財務櫃檯領取。",
+    "buttons": [
+      {
+        "title": "錢錢沒有不見",
+        "url": "https://iplayground.kktix.cc/events/2026backstage"
+      },
+      {
+        "title": "只是變成喜歡的樣子",
+        "url": "https://iplayground.kktix.cc/events/2026backstage"
+      }
+    ]
+  },
+  {
+    "date": "2026.06.16",
+    "title": "徵求活動當日工作人員",
+    "content": "即日起至 6 月底，徵求活動單當日工作人員，詳情請見報名表單",
+    "buttons": [
+      {
+        "title": "報名表單",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSeRJw42rdA1dYB3EG8JQsf09iigSK2dxF2FOJoi28hMWbZzhw/viewform"
+      }
+    ]
   }
 ]
