@@ -42,7 +42,7 @@
 	  "url": ""
 	},
 	{
-	  "name": "Joy Chen",
+	  "name": "Joy",
 	  "title": "",
 	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/develop/images/staff/staff_joyChen.jpg",
 	  "url": "https://x.com/joyy1227"
@@ -52,5 +52,23 @@
 	  "title": "",
 	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/develop/images/staff/staff_michelleChen.jpeg",
 	  "url": "https://www.threads.com/@satty9753"
+	},
+	{
+	  "name": "Hao Lee",
+	  "title": "",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_hao.jpeg",
+	  "url": "https://x.com/twhaolee"
+	},
+	{
+	  "name": "DinDin",
+	  "title": "",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/staff/staff_DinDin.jpg",
+	  "url": "https://x.com/Dindin97101"
+	},
+	{
+	  "name": "Dawei Hao",
+	  "title": "",
+	  "photo": "https://raw.githubusercontent.com/iplayground/SessionData/develop/images/staff/staff_DaweiHao.jpg",
+	  "url": "https://x.com/dawei84_dev"
 	}
   ]
