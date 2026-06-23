@@ -15,126 +15,109 @@
       "description": ""
     },
     {
-      "time": "09:40 – 09:50",
-      "title": "Sponsor Time",
+      "time": "09:40 – 10:20",
+      "title": "Designing Adaptive UX\nThrough Learning Theory & AI",
       "tags": [
-        "English"
+        "UI/UX",
+        "Accessibility",
+        "Development Experience"
       ],
-      "speaker": "",
-      "description": ""
+      "speaker": "Minkyung Kim",
+      "speakerID": 2,
+      "description": "Every new user is essentially a learner. This session bridges educational science and UX design by applying Cognitive Load Theory, ZPD, and Flow Theory to create adaptive interfaces. It highlights the role of On-Device AI in facilitating these experiences, focusing on its ability to provide immediate feedback, maintain user privacy, and operate without server latency. The presentation demonstrates how these pedagogical principles transform static app interactions into intelligent, personalized learning journeys that evolve alongside the user's proficiency."
     },
     {
-      "time": "09:50 – 10:40",
-      "title": "Let's Functional Programming in Your Swift Code",
-      "tags": [
-        "Swift",
-        "Architecture",
-        "Performance",
-        "Functional"
-      ],
-      "speaker": "UJ Cheng",
-      "description": "How to make Swift code more concise and readable is a goal pursued by many developers. Functional programming provides a more expressive way of writing code that allows us to handle data and logic with intuitive semantics. This talk will introduce the higher-order functions and usage techniques that Swift has so far, and demonstrate how they can be applied in iOS project development, and even in algorithm problem-solving. Whether improving algorithm solution efficiency or enhancing project architecture, Functional Programming can bring elegant transformation to your Swift code.",
-      "speakerID": 1,
-      "hackMD": "https://hackmd.io/@iPlayground/S1rVR6Zugl",
-      "youtube": "https://youtu.be/_ROxEUJ26U0?si=8hgif1LpS8PDuzwd",
-      "isRecording": true
-    },
-    {
-      "time": "10:40 – 10:55",
+      "time": "10:20 – 10:30",
       "title": "Break",
       "tags": [],
       "speaker": "",
       "description": ""
     },
     {
-      "time": "10:55 – 11:15",
-      "title": "Swift C++ Interop",
+      "time": "10:30 – 11:10",
+      "title": "From Black Box to Glass Box: AI Coding Observability with ccxray",
       "tags": [
-        "Swift",
-        "Performance",
-        "Interop",
-        "Native"
+        "AI Agent",
+        "claude",
+        "codex",
+        "可觀測性"
       ],
-      "speaker": "zonble",
-      "description": "Swift C++ Interop began development around 2020 and was announced as a feature at WWDC 2023, with continuous new changes over the years. In this talk, we'll discuss how to mix C++ syntax in Swift projects, as well as the limitations and challenges encountered during use.",
-      "speakerID": 3,
-      "hackMD": "https://hackmd.io/@iPlayground/ryTTTJMOxe",
-      "youtube": "https://youtu.be/ZvNGa-fNZig?si=go5Rs5ZdN9k1Ar_F",
-      "isRecording": false
+      "speaker": "Justin Lee",
+      "speakerID": 15,
+      "description": "AI agents are becoming part of developers’ daily work, but what are they doing behind the conversation? Why do they start forgetting context, slow down after a break, or suddenly make one message much more expensive? These issues rarely show up as errors, yet they quietly hurt both developer experience and budget. This talk breaks down the invisible context, cache, and agent behavior behind AI development through real scenarios, then demonstrates how the open-source tool ccxray makes those hidden behaviors observable and offers practical ways to improve them."
     },
     {
-      "time": "11:15 – 11:35",
-      "title": "Understand Swift's performance from the Array: motivation, evolution, and future",
-      "tags": [
-        "Swift",
-        "Performance",
-        "Compilation",
-        "English"
-      ],
-      "speaker": "Yuki Aki",
-      "description": "This talk explores the evolving concept of performance in Swift, focusing on SE-0453, which introduces InlineArray—a fixed-size array type offering performance benefits over traditional Array. It addresses why InlineArray was introduced, when to use it, and what performance truly means in Swift. By diving into memory models (heap, stack, buffer), array history, and real-world performance implications, the talk aims to deepen understanding and reveal Swift's potential on broader platforms, including embedded systems. Attendees will gain insights beyond everyday development, unlocking new perspectives on Swift's roadmap and performance-driven future.",
-      "speakerID": 4,
-      "hackMD": "https://hackmd.io/@iPlayground/HJUHAkzOeg",
-      "youtube": "https://youtu.be/23Boox9J4gM?si=NvecMUMX1FSFHcz7",
-      "isRecording": true
+      "time": "11:10 – 11:20",
+      "title": "Break",
+      "tags": [],
+      "speaker": "",
+      "description": ""
     },
     {
-      "time": "11:35 – 11:55",
-      "title": "Neumorphism × Liquid Glass: The Evolution of Design Systems",
+      "time": "11:20 – 11:40",
+      "title": "@ContentBuilder Is All You Need",
       "tags": [
-        "UI/UX",
-        "Future Outlook",
-        "Design",
-        "Visual"
+        "SwiftUI",
+        "Architecture",
+        "函數式"
       ],
-      "speaker": "DongDong",
-      "description": "With Apple's official release of the Liquid Glass design language at WWDC 2025, we are witnessing the most significant visual revolution since iOS 7's flat design. As a developer who has deeply implemented Neumorphism and applied it to online products, this sharing will explore the design philosophy of Neumorphism and Liquid Glass through practical cases, helping everyone advance from 'what is good design' to the thinking level of 'why design this way.'",
-      "speakerID": 5,
-      "hackMD": "https://hackmd.io/@iPlayground/SJo_RkzOgl",
-      "youtube": "https://youtu.be/HwAX6qb4Jeg?si=bN3Wtcq0P3r7c61B",
-      "isRecording": true
+      "speaker": "UJ Cheng",
+      "speakerID": 16,
+      "description": "In design systems, we often make components configurable through parameters. As requirements grow more complex, those components accumulate large parameter lists and become hard to maintain. Starting from SwiftUI’s design philosophy, this talk explores how @ContentBuilder can refactor parameter-driven component APIs into content-injection composition, creating components that are more flexible, readable, and extensible while tracing how SwiftUI has continued to strengthen declarative design through WWDC updates."
     },
     {
-      "time": "11:55 – 12:15",
-      "title": "The Real Journey of Full-Stack Solo Development of \"Taiwan Earthquake Alert\"",
+      "time": "11:40 – 12:00",
+      "title": "The Bottleneck Was Me: AI-Native Workflows for Large Codebases",
       "tags": [
         "AI",
-        "Indie Development",
-        "Public Service",
-        "Personal Project"
+        "Developer Tools"
       ],
-      "speaker": "Lin Ziyou",
-      "description": "This is a real story that started as a side project but unexpectedly became a disaster prevention app with over 2 million downloads across Taiwan. How did \"Taiwan Earthquake Alert - Taiwan EEW\" gradually build a stable full-stack earthquake warning system from one-person development under limited resources? This session will introduce how to transmit real-time earthquake data through Firebase Firestore, complete high-speed push notifications with AWS SNS, and design clear and intuitive UI on the iOS frontend. The app was selected as the fifth place in Taiwan's Apple App Store annual rankings, obtained related patents, and became a partner of the Central Weather Administration. This is not only an experience of technical integration but also a practical record of how a developer can support public services with limited resources.",
-      "speakerID": 6,
-      "hackMD": "https://hackmd.io/@iPlayground/rylTCJfdeg",
-      "youtube": "https://youtu.be/s_AG4PUbhQg?si=yqBj7cR2rrysHmez",
-      "isRecording": true
+      "speaker": "Gyuri Kim",
+      "speakerID": 17,
+      "description": "AI coding tools excel at small, focused tasks—but struggle when applied to large legacy iOS codebases at scale. The bottleneck is often not the model, but the human translation layer: reading summaries, confirming results, and re-delegating work. Using large-scale codebase analysis for refactoring preparation as a practical example, this session explores AI-native workflow design: machine-friendly structured data for bulk processing, and human-readable reports only for final decisions."
     },
     {
-      "time": "12:15 – 13:15",
+      "time": "12:00 – 13:00",
       "title": "Lunch",
       "tags": [],
       "speaker": "",
       "description": ""
     },
     {
-      "time": "13:15 – 14:05",
-      "title": "Live Activities in LINE: Experience and Technical Challenges",
+      "time": "13:00 – 13:20",
+      "title": "Core People: Building More Thoughtful Apps with Apple’s Native Capabilities",
       "tags": [
-        "UI/UX",
-        "Architecture",
-        "Teamwork",
-        "Notifications"
+        "使用者體驗",
+        "Agentic Coding",
+        "Agent Skill"
       ],
-      "speaker": "qcl",
-      "description": "Have you ever seen dynamic notifications on the Dynamic Island? Do you know that LINE and its related apps also have dynamic notifications?\n\nIn this sharing session, we will introduce the technical details of dynamic notifications, challenges encountered during implementation, and the experience of promoting new features within large organizations.",
-      "speakerID": 7,
-      "hackMD": "https://hackmd.io/@iPlayground/rkL71efuxe",
-      "youtube": "https://youtu.be/cwKGnxIjZww?si=4bnIcrgxfeymFVkK",
-      "isRecording": false
+      "speaker": "Ethan Huang",
+      "speakerID": 11,
+      "description": "Apple has Core Data, Core ML, and now Core AI, but the true core of a good app is always people. AI lowers the barrier to building apps, but expectations for high-quality user experiences remain the same. Many features can now be built faster, yet the details grounded in real usage are still what make an app stand out. This talk revisits Apple’s often-overlooked native capabilities, including Accessibility, Localization, Privacy, Notifications, Widgets, and App Intents, and uses practical examples to show how to direct AI toward more thoughtful software."
     },
     {
-      "time": "14:05 – 14:20",
+      "time": "13:20 – 13:30",
+      "title": "Break",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "13:30 – 14:10",
+      "title": "From Swift to Kotlin Multiplatform: Cross-Platform Nitoryu for iOS Developers",
+      "tags": [
+        "Kotlin",
+        "Kotlin Multiplatform",
+        "CMP",
+        "Multiplatform",
+        "Developer Productivity"
+      ],
+      "speaker": "Shengyou Fan",
+      "speakerID": 5,
+      "description": "Want your iOS app to reach a broader market? Kotlin Multiplatform offers a path to extend iOS development experience and is becoming a cross-platform option worth considering. This session starts with a comparison of Swift and Kotlin syntax, explains the similarities between modern programming languages, and demonstrates how AI-assisted development can improve learning efficiency and reduce migration costs. Using the migration of the iPlayground app as an example, it helps iOS developers understand the advantages of KMP and expand their technical range."
+    },
+    {
+      "time": "14:10 – 14:20",
       "title": "Break",
       "tags": [],
       "speaker": "",
@@ -142,143 +125,146 @@
     },
     {
       "time": "14:20 – 14:40",
-      "title": "Not \"Which Architecture is Best,\" but \"How Did You Get Here\"",
+      "title": "Beyond Xcode's Built-in Agents: Discovering iOS Agentic Workflows",
       "tags": [
-        "Architecture",
-        "Career",
-        "Growth",
-        "Decision Making"
+        "Agentic Workflow",
+        "Xcode",
+        "Coding Agent"
       ],
-      "speaker": "Eric Chen",
-      "description": "Architectural choices have never been about 'right' or 'wrong,' but come from real-world trade-offs in the development process.\nThis session reviews how the speaker, when taking over a chaotic iOS project, started from basic MVVM and gradually introduced Combine, Swift Concurrency, Repository, Closure DI, and finally designed a modular Coordinator architecture based on problems encountered at each stage.\nBesides introducing the implementation methods of technical choices, it will also share the motivation and process behind each step, allowing you to find approaches that might suit your team.",
-      "speakerID": 8,
-      "hackMD": "https://hackmd.io/@iPlayground/HyaBJgf_ll",
-      "youtube": "https://youtu.be/_k5UE70IBj4?si=FmLb0sz3itMyTflE"
+      "speaker": "qcl",
+      "speakerID": 18,
+      "description": "In the AI wave, have you ever wished a coding agent could handle tedious tasks and dramatically improve development efficiency? For iOS engineers, Xcode remains the primary IDE, but its built-in coding agent integration is limited. What can you do when your preferred coding agent cannot be used directly inside Xcode? This session explores several strategies for applying agentic workflows to iOS development: building an intermediary layer so Xcode can communicate indirectly with external agents, or stepping outside the IDE model by using Xcode MCP or even treating Xcode primarily as a compiler while agents drive the development workflow externally. Whether you are an indie developer or part of a large team, you will find paths for AI-assisted iOS development that fit your context."
     },
     {
       "time": "14:40 – 15:00",
-      "title": "Taking Over a 10-Year Hodgepodge: Project Optimization and Product Development Struggles",
+      "title": "Lessons from Operating Large-Scale Modular iOS Projects with Tuist",
       "tags": [
         "Architecture",
-        "Teamwork",
-        "Career",
-        "Performance"
+        "Modularization"
       ],
-      "speaker": "Vincent Chen",
-      "description": "This session will share the speaker's journey of single-handedly taking over a large project. It will share how to face long-unmaintained code while satisfying queued business requirements, A/B testing, and optimizing user experience from multiple perspectives. Detailed sharing will include practical experience in coordinating with different team leaders, setting goals, iterative improvements, and introducing new tools. Finally, the speaker will share prospects and plans for the project's future.",
-      "speakerID": 9,
-      "hackMD": "https://hackmd.io/@iPlayground/Bkov1lMull"
+      "speaker": "JungMin Ahn",
+      "speakerID": 3,
+      "description": "How to keep a large-scale iOS project maintainable is a challenge many teams face as their codebase continues to grow. Tuist provides a structured way to define project architecture and manage modular iOS projects with clear and repeatable rules.\n\nThis talk shares practical lessons from operating a Tuist-based modular iOS project. It discusses how teams can manage project files, demo apps, tests, resources, and dependencies in a scalable way. With the right conventions, Tuist can help turn modularization into a sustainable development workflow."
     },
     {
-      "time": "15:00 – 15:20",
-      "title": "What We Learned from Building a Production App with TCA",
-      "tags": [
-        "Architecture",
-        "TCA",
-        "Maintainability",
-        "English"
-      ],
-      "speaker": "YC Hsu",
-      "description": "TCA(The Composable Architecture) changed how we think about building apps. In this session, I'll share our experience using TCA in production: what made us choose it, what surprised us, what helped us succeed, and what we suggest to you before you try TCA.",
-      "speakerID": 10,
-      "hackMD": "https://hackmd.io/@iPlayground/ry09yxMugg",
-      "youtube": "https://youtu.be/fUwwIRitLZM?si=_QuZObAcPYkH4QIX"
-    },
-    {
-      "time": "15:20 – 15:40",
+      "time": "15:00 – 15:10",
       "title": "Break",
       "tags": [],
       "speaker": "",
       "description": ""
     },
     {
-      "time": "15:40 – 16:30",
-      "title": "Evolution of TCA: How Unidirectional Data Flow Evolved into an Architectural Ecosystem",
-      "tags": [
-        "Architecture",
-        "TCA",
-        "Modularity",
-        "Evolution"
-      ],
-      "speaker": "Art",
-      "description": "Starting from unidirectional data flow, TCA has undergone seven key 'mutations' including Dependency, Reducer Protocol, Navigation, Macro, Observation, and Sharing State. Point-Free has gradually refined chaotic boilerplate into a highly testable and easily composable architectural ecosystem with experimental rigor and ingenuity. This session will take you through the pain points, strategies, and gains behind each evolution, providing insight into the evolutionary path of modern iOS architecture.",
-      "speakerID": 11,
-      "hackMD": "https://hackmd.io/@iPlayground/HkV0JxM_xx",
-      "youtube": "https://youtu.be/33Jwl5WsSFs?si=L67f1YRLOBAWILDc"
-    },
-    {
-      "time": "16:30 – 16:45",
-      "title": "Break",
-      "tags": [],
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "16:45 – 17:05",
-      "title": "Escaping the Isolation Zone: Swift 6 Compilation Error Escape Show",
+      "time": "15:10 – 15:30",
+      "title": "Why Does Our Swift Code Work? Understanding Swift Through Platforms, Runtime, and the Compiler",
       "tags": [
         "Swift",
-        "Concurrency",
-        "Debugging",
-        "Compatibility"
+        "SwiftUI"
       ],
-      "speaker": "Hai Feng Kao",
-      "description": "Swift Concurrency will be fully enabled in Swift 6, which improves safety but also makes previously reasonable code suddenly unable to compile. This session will take you deep into understanding the principles behind common error messages, analyzing key concepts like @MainActor, Sendable, nonisolated, and demonstrating common pitfalls and solutions in Swift Concurrency through practical cases. Whether you're new to concurrency or have battle-tested experience in large projects, this sharing can help you more steadily embrace the changes of Swift 6.",
-      "speakerID": 12,
-      "hackMD": "https://hackmd.io/@iPlayground/B1l7xgGuex",
-      "youtube": "https://youtu.be/BtUKcof6ysQ?si=QHIpHU95whNECaFh"
+      "speaker": "Yuki Aki",
+      "speakerID": 19,
+      "description": "Swift code looks concise, but every line depends on layers that developers rarely see directly: the platform, the runtime, and the compiler. This talk starts from those hidden structures to explain how Swift operates across different platforms, how the runtime supports and constrains apps, and how the compiler optimizes code. The goal is not to become compiler engineers, but to build a practical mental model that helps us debug, improve build performance, and make better architectural decisions."
     },
     {
-      "time": "17:05 – 17:25",
-      "title": "Sitting on Both Sides of the Interview Table: Preparation for Interviewer and Candidate",
+      "time": "15:30 – 15:50",
+      "title": "It's Time! Let's Rewrite All Your RxSwift Code in Swift Concurrency!",
       "tags": [
-        "Career",
-        "Interview",
-        "Growth"
+        "Swift",
+        "Swift Concurrency",
+        "RxSwift",
+        "Async/Await",
+        "AsyncSequence",
+        "Combine",
+        "Architecture",
+        "Refactoring",
+        "iOS"
       ],
-      "speaker": "Allen Lai",
-      "description": "By chance, I became a technical interviewer for the company's Staff Engineer position and received recognition from management and HR.\nReflecting on what I might have done right and reviewing mistakes and lessons learned as a candidate.\nThrough my dual experience as both candidate and interviewer, I share how to approach interviews and being interviewed with a healthy mindset and thorough preparation, creating a more friendly workplace interview environment.",
-      "speakerID": 13,
-      "hackMD": "https://hackmd.io/@iPlayground/S1RSxeM_xe",
-      "youtube": "https://youtu.be/wNcZEFvqyNQ?si=g9mHacrZubw-L1xu"
+      "speaker": "Dex",
+      "speakerID": 20,
+      "description": "“Your project has used RxSwift for almost ten years. Should you keep using it?” Almost every mature iOS project asks this question. In 2026, the more interesting version is: “Can AI help migrate tens of thousands of lines of Rx code?” This session shares an approach proven feasible with iOS 16+ and Swift 6 from two angles. Technically, it covers which RxSwift patterns now have clean equivalents, which should move to Combine, and which are not worth migrating yet. On the AI collaboration side, it shows how to turn repeated decisions into executable skills and rules for AI agents so mechanical migration work can be delegated. The session ends with a gradual migration workflow validated in practice, plus several real anti-patterns."
     },
     {
-      "time": "17:25 – 17:45",
-      "title": "From Software to Food Service: Adventures in Homemade Curry and Homemade Systems",
-      "tags": [
-        "Career",
-        "Indie Development",
-        "Entrepreneurship",
-        "Personal Project"
-      ],
-      "speaker": "Ben",
-      "description": "Software and curry development have many similarities, at least in terms of knowledge context, software development experience is very helpful.\nThis is not a dream of escaping reality, but an adventure journey proving with flesh and blood that leaving the comfort zone only brings discomfort. The dual track of software and curry has entered its sixth year, with a second store, and the homemade system continues to progress. The experience gained from the frontlines of food service for product development is definitely something you can't hear elsewhere.",
-      "speakerID": 14,
-      "hackMD": "https://hackmd.io/@iPlayground/H1gcllfOgl"
-    },
-    {
-      "time": "17:45 – 17:50",
-      "title": "Closing",
+      "time": "15:50 – 16:00",
+      "title": "Break",
       "tags": [],
-      "speaker": "General Convener",
+      "speaker": "",
       "description": ""
+    },
+    {
+      "time": "16:00 – 16:40",
+      "title": "You don't need a ViewModel",
+      "tags": [
+        "Swift",
+        "SwiftUI",
+        "Architecture",
+        "宗教戰爭"
+      ],
+      "speaker": "lovee",
+      "speakerID": 21,
+      "description": "MVVM is a mature architecture refined over nearly two decades, and it successfully addressed common Fat View Controller problems in the UIKit era. But once SwiftUI redefined UI development around state-driven thinking, do we still need to carry MVVM forward, especially the ViewModel? This talk starts from the design intent of MVVM, examines where MVVM fits or conflicts with SwiftUI, and explains why continuing to introduce ViewModels in SwiftUI often adds unnecessary complexity and can even limit SwiftUI’s strengths. Through practical examples and architectural evolution, we will rethink best practices for the SwiftUI era."
+    },
+    {
+      "time": "16:40 – 16:50",
+      "title": "Break",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "16:50 – 17:10",
+      "title": "Managing AI Like a Junior Engineer: The Discipline Behind Shipping a Solo iOS App with Agents",
+      "tags": [
+        "AI",
+        "Agent",
+        "Architecture",
+        "軟體工程",
+        "Indie Development"
+      ],
+      "speaker": "Alex Hu",
+      "speakerID": 22,
+      "description": "AI is writing code faster and faster, so what value is left for engineers? Over the past six months, I used AI agents to build an iOS app that I use every day, with most of the code generated by agents. The app runs and the project did not decay not because of prompt tricks, but because I treated the agent like a junior engineer who needed guidance. Using this real project, I will break down the engineering discipline that keeps agents from drifting or overstepping: ADRs to pin down decisions, contracts to define module boundaries such as using the iPhone as the single data source for Apple Watch, test-first development to protect correctness, and a deferred backlog to control scope. I will also discuss moments where only human judgment could make the call."
+    },
+    {
+      "time": "17:10 – 17:30",
+      "title": "Tweet AI to the Edge",
+      "tags": [
+        "Flutter",
+        "llama.cpp",
+        "MLX",
+        "Twinkle AI"
+      ],
+      "speaker": "Bobson Lin",
+      "speakerID": 14,
+      "description": "“Tweet” AI to the Edge: the next step from localized language models to ambient intelligence. Here, “tweet” is not a social post, but the Chinese idea of pushing, advancing, and deploying. Once open-source communities such as Twinkle AI begin building localized language models, the next question is how to push those models closer to users so they can run on phones, desktops, browsers, and all kinds of edge devices. Little Star began as a mobile LLM tool: from asking whether LLMs could really run on phones, through iOS and Android MVP validation, and toward benchmarking and real-device measurement. This journey showed that edge AI is not only an inference problem, but an end-to-end design challenge across model formats, runtimes, quantization, memory, latency, power consumption, and user experience. Based on Little Star’s exploration, this talk discusses how to bring localized language models to the edge, from model packaging, GGUF, and the llama.cpp ecosystem to on-device benchmarks, context-aware UX, and product imagination around ambient intelligence. It also explores why the value of local models is not just being offline, but being close to users, data, context, and the future AI infrastructure that open-source communities can shape."
+    },
+    {
+      "time": "17:30 – 17:40",
+      "title": "Break",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "17:40 – 18:00",
+      "title": "Taking Yourself Out of the Loop: Letting Software Upgrade Itself",
+      "tags": [
+        "AI Coding"
+      ],
+      "speaker": "tzangms",
+      "speakerID": 23,
+      "description": "Give an agent three abilities: see the result, inspect itself, and change itself. With those, it can enter a loop: talk to itself, review the result, investigate the problem, make changes, and rerun hundreds of times until it reaches the standard we want. Our job is to define what “good enough” means first."
     },
     {
       "time": "18:00 – 21:00",
       "title": "After Party",
-      "tags": [
-        "Networking",
-        "Dinner",
-        "Lightning Talk"
-      ],
+      "tags": [],
       "speaker": "",
-      "description": "The conference doesn’t end here! Join the After Party to keep connecting, relax, and enjoy surprise Lightning Talks! Dinner will be served from 18:00–20:00, and Lightning Talks will take place from 19:00–20:00."
+      "description": ""
     }
   ],
   "day2": [
     {
       "time": "09:00 – 09:30",
-      "title": "Entry",
+      "title": "Registration / Entry",
       "tags": [],
       "speaker": "",
       "description": ""
@@ -291,235 +277,310 @@
       "description": ""
     },
     {
-      "time": "09:35 – 09:45",
-      "title": "Sponsor Time",
+      "time": "09:35 – 10:15",
+      "title": "For Agents, By Agents: Building AI Tools That Maintain Themselves",
       "tags": [
-        "English"
-      ],
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "09:45 – 10:35",
-      "title": "What Can an Engineer Who Grew Up at a Temple Fair Do?",
-      "tags": [
+        "AI",
+        "Developer Tools",
         "Career",
         "Indie Development",
-        "Development Experience",
-        "Personal Project"
+        "Future Outlook"
       ],
-      "speaker": "Wu Zhengxian OAWU",
-      "description": "What can religion and software development do together? As a backend engineer without formal App workplace experience, how to develop a work with good reviews on the App Store based on my own experience. What should be considered during development? Collaboration? Design? Experience? Marketing? Management? I will share the development insights of this APP in this conference!",
-      "speakerID": 2,
-      "hackMD": "https://hackmd.io/@iPlayground/ryGBPgfugg",
-      "youtube": "https://youtu.be/TxQ1eAka-vs?si=tvtTZCig0QfSKnYp"
+      "speaker": "Rudrank Riyam",
+      "speakerID": 1,
+      "description": "Developer tools are no longer built only for humans at a terminal. They are also used, tested, broken, and improved by AI agents.\n\n\nIn this session, I will share the story behind building App Store Connect CLI in public: from an early idea, to multiple job opportunities, acquisition, and keeping it open-source for iOS developers.\n\n\nI will also show how agent-reported issues, automated reviews, refactors, and release workflows help such tools start to maintain themselves."
     },
     {
-      "time": "10:35 – 10:50",
+      "time": "10:15 – 10:25",
       "title": "Break",
       "tags": [],
       "speaker": "",
       "description": ""
     },
     {
-      "time": "10:50 – 11:10",
-      "title": "5 Things Learned After Using AI Coding",
+      "time": "10:25 – 11:05",
+      "title": "What Happens After Your App Ships? Automating Marketing, Support, and Product Iteration with AI Agents",
       "tags": [
-        "AI",
-        "Development Experience",
-        "Career",
-        "Rapid Development"
+        "AI Agent",
+        "AI 自動化",
+        "App 經營"
       ],
-      "speaker": "Harry Wu Zhuoqiang",
-      "description": "After using AI to assist programming for several months, I discovered unexpected advantages and pitfalls. This talk shares 5 lessons you won't find in social media marketing articles.",
-      "speakerID": 15,
-      "hackMD": "https://hackmd.io/@iPlayground/rkDPPxGOel",
-      "youtube": "https://youtu.be/13eR8ZB8kX0?si=ZOPCCe_GtIEIKFpJ"
+      "speaker": "Hana Chang",
+      "speakerID": 24,
+      "description": "After an app ships, the real problems begin: nobody using it, support emails, social content, user feedback, and product iteration. Using the mojo weight-loss injection tracking app as an example, this talk shares how I built a team of AI agents to handle marketing content, growth experiments, support triage, social listening, user feedback, GitHub issue creation, and product iteration. After launch, AI agents can become teammates that help an iOS app move from “finished” to truly alive."
     },
     {
-      "time": "11:10 – 11:30",
-      "title": "Vibe Coding: Writing AI-Era Speed with Intuition",
-      "tags": [
-        "AI",
-        "Rapid Development",
-        "Career",
-        "Indie Development"
-      ],
-      "speaker": "Prime Minister Hai",
-      "description": "Over the past six months, I've tried using Vibe Coding to develop and launch a product every month. This sharing focuses on insights gained from collaborating with AI in actual combat and how to achieve rapid output.",
-      "speakerID": 16,
-      "hackMD": "https://hackmd.io/@iPlayground/B1dYPlzuel",
-      "youtube": "https://youtu.be/9JwRIV3FYi4?si=eX0Gv44-vxhp-y2Z"
+      "time": "11:05 – 11:15",
+      "title": "Break",
+      "tags": [],
+      "speaker": "",
+      "description": ""
     },
     {
-      "time": "11:30 – 11:50",
-      "title": "Stuffing Large Language Models into iPhone: LLM On-Device Black Magic and Free Guide",
+      "time": "11:15 – 11:35",
+      "title": "iOS 2026 Career Survival Guide: Insights from a Senior International Recruiter",
       "tags": [
-        "AI",
-        "Performance",
-        "LLM",
-        "On-device"
+        "獵頭",
+        "趨勢"
       ],
-      "speaker": "Da Jun",
-      "description": "You may have heard of ChatGPT, LLaMA, GPT-4 - these super-strong language models usually live in cloud data centers. But did you know? There's now a way to stuff them into your iPhone, run locally anytime, anywhere, completely offline!\n\nThis sharing will show you how I made a llama (LLaMA) live inside an iPhone and chat with you in real-time without lag. No internet, no cloud, purely local computing power, running open source llama.cpp, from Swift wrapping to Metal GPU, implementing 'on-device generative AI.'",
-      "speakerID": 17,
-      "hackMD": "https://hackmd.io/@iPlayground/SJAsPlz_le",
-      "youtube": "https://youtu.be/xg1yPumAVg0?si=1r2KpjQt-99hlhkE"
+      "speaker": "Annie",
+      "speakerID": 25,
+      "description": "Based on the speaker’s seven years of recruiting experience, this session looks back at the ups and downs of Taiwan’s iOS technology market since 2020. From the vantage point of 2026, it analyzes the latest market trends and explores the best ways to prepare for today’s challenges. The speaker looks forward to sharing these insights face to face and helping attendees find steady career momentum amid constant change."
     },
     {
-      "time": "11:50 – 12:10",
-      "title": "Build Mobile Identity into your app with mDL/mDoc",
+      "time": "11:35 – 11:55",
+      "title": "When Touch Fails, Can Your App Still Be Used?",
       "tags": [
-        "Security",
-        "API",
-        "Privacy",
-        "English"
+        "Accessibility",
+        "UX",
+        "assistive technology"
       ],
-      "speaker": "Daiki Matsudate",
-      "description": "Smartphones are becoming digital wallets for our identities. In this session, we'll explore how international standards like ISO/IEC 18013-5/7 and 23220 series are shaping the way governments and tech giants adopt mobile identity solutions. We'll walk through Apple's APIs for identity and age verification using mDLs and mDocs, and discuss real-world use cases that blend security, privacy, and user experience.",
-      "speakerID": 18,
-      "hackMD": "https://hackmd.io/@iPlayground/ryeCvxz_ge",
-      "youtube": "https://youtu.be/6ZCMBGc5HfE?si=kFZNpLxMnBFR1kiF"
+      "speaker": "Woody",
+      "speakerID": 4,
+      "description": "When users cannot tap the screen with their hands, can your app still be used smoothly? This talk starts with accessibility labels and introduces different aspects of digital accessibility, as well as how assistive technologies actually operate your interface. We will discuss why semantics and control types matter so much for screen readers, and why focus management cannot be ignored in task-heavy interfaces. The talk will also introduce Voice Control and how the system uses on-screen element names to complete actions. Through practical examples, you will learn how to think about and design apps that remain usable in non-touch scenarios and create friendlier experiences for everyone."
     },
     {
-      "time": "12:10 – 13:10",
+      "time": "11:55 – 13:00",
       "title": "Lunch",
       "tags": [],
       "speaker": "",
       "description": ""
     },
     {
-      "time": "13:10 – 14:00",
-      "title": "Wishing Swift iOS Apps Could Have Flutter & Jetpack Compose Features",
+      "time": "13:00 – 13:20",
+      "title": "How to Win the Swift Student Challenge",
       "tags": [
         "Swift",
+        "SwiftUI",
         "UI/UX",
-        "Cross-platform",
-        "Productivity"
-      ],
-      "speaker": "Peter Pan",
-      "description": "After learning Flutter & Jetpack Compose, Peter Pan still loves developing Swift iOS Apps, but also discovered some convenient and useful aspects of them. This sharing will introduce nice features of Flutter, Jetpack Compose, Dart, Kotlin, VS Code & Android Studio, hoping that Swift, Xcode & SwiftUI can have these features someday in the future.",
-      "speakerID": 19,
-      "hackMD": "https://hackmd.io/@iPlayground/rJv1dlfuex",
-      "youtube": "https://youtu.be/hvJTf1oUjBU?si=wO3-ger9qEtuv9uq"
-    },
-    {
-      "time": "14:00 – 14:15",
-      "title": "Break",
-      "tags": [],
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "14:15 – 14:35",
-      "title": "App Security Knowledge: I Only Know a Little",
-      "tags": [
-        "Security",
-        "Defense",
-        "Architecture",
-        "Vulnerabilities"
-      ],
-      "speaker": "Yang Xiaomie",
-      "description": "When developing apps, everyone says 'encrypt, use HTTPS, don't store plaintext,' but have you ever thought about why? Often we just follow instructions without understanding why we need to do this. This sharing approaches from a developer's perspective, introducing OWASP Mobile Top 10 popular security issues, man-in-the-middle attacks, and why cracking tools can let hackers directly expose your cards. Security isn't extra work, but part of programming. Learn to use encryption/decryption, MobSF, understand reverse attack methods, transforming you from 'following instructions' to 'understanding,' no longer just knowing what, but also knowing why.",
-      "speakerID": 20,
-      "hackMD": "https://hackmd.io/@iPlayground/BkkWueGOll",
-      "youtube": "https://youtu.be/9XqHYYsVZzE?si=Ui1bqEcfLorcsWBA"
-    },
-    {
-      "time": "14:35 – 14:55",
-      "title": "When Your App Needs a New Business Model: StoreKit Migration Without Breaking Everything",
-      "tags": [
-        "Architecture",
-        "API",
-        "StoreKit",
-        "English"
-      ],
-      "speaker": "Astrid Lin",
-      "description": "Adding new purchase types to mature apps is risky business. When KKBOX needed to introduce a new in-app purchase model, we couldn't afford to disrupt existing users. This talk shares our real-world experience using StoreKit 2 for new features while keeping the original StoreKit API for legacy flows. Learn the technical gotchas, App Store review surprises, and practical strategies for payment system evolution in production apps. Perfect for developers facing similar legacy modernization challenges.",
-      "speakerID": 21,
-      "hackMD": "https://hackmd.io/@iPlayground/H1omdxfuxl",
-      "youtube": "https://youtu.be/6vx8MKv4eJ8?si=UX0MNHF-z3v3I_ps"
-    },
-    {
-      "time": "14:55 – 15:15",
-      "title": "Realtime Face Liveness Detection using TrueDepth",
-      "tags": [
-        "AI",
-        "Security",
-        "TrueDepth",
-        "Biometric"
-      ],
-      "speaker": "Ethan",
-      "description": "Face liveness detection is a security measure used to verify whether captured face images or videos belong to a real person, not photos, videos, or masks. It is an important component of face recognition systems that can prevent someone from trying to impersonate others by providing fake face images.\n\nFace liveness detection becomes particularly important in the generative AI era, with the core reason being:\nPreventing AI-generated or forged faces from impersonating real humans for identity verification, access control, or identification.\n\nWhy it's especially important in this era:\n\n1. Rapid proliferation of deepfake and AI face-swapping technology\n2. Identity verification increasingly relies on biometric identification\n3. AI-generated identities can easily bypass weak detection mechanisms\n4. Maintaining trust and security on digital platforms",
-      "speakerID": 22,
-      "hackMD": "https://hackmd.io/@iPlayground/BykYugz_ge",
-      "youtube": "https://youtu.be/lfbJ5OgqWwQ?si=iMOUCLx5dmTb78uP"
-    },
-    {
-      "time": "15:15 – 15:35",
-      "title": "Break",
-      "tags": [],
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "15:35 – 16:25",
-      "title": "MCP Protocol from an iOS Engineer's Perspective",
-      "tags": [
-        "AI",
-        "API",
-        "Architecture",
-        "Protocol"
-      ],
-      "speaker": "Aaron Ni",
-      "description": "Want LLMs to use your own tools to get things done?\nWant LLMs to help you accelerate tedious processes in development in the way you want?\nOr are you looking at the dazzling array of MCP services on GitHub, wanting to download them but worried about hidden security risks or data-stealing logic? Then it's time to write your own.\n\nThis sharing will take you through understanding what the Model Context Protocol (MCP) defines and how it works from an iOS engineer's perspective.\nWe'll demonstrate with simple examples how to build your own MCP Tool, allowing AI assistants like Cursor and Windsurf to directly communicate with your own tools, eliminating the need to manually copy and paste your API results to AI.\nWelcome all friends interested in automation, AI collaboration, and Swift implementation to join the discussion.",
-      "speakerID": 23,
-      "hackMD": "https://hackmd.io/@iPlayground/HkVsdxfuxe",
-      "youtube": "https://youtu.be/tk9rdzJjPNg?si=Ga1WpPN-Sx8upE9t"
-    },
-    {
-      "time": "16:25 – 16:40",
-      "title": "Group Photo & Break",
-      "tags": [],
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "16:40 – 17:00",
-      "title": "Learning Engineering for Software Engineers",
-      "tags": [
-        "AI",
+        "Accessibility",
         "Career",
-        "Future Outlook",
-        "Growth"
-      ],
-      "speaker": "Liu Xin",
-      "description": "Over the past half-century, we have made significant progress in our scientific understanding of effective learning, unfortunately these research results are not often applied to personal learning. As engineers, we are good at using theory and scientific thinking to solve problems, but have we used this expertise to face the problem of 'how to improve our professional capabilities'?\n\nThis session will try to use engineers' language to explore how to use engineering thinking to optimize learning and evaluate the threats and opportunities that AI brings to learning.\n\nOver the last half-century, scientific understanding of how we learn has made significant strides. Unfortunately, few of us apply those understandings to accelerate our growth. As software engineers, we are experts at applying theory and scientific thinking to solve real-world problems, but have we applied the same mindset toward improving our own skills?\n\nIn this session, we'll use the language of software engineers to explore how we could use engineering principles to optimize our professional growth. We'll also evaluate the threats and opportunities that AI brings to our growth.",
-      "speakerID": 24,
-      "hackMD": "https://hackmd.io/@iPlayground/HJanOez_el",
-      "youtube": "https://youtu.be/4s_EWMHLQ-k?si=Cilrg_Ihzc3vg_lF"
-    },
-    {
-      "time": "17:00 – 17:20",
-      "title": "The Era of Personal Software",
-      "tags": [
-        "AI",
-        "Career",
-        "Future Outlook",
         "Indie Development"
       ],
-      "speaker": "13",
-      "description": "Under suitable conditions, AI can quickly produce excellent code. Therefore, the future will be an era where many people can easily create software that belongs entirely to themselves. I will publicly share the experimental process of 'creating Apps that belong entirely to your own workflow and lifestyle through AI tools,' and share my views on which aspects of humanity AI will change (or won't change).",
-      "speakerID": 25,
-      "hackMD": "https://hackmd.io/@iPlayground/B141txfugg",
-      "youtube": "https://youtu.be/gFfOZEprCGw?si=wzc_dWlGRwFgG3Ko"
+      "speaker": "Thiago Komeno",
+      "speakerID": 26,
+      "description": "Winning the Apple Swift Student Challenge is about building something that only you could have built. In this talk, I'll present how a personal story became a winning Swift Playground, and what that process can teach you about code, creativity, and yourself.\n\nThis talk will cover three things: how to find an idea only you could build, how to grow your SwiftUI skills under the real constraints of a project, and most importantly, how attention to detail is what separates a good submission from a winning one.\n\nWhether or not you've entered the challenge before, you'll walk away with a framework for turning your own ideas into something you're genuinely proud to submit."
+    },
+    {
+      "time": "13:20 – 13:30",
+      "title": "Break",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "13:30 – 14:10",
+      "title": "Is SDD Just a Slogan, or Can It Actually Work?",
+      "tags": [
+        "SDD",
+        "規格驅動",
+        "AI Agent",
+        "Xcode",
+        "Vibe Coding"
+      ],
+      "speaker": "Chien-Long Kao",
+      "speakerID": 8,
+      "description": "“Write the specification first, then let AI implement it” sounds ideal, but is SDD, specification-driven development, just a slogan or something that can really work? The common pain of coding with AI is that it has no specification to follow, so it guesses or runs off on its own until we come back to argue about what it got wrong. SDD uses specifications to constrain AI so it does not have to guess and is less likely to drift. In this talk, I will demonstrate an SDD workflow from proposal to implementation to archiving, and show what this approach actually looks like in practice."
+    },
+    {
+      "time": "14:10 – 14:20",
+      "title": "Break",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "14:20 – 14:40",
+      "title": "How Apple Intelligence Understands Your App",
+      "tags": [
+        "AI",
+        "Apple Intelligence",
+        "LLM",
+        "Swift",
+        "SwiftUI"
+      ],
+      "speaker": "Joy",
+      "speakerID": 27,
+      "description": "When a user tells Siri “save this for me” or “add this session to my calendar,” how does Apple Intelligence understand what “this” refers to? App Schema, On-screen Awareness, and Content Transfer from WWDC26 are redefining how apps interact with the system. Future apps will no longer provide only screens and features; they will need to describe their data models, executable capabilities, and content relationships to the system so Apple Intelligence can understand, search, and use their content. If you are following Apple Intelligence, App Intents, or the next generation of Siri, this talk will help you understand the design thinking behind them from a developer’s perspective and the implementation directions you can start adopting today."
+    },
+    {
+      "time": "14:40 – 15:00",
+      "title": "macOS CLI Magic Commands I Learned from Vibe Coding",
+      "tags": [
+        "AI",
+        "macOS",
+        "CLI",
+        "vibe coding",
+        "terminal"
+      ],
+      "speaker": "Peter Pan",
+      "speakerID": 9,
+      "description": "As iOS app developers, we are familiar with Xcode, Swift syntax, and the many frameworks in the iOS SDK, but macOS CLI commands can feel like familiar strangers. While using AI to develop apps, Peter Pan noticed that AI completes tasks quickly through many convenient CLI commands. This session shares the macOS CLI “magic commands” he learned from AI."
+    },
+    {
+      "time": "15:00 – 15:10",
+      "title": "Break",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "15:10 – 15:30",
+      "title": "Age Assurance Frameworks and Digital Identity Wallet",
+      "tags": [
+        "Age Verification",
+        "Digital Identity Wallet",
+        "Zero-Knowledge Proof"
+      ],
+      "speaker": "Denken Chen",
+      "speakerID": 6,
+      "description": "Starting from Apple’s Declared Age Range API released in 2025, do you know why these APIs are needed? This talk helps you understand the underlying demand for age verification, including international compliance, technical standards, and frontier developments in cryptography."
+    },
+    {
+      "time": "15:30 – 15:50",
+      "title": "From an Unreadable Japanese Receipt: How a Solo Developer Grew a Side Project into a Product with AI and Feedback Systems",
+      "tags": [
+        "AI",
+        "Developer Tools",
+        "Apple Intelligence",
+        "LLM"
+      ],
+      "speaker": "Ervis",
+      "speakerID": 7,
+      "description": "On a trip to Japan, I could not understand receipts and wanted to track expenses and settle purchases for others, so I built “TripReceipt,” an iOS app that requires no registration, is free, and has no ads. After I first shared it on Threads, real users started joining, and I began receiving feature requests, suggestions, bug reports, and sponsorship support. This session shares what happens when a side project has real users, and how AI receipt recognition, an in-app feedback chat, push notifications, Telegram integration, and an operations dashboard can form a small product system that continuously hears users, responds quickly, and drives product iteration."
+    },
+    {
+      "time": "15:50 – 16:00",
+      "title": "Break",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "16:00 – 16:40",
+      "title": "Contributing to Apple Container Without Writing Swift: A Cloud Native Engineer's Open Source Journey",
+      "tags": [
+        "Apple Container",
+        "開源貢獻"
+      ],
+      "speaker": "ChengHao Yang",
+      "speakerID": 28,
+      "description": "Apple open-sourced Apple Container at WWDC 2025 and released version 1.0.0 in June 2026. As an SRE who works daily with Kubernetes and the cloud-native ecosystem, I unexpectedly became one of the contributors to this project. This talk shares, from the perspective of someone who does not write Swift and is not an Apple platform developer, how to get involved in an Apple open-source project: how to choose issues that match your background, bridge language and ecosystem gaps to understand the codebase, and discuss technical solutions with Apple engineers. If you are interested in contributing to Apple open source but do not know where to start, this session shows how to take the first step and what the process is actually like, without waiting until you become the “right person.”"
+    },
+    {
+      "time": "16:40 – 16:50",
+      "title": "Break",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "16:50 – 16:55",
+      "title": "100 Applications, 30 Interviews, 1 Offer: An Ordinary Engineer’s First Step into a Career in Japan",
+      "tags": [
+        "日本",
+        "海外求職"
+      ],
+      "speaker": "tetsu",
+      "speakerID": 29,
+      "description": "Do you think “people who work overseas must be elite”? I did not graduate from a famous school or work at a big tech company, yet I have spent ten years as a mobile engineer in Japan. This is the story of how someone without a glamorous background stumbled into the Japanese workplace. I applied to 100 companies, interviewed with 30, and received only one offer. Those numbers were my starting point. There was no polished resume, just repeating “apply to one more company” one hundred times. In five minutes, this is for anyone who feels they are not qualified to work overseas."
+    },
+    {
+      "time": "16:55 – 17:00",
+      "title": "Why Can't We Have Nice Macros for `#Preview`?",
+      "tags": [
+        "Swift",
+        "Macro",
+        "Compiler",
+        "Preview"
+      ],
+      "speaker": "Yu Takahashi",
+      "speakerID": 30,
+      "description": "Swift macros let us generate code automatically and remove boilerplate, so why can’t we use them to simplify #Preview setup? I tried to build @PreviewContainer: a macro that automatically removes environment-dependent property wrappers such as @Query and generates a plain struct that can be passed directly into #Preview. The idea was simple, but it led deep into Swift compiler internals. I tried three approaches, @attached(peer), @attached(member), and splitting code into different files, and all failed silently inside #Preview. The issue comes from Swift’s two-phase type checking: #Preview is a #freestanding(declaration) macro, and its closure is type-checked before attached macros expand. Even more confusing, conformances declared through conformances: are trusted by the compiler in the first phase, but type names declared through names: are not. This subtle difference is exactly where I got stuck. The same issue has remained unresolved on Swift Forums since May 2025. This talk is about why something we want to build still cannot be built today."
+    },
+    {
+      "time": "17:00 – 17:05",
+      "title": "Down the Rabbit Hole: A Handwriting App's Scope Creep",
+      "tags": [
+        "Swift",
+        "SwiftUI",
+        "Career",
+        "Indie Development"
+      ],
+      "speaker": "Paul Liu",
+      "speakerID": 31,
+      "description": "While creating “Zhengbi,” a handwriting practice app, I kept running into unexpected language and writing-system challenges. In pursuit of quality, I ended up creating one helper project after another: an iPad app, two Mac apps, a Mac CLI app, and a pile of scripts. Why does a seemingly simple feature grow into so much work once you start building it? How do you collect, organize, and generate the stroke data you need? How should variant characters and characters with multiple pronunciations be handled? Why are there so many exceptions? There is no grand theory here, just a collection of lessons from the pit for everyone’s amusement."
+    },
+    {
+      "time": "17:05 – 17:10",
+      "title": "Building Nibble: Product Discovery in the Era of AI",
+      "tags": [
+        "Side Project",
+        "Product Discovery",
+        "AI",
+        "Market Research"
+      ],
+      "speaker": "Jess",
+      "speakerID": 32,
+      "description": "Before studying abroad, I began wondering: as life gets busier and it becomes harder to meet the people who matter, how can we continue to stay involved in each other’s lives? Instagram feels too public, while LINE is crowded with work and group messages. Existing social products lack a light space for sharing everyday life. That observation became Nibble, an app for casually recording and sharing life moments while staying connected with close friends. I will share how I started from observations in daily life, used AI tools for market research and product discovery, and turned the idea into a real product."
+    },
+    {
+      "time": "17:10 – 17:15",
+      "title": "Funny, Weird, and Terrifying Lessons from Building a Dating AI Agent",
+      "tags": [
+        "AI",
+        "Apple Intelligence",
+        "LLM"
+      ],
+      "speaker": "Ethan",
+      "speakerID": 33,
+      "description": "Funny, weird, and terrifying lessons learned while building an AI dating agent."
+    },
+    {
+      "time": "17:15 – 17:20",
+      "title": "Building a Cross-Platform AI-Powered U.S. Election Radar for iOS and Android with SwiftUI",
+      "tags": [
+        "SwiftUI",
+        "Cross-platform",
+        "iOS",
+        "Android",
+        "AI",
+        "UI/UX"
+      ],
+      "speaker": "YC Liu",
+      "speakerID": 34,
+      "description": "AI Election Radar is a mobile-first product focused on U.S. election news, supported by an internal admin console and backend system. This session shares how to build a cross-platform app for iOS and Android with SwiftUI while integrating AI search, news summarization, database storage, data flow design, and a human review workflow in the admin system. It focuses especially on the news processing pipeline: AI automatically gathers and organizes information, while humans perform the final review to reduce the risk of errors from full automation. The talk also covers details of cross-platform UI, map interactions, news list design, and challenges encountered during implementation."
     },
     {
       "time": "17:20 – 17:30",
-      "title": "Closing",
+      "title": "Closing + Group Photo",
       "tags": [],
-      "speaker": "General Convener",
+      "speaker": "",
       "description": ""
+    }
+  ],
+  "workshop_day1": [
+    {
+      "time": "13:30 – 15:00",
+      "title": "Stitch x Antigravity Hands-on Guide: Let AI Turn Visual Design into a Precise iOS App",
+      "tags": [
+        "Gemini"
+      ],
+      "speaker": "Kevin Chiu",
+      "speakerID": 10,
+      "description": "Workshop introduction\nIn the traditional app development process, moving from UI design to final iOS code often involves countless rounds of communication, manual layout work, and endless pixel-pushing. This workshop breaks down the wall between design and development and lets you experience a new generation of AI-driven development workflow.\n\nWe will combine the powerful AI design engine Stitch with the high-performance development framework Antigravity, and practice turning visual sketches and design intent into production-grade iOS applications. This is not just generating static screens: the design output gains real logic, polished performance, and a workflow that fits developers’ habits. Say goodbye to hand-coding every piece of UI and let AI become your strongest engineering assistant."
+    }
+  ],
+  "workshop_day2": [
+    {
+      "time": "13:30 – 15:00",
+      "title": "I don't know Swift, but I made an AI monster battle game.",
+      "tags": [
+        "Swift"
+      ],
+      "speaker": "Hedula",
+      "speakerID": 12,
+      "description": "You do not need to be a Swift expert to build an AI-powered iOS game in 40 minutes. This is not magic, but a real example of AI-assisted development. In this session, you will use Xcode and GitHub Copilot to build “Snap Fighter” from scratch: take photos of any objects, let AI generate character names and stats automatically, and battle once you capture two fighters. Along the way, you will see how AI writes code, what to do when it gets things wrong, and which traps it will never proactively warn you about."
     }
   ]
 }
