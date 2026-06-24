@@ -46,8 +46,8 @@
   },
   {
     "id": 4,
-    "name": "Woody",
-    "title": "共同看見獨特的彼此",
+    "name": "Vic",
+    "title": "Seeing Each Other’s Uniqueness Together",
     "intro": "Coseeing is a community dedicated to advancing digital accessibility.\nWe build tools that help people who are blind or visually impaired access more information and discover new possibilities.\nWe also create opportunities for the public to better understand the real challenges and needs faced by people with disabilities.\nThrough diverse approaches and sustained action, we envision a world where everyone can see together—experiencing its richness and recognizing each other’s uniqueness.",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_Vic.JPG",
     "url": "https://a11yvillage.coseeing.org",
@@ -62,7 +62,7 @@
   {
     "id": 5,
     "name": "Shengyou Fan",
-    "title": "讓 Kotlin 成為 iOS 開發者的第二把刀，在跨平台與 AI 時代拓展出更多可能。",
+    "title": "Making Kotlin a Second Tool for iOS Developers and Expanding Possibilities in the Cross-Platform and AI Era",
     "intro": "Developer Advocate at JetBrains, focusing on Kotlin, JetBrains Tools, and related development technologies. He works across Kotlin, backend development, developer productivity, and education, with a passion for turning complex technical concepts into clear and practical content. In his spare time, he has long been involved in open source communities, contributing through talks, teaching, and community events.",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_Shengyou.JPG",
     "url": "",
@@ -77,7 +77,7 @@
   {
     "id": 6,
     "name": "Denken Chen",
-    "title": "參與 W3C 支持開放標準、參與 g0v 支持開放原始碼。",
+    "title": "Supporting Open Standards through W3C and Open Source through g0v",
     "intro": "After a decade of working as an iOS app developer and contributing to the g0v community, I had the opportunity to join Taiwan Digital Identity Wallet team and become involved with the W3C. I currently also serve as Co-Chair of the W3C Credentials Community Group.",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_denken.png",
     "url": "https://denkeni.org",
@@ -92,8 +92,8 @@
   {
     "id": 7,
     "name": "Ervis",
-    "title": "彭成瑋 Ervis Peng, Senior iOS Engineer",
-    "intro": "Senior iOS Engineer with 11+ years of iOS experience and App Team Lead experience, specializing in restaurant POS, payment and hardware integrations, and e-commerce platforms. Recently built 旅收, a travel receipt and expense tracking app that explores how a solo developer can use AI and user feedback to continuously iterate a real-world product.",
+    "title": "Ervis Peng, Senior iOS Engineer",
+    "intro": "Senior iOS Engineer with 11+ years of iOS experience and App Team Lead experience, specializing in restaurant POS, payment and hardware integrations, and e-commerce platforms. Recently built Travel Receipts, a travel receipt and expense tracking app that explores how a solo developer can use AI and user feedback to continuously iterate a real-world product.",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_ErvisPeng.jpeg",
     "url": "",
     "fb": "",
@@ -106,8 +106,8 @@
   },
   {
     "id": 8,
-    "name": "Chien-Long Kao",
-    "title": "喜歡寫程式而且希望可以寫一輩子程式的電腦阿宅！",
+    "name": "Chien-Long, Kao",
+    "title": "A Programming Nerd Who Loves Coding and Hopes to Keep Writing Code for Life",
     "intro": "A web developer, instructor, gamer, and manga enthusiast who loves unconventional new tools. He is the author of bestselling books including Learn Git for Yourself, Learn Python for Yourself, and Learn Ruby on Rails for Yourself. He is a programming nerd who loves coding and hopes to keep writing code for life.",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_kaochenlong.jpg",
     "url": "https://kaochenlong.com/presentations",
@@ -122,7 +122,7 @@
   {
     "id": 9,
     "name": "Peter Pan",
-    "title": "愛瘋一切為蘋果的彼得潘",
+    "title": "Peter Pan, Passionate About All Things Apple",
     "intro": "I enjoy learning and writing, especially about Apple, Swift iOS apps, Flutter apps, AI, and programming. I happily live a life of learning and sharing at the same time.",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_PeterPan.jpg",
     "url": "https://medium.com/@apppeterpan",
@@ -152,7 +152,7 @@
   {
     "id": 11,
     "name": "Ethan Huang",
-    "title": "喜歡分享，不賣焦慮。Love being inspired and sharing inspiration.",
+    "title": "Loves Sharing, Not Selling Anxiety. Love Being Inspired and Sharing Inspiration.",
     "intro": "📰 Editor-in-chief of Apple Developer Weekly, 🎙️ co-host of the weak self podcast, 💬 veteran iPlayground speaker, and Apple-recognized developer community contributor.",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_13.jpg",
     "url": "https://ethanhuang13.com",
@@ -243,7 +243,7 @@
     "id": 18,
     "name": "qcl",
     "title": "Software Engineer @ Google",
-    "intro": "曾效力於台灣 Yahoo、荷蘭 Booking.com、LINE Taiwan Limited，現任職於 Google Taiwan Enginnering Limited 的 iOS 工程師。不知不覺從產品功能開發、使用者介面實作一路到基礎建設及架構設計累積了 10 年經驗，負責的產品使用者規模越來越龐大。除了寫程式之外也很喜歡城市模擬類的遊戲，有破千小時的 Cities: Skylines 遊玩時數，比起遊戲，近年更在育兒領域投入了破萬的時數。",
+    "intro": "qcl has worked at Yahoo Taiwan, Booking.com in the Netherlands, and LINE Taiwan Limited, and is currently an iOS engineer at Google Taiwan Engineering Limited. Over the past 10 years, he has accumulated experience across product feature development, user interface implementation, infrastructure, and architecture design, while working on products with increasingly large user bases. Outside of coding, he also enjoys city-building simulation games, with over a thousand hours in Cities: Skylines. In recent years, he has invested even more time, well over ten thousand hours, into parenting.",
     "photo": "",
     "url": "",
     "fb": "",
@@ -302,7 +302,7 @@
   {
     "id": 22,
     "name": "Alex Hu",
-    "title": "資深 iOS 開發者 ｜ 曾任新加坡航空",
+    "title": "Senior iOS Developer | Formerly at Singapore Airlines",
     "intro": "Alex Hu is an iOS developer with 3+ years of experience across international and fintech products. As a Senior iOS Developer at Singapore Airlines, he helped build the SingaporeAir app with an MVVMC architecture, extracted payment features into a standalone framework, and raised unit test coverage from 60% to 85%. He has also shipped payment products at a crypto exchange and at O'Pay. A Life Science degree from National Taiwan University, focused on biostatistics and health & nutrition, makes him particularly careful about how reference values and safety limits should—and shouldn't—be computed. Over the past six months, he built a nutrient-tracking app from scratch—and uses it daily—largely with an AI coding agent, applying the engineering discipline he developed on production teams (architecture decision records, module contracts, test-first development, and tight scope control) to manage that agent like a junior engineer.",
     "photo": "",
     "url": "",
@@ -332,7 +332,7 @@
   {
     "id": 24,
     "name": "Hana Chang",
-    "title": "獎金獵人共同創辦人",
+    "title": "Co-Founder of Bounty Hunter",
     "intro": "Hana has 15 years of startup experience, having participated in the Web 2.0 startup wave as well as the web3 and DeFi movements. She is currently focused on researching and building AI Agent team automation systems, exploring how human–AI collaboration can reshape product development, operations, and the way small teams work.",
     "photo": "",
     "url": "",
