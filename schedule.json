@@ -11,20 +11,21 @@
       "time": "09:30 – 09:40",
       "title": "開場",
       "tags": [],
-      "speaker": "總召",
-      "description": ""
+      "speaker": "Hokila",
+      "description": "如何讓你的 iPlayground 更好玩"
     },
     {
       "time": "09:40 – 10:20",
       "title": "Designing Adaptive UX\nThrough Learning Theory & AI",
       "tags": [
+        "英文演講",
         "UI/UX",
         "無障礙",
         "開發經驗"
       ],
       "speaker": "Minkyung Kim",
       "speakerID": 2,
-      "description": "Every new user is essentially a learner. This session bridges educational science and UX design by applying Cognitive Load Theory, ZPD, and Flow Theory to create adaptive interfaces. It highlights the role of On-Device AI in facilitating these experiences, focusing on its ability to provide immediate feedback, maintain user privacy, and operate without server latency. The presentation demonstrates how these pedagogical principles transform static app interactions into intelligent, personalized learning journeys that evolve alongside the user's proficiency."
+      "description": "每一位新使用者，本質上都是一位學習者。本議程將教育科學與 UX 設計結合，透過 Cognitive Load Theory、ZPD 與 Flow Theory，探討如何打造能隨使用者狀態調整的 adaptive interface。內容也會說明 On-Device AI 在這類體驗中的角色，包含即時回饋、維持使用者隱私，以及不受 server latency 影響的執行特性。透過這些教學理論，我們可以把靜態的 App 互動，轉化為會隨使用者熟練度成長的智慧化、個人化學習旅程。"
     },
     {
       "time": "10:20 – 10:30",
@@ -69,12 +70,13 @@
       "time": "11:40 – 12:00",
       "title": "The Bottleneck Was Me: AI-Native Workflows for Large Codebases",
       "tags": [
+        "英文演講",
         "AI",
         "開發工具"
       ],
       "speaker": "Gyuri Kim",
       "speakerID": 17,
-      "description": "AI coding tools excel at small, focused tasks—but struggle when applied to large legacy iOS codebases at scale. The bottleneck is often not the model, but the human translation layer: reading summaries, confirming results, and re-delegating work. Using large-scale codebase analysis for refactoring preparation as a practical example, this session explores AI-native workflow design: machine-friendly structured data for bulk processing, and human-readable reports only for final decisions."
+      "description": "AI coding tools 很擅長處理小而明確的任務，但一旦套用到大型 legacy iOS codebase，就容易在規模化時遇到瓶頸。問題常常不是 model 本身，而是人類在中間負責轉譯的流程：閱讀摘要、確認結果、再重新分派工作。本議程將以大型 codebase 分析與重構準備作為實務案例，探討 AI-native workflow 的設計方式：用適合機器處理的結構化資料進行批次處理，只在最終決策時產出給人閱讀的報告。"
     },
     {
       "time": "12:00 – 13:00",
@@ -139,12 +141,13 @@
       "time": "14:40 – 15:00",
       "title": "Lessons from Operating Large-Scale Modular iOS Projects with Tuist",
       "tags": [
+        "英文演講",
         "架構",
         "模組化"
       ],
       "speaker": "JungMin Ahn",
       "speakerID": 3,
-      "description": "How to keep a large-scale iOS project maintainable is a challenge many teams face as their codebase continues to grow. Tuist provides a structured way to define project architecture and manage modular iOS projects with clear and repeatable rules.\n\nThis talk shares practical lessons from operating a Tuist-based modular iOS project. It discusses how teams can manage project files, demo apps, tests, resources, and dependencies in a scalable way. With the right conventions, Tuist can help turn modularization into a sustainable development workflow."
+      "description": "隨著 codebase 持續成長，如何讓大型 iOS project 維持可維護性，是許多團隊都會面對的挑戰。Tuist 提供了一套結構化的方式，讓團隊能用清楚且可重複的規則定義專案架構，並管理模組化的 iOS project。\n\n本議程將分享實際維運 Tuist-based modular iOS project 的經驗，討論團隊如何用可擴展的方式管理專案檔、demo apps、tests、resources 與 dependencies。只要建立合適的 conventions，Tuist 就能協助團隊把 modularization 轉化為可長期維持的開發 workflow。"
     },
     {
       "time": "15:00 – 15:10",
@@ -157,6 +160,7 @@
       "time": "15:10 – 15:30",
       "title": "Swift 程式碼為什麼能運作？ 從平台、Runtime 與編譯器理解 Swift",
       "tags": [
+        "英文演講",
         "Swift",
         "SwiftUI"
       ],
@@ -284,6 +288,7 @@
       "time": "09:35 – 10:15",
       "title": "For Agents, By Agents: Building AI Tools That Maintain Themselves",
       "tags": [
+        "英文演講",
         "AI",
         "開發工具",
         "職涯",
@@ -292,7 +297,7 @@
       ],
       "speaker": "Rudrank Riyam",
       "speakerID": 1,
-      "description": "Developer tools are no longer built only for humans at a terminal. They are also used, tested, broken, and improved by AI agents.\n\n\nIn this session, I will share the story behind building App Store Connect CLI in public: from an early idea, to multiple job opportunities, acquisition, and keeping it open-source for iOS developers.\n\n\nI will also show how agent-reported issues, automated reviews, refactors, and release workflows help such tools start to maintain themselves."
+      "description": "開發工具不再只服務於坐在 terminal 前的人類開發者。它們也會被 AI agents 使用、測試、弄壞，並進一步改善。\n\n\n本議程將分享我公開開發 App Store Connect CLI 背後的故事：從最初的想法，到帶來多個工作機會、被收購，以及持續為 iOS developers 保持 open-source。\n\n\n我也會展示 agent-reported issues、automated reviews、refactors 與 release workflows，如何讓這類工具開始具備自我維護的能力。"
     },
     {
       "time": "10:15 – 10:25",
@@ -354,6 +359,7 @@
       "time": "13:00 – 13:20",
       "title": "How to Win the Swift Student Challenge",
       "tags": [
+        "英文演講",
         "Swift",
         "SwiftUI",
         "UI/UX",
@@ -363,7 +369,7 @@
       ],
       "speaker": "Thiago Komeno",
       "speakerID": 26,
-      "description": "Winning the Apple Swift Student Challenge is about building something that only you could have built. In this talk, I'll present how a personal story became a winning Swift Playground, and what that process can teach you about code, creativity, and yourself.\n\nThis talk will cover three things: how to find an idea only you could build, how to grow your SwiftUI skills under the real constraints of a project, and most importantly, how attention to detail is what separates a good submission from a winning one.\n\nWhether or not you've entered the challenge before, you'll walk away with a framework for turning your own ideas into something you're genuinely proud to submit."
+      "description": "想在 Apple Swift Student Challenge 中脫穎而出，關鍵是做出只有你才做得出來的作品。本議程將分享一段個人故事如何成為得獎的 Swift Playground，以及這個過程能教會我們關於 code、creativity 和自我探索的事。\n\n這場分享會涵蓋三個重點：如何找到只有你能實作的 idea、如何在真實專案限制下培養 SwiftUI skills，以及最重要的，為什麼對細節的重視會區分出一份好的 submission 和一份得獎作品。\n\n無論你是否曾參加過這項 challenge，都能帶走一套 framework，幫助你把自己的想法變成真正能讓自己自豪提交的作品。"
     },
     {
       "time": "13:20 – 13:30",
@@ -482,6 +488,7 @@
       "time": "16:50 – 16:55",
       "title": "投 100 間、面 30 間、上 1 間：一個普通工程師的日本職涯開局",
       "tags": [
+        "英文演講",
         "日本",
         "海外求職"
       ],
@@ -493,6 +500,7 @@
       "time": "16:55 – 17:00",
       "title": "為什麼 Swift Macro 無法在 `#Preview` 中使用？",
       "tags": [
+        "英文演講",
         "Swift",
         "Macro",
         "Compiler",

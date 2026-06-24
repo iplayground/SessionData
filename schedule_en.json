@@ -11,13 +11,14 @@
       "time": "09:30 – 09:40",
       "title": "Opening",
       "tags": [],
-      "speaker": "General Convener",
-      "description": ""
+      "speaker": "Hokila",
+      "description": "How to make your iPlayground more fun"
     },
     {
       "time": "09:40 – 10:20",
       "title": "Designing Adaptive UX\nThrough Learning Theory & AI",
       "tags": [
+        "English",
         "UI/UX",
         "Accessibility",
         "Development Experience"
@@ -40,7 +41,7 @@
         "AI Agent",
         "claude",
         "codex",
-        "可觀測性"
+        "Observability"
       ],
       "speaker": "Justin Lee",
       "speakerID": 15,
@@ -59,7 +60,7 @@
       "tags": [
         "SwiftUI",
         "Architecture",
-        "函數式"
+        "Functional Programming"
       ],
       "speaker": "UJ Cheng",
       "speakerID": 16,
@@ -69,6 +70,7 @@
       "time": "11:40 – 12:00",
       "title": "The Bottleneck Was Me: AI-Native Workflows for Large Codebases",
       "tags": [
+        "English",
         "AI",
         "Developer Tools"
       ],
@@ -87,7 +89,7 @@
       "time": "13:00 – 13:20",
       "title": "Core People: Building More Thoughtful Apps with Apple’s Native Capabilities",
       "tags": [
-        "使用者體驗",
+        "User Experience",
         "Agentic Coding",
         "Agent Skill"
       ],
@@ -139,6 +141,7 @@
       "time": "14:40 – 15:00",
       "title": "Lessons from Operating Large-Scale Modular iOS Projects with Tuist",
       "tags": [
+        "English",
         "Architecture",
         "Modularization"
       ],
@@ -157,6 +160,7 @@
       "time": "15:10 – 15:30",
       "title": "Why Does Our Swift Code Work? Understanding Swift Through Platforms, Runtime, and the Compiler",
       "tags": [
+        "English",
         "Swift",
         "SwiftUI"
       ],
@@ -196,7 +200,7 @@
         "Swift",
         "SwiftUI",
         "Architecture",
-        "宗教戰爭"
+        "Architecture Debate"
       ],
       "speaker": "lovee",
       "speakerID": 21,
@@ -216,7 +220,7 @@
         "AI",
         "Agent",
         "Architecture",
-        "軟體工程",
+        "Software Engineering",
         "Indie Development"
       ],
       "speaker": "Alex Hu",
@@ -280,6 +284,7 @@
       "time": "09:35 – 10:15",
       "title": "For Agents, By Agents: Building AI Tools That Maintain Themselves",
       "tags": [
+        "English",
         "AI",
         "Developer Tools",
         "Career",
@@ -302,8 +307,8 @@
       "title": "What Happens After Your App Ships? Automating Marketing, Support, and Product Iteration with AI Agents",
       "tags": [
         "AI Agent",
-        "AI 自動化",
-        "App 經營"
+        "AI Automation",
+        "App Business"
       ],
       "speaker": "Hana Chang",
       "speakerID": 24,
@@ -320,8 +325,8 @@
       "time": "11:15 – 11:35",
       "title": "iOS 2026 Career Survival Guide: Insights from a Senior International Recruiter",
       "tags": [
-        "獵頭",
-        "趨勢"
+        "Recruiting",
+        "Trends"
       ],
       "speaker": "Annie",
       "speakerID": 25,
@@ -350,6 +355,7 @@
       "time": "13:00 – 13:20",
       "title": "How to Win the Swift Student Challenge",
       "tags": [
+        "English",
         "Swift",
         "SwiftUI",
         "UI/UX",
@@ -373,7 +379,6 @@
       "title": "Is SDD Just a Slogan, or Can It Actually Work?",
       "tags": [
         "SDD",
-        "規格驅動",
         "AI Agent",
         "Xcode",
         "Vibe Coding"
@@ -461,7 +466,7 @@
       "title": "Contributing to Apple Container Without Writing Swift: A Cloud Native Engineer's Open Source Journey",
       "tags": [
         "Apple Container",
-        "開源貢獻"
+        "Open Source Contribution"
       ],
       "speaker": "ChengHao Yang",
       "speakerID": 28,
@@ -478,8 +483,8 @@
       "time": "16:50 – 16:55",
       "title": "100 Applications, 30 Interviews, 1 Offer: An Ordinary Engineer’s First Step into a Career in Japan",
       "tags": [
-        "日本",
-        "海外求職"
+        "Japan",
+        "Overseas Job Search"
       ],
       "speaker": "tetsu",
       "speakerID": 29,
@@ -489,6 +494,7 @@
       "time": "16:55 – 17:00",
       "title": "Why Can't We Have Nice Macros for `#Preview`?",
       "tags": [
+        "English",
         "Swift",
         "Macro",
         "Compiler",
