@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Rudrank Riyam",
-    "title": "Apple platforms developer, writer, and open-source maintainer",
-    "intro": "Rudrank Riyam is an Apple platforms developer, technical author, conference speaker, and open-source maintainer. He has been building on Apple platforms since 2018 and was a WWDC 2019 Scholar. \n\nHe writes technical books and tutorials on Apple frameworks such as MusicKit, MLX Swift, and Foundation Models. \n\nHe maintains open-source projects including MusadoraKit (a Swift framework for Apple Music) and ASC CLI (a command-line tool for automating App Store Connect), along with others focused on on-device AI. \n\nHe has spoken at numerous international iOS conferences and organizes the AiOS meetup in Cupertino after WWDC. His goal is to make Apple's newest frameworks easier to understand, experiment with, and build upon.",
+    "title": "Apple 平台開發者、技術作者與開源維護者",
+    "intro": "Rudrank Riyam 是 Apple 平台開發者、技術作者、研討會講者與開源維護者。他自 2018 年起投入 Apple 平台開發，並曾獲選 WWDC 2019 Scholar。\n\n他撰寫 MusicKit、MLX Swift、Foundation Models 等 Apple frameworks 相關的技術書籍與教學文章。\n\n他維護多個開源專案，包含 MusadoraKit（一套 Apple Music 的 Swift framework）、ASC CLI（一個用來自動化 App Store Connect 的 command-line tool），以及其他專注於 on-device AI 的專案。\n\n他曾在許多國際 iOS 研討會分享，也在 WWDC 後於 Cupertino 組織 AiOS meetup。他的目標是讓 Apple 最新 frameworks 更容易被理解、實驗與實作。",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_rudrank.JPG",
     "url": "https://rudrank.com",
     "fb": "",
@@ -17,8 +17,8 @@
   {
     "id": 2,
     "name": "Minkyung Kim",
-    "title": "Learning Lead at  Apple Developer Academy @ POSTECH",
-    "intro": "Learning Lead at Apple Developer Academy @ POSTECH. An EdTech specialist with 10+ years in instructional design, blending Computer Science and Education to empower developers. Driven by a lifelong curiosity for learning and innovation.",
+    "title": " Apple Developer Academy @ POSTECH Learning Lead",
+    "intro": "Minkyung Kim 是 Apple Developer Academy @ POSTECH 的 Learning Lead。她是擁有 10 年以上 instructional design 經驗的 EdTech 專家，結合 Computer Science 與 Education，協助開發者成長。她長期受到對學習與創新的好奇心驅動。",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_mk.jpeg",
     "url": "",
     "fb": "",
@@ -32,8 +32,8 @@
   {
     "id": 3,
     "name": "JungMin Ahn",
-    "title": "Senior Software Engineer at KakaoBank",
-    "intro": "Senior Software Engineer at KakaoBank. 13 years of iOS development experience. Love solving challenges related to productivity, scalability, and long-term maintainability.",
+    "title": "KakaoBank 資深軟體工程師",
+    "intro": "JungMin Ahn 是 KakaoBank 的資深軟體工程師，擁有 13 年 iOS 開發經驗。喜歡解決與生產力、可擴展性，以及長期可維護性相關的挑戰。",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_JungMin.jpg",
     "url": "",
     "fb": "",
@@ -227,8 +227,8 @@
   {
     "id": 17,
     "name": "Gyuri Kim",
-    "title": "iOS Engineer at Babitalk",
-    "intro": "iOS Engineer at Babitalk. Interested in scalable, efficient, and maintainable iOS development through thoughtful architecture and structure.",
+    "title": "Babitalk iOS 工程師",
+    "intro": "Gyuri Kim 是 Babitalk 的 iOS 工程師。她關注如何透過縝密的架構與結構，打造可擴展、高效率且易於維護的 iOS 開發流程。",
     "photo": "",
     "url": "",
     "fb": "",
@@ -257,7 +257,7 @@
   {
     "id": 19,
     "name": "freddi",
-    "title": "Software Engineer at Japan",
+    "title": "日本軟體工程師",
     "intro": "Yuki 是日本 Yappli 的 iOS 工程師，在日本常以「freddi」活動。他致力於改善大型 App 的建置系統，曾在 NSSpain、try! Swift 等國際會議分享 Swift 開發經驗，也曾貢獻 Swift Compiler、fastlane、XcodeGen 等 OSS。喜歡音樂、卡通、畫貓、手工鍵盤、家裡的貓、寶可夢卡牌與旅行。",
     "photo": "",
     "url": "",
@@ -362,8 +362,8 @@
   {
     "id": 26,
     "name": "Thiago Komeno",
-    "title": "Software Developer",
-    "intro": "Software Developer at BaseMe Inc. Apple Swift Student Challenge 2026 Winner and Google Student Ambassador. Previously at MIXI Inc. A Japanese-Brazilian developer who loves low-level programming, Vim, and studies Mandarin in his free time.",
+    "title": "軟體開發者",
+    "intro": "Thiago Komeno 是 BaseMe Inc. 的軟體開發者，Apple Swift Student Challenge 2026 得獎者，也是 Google Student Ambassador，曾任職於 MIXI Inc.。他是日裔巴西開發者，喜歡 low-level programming、Vim，並在空閒時間學習中文。",
     "photo": "",
     "url": "https://riceset.com/",
     "fb": "",
