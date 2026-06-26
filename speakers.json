@@ -493,5 +493,20 @@
     "x": "",
     "hackMD": "",
     "seminar": ""
+  },
+  {
+    "id": 15,
+    "name": "海總理",
+    "title": "AI Alchemist",
+    "intro": "海總理，前 StreetVoice 總經理，從工程師做到總經理並領導 20 倍成長；也是獨立音樂人，以「疊加效益」打造跨域視角。",
+    "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_海總理.jpg",
+    "url": "",
+    "fb": "",
+    "github": "",
+    "linkedin": "",
+    "threads": "",
+    "x": "",
+    "hackMD": "",
+    "seminar": ""
   }
 ]
