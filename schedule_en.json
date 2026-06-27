@@ -138,16 +138,15 @@
       "description": "In the AI wave, have you ever wished a coding agent could handle tedious tasks and dramatically improve development efficiency? For iOS engineers, Xcode remains the primary IDE, but its built-in coding agent integration is limited. What can you do when your preferred coding agent cannot be used directly inside Xcode? This session explores several strategies for applying agentic workflows to iOS development: building an intermediary layer so Xcode can communicate indirectly with external agents, or stepping outside the IDE model by using Xcode MCP or even treating Xcode primarily as a compiler while agents drive the development workflow externally. Whether you are an indie developer or part of a large team, you will find paths for AI-assisted iOS development that fit your context."
     },
     {
-      "time": "14:40 – 15:00",
-      "title": "Lessons from Operating Large-Scale Modular iOS Projects with Tuist",
+      "time": "14:40 - 15:00",
+      "title": "iOS 2026 Career Survival Guide: Insights from a Senior International Recruiter",
       "tags": [
-        "English",
-        "Architecture",
-        "Modularization"
+        "Recruiting",
+        "Trends"
       ],
-      "speaker": "JungMin Ahn",
-      "speakerID": 3,
-      "description": "How to keep a large-scale iOS project maintainable is a challenge many teams face as their codebase continues to grow. Tuist provides a structured way to define project architecture and manage modular iOS projects with clear and repeatable rules.\n\nThis talk shares practical lessons from operating a Tuist-based modular iOS project. It discusses how teams can manage project files, demo apps, tests, resources, and dependencies in a scalable way. With the right conventions, Tuist can help turn modularization into a sustainable development workflow."
+      "speaker": "Annie Yang",
+      "speakerID": 25,
+      "description": "Based on the speaker’s seven years of recruiting experience, this session looks back at the ups and downs of Taiwan’s iOS technology market since 2020. From the vantage point of 2026, it analyzes the latest market trends and explores the best ways to prepare for today’s challenges. The speaker looks forward to sharing these insights face to face and helping attendees find steady career momentum amid constant change."
     },
     {
       "time": "15:00 – 15:10",
@@ -236,7 +235,7 @@
         "MLX",
         "Twinkle AI"
       ],
-      "speaker": "Bobson Lin",
+      "speaker": "Bobson",
       "speakerID": 14,
       "description": "“Tweet” AI to the Edge: the next step from localized language models to ambient intelligence. Here, “tweet” is not a social post, but the Chinese idea of pushing, advancing, and deploying. Once open-source communities such as Twinkle AI begin building localized language models, the next question is how to push those models closer to users so they can run on phones, desktops, browsers, and all kinds of edge devices. Little Star began as a mobile LLM tool: from asking whether LLMs could really run on phones, through iOS and Android MVP validation, and toward benchmarking and real-device measurement. This journey showed that edge AI is not only an inference problem, but an end-to-end design challenge across model formats, runtimes, quantization, memory, latency, power consumption, and user experience. Based on Little Star’s exploration, this talk discusses how to bring localized language models to the edge, from model packaging, GGUF, and the llama.cpp ecosystem to on-device benchmarks, context-aware UX, and product imagination around ambient intelligence. It also explores why the value of local models is not just being offline, but being close to users, data, context, and the future AI infrastructure that open-source communities can shape."
     },
@@ -256,13 +255,6 @@
       "speaker": "tzangms",
       "speakerID": 23,
       "description": "Give an agent three abilities: see the result, inspect itself, and change itself. With those, it can enter a loop: talk to itself, review the result, investigate the problem, make changes, and rerun hundreds of times until it reaches the standard we want. Our job is to define what “good enough” means first."
-    },
-    {
-      "time": "18:00 – 21:00",
-      "title": "After Party",
-      "tags": [],
-      "speaker": "",
-      "description": ""
     }
   ],
   "day2": [
@@ -303,7 +295,7 @@
       "description": ""
     },
     {
-      "time": "10:25 – 11:05",
+      "time": "10:25 – 10:45",
       "title": "What Happens After Your App Ships? Automating Marketing, Support, and Product Iteration with AI Agents",
       "tags": [
         "AI Agent",
@@ -315,6 +307,18 @@
       "description": "After an app ships, the real problems begin: nobody using it, support emails, social content, user feedback, and product iteration. Using the mojo weight-loss injection tracking app as an example, this talk shares how I built a team of AI agents to handle marketing content, growth experiments, support triage, social listening, user feedback, GitHub issue creation, and product iteration. After launch, AI agents can become teammates that help an iOS app move from “finished” to truly alive."
     },
     {
+      "time": "10:45 – 11:05",
+      "title": "When Touch Fails, Can Your App Still Be Used?",
+      "tags": [
+        "Accessibility",
+        "UX",
+        "assistive technology"
+      ],
+      "speaker": "Vic",
+      "speakerID": 4,
+      "description": "When users cannot tap the screen with their hands, can your app still be used smoothly? This talk starts with accessibility labels and introduces different aspects of digital accessibility, as well as how assistive technologies actually operate your interface. We will discuss why semantics and control types matter so much for screen readers, and why focus management cannot be ignored in task-heavy interfaces. The talk will also introduce Voice Control and how the system uses on-screen element names to complete actions. Through practical examples, you will learn how to think about and design apps that remain usable in non-touch scenarios and create friendlier experiences for everyone."
+    },
+    {
       "time": "11:05 – 11:15",
       "title": "Break",
       "tags": [],
@@ -322,27 +326,16 @@
       "description": ""
     },
     {
-      "time": "11:15 – 11:35",
-      "title": "iOS 2026 Career Survival Guide: Insights from a Senior International Recruiter",
+      "time": "11:15 – 11:55",
+      "title": "Lessons from Operating Large-Scale Modular iOS Projects with Tuist",
       "tags": [
-        "Recruiting",
-        "Trends"
+        "English",
+        "Architecture",
+        "Modularization"
       ],
-      "speaker": "Annie",
-      "speakerID": 25,
-      "description": "Based on the speaker’s seven years of recruiting experience, this session looks back at the ups and downs of Taiwan’s iOS technology market since 2020. From the vantage point of 2026, it analyzes the latest market trends and explores the best ways to prepare for today’s challenges. The speaker looks forward to sharing these insights face to face and helping attendees find steady career momentum amid constant change."
-    },
-    {
-      "time": "11:35 – 11:55",
-      "title": "When Touch Fails, Can Your App Still Be Used?",
-      "tags": [
-        "Accessibility",
-        "UX",
-        "assistive technology"
-      ],
-      "speaker": "Woody",
-      "speakerID": 4,
-      "description": "When users cannot tap the screen with their hands, can your app still be used smoothly? This talk starts with accessibility labels and introduces different aspects of digital accessibility, as well as how assistive technologies actually operate your interface. We will discuss why semantics and control types matter so much for screen readers, and why focus management cannot be ignored in task-heavy interfaces. The talk will also introduce Voice Control and how the system uses on-screen element names to complete actions. Through practical examples, you will learn how to think about and design apps that remain usable in non-touch scenarios and create friendlier experiences for everyone."
+      "speaker": "JungMin Ahn",
+      "speakerID": 3,
+      "description": "How to keep a large-scale iOS project maintainable is a challenge many teams face as their codebase continues to grow. Tuist provides a structured way to define project architecture and manage modular iOS projects with clear and repeatable rules.\n\nThis talk shares practical lessons from operating a Tuist-based modular iOS project. It discusses how teams can manage project files, demo apps, tests, resources, and dependencies in a scalable way. With the right conventions, Tuist can help turn modularization into a sustainable development workflow."
     },
     {
       "time": "11:55 – 13:00",
@@ -376,16 +369,14 @@
     },
     {
       "time": "13:30 – 14:10",
-      "title": "Is SDD Just a Slogan, or Can It Actually Work?",
+      "title": "Contributing to Apple Container Without Writing Swift: A Cloud Native Engineer's Open Source Journey",
       "tags": [
-        "SDD",
-        "AI Agent",
-        "Xcode",
-        "Vibe Coding"
+        "Apple Container",
+        "Open Source Contribution"
       ],
-      "speaker": "Chien-Long Kao",
-      "speakerID": 8,
-      "description": "“Write the specification first, then let AI implement it” sounds ideal, but is SDD, specification-driven development, just a slogan or something that can really work? The common pain of coding with AI is that it has no specification to follow, so it guesses or runs off on its own until we come back to argue about what it got wrong. SDD uses specifications to constrain AI so it does not have to guess and is less likely to drift. In this talk, I will demonstrate an SDD workflow from proposal to implementation to archiving, and show what this approach actually looks like in practice."
+      "speaker": "ChengHao Yang",
+      "speakerID": 28,
+      "description": "Apple open-sourced Apple Container at WWDC 2025 and released version 1.0.0 in June 2026. As an SRE who works daily with Kubernetes and the cloud-native ecosystem, I unexpectedly became one of the contributors to this project. This talk shares, from the perspective of someone who does not write Swift and is not an Apple platform developer, how to get involved in an Apple open-source project: how to choose issues that match your background, bridge language and ecosystem gaps to understand the codebase, and discuss technical solutions with Apple engineers. If you are interested in contributing to Apple open source but do not know where to start, this session shows how to take the first step and what the process is actually like, without waiting until you become the “right person.”"
     },
     {
       "time": "14:10 – 14:20",
@@ -437,7 +428,7 @@
         "Digital Identity Wallet",
         "Zero-Knowledge Proof"
       ],
-      "speaker": "Denken Chen",
+      "speaker": "Denken",
       "speakerID": 6,
       "description": "Starting from Apple’s Declared Age Range API released in 2025, do you know why these APIs are needed? This talk helps you understand the underlying demand for age verification, including international compliance, technical standards, and frontier developments in cryptography."
     },
@@ -450,7 +441,7 @@
         "Apple Intelligence",
         "LLM"
       ],
-      "speaker": "Ervis",
+      "speaker": "Ervis Peng",
       "speakerID": 7,
       "description": "On a trip to Japan, I could not understand receipts and wanted to track expenses and settle purchases for others, so I built “TripReceipt,” an iOS app that requires no registration, is free, and has no ads. After I first shared it on Threads, real users started joining, and I began receiving feature requests, suggestions, bug reports, and sponsorship support. This session shares what happens when a side project has real users, and how AI receipt recognition, an in-app feedback chat, push notifications, Telegram integration, and an operations dashboard can form a small product system that continuously hears users, responds quickly, and drives product iteration."
     },
@@ -463,14 +454,16 @@
     },
     {
       "time": "16:00 – 16:40",
-      "title": "Contributing to Apple Container Without Writing Swift: A Cloud Native Engineer's Open Source Journey",
+      "title": "Is SDD Just a Slogan, or Can It Actually Work?",
       "tags": [
-        "Apple Container",
-        "Open Source Contribution"
+        "SDD",
+        "AI Agent",
+        "Xcode",
+        "Vibe Coding"
       ],
-      "speaker": "ChengHao Yang",
-      "speakerID": 28,
-      "description": "Apple open-sourced Apple Container at WWDC 2025 and released version 1.0.0 in June 2026. As an SRE who works daily with Kubernetes and the cloud-native ecosystem, I unexpectedly became one of the contributors to this project. This talk shares, from the perspective of someone who does not write Swift and is not an Apple platform developer, how to get involved in an Apple open-source project: how to choose issues that match your background, bridge language and ecosystem gaps to understand the codebase, and discuss technical solutions with Apple engineers. If you are interested in contributing to Apple open source but do not know where to start, this session shows how to take the first step and what the process is actually like, without waiting until you become the “right person.”"
+      "speaker": "Chien-Long, Kao",
+      "speakerID": 8,
+      "description": "“Write the specification first, then let AI implement it” sounds ideal, but is SDD, specification-driven development, just a slogan or something that can really work? The common pain of coding with AI is that it has no specification to follow, so it guesses or runs off on its own until we come back to argue about what it got wrong. SDD uses specifications to constrain AI so it does not have to guess and is less likely to drift. In this talk, I will demonstrate an SDD workflow from proposal to implementation to archiving, and show what this approach actually looks like in practice."
     },
     {
       "time": "16:40 – 16:50",
@@ -480,82 +473,11 @@
       "description": ""
     },
     {
-      "time": "16:50 – 16:55",
-      "title": "100 Applications, 30 Interviews, 1 Offer: An Ordinary Engineer’s First Step into a Career in Japan",
-      "tags": [
-        "Japan",
-        "Overseas Job Search"
-      ],
-      "speaker": "tetsu",
-      "speakerID": 29,
-      "description": "Do you think “people who work overseas must be elite”? I did not graduate from a famous school or work at a big tech company, yet I have spent ten years as a mobile engineer in Japan. This is the story of how someone without a glamorous background stumbled into the Japanese workplace. I applied to 100 companies, interviewed with 30, and received only one offer. Those numbers were my starting point. There was no polished resume, just repeating “apply to one more company” one hundred times. In five minutes, this is for anyone who feels they are not qualified to work overseas."
-    },
-    {
-      "time": "16:55 – 17:00",
-      "title": "Why Can't We Have Nice Macros for `#Preview`?",
-      "tags": [
-        "English",
-        "Swift",
-        "Macro",
-        "Compiler",
-        "Preview"
-      ],
-      "speaker": "Yu Takahashi",
-      "speakerID": 30,
-      "description": "Swift macros let us generate code automatically and remove boilerplate, so why can’t we use them to simplify #Preview setup? I tried to build @PreviewContainer: a macro that automatically removes environment-dependent property wrappers such as @Query and generates a plain struct that can be passed directly into #Preview. The idea was simple, but it led deep into Swift compiler internals. I tried three approaches, @attached(peer), @attached(member), and splitting code into different files, and all failed silently inside #Preview. The issue comes from Swift’s two-phase type checking: #Preview is a #freestanding(declaration) macro, and its closure is type-checked before attached macros expand. Even more confusing, conformances declared through conformances: are trusted by the compiler in the first phase, but type names declared through names: are not. This subtle difference is exactly where I got stuck. The same issue has remained unresolved on Swift Forums since May 2025. This talk is about why something we want to build still cannot be built today."
-    },
-    {
-      "time": "17:00 – 17:05",
-      "title": "Down the Rabbit Hole: A Handwriting App's Scope Creep",
-      "tags": [
-        "Swift",
-        "SwiftUI",
-        "Career",
-        "Indie Development"
-      ],
-      "speaker": "Paul Liu",
-      "speakerID": 31,
-      "description": "While creating “Zhengbi,” a handwriting practice app, I kept running into unexpected language and writing-system challenges. In pursuit of quality, I ended up creating one helper project after another: an iPad app, two Mac apps, a Mac CLI app, and a pile of scripts. Why does a seemingly simple feature grow into so much work once you start building it? How do you collect, organize, and generate the stroke data you need? How should variant characters and characters with multiple pronunciations be handled? Why are there so many exceptions? There is no grand theory here, just a collection of lessons from the pit for everyone’s amusement."
-    },
-    {
-      "time": "17:05 – 17:10",
-      "title": "Building Nibble: Product Discovery in the Era of AI",
-      "tags": [
-        "Side Project",
-        "Product Discovery",
-        "AI",
-        "Market Research"
-      ],
-      "speaker": "Jess",
-      "speakerID": 32,
-      "description": "Before studying abroad, I began wondering: as life gets busier and it becomes harder to meet the people who matter, how can we continue to stay involved in each other’s lives? Instagram feels too public, while LINE is crowded with work and group messages. Existing social products lack a light space for sharing everyday life. That observation became Nibble, an app for casually recording and sharing life moments while staying connected with close friends. I will share how I started from observations in daily life, used AI tools for market research and product discovery, and turned the idea into a real product."
-    },
-    {
-      "time": "17:10 – 17:15",
-      "title": "Funny, Weird, and Terrifying Lessons from Building a Dating AI Agent",
-      "tags": [
-        "AI",
-        "Apple Intelligence",
-        "LLM"
-      ],
-      "speaker": "Ethan",
-      "speakerID": 33,
-      "description": "Funny, weird, and terrifying lessons learned while building an AI dating agent."
-    },
-    {
-      "time": "17:15 – 17:20",
-      "title": "Building a Cross-Platform AI-Powered U.S. Election Radar for iOS and Android with SwiftUI",
-      "tags": [
-        "SwiftUI",
-        "Cross-platform",
-        "iOS",
-        "Android",
-        "AI",
-        "UI/UX"
-      ],
-      "speaker": "YC Liu",
-      "speakerID": 34,
-      "description": "AI Election Radar is a mobile-first product focused on U.S. election news, supported by an internal admin console and backend system. This session shares how to build a cross-platform app for iOS and Android with SwiftUI while integrating AI search, news summarization, database storage, data flow design, and a human review workflow in the admin system. It focuses especially on the news processing pipeline: AI automatically gathers and organizes information, while humans perform the final review to reduce the risk of errors from full automation. The talk also covers details of cross-platform UI, map interactions, news list design, and challenges encountered during implementation."
+      "time": "16:50 – 17:20",
+      "title": "Lightning Talk",
+      "tags": [],
+      "speaker": "",
+      "description": ""
     },
     {
       "time": "17:20 – 17:30",
@@ -567,7 +489,22 @@
   ],
   "workshop_day1": [
     {
-      "time": "13:30 – 15:00",
+      "time": "13:00 - 14:30",
+      "title": "在 AI 時代尋找真實",
+      "tags": [],
+      "speaker": "Harry",
+      "speakerID": 17,
+      "description": "在 AI 時代，越來越多程式碼可以交給 AI 代勞，工程師真正需要思考的，已經不只是「怎麼寫程式」，而是「人在這個時代還應該做什麼」。我認為，我們反而應該花更多時間走出畫面之外，多跟人接觸，理解不同人的喜好、思考角度，甚至主動與各種產業交流，對現實社會有更立體的認知。這些關於人、產業與世界的理解，是我們在這個世代要生存下去的必要功課，也相對不容易被 AI 取代。透過這樣的過程，我們可以建立更鮮明的個人品味與判斷方法，讓自己在 AI 時代中不只是「會使用工具的人」，而是能夠憑藉洞察與品味創造差異化、找到立足之地的創作者與決策者。"
+    },
+    {
+      "time": "14:30 – 15:00",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "15:00 - 16:30",
       "title": "Stitch x Antigravity Hands-on Guide: Let AI Turn Visual Design into a Precise iOS App",
       "tags": [
         "Gemini"
@@ -575,11 +512,18 @@
       "speaker": "Kevin Chiu",
       "speakerID": 10,
       "description": "Workshop introduction\nIn the traditional app development process, moving from UI design to final iOS code often involves countless rounds of communication, manual layout work, and endless pixel-pushing. This workshop breaks down the wall between design and development and lets you experience a new generation of AI-driven development workflow.\n\nWe will combine the powerful AI design engine Stitch with the high-performance development framework Antigravity, and practice turning visual sketches and design intent into production-grade iOS applications. This is not just generating static screens: the design output gains real logic, polished performance, and a workflow that fits developers’ habits. Say goodbye to hand-coding every piece of UI and let AI become your strongest engineering assistant."
+    },
+    {
+      "time": "16:30",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
     }
   ],
   "workshop_day2": [
     {
-      "time": "13:30 – 15:00",
+      "time": "13:00 – 14:30",
       "title": "I don't know Swift, but I made an AI monster battle game.",
       "tags": [
         "Swift"
@@ -587,6 +531,37 @@
       "speaker": "Hedula",
       "speakerID": 12,
       "description": "You do not need to be a Swift expert to build an AI-powered iOS game in 40 minutes. This is not magic, but a real example of AI-assisted development. In this session, you will use Xcode and GitHub Copilot to build “Snap Fighter” from scratch: take photos of any objects, let AI generate character names and stats automatically, and battle once you capture two fighters. Along the way, you will see how AI writes code, what to do when it gets things wrong, and which traps it will never proactively warn you about."
+    },
+    {
+      "time": "14:30 – 15:00",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "15:00 – 16:30",
+      "title": "Core People：以人為本，打造更體貼的 App 體驗",
+      "tags": [
+        "Swift",
+        "SwiftUI",
+        "UIKit",
+        "OC",
+        "Kotlin Multiplatform",
+        "Compose Multiplatform",
+        "Flutter",
+        "ReactNative 開發經驗, UI/UX 設計、動畫與無障礙應用（Auto Layout / Lottie / Accessibility）"
+      ],
+      "speaker": "Ethan Huang",
+      "speakerID": 15,
+      "description": "Apple 有 Core Data、Core ML、今年還推出 Core AI，但打造好 App 的核心，始終是 People。\n\nAI 降低了開發 App 的門檻，但人們對高品質使用者體驗的需求並沒有改變。許多功能都能更快完成，真正讓 App 脫穎而出的，依舊是那些貼近真實使用情境的細節。\n\n那麼，我們怎樣提高 app 的品質呢？Apple 提供了許多紮實的技術與設計資源，從 Accessibility、Localization、Privacy、Notification，到 Widget 與 App Intents。這場工作坊會帶大家實際開發，並示範如何指揮 AI，打造更體貼的軟體。"
+    },
+    {
+      "time": "16:30",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
     }
   ]
 }
