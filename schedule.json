@@ -138,16 +138,15 @@
       "description": "身處 AI 浪潮，您是否也曾夢想過讓 Coding Agent 自動完成繁瑣任務，大幅提升開發效率？對 iOS 工程師而言，Xcode 雖然是主力的 IDE，但其內建的 Coding Agent 整合有限，當您愛用的 Coding Agent 無法直接在 Xcode 中使用時，該怎麼辦？\n\n本議程將探討幾種使用 Agentic Workflow 來進行 iOS 開發的策略，幫助 iOS 開發者打破原有 IDE 框架的限制：一是透過搭建一個中轉層讓 Xcode 能間接與外部的 Agent 溝通；二是試圖跳脫既有 IDE 的框架，利用 Xcode MCP 或甚至將 Xcode 本身僅作為編譯器，在外部建構由 Agent 驅動的開發流程。\n\n無論您是個人開發者還是大型團隊的一員，都能從中探索適合自己的 AI 輔助開發途徑。"
     },
     {
-      "time": "14:40 – 15:00",
-      "title": "Lessons from Operating Large-Scale Modular iOS Projects with Tuist",
+      "time": "14:40 - 15:00",
+      "title": "iOS 2026 職場生存指南：資深外商獵頭視角",
       "tags": [
-        "英文演講",
-        "架構",
-        "模組化"
+        "獵頭",
+        "趨勢"
       ],
-      "speaker": "JungMin Ahn",
-      "speakerID": 3,
-      "description": "隨著 codebase 持續成長，如何讓大型 iOS project 維持可維護性，是許多團隊都會面對的挑戰。Tuist 提供了一套結構化的方式，讓團隊能用清楚且可重複的規則定義專案架構，並管理模組化的 iOS project。\n\n本議程將分享實際維運 Tuist-based modular iOS project 的經驗，討論團隊如何用可擴展的方式管理專案檔、demo apps、tests、resources 與 dependencies。只要建立合適的 conventions，Tuist 就能協助團隊把 modularization 轉化為可長期維持的開發 workflow。"
+      "speaker": "楊宥榛",
+      "speakerID": 25,
+      "description": "本議程以講者 7 年的獵頭執業生涯，將從 2020 年起共同回顧台灣 iOS 技術市場的起伏與轉折。站在 2026 年的當下，解析最新的市場趨勢，並探討最適合現今環境挑戰的準備方式。\n\n非常期待能與大家面對面分享，期待能與大家一起找到在變動中穩健前行的職涯力量。"
     },
     {
       "time": "15:00 – 15:10",
@@ -256,17 +255,6 @@
       "speaker": "海總理",
       "speakerID": 23,
       "description": "只要給 Agent 三種能力，看得到結果、查得到自己、改得動自己，它就能進入一個無窮迴圈:自己對話、自己看結果、自己查問題、自己改、重跑上百次，來達到我們要的標準。\n\n我們只要先定義好「什麼叫達標」"
-    },
-    {
-      "time": "18:00 – 21:00",
-      "title": "After Party",
-      "tags": [
-        "交流",
-        "餐點",
-        "Lightning Talk"
-      ],
-      "speaker": "",
-      "description": "研討會結束後，別急著回家！一起來參加 After Party，繼續交流、放鬆聊天，還有驚喜的 Lightning Talk！供餐時間 18:00～20:00，Lightning Talk 時間 19:00～20:00。"
     }
   ],
   "day2": [
@@ -307,7 +295,7 @@
       "description": ""
     },
     {
-      "time": "10:25 – 11:05",
+      "time": "10:25 – 10:45",
       "title": "App 上架之後呢？用 AI Agent 自動化行銷、客服與產品迭代",
       "tags": [
         "AI Agent",
@@ -319,25 +307,7 @@
       "description": "一個 App 上架後，真正的問題才開始：沒有人用、客服信、社群內容、使用者回饋、產品迭代，全部都會接著來。\n\n這場分享會以 mojo 瘦瘦針追蹤 App 為例，介紹我如何建立一套 AI Agent 團隊，處理行銷內容、Growth 實驗、客服 triage、社群海巡、使用者回饋、GitHub issue 建立與產品迭代流程。App 上架之後，如何讓 AI Agent 成為同事，讓一個 iOS App 從「寫完」變成「活著」。"
     },
     {
-      "time": "11:05 – 11:15",
-      "title": "休息",
-      "tags": [],
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "11:15 – 11:35",
-      "title": "iOS 2026 職場生存指南：資深外商獵頭視角",
-      "tags": [
-        "獵頭",
-        "趨勢"
-      ],
-      "speaker": "Annie",
-      "speakerID": 25,
-      "description": "本議程以講者 7 年的獵頭執業生涯，將從 2020 年起共同回顧台灣 iOS 技術市場的起伏與轉折。站在 2026 年的當下，解析最新的市場趨勢，並探討最適合現今環境挑戰的準備方式。\n\n非常期待能與大家面對面分享，期待能與大家一起找到在變動中穩健前行的職涯力量。"
-    },
-    {
-      "time": "11:35 – 11:55",
+      "time": "10:45 – 11:05",
       "title": "當觸控失效時，你的 App 還能順利使用嗎？",
       "tags": [
         "accessibility",
@@ -347,6 +317,25 @@
       "speaker": "Vic",
       "speakerID": 4,
       "description": "當使用者沒辦法用手點擊螢幕時，你的 App 還能順利使用嗎？本場分享將從輔助使用功能標示出發，帶大家認識數位無障礙的不同面向，以及輔助科技是如何實際操作你的介面。\n我們會聊到語意與控制元件類型為什麼在螢幕閱讀器中如此重要，以及在互動較多的任務型應用中不可忽略的焦點管理。此外也會介紹語音控制，看看系統如何透過畫面上的元素名稱來完成操作。透過實際案例，幫助你學會如何思考並設計出在非觸控情境下也能順利使用的 App，打造對所有人更友善的使用體驗。"
+    },
+    {
+      "time": "11:05 – 11:15",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "11:15 – 11:55",
+      "title": "Lessons from Operating Large-Scale Modular iOS Projects with Tuist",
+      "tags": [
+        "英文演講",
+        "架構",
+        "模組化"
+      ],
+      "speaker": "JungMin Ahn",
+      "speakerID": 3,
+      "description": "隨著 codebase 持續成長，如何讓大型 iOS project 維持可維護性，是許多團隊都會面對的挑戰。Tuist 提供了一套結構化的方式，讓團隊能用清楚且可重複的規則定義專案架構，並管理模組化的 iOS project。\n\n本議程將分享實際維運 Tuist-based modular iOS project 的經驗，討論團隊如何用可擴展的方式管理專案檔、demo apps、tests、resources 與 dependencies。只要建立合適的 conventions，Tuist 就能協助團隊把 modularization 轉化為可長期維持的開發 workflow。"
     },
     {
       "time": "11:55 – 13:00",
@@ -380,17 +369,14 @@
     },
     {
       "time": "13:30 – 14:10",
-      "title": "SDD 是口號，還是真的可以用？",
+      "title": "不寫 Swift 也能貢獻 Apple Container：一位雲端原生工程師的開源實戰",
       "tags": [
-        "SDD",
-        "規格驅動",
-        "AI Agent",
-        "Xcode",
-        "Vibe Coding"
+        "Apple Container",
+        "開源貢獻"
       ],
-      "speaker": "高見龍",
-      "speakerID": 8,
-      "description": "「先寫規格，再交給 AI 做」聽起來很理想，但 SDD（規格驅動開發）到底是口號，還是真的能 work？跟 AI 寫程式最常見的痛，是它沒規格可循、只能用猜或是放給 AI 自己做最後再回來跟它吵這做錯了。SDD 用規格把 AI 框住，不用猜就不會亂跑。在這場分享我會實際示範一次 SDD 的工作流，從提案、實作到歸檔，看看這套做法到底是怎麼一回事。"
+      "speaker": "梯口",
+      "speakerID": 28,
+      "description": "Apple 在 2025 年 WWDC 上開源了 Apple Container，並於 2026 年 6 月發佈 1.0.0。作為一個日常在 Kubernetes 與雲端原生生態打滾的 SRE，我意外成為了這個專案的貢獻者之一。\n這場分享會從一個不寫 Swift、也非 Apple 平台開發者的視角，談談怎麼切入 Apple 的開源專案：包含怎麼挑選適合自己背景的 issue、跨越語言與生態系隔閡讀懂 codebase、與 Apple 工程師討論技術方案的實際過程。\n如果你對 Apple 開源貢獻有興趣但不知從何下手，這場會告訴你：這場會告訴你怎麼踏出第一步，以及這個過程實際上是什麼樣子，不需要等到自己變成『對的人』才開始。"
     },
     {
       "time": "14:10 – 14:20",
@@ -442,7 +428,7 @@
         "數位憑證皮夾",
         "零知識證明"
       ],
-      "speaker": "Denken Chen",
+      "speaker": "Denken",
       "speakerID": 6,
       "description": "從 2025 年蘋果釋出的 Declared Age Range API 說起，你知道為何要有這些 API 嗎？帶你看懂底層暗潮洶湧的年齡驗證需求，包含國際法遵、技術標準、密碼學技術前沿發展。"
     },
@@ -455,7 +441,7 @@
         "Apple Intelligence",
         "LLM"
       ],
-      "speaker": "Ervis",
+      "speaker": "彭成瑋",
       "speakerID": 7,
       "description": "從一次日本旅行看不懂收據、想記帳與代買結算的困擾出發，我做了「旅收」這個免註冊、免費、無廣告的 iOS App。沒想到第一次在 Threads 分享後，開始有真實使用者加入，也陸續收到許願、建議、Bug 回報與贊助支持。本議程將分享當 Side Project 真的有人使用後，如何透過 AI 收據辨識、App 內回饋聊天室、推播、Telegram 串接與營運 Dashboard，建立一套能持續聽見使用者聲音、快速回應問題並推動產品迭代的小型產品系統。"
     },
@@ -468,14 +454,17 @@
     },
     {
       "time": "16:00 – 16:40",
-      "title": "不寫 Swift 也能貢獻 Apple Container：一位雲端原生工程師的開源實戰",
+      "title": "SDD 是口號，還是真的可以用？",
       "tags": [
-        "Apple Container",
-        "開源貢獻"
+        "SDD",
+        "規格驅動",
+        "AI Agent",
+        "Xcode",
+        "Vibe Coding"
       ],
-      "speaker": "梯口",
-      "speakerID": 28,
-      "description": "Apple 在 2025 年 WWDC 上開源了 Apple Container，並於 2026 年 6 月發佈 1.0.0。作為一個日常在 Kubernetes 與雲端原生生態打滾的 SRE，我意外成為了這個專案的貢獻者之一。\n這場分享會從一個不寫 Swift、也非 Apple 平台開發者的視角，談談怎麼切入 Apple 的開源專案：包含怎麼挑選適合自己背景的 issue、跨越語言與生態系隔閡讀懂 codebase、與 Apple 工程師討論技術方案的實際過程。\n如果你對 Apple 開源貢獻有興趣但不知從何下手，這場會告訴你：這場會告訴你怎麼踏出第一步，以及這個過程實際上是什麼樣子，不需要等到自己變成『對的人』才開始。"
+      "speaker": "高見龍",
+      "speakerID": 8,
+      "description": "「先寫規格，再交給 AI 做」聽起來很理想，但 SDD（規格驅動開發）到底是口號，還是真的能 work？跟 AI 寫程式最常見的痛，是它沒規格可循、只能用猜或是放給 AI 自己做最後再回來跟它吵這做錯了。SDD 用規格把 AI 框住，不用猜就不會亂跑。在這場分享我會實際示範一次 SDD 的工作流，從提案、實作到歸檔，看看這套做法到底是怎麼一回事。"
     },
     {
       "time": "16:40 – 16:50",
@@ -485,83 +474,11 @@
       "description": ""
     },
     {
-      "time": "16:50 – 16:55",
-      "title": "投 100 間、面 30 間、上 1 間：一個普通工程師的日本職涯開局",
-      "tags": [
-        "英文演講",
-        "日本",
-        "海外求職"
-      ],
-      "speaker": "tetsu",
-      "speakerID": 29,
-      "description": "你是不是覺得「能出國工作的是精英」？不是名校出身、沒進過大廠的我，還是在日本當了十年 mobile 工程師。這是一個沒有光環的人，怎麼跌跌撞撞走進日本職場的故事。投了 100 間、面了 30 間，最後只拿到 1 間內定，這串數字就是我的起點。沒有什麼漂亮履歷，就只是把「再投一間」重複了一百次。5 分鐘，講給覺得自己不夠格去海外工作的你。"
-    },
-    {
-      "time": "16:55 – 17:00",
-      "title": "為什麼 Swift Macro 無法在 `#Preview` 中使用？",
-      "tags": [
-        "英文演講",
-        "Swift",
-        "Macro",
-        "Compiler",
-        "Preview"
-      ],
-      "speaker": "Yu Takahashi",
-      "speakerID": 30,
-      "description": "Swift Macro 讓我們能自動生成程式碼、消除重複樣板——那為什麼無法用它來簡化 #Preview 的環境設定？\n我嘗試打造 @PreviewContainer：自動去除 @Query 等環境依賴屬性包裝器，產生可直接丟進 #Preview 的純 struct。想法很簡單，沒想到一路挖進了 Swift 編譯器的內部。\n試了三種方法——@attached(peer)、@attached(member)、拆成不同檔案——全部在 #Preview 裡無聲無息地失敗。問題出在 Swift 的兩階段型別檢查：#Preview 本身是 #freestanding(declaration) macro，它的 closure 在 attached macro 展開之前就已經完成型別檢查了。更麻煩的是，conformances: 宣告的協議準從在第一階段就會被編譯器信任，但 names: 宣告的型別名稱不會——就是這個差異讓我一直卡關。\n同樣的問題在 Swift Forums 上從 2025 年 5 月就沒有解決。這場演講就是想聊聊，為什麼我們「想做的東西，現在還做不到」。"
-    },
-    {
-      "time": "17:00 – 17:05",
-      "title": "坑很深：做寫字練習 App 比想像更費工",
-      "tags": [
-        "Swift",
-        "SwiftUI",
-        "職涯",
-        "獨立開發"
-      ],
-      "speaker": "劉信",
-      "speakerID": 31,
-      "description": "創作「正筆」這個寫字練習 app 時，我不斷遇到意料以外的語言、文字相關的挑戰。求好心切，輔助用的 project 一個接一個的開，有 iPad app、mac app (x2)、mac CLI app 和一堆 scripts 等。乍看簡單的功能，怎麼一做下去工作卻愈變愈多呢？該如何搜集、整理、生成我需要的筆劃資料？異體字、破音字該怎麼處理？為何這麼多例外情況呢？沒有什麼大道理，分享踩坑經驗以博君一笑。"
-    },
-    {
-      "time": "17:05 – 17:10",
-      "title": "當 Vibe Coding 不再是最大的問題，Nibble 的產品探索旅程",
-      "tags": [
-        "Side Project",
-        "Product Discovery",
-        "AI",
-        "Market Research"
-      ],
-      "speaker": "Jess",
-      "speakerID": 32,
-      "description": "出國留學前，我開始思考：當生活越來越忙碌，與重要的人越來越難見面時，我們該如何持續參與彼此的生活？\nInstagram 的分享太過公開；LINE 則充滿工作與群組訊息。現有社群產品缺乏一個讓人能輕鬆分享生活的空間。這個觀察成為了 Nibble，讓人隨手記錄、分享生活片段，並與親近好友保持連結的 App。\n我將分享如何從生活中的觀察出發，透過 AI 工具進行市場研究與產品探索，並將想法轉化為實際產品。"
-    },
-    {
-      "time": "17:10 – 17:15",
-      "title": "開發 AI Dating Agent 的血淚史：那些好笑、奇怪又令人害怕的教訓",
-      "tags": [
-        "AI",
-        "Apple Intelligence",
-        "LLM"
-      ],
-      "speaker": "Ethan",
-      "speakerID": 33,
-      "description": "在開發 AI Dating Agent 的時候那些好笑、奇怪又令人害怕的教訓"
-    },
-    {
-      "time": "17:15 – 17:20",
-      "title": "用 SwiftUI 打造 iOS / Android 跨平台 AI 美國選舉雷達：從新聞自動摘要到人工審核的 Mobile AI App 實戰",
-      "tags": [
-        "SwiftUI",
-        "跨平台",
-        "iOS",
-        "Android",
-        "AI",
-        "UI/UX"
-      ],
-      "speaker": "劉育承",
-      "speakerID": 34,
-      "description": "AI Election Radar 是一個以美國選舉新聞為主題、以手機端體驗為核心，並搭配內部後台與後端系統的產品。本議程會分享如何用 SwiftUI 開發跨 iOS 與 Android 的 App，並整合 AI 搜尋、新聞摘要、資料庫儲存、資料流設計及後台人工審核機制。內容會進一步聚焦在新聞處理流程：讓 AI 自動蒐集與整理資訊，再由人工完成最後一步審核，降低全自動化造成內容錯誤的風險。同時也會分享跨平台 UI、地圖互動、新聞列表設計上的細節與實作過程中遇到的問題。"
+      "time": "16:50 – 17:20",
+      "title": "Lightning Talk",
+      "tags": [],
+      "speaker": "",
+      "description": ""
     },
     {
       "time": "17:20 – 17:30",
@@ -573,7 +490,22 @@
   ],
   "workshop_day1": [
     {
-      "time": "13:30 – 15:00",
+      "time": "13:00 - 14:30",
+      "title": "在 AI 時代尋找真實",
+      "tags": [],
+      "speaker": "Harry",
+      "speakerID": 17,
+      "description": "在 AI 時代，越來越多程式碼可以交給 AI 代勞，工程師真正需要思考的，已經不只是「怎麼寫程式」，而是「人在這個時代還應該做什麼」。我認為，我們反而應該花更多時間走出畫面之外，多跟人接觸，理解不同人的喜好、思考角度，甚至主動與各種產業交流，對現實社會有更立體的認知。這些關於人、產業與世界的理解，是我們在這個世代要生存下去的必要功課，也相對不容易被 AI 取代。透過這樣的過程，我們可以建立更鮮明的個人品味與判斷方法，讓自己在 AI 時代中不只是「會使用工具的人」，而是能夠憑藉洞察與品味創造差異化、找到立足之地的創作者與決策者。"
+    },
+    {
+      "time": "14:30 – 15:00",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "15:00 - 16:30",
       "title": "Stitch x Antigravity 實戰指南：讓 AI 助你從視覺設計精準落地 iOS App",
       "tags": [
         "Gemini"
@@ -581,11 +513,18 @@
       "speaker": "Kevin",
       "speakerID": 10,
       "description": "【工作坊簡介】\n在傳統的 App 開發流程中，從 UI 設計稿到最終的 iOS 程式碼，往往伴隨著無數次的溝通、手動切版與無止盡的像素微調（Pixel-pushing）。這場工作坊將帶你徹底打破傳統的設計與開發壁壘，親自體驗最新一代的「AI 驅動開發」完整工作流。\n\n我們將結合強大的 AI 設計引擎 Stitch 與高效能開發框架 Antigravity，帶你實戰如何將視覺草圖與設計意圖，瞬間轉化為具備生產等級的 iOS 應用程式。這不僅僅是生成靜態的畫面，而是讓設計稿直接擁有真實邏輯、完美效能，並 100% 貼合開發者的習慣。告別手動刻 UI 的時代，讓 AI 成為你最強的工程助手！"
+    },
+    {
+      "time": "16:30",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
     }
   ],
   "workshop_day2": [
     {
-      "time": "13:30 – 15:00",
+      "time": "13:00 – 14:30",
       "title": "我不會 Swift，但我做了一個 AI 怪獸對戰遊戲",
       "tags": [
         "Swift"
@@ -593,6 +532,37 @@
       "speaker": "Hedula",
       "speakerID": 12,
       "description": "不需要精通 Swift，也能在 40 分鐘內做出一個有 AI 的 iOS 遊戲——這不是魔法，是 AI 協作開發的真實樣貌。\n本場演講將帶你用 Xcode 和 GitHub Copilot，從零打造「Snap Fighter」：拍攝任意物體，讓 AI 自動生成角色名稱與能力值，抓兩隻就能開打。過程中你會親眼看到 AI 怎麼寫 code、寫錯了怎麼辦、哪些坑它永遠不會主動告訴你。"
+    },
+    {
+      "time": "14:30 – 15:00",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "15:00 – 16:30",
+      "title": "Core People：以人為本，打造更體貼的 App 體驗",
+      "tags": [
+        "Swift",
+        "SwiftUI",
+        "UIKit",
+        "OC",
+        "Kotlin Multiplatform",
+        "Compose Multiplatform",
+        "Flutter",
+        "ReactNative 開發經驗, UI/UX 設計、動畫與無障礙應用（Auto Layout / Lottie / Accessibility）"
+      ],
+      "speaker": "13",
+      "speakerID": 15,
+      "description": "Apple 有 Core Data、Core ML、今年還推出 Core AI，但打造好 App 的核心，始終是 People。\n\nAI 降低了開發 App 的門檻，但人們對高品質使用者體驗的需求並沒有改變。許多功能都能更快完成，真正讓 App 脫穎而出的，依舊是那些貼近真實使用情境的細節。\n\n那麼，我們怎樣提高 app 的品質呢？Apple 提供了許多紮實的技術與設計資源，從 Accessibility、Localization、Privacy、Notification，到 Widget 與 App Intents。這場工作坊會帶大家實際開發，並示範如何指揮 AI，打造更體貼的軟體。"
+    },
+    {
+      "time": "16:30",
+      "title": "休息",
+      "tags": [],
+      "speaker": "",
+      "description": ""
     }
   ]
 }
