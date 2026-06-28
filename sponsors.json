@@ -1,37 +1,17 @@
 {
 	"sponsors": [
         {
-            "title": "鑽石級",
-            "items": [
-                {
-                    "name": "RevenueCat",
-                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/sponsors/logo_revenuecat.png",
-                    "link": "https://www.revenuecat.com/"
-                }
-            ]
-        },
-        {
-            "title": "白銀級",
-            "items": [
-                {
-                    "name": "Dcard",
-                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/sponsors/logo_dcard.png",
-                    "link": "https://www.dcard.tw"
-                }
-            ]
-        },
-        {
             "title": "青銅級",
             "items": [
-                {
-                    "name": "9count",
-                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/sponsors/logo_9count.png",
-                    "link": "https://www.9count.co/"
-                },
                 {
                     "name": "PicCollage",
                     "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/sponsors/logo_piccollage.png",
                     "link": "https://picc.co/"
+                },
+                {
+                    "name": "RevenueCat",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/sponsors/logo_revenuecat.png",
+                    "link": "https://www.revenuecat.com/"
                 }
             ]
         },
@@ -46,28 +26,7 @@
             ]
         }
 	],
-    "personal": [
-        {
-            "name": "Andy",
-            "icon": null,
-            "link": null
-        },
-        {
-            "name": "Dada",
-            "icon": "https://iplayground.io/2018/static/media/14362711_1443783055638586_3924866533217962148_o.e5215d5b.jpg",
-            "link": "https://twitter.com/nalydadad"
-        },
-        {
-            "name": "Superbil",
-            "icon": "https://avatars1.githubusercontent.com/u/59567?s=460&v=4",
-            "link": "https://github.com/superbil/"
-        },
-        {
-            "name": "Johnny",
-            "icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/personal/logo_johnny.jpg",
-            "link": null
-        }
-    ],
+    "personal": [],
 	"partner": [
 		{
 			"name": "CoocaHeads Taipei",
