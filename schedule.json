@@ -16,7 +16,7 @@
     },
     {
       "time": "09:40 – 10:20",
-      "title": "Designing Adaptive UX<br>Through Learning Theory & AI",
+      "title": "Designing Adaptive UX Through Learning Theory & AI",
       "tags": [
         "英文演講",
         "UI/UX",
@@ -64,8 +64,7 @@
       ],
       "speaker": "鄭宇哲",
       "speakerID": 27,
-      "description": "在 Design System 設計中，我們常透過參數讓元件具備客製能力。然而隨著需求逐漸複雜，元件往往累積大量參數，變得臃腫且難以維護。本次分享將從 SwiftUI 的設計思維出發，探討如何運用 @ContentBuilder，將參數導向的元件設計重構為內容注入的組合模式，打造更具彈性、可讀性與擴充性的元件結構，並從 WWDC 的演進中，觀察 SwiftUI 對宣告式設計的持續強化。",
-      "isRecording": false
+      "description": "在 Design System 設計中，我們常透過參數讓元件具備客製能力。然而隨著需求逐漸複雜，元件往往累積大量參數，變得臃腫且難以維護。本次分享將從 SwiftUI 的設計思維出發，探討如何運用 @ContentBuilder，將參數導向的元件設計重構為內容注入的組合模式，打造更具彈性、可讀性與擴充性的元件結構，並從 WWDC 的演進中，觀察 SwiftUI 對宣告式設計的持續強化。"
     },
     {
       "time": "11:40 – 12:00",
@@ -136,7 +135,8 @@
       ],
       "speaker": "qcl",
       "speakerID": 24,
-      "description": "身處 AI 浪潮，您是否也曾夢想過讓 Coding Agent 自動完成繁瑣任務，大幅提升開發效率？對 iOS 工程師而言，Xcode 雖然是主力的 IDE，但其內建的 Coding Agent 整合有限，當您愛用的 Coding Agent 無法直接在 Xcode 中使用時，該怎麼辦？<br><br>本議程將探討幾種使用 Agentic Workflow 來進行 iOS 開發的策略，幫助 iOS 開發者打破原有 IDE 框架的限制：一是透過搭建一個中轉層讓 Xcode 能間接與外部的 Agent 溝通；二是試圖跳脫既有 IDE 的框架，利用 Xcode MCP 或甚至將 Xcode 本身僅作為編譯器，在外部建構由 Agent 驅動的開發流程。<br><br>無論您是個人開發者還是大型團隊的一員，都能從中探索適合自己的 AI 輔助開發途徑。"
+      "description": "身處 AI 浪潮，您是否也曾夢想過讓 Coding Agent 自動完成繁瑣任務，大幅提升開發效率？對 iOS 工程師而言，Xcode 雖然是主力的 IDE，但其內建的 Coding Agent 整合有限，當您愛用的 Coding Agent 無法直接在 Xcode 中使用時，該怎麼辦？<br><br>本議程將探討幾種使用 Agentic Workflow 來進行 iOS 開發的策略，幫助 iOS 開發者打破原有 IDE 框架的限制：一是透過搭建一個中轉層讓 Xcode 能間接與外部的 Agent 溝通；二是試圖跳脫既有 IDE 的框架，利用 Xcode MCP 或甚至將 Xcode 本身僅作為編譯器，在外部建構由 Agent 驅動的開發流程。<br><br>無論您是個人開發者還是大型團隊的一員，都能從中探索適合自己的 AI 輔助開發途徑。",
+      "isRecording": false
     },
     {
       "time": "14:40 - 15:00",
