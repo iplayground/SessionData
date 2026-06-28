@@ -16,7 +16,7 @@
     },
     {
       "time": "09:40 – 10:20",
-      "title": "Designing Adaptive UX\nThrough Learning Theory & AI",
+      "title": "Designing Adaptive UX<br>Through Learning Theory & AI",
       "tags": [
         "English",
         "UI/UX",
@@ -285,7 +285,7 @@
       ],
       "speaker": "Rudrank Riyam",
       "speakerID": 1,
-      "description": "Developer tools are no longer built only for humans at a terminal. They are also used, tested, broken, and improved by AI agents.\n\n\nIn this session, I will share the story behind building App Store Connect CLI in public: from an early idea, to multiple job opportunities, acquisition, and keeping it open-source for iOS developers.\n\n\nI will also show how agent-reported issues, automated reviews, refactors, and release workflows help such tools start to maintain themselves."
+      "description": "Developer tools are no longer built only for humans at a terminal. They are also used, tested, broken, and improved by AI agents.<br><br><br>In this session, I will share the story behind building App Store Connect CLI in public: from an early idea, to multiple job opportunities, acquisition, and keeping it open-source for iOS developers.<br><br><br>I will also show how agent-reported issues, automated reviews, refactors, and release workflows help such tools start to maintain themselves."
     },
     {
       "time": "10:15 – 10:25",
@@ -335,7 +335,7 @@
       ],
       "speaker": "JungMin Ahn",
       "speakerID": 3,
-      "description": "How to keep a large-scale iOS project maintainable is a challenge many teams face as their codebase continues to grow. Tuist provides a structured way to define project architecture and manage modular iOS projects with clear and repeatable rules.\n\nThis talk shares practical lessons from operating a Tuist-based modular iOS project. It discusses how teams can manage project files, demo apps, tests, resources, and dependencies in a scalable way. With the right conventions, Tuist can help turn modularization into a sustainable development workflow."
+      "description": "How to keep a large-scale iOS project maintainable is a challenge many teams face as their codebase continues to grow. Tuist provides a structured way to define project architecture and manage modular iOS projects with clear and repeatable rules.<br><br>This talk shares practical lessons from operating a Tuist-based modular iOS project. It discusses how teams can manage project files, demo apps, tests, resources, and dependencies in a scalable way. With the right conventions, Tuist can help turn modularization into a sustainable development workflow."
     },
     {
       "time": "11:55 – 13:00",
@@ -358,7 +358,7 @@
       ],
       "speaker": "Thiago Komeno",
       "speakerID": 21,
-      "description": "Winning the Apple Swift Student Challenge is about building something that only you could have built. In this talk, I'll present how a personal story became a winning Swift Playground, and what that process can teach you about code, creativity, and yourself.\n\nThis talk will cover three things: how to find an idea only you could build, how to grow your SwiftUI skills under the real constraints of a project, and most importantly, how attention to detail is what separates a good submission from a winning one.\n\nWhether or not you've entered the challenge before, you'll walk away with a framework for turning your own ideas into something you're genuinely proud to submit."
+      "description": "Winning the Apple Swift Student Challenge is about building something that only you could have built. In this talk, I'll present how a personal story became a winning Swift Playground, and what that process can teach you about code, creativity, and yourself.<br><br>This talk will cover three things: how to find an idea only you could build, how to grow your SwiftUI skills under the real constraints of a project, and most importantly, how attention to detail is what separates a good submission from a winning one.<br><br>Whether or not you've entered the challenge before, you'll walk away with a framework for turning your own ideas into something you're genuinely proud to submit."
     },
     {
       "time": "13:20 – 13:30",
@@ -511,7 +511,7 @@
       ],
       "speaker": "Kevin Chiu",
       "speakerID": 14,
-      "description": "Workshop introduction\nIn the traditional app development process, moving from UI design to final iOS code often involves countless rounds of communication, manual layout work, and endless pixel-pushing. This workshop breaks down the wall between design and development and lets you experience a new generation of AI-driven development workflow.\n\nWe will combine the powerful AI design engine Stitch with the high-performance development framework Antigravity, and practice turning visual sketches and design intent into production-grade iOS applications. This is not just generating static screens: the design output gains real logic, polished performance, and a workflow that fits developers’ habits. Say goodbye to hand-coding every piece of UI and let AI become your strongest engineering assistant."
+      "description": "Workshop introduction<br>In the traditional app development process, moving from UI design to final iOS code often involves countless rounds of communication, manual layout work, and endless pixel-pushing. This workshop breaks down the wall between design and development and lets you experience a new generation of AI-driven development workflow.<br><br>We will combine the powerful AI design engine Stitch with the high-performance development framework Antigravity, and practice turning visual sketches and design intent into production-grade iOS applications. This is not just generating static screens: the design output gains real logic, polished performance, and a workflow that fits developers’ habits. Say goodbye to hand-coding every piece of UI and let AI become your strongest engineering assistant."
     },
     {
       "time": "16:30",
@@ -554,7 +554,7 @@
       ],
       "speaker": "Ethan Huang",
       "speakerID": 15,
-      "description": "Apple 有 Core Data、Core ML、今年還推出 Core AI，但打造好 App 的核心，始終是 People。\n\nAI 降低了開發 App 的門檻，但人們對高品質使用者體驗的需求並沒有改變。許多功能都能更快完成，真正讓 App 脫穎而出的，依舊是那些貼近真實使用情境的細節。\n\n那麼，我們怎樣提高 app 的品質呢？Apple 提供了許多紮實的技術與設計資源，從 Accessibility、Localization、Privacy、Notification，到 Widget 與 App Intents。這場工作坊會帶大家實際開發，並示範如何指揮 AI，打造更體貼的軟體。"
+      "description": "Apple 有 Core Data、Core ML、今年還推出 Core AI，但打造好 App 的核心，始終是 People。<br><br>AI 降低了開發 App 的門檻，但人們對高品質使用者體驗的需求並沒有改變。許多功能都能更快完成，真正讓 App 脫穎而出的，依舊是那些貼近真實使用情境的細節。<br><br>那麼，我們怎樣提高 app 的品質呢？Apple 提供了許多紮實的技術與設計資源，從 Accessibility、Localization、Privacy、Notification，到 Widget 與 App Intents。這場工作坊會帶大家實際開發，並示範如何指揮 AI，打造更體貼的軟體。"
     },
     {
       "time": "16:30",
