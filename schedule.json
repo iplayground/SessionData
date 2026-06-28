@@ -139,14 +139,16 @@
     },
     {
       "time": "14:40 - 15:00",
-      "title": "iOS 2026 職場生存指南：資深外商獵頭視角",
+      "title": "Tweet AI to the Edge",
       "tags": [
-        "獵頭",
-        "趨勢"
+        "Flutter",
+        "llama.cpp",
+        "MLX",
+        "Twinkle AI"
       ],
-      "speaker": "楊宥榛",
-      "speakerID": 10,
-      "description": "本議程以講者 7 年的獵頭執業生涯，將從 2020 年起共同回顧台灣 iOS 技術市場的起伏與轉折。站在 2026 年的當下，解析最新的市場趨勢，並探討最適合現今環境挑戰的準備方式。\n\n非常期待能與大家面對面分享，期待能與大家一起找到在變動中穩健前行的職涯力量。"
+      "speaker": "Bobson",
+      "speakerID": 7,
+      "description": "“Tweet” AI to the Edge: 從本地化語言模型到環境智能的下一步\n\n這裡的 Tweet 不是社群平台上的短文，而是中文語感裡的「推」：推送、推進、佈署。當 Twinkle AI 這樣的開源社群開始打造本地化語言模型之後，下一個問題是：如何把模型真正推到使用者身邊，讓它跑在手機、桌面、瀏覽器與各種 edge 裝置上？\n\nLittle Star 的起點是 Mobile LLM 工具：從「能不能在手機上真跑 LLM」開始，經過 iOS / Android MVP 驗證，逐步轉向 benchmark 與真機量測。這個過程讓我們意識到，edge AI 的挑戰不只是 inference，而是模型格式、runtime、量化、記憶體、延遲、耗電與使用者體驗之間的整體設計。\n\n本分享將以 Little Star 的探索經驗為基礎，討論如何把本地化語言模型推向 edge：從模型封裝、GGUF 與 llama.cpp 生態系、裝置端 benchmark，到 context-aware UX 與 Ambient Intelligence 的產品想像。我們也會討論為什麼本地模型的價值不只是離線，而是「靠近」：靠近使用者、靠近資料、靠近語境，也更靠近開源社群能掌握的未來 AI 基礎建設。"
     },
     {
       "time": "15:00 – 15:10",
@@ -228,16 +230,14 @@
     },
     {
       "time": "17:10 – 17:30",
-      "title": "Tweet AI to the Edge",
+      "title": "iOS 工程師 2026 職場生存指南：資深外商獵頭視角",
       "tags": [
-        "Flutter",
-        "llama.cpp",
-        "MLX",
-        "Twinkle AI"
+        "獵頭",
+        "趨勢"
       ],
-      "speaker": "Bobson",
-      "speakerID": 7,
-      "description": "“Tweet” AI to the Edge: 從本地化語言模型到環境智能的下一步\n\n這裡的 Tweet 不是社群平台上的短文，而是中文語感裡的「推」：推送、推進、佈署。當 Twinkle AI 這樣的開源社群開始打造本地化語言模型之後，下一個問題是：如何把模型真正推到使用者身邊，讓它跑在手機、桌面、瀏覽器與各種 edge 裝置上？\n\nLittle Star 的起點是 Mobile LLM 工具：從「能不能在手機上真跑 LLM」開始，經過 iOS / Android MVP 驗證，逐步轉向 benchmark 與真機量測。這個過程讓我們意識到，edge AI 的挑戰不只是 inference，而是模型格式、runtime、量化、記憶體、延遲、耗電與使用者體驗之間的整體設計。\n\n本分享將以 Little Star 的探索經驗為基礎，討論如何把本地化語言模型推向 edge：從模型封裝、GGUF 與 llama.cpp 生態系、裝置端 benchmark，到 context-aware UX 與 Ambient Intelligence 的產品想像。我們也會討論為什麼本地模型的價值不只是離線，而是「靠近」：靠近使用者、靠近資料、靠近語境，也更靠近開源社群能掌握的未來 AI 基礎建設。"
+      "speaker": "楊宥榛",
+      "speakerID": 10,
+      "description": "本議程以講者 7 年的獵頭執業生涯，將從 2020 年起共同回顧台灣 iOS 技術市場的起伏與轉折。站在 2026 年的當下，解析最新的市場趨勢，並探討最適合現今環境挑戰的準備方式。\n\n非常期待能與大家面對面分享，期待能與大家一起找到在變動中穩健前行的職涯力量。"
     },
     {
       "time": "17:30 – 17:40",
@@ -481,7 +481,7 @@
       "description": ""
     },
     {
-      "time": "17:20 – 17:30",
+      "time": "17:15 – 17:25",
       "title": "閉幕+大合照",
       "tags": [],
       "speaker": "",
