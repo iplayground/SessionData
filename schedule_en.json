@@ -44,7 +44,7 @@
         "Observability"
       ],
       "speaker": "Justin Lee",
-      "speakerID": 15,
+      "speakerID": 8,
       "description": "AI agents are becoming part of developers’ daily work, but what are they doing behind the conversation? Why do they start forgetting context, slow down after a break, or suddenly make one message much more expensive? These issues rarely show up as errors, yet they quietly hurt both developer experience and budget. This talk breaks down the invisible context, cache, and agent behavior behind AI development through real scenarios, then demonstrates how the open-source tool ccxray makes those hidden behaviors observable and offers practical ways to improve them."
     },
     {
@@ -63,7 +63,7 @@
         "Functional Programming"
       ],
       "speaker": "UJ Cheng",
-      "speakerID": 16,
+      "speakerID": 27,
       "description": "In design systems, we often make components configurable through parameters. As requirements grow more complex, those components accumulate large parameter lists and become hard to maintain. Starting from SwiftUI’s design philosophy, this talk explores how @ContentBuilder can refactor parameter-driven component APIs into content-injection composition, creating components that are more flexible, readable, and extensible while tracing how SwiftUI has continued to strengthen declarative design through WWDC updates."
     },
     {
@@ -75,7 +75,7 @@
         "Developer Tools"
       ],
       "speaker": "Gyuri Kim",
-      "speakerID": 17,
+      "speakerID": 19,
       "description": "AI coding tools excel at small, focused tasks—but struggle when applied to large legacy iOS codebases at scale. The bottleneck is often not the model, but the human translation layer: reading summaries, confirming results, and re-delegating work. Using large-scale codebase analysis for refactoring preparation as a practical example, this session explores AI-native workflow design: machine-friendly structured data for bulk processing, and human-readable reports only for final decisions."
     },
     {
@@ -94,7 +94,7 @@
         "Agent Skill"
       ],
       "speaker": "Ethan Huang",
-      "speakerID": 11,
+      "speakerID": 15,
       "description": "Apple has Core Data, Core ML, and now Core AI, but the true core of a good app is always people. AI lowers the barrier to building apps, but expectations for high-quality user experiences remain the same. Many features can now be built faster, yet the details grounded in real usage are still what make an app stand out. This talk revisits Apple’s often-overlooked native capabilities, including Accessibility, Localization, Privacy, Notifications, Widgets, and App Intents, and uses practical examples to show how to direct AI toward more thoughtful software."
     },
     {
@@ -134,7 +134,7 @@
         "Coding Agent"
       ],
       "speaker": "qcl",
-      "speakerID": 18,
+      "speakerID": 24,
       "description": "In the AI wave, have you ever wished a coding agent could handle tedious tasks and dramatically improve development efficiency? For iOS engineers, Xcode remains the primary IDE, but its built-in coding agent integration is limited. What can you do when your preferred coding agent cannot be used directly inside Xcode? This session explores several strategies for applying agentic workflows to iOS development: building an intermediary layer so Xcode can communicate indirectly with external agents, or stepping outside the IDE model by using Xcode MCP or even treating Xcode primarily as a compiler while agents drive the development workflow externally. Whether you are an indie developer or part of a large team, you will find paths for AI-assisted iOS development that fit your context."
     },
     {
@@ -145,7 +145,7 @@
         "Trends"
       ],
       "speaker": "Annie Yang",
-      "speakerID": 25,
+      "speakerID": 10,
       "description": "Based on the speaker’s seven years of recruiting experience, this session looks back at the ups and downs of Taiwan’s iOS technology market since 2020. From the vantage point of 2026, it analyzes the latest market trends and explores the best ways to prepare for today’s challenges. The speaker looks forward to sharing these insights face to face and helping attendees find steady career momentum amid constant change."
     },
     {
@@ -164,7 +164,7 @@
         "SwiftUI"
       ],
       "speaker": "Yuki Aki",
-      "speakerID": 19,
+      "speakerID": 20,
       "description": "Swift code looks concise, but every line depends on layers that developers rarely see directly: the platform, the runtime, and the compiler. This talk starts from those hidden structures to explain how Swift operates across different platforms, how the runtime supports and constrains apps, and how the compiler optimizes code. The goal is not to become compiler engineers, but to build a practical mental model that helps us debug, improve build performance, and make better architectural decisions."
     },
     {
@@ -182,7 +182,7 @@
         "iOS"
       ],
       "speaker": "Dex",
-      "speakerID": 20,
+      "speakerID": 26,
       "description": "“Your project has used RxSwift for almost ten years. Should you keep using it?” Almost every mature iOS project asks this question. In 2026, the more interesting version is: “Can AI help migrate tens of thousands of lines of Rx code?” This session shares an approach proven feasible with iOS 16+ and Swift 6 from two angles. Technically, it covers which RxSwift patterns now have clean equivalents, which should move to Combine, and which are not worth migrating yet. On the AI collaboration side, it shows how to turn repeated decisions into executable skills and rules for AI agents so mechanical migration work can be delegated. The session ends with a gradual migration workflow validated in practice, plus several real anti-patterns."
     },
     {
@@ -202,7 +202,7 @@
         "Architecture Debate"
       ],
       "speaker": "lovee",
-      "speakerID": 21,
+      "speakerID": 18,
       "description": "MVVM is a mature architecture refined over nearly two decades, and it successfully addressed common Fat View Controller problems in the UIKit era. But once SwiftUI redefined UI development around state-driven thinking, do we still need to carry MVVM forward, especially the ViewModel? This talk starts from the design intent of MVVM, examines where MVVM fits or conflicts with SwiftUI, and explains why continuing to introduce ViewModels in SwiftUI often adds unnecessary complexity and can even limit SwiftUI’s strengths. Through practical examples and architectural evolution, we will rethink best practices for the SwiftUI era."
     },
     {
@@ -223,7 +223,7 @@
         "Indie Development"
       ],
       "speaker": "Alex Hu",
-      "speakerID": 22,
+      "speakerID": 25,
       "description": "AI is writing code faster and faster, so what value is left for engineers? Over the past six months, I used AI agents to build an iOS app that I use every day, with most of the code generated by agents. The app runs and the project did not decay not because of prompt tricks, but because I treated the agent like a junior engineer who needed guidance. Using this real project, I will break down the engineering discipline that keeps agents from drifting or overstepping: ADRs to pin down decisions, contracts to define module boundaries such as using the iPhone as the single data source for Apple Watch, test-first development to protect correctness, and a deferred backlog to control scope. I will also discuss moments where only human judgment could make the call."
     },
     {
@@ -236,7 +236,7 @@
         "Twinkle AI"
       ],
       "speaker": "Bobson",
-      "speakerID": 14,
+      "speakerID": 7,
       "description": "“Tweet” AI to the Edge: the next step from localized language models to ambient intelligence. Here, “tweet” is not a social post, but the Chinese idea of pushing, advancing, and deploying. Once open-source communities such as Twinkle AI begin building localized language models, the next question is how to push those models closer to users so they can run on phones, desktops, browsers, and all kinds of edge devices. Little Star began as a mobile LLM tool: from asking whether LLMs could really run on phones, through iOS and Android MVP validation, and toward benchmarking and real-device measurement. This journey showed that edge AI is not only an inference problem, but an end-to-end design challenge across model formats, runtimes, quantization, memory, latency, power consumption, and user experience. Based on Little Star’s exploration, this talk discusses how to bring localized language models to the edge, from model packaging, GGUF, and the llama.cpp ecosystem to on-device benchmarks, context-aware UX, and product imagination around ambient intelligence. It also explores why the value of local models is not just being offline, but being close to users, data, context, and the future AI infrastructure that open-source communities can shape."
     },
     {
@@ -253,7 +253,7 @@
         "AI Coding"
       ],
       "speaker": "tzangms",
-      "speakerID": 23,
+      "speakerID": 12,
       "description": "Give an agent three abilities: see the result, inspect itself, and change itself. With those, it can enter a loop: talk to itself, review the result, investigate the problem, make changes, and rerun hundreds of times until it reaches the standard we want. Our job is to define what “good enough” means first."
     }
   ],
@@ -303,7 +303,7 @@
         "App Business"
       ],
       "speaker": "Hana Chang",
-      "speakerID": 24,
+      "speakerID": 22,
       "description": "After an app ships, the real problems begin: nobody using it, support emails, social content, user feedback, and product iteration. Using the mojo weight-loss injection tracking app as an example, this talk shares how I built a team of AI agents to handle marketing content, growth experiments, support triage, social listening, user feedback, GitHub issue creation, and product iteration. After launch, AI agents can become teammates that help an iOS app move from “finished” to truly alive."
     },
     {
@@ -357,7 +357,7 @@
         "Indie Development"
       ],
       "speaker": "Thiago Komeno",
-      "speakerID": 26,
+      "speakerID": 21,
       "description": "Winning the Apple Swift Student Challenge is about building something that only you could have built. In this talk, I'll present how a personal story became a winning Swift Playground, and what that process can teach you about code, creativity, and yourself.\n\nThis talk will cover three things: how to find an idea only you could build, how to grow your SwiftUI skills under the real constraints of a project, and most importantly, how attention to detail is what separates a good submission from a winning one.\n\nWhether or not you've entered the challenge before, you'll walk away with a framework for turning your own ideas into something you're genuinely proud to submit."
     },
     {
@@ -375,7 +375,7 @@
         "Open Source Contribution"
       ],
       "speaker": "ChengHao Yang",
-      "speakerID": 28,
+      "speakerID": 23,
       "description": "Apple open-sourced Apple Container at WWDC 2025 and released version 1.0.0 in June 2026. As an SRE who works daily with Kubernetes and the cloud-native ecosystem, I unexpectedly became one of the contributors to this project. This talk shares, from the perspective of someone who does not write Swift and is not an Apple platform developer, how to get involved in an Apple open-source project: how to choose issues that match your background, bridge language and ecosystem gaps to understand the codebase, and discuss technical solutions with Apple engineers. If you are interested in contributing to Apple open source but do not know where to start, this session shows how to take the first step and what the process is actually like, without waiting until you become the “right person.”"
     },
     {
@@ -396,7 +396,7 @@
         "SwiftUI"
       ],
       "speaker": "Joy",
-      "speakerID": 27,
+      "speakerID": 28,
       "description": "When a user tells Siri “save this for me” or “add this session to my calendar,” how does Apple Intelligence understand what “this” refers to? App Schema, On-screen Awareness, and Content Transfer from WWDC26 are redefining how apps interact with the system. Future apps will no longer provide only screens and features; they will need to describe their data models, executable capabilities, and content relationships to the system so Apple Intelligence can understand, search, and use their content. If you are following Apple Intelligence, App Intents, or the next generation of Siri, this talk will help you understand the design thinking behind them from a developer’s perspective and the implementation directions you can start adopting today."
     },
     {
@@ -410,7 +410,7 @@
         "terminal"
       ],
       "speaker": "Peter Pan",
-      "speakerID": 9,
+      "speakerID": 13,
       "description": "As iOS app developers, we are familiar with Xcode, Swift syntax, and the many frameworks in the iOS SDK, but macOS CLI commands can feel like familiar strangers. While using AI to develop apps, Peter Pan noticed that AI completes tasks quickly through many convenient CLI commands. This session shares the macOS CLI “magic commands” he learned from AI."
     },
     {
@@ -442,7 +442,7 @@
         "LLM"
       ],
       "speaker": "Ervis Peng",
-      "speakerID": 7,
+      "speakerID": 9,
       "description": "On a trip to Japan, I could not understand receipts and wanted to track expenses and settle purchases for others, so I built “TripReceipt,” an iOS app that requires no registration, is free, and has no ads. After I first shared it on Threads, real users started joining, and I began receiving feature requests, suggestions, bug reports, and sponsorship support. This session shares what happens when a side project has real users, and how AI receipt recognition, an in-app feedback chat, push notifications, Telegram integration, and an operations dashboard can form a small product system that continuously hears users, responds quickly, and drives product iteration."
     },
     {
@@ -462,7 +462,7 @@
         "Vibe Coding"
       ],
       "speaker": "Chien-Long, Kao",
-      "speakerID": 8,
+      "speakerID": 11,
       "description": "“Write the specification first, then let AI implement it” sounds ideal, but is SDD, specification-driven development, just a slogan or something that can really work? The common pain of coding with AI is that it has no specification to follow, so it guesses or runs off on its own until we come back to argue about what it got wrong. SDD uses specifications to constrain AI so it does not have to guess and is less likely to drift. In this talk, I will demonstrate an SDD workflow from proposal to implementation to archiving, and show what this approach actually looks like in practice."
     },
     {
@@ -510,7 +510,7 @@
         "Gemini"
       ],
       "speaker": "Kevin Chiu",
-      "speakerID": 10,
+      "speakerID": 14,
       "description": "Workshop introduction\nIn the traditional app development process, moving from UI design to final iOS code often involves countless rounds of communication, manual layout work, and endless pixel-pushing. This workshop breaks down the wall between design and development and lets you experience a new generation of AI-driven development workflow.\n\nWe will combine the powerful AI design engine Stitch with the high-performance development framework Antigravity, and practice turning visual sketches and design intent into production-grade iOS applications. This is not just generating static screens: the design output gains real logic, polished performance, and a workflow that fits developers’ habits. Say goodbye to hand-coding every piece of UI and let AI become your strongest engineering assistant."
     },
     {
@@ -529,7 +529,7 @@
         "Swift"
       ],
       "speaker": "Hedula",
-      "speakerID": 12,
+      "speakerID": 16,
       "description": "You do not need to be a Swift expert to build an AI-powered iOS game in 40 minutes. This is not magic, but a real example of AI-assisted development. In this session, you will use Xcode and GitHub Copilot to build “Snap Fighter” from scratch: take photos of any objects, let AI generate character names and stats automatically, and battle once you capture two fighters. Along the way, you will see how AI writes code, what to do when it gets things wrong, and which traps it will never proactively warn you about."
     },
     {

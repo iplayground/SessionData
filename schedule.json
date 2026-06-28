@@ -11,7 +11,7 @@
       "time": "09:30 – 09:40",
       "title": "開場",
       "tags": [],
-      "speaker": "Hokila",
+      "speaker": "",
       "description": "如何讓你的 iPlayground 更好玩"
     },
     {
@@ -44,7 +44,7 @@
         "可觀測性"
       ],
       "speaker": "李易修",
-      "speakerID": 15,
+      "speakerID": 8,
       "description": "AI Agent 已逐漸成為開發者日常工作的一部分，但你知道在對話的背後它做了什麼嗎？為什麼講著講著就開始忘記事情？離開一陣子回來，回應速度怎麼變得那麼慢？為什麼一條訊息的花費突然暴增？這些問題不會報錯，卻會默默拖垮你的開發體驗與預算。這場演講從真實情境出發，拆解 AI 開發中你看不見的 context、cache 與 agent 行為機制，並透過開源工具 ccxray 示範如何讓這些隱藏行為變得可觀測，分享可立即實踐的改善方法。"
     },
     {
@@ -63,7 +63,7 @@
         "函數式"
       ],
       "speaker": "鄭宇哲",
-      "speakerID": 16,
+      "speakerID": 27,
       "description": "在 Design System 設計中，我們常透過參數讓元件具備客製能力。然而隨著需求逐漸複雜，元件往往累積大量參數，變得臃腫且難以維護。本次分享將從 SwiftUI 的設計思維出發，探討如何運用 @ContentBuilder，將參數導向的元件設計重構為內容注入的組合模式，打造更具彈性、可讀性與擴充性的元件結構，並從 WWDC 的演進中，觀察 SwiftUI 對宣告式設計的持續強化。"
     },
     {
@@ -75,7 +75,7 @@
         "開發工具"
       ],
       "speaker": "Gyuri Kim",
-      "speakerID": 17,
+      "speakerID": 19,
       "description": "AI coding tools 很擅長處理小而明確的任務，但一旦套用到大型 legacy iOS codebase，就容易在規模化時遇到瓶頸。問題常常不是 model 本身，而是人類在中間負責轉譯的流程：閱讀摘要、確認結果、再重新分派工作。本議程將以大型 codebase 分析與重構準備作為實務案例，探討 AI-native workflow 的設計方式：用適合機器處理的結構化資料進行批次處理，只在最終決策時產出給人閱讀的報告。"
     },
     {
@@ -94,7 +94,7 @@
         "Agent Skill"
       ],
       "speaker": "13",
-      "speakerID": 11,
+      "speakerID": 15,
       "description": "Apple 有 Core Data、Core ML、今年還推出 Core AI，但打造好 App 的核心，始終是 People。\n\nAI 降低了開發 App 的門檻，但人們對高品質使用者體驗的需求並沒有改變。許多功能都能更快完成，真正讓 App 脫穎而出的，依舊是那些貼近真實使用情境的細節。\n\n那麼，我們怎樣提高 app 的品質呢？Apple 提供了許多紮實的技術與設計資源，從 Accessibility、Localization、Privacy、Notification，到 Widget 與 App Intents。這場演講會帶大家溫故知新，以重新檢視這些容易被忽略的原生能力，並以實際開發案例，示範如何指揮 AI，打造更體貼的軟體。"
     },
     {
@@ -134,7 +134,7 @@
         "Coding Agent"
       ],
       "speaker": "qcl",
-      "speakerID": 18,
+      "speakerID": 24,
       "description": "身處 AI 浪潮，您是否也曾夢想過讓 Coding Agent 自動完成繁瑣任務，大幅提升開發效率？對 iOS 工程師而言，Xcode 雖然是主力的 IDE，但其內建的 Coding Agent 整合有限，當您愛用的 Coding Agent 無法直接在 Xcode 中使用時，該怎麼辦？\n\n本議程將探討幾種使用 Agentic Workflow 來進行 iOS 開發的策略，幫助 iOS 開發者打破原有 IDE 框架的限制：一是透過搭建一個中轉層讓 Xcode 能間接與外部的 Agent 溝通；二是試圖跳脫既有 IDE 的框架，利用 Xcode MCP 或甚至將 Xcode 本身僅作為編譯器，在外部建構由 Agent 驅動的開發流程。\n\n無論您是個人開發者還是大型團隊的一員，都能從中探索適合自己的 AI 輔助開發途徑。"
     },
     {
@@ -145,7 +145,7 @@
         "趨勢"
       ],
       "speaker": "楊宥榛",
-      "speakerID": 25,
+      "speakerID": 10,
       "description": "本議程以講者 7 年的獵頭執業生涯，將從 2020 年起共同回顧台灣 iOS 技術市場的起伏與轉折。站在 2026 年的當下，解析最新的市場趨勢，並探討最適合現今環境挑戰的準備方式。\n\n非常期待能與大家面對面分享，期待能與大家一起找到在變動中穩健前行的職涯力量。"
     },
     {
@@ -164,7 +164,7 @@
         "SwiftUI"
       ],
       "speaker": "freddi",
-      "speakerID": 19,
+      "speakerID": 20,
       "description": "Swift 程式碼看似簡潔，但每一行都依賴開發者平常不易看見的層次：平台、Runtime 與編譯器。本演講將從這些隱藏結構出發，說明 Swift 如何在不同平台上運作，Runtime 如何支撐並限制 App，以及編譯器如何最佳化程式碼。目標不是成為編譯器工程師，而是建立實用的理解模型，幫助我們除錯、改善建置效能，並做出更好的架構決策。"
     },
     {
@@ -182,7 +182,7 @@
         "iOS"
       ],
       "speaker": "Dex",
-      "speakerID": 20,
+      "speakerID": 26,
       "description": "「你的專案用了RxSwift快十年，還要繼續用嗎？」幾乎每個有點年紀的 iOS 專案都會問這個問題。但 2026 年比較有意思的版本是：「能不能讓 AI 幫我搬完這幾萬行 Rx 程式碼？」\n\n本場次分享一套 「iOS 16+、Swift 6 實證可行」的方案，並從兩個層面回答。技術面：哪些 RxSwift 寫法已有乾淨對應、哪些該改走 Combine、哪些其實暫緩較划算。AI 協作面：怎麼把反覆出現的判斷寫成 AI agent 可執行的 skill 與 rules，把機械性搬磚交給 AI。\n\n最後會給出一個親身驗證過、可以落地的漸進式改寫工作流，與數個真實踩過的反例。"
     },
     {
@@ -202,7 +202,7 @@
         "宗教戰爭"
       ],
       "speaker": "星野恵瑠",
-      "speakerID": 21,
+      "speakerID": 18,
       "description": "MVVM 是一套經過近二十年驗證的成熟架構，也曾成功解決 UIKit 時代常見的 FatVC 問題。然而，當 SwiftUI 以 State-Driven 的思維重新定義 UI 開發後，我們是否還需要沿用 MVVM，尤其是 ViewModel？\n\n在這場分享中，我將從 MVVM 的設計理念出發，探討 MVVM 與 SwiftUI 之間的契合與衝突，說明為何我認為在 SwiftUI 中持續引入 ViewModel，往往會增加不必要的複雜度，甚至限制 SwiftUI 的優勢。透過實際案例與架構演進的觀點，一起重新思考 SwiftUI 時代的最佳實踐。"
     },
     {
@@ -223,7 +223,7 @@
         "獨立開發"
       ],
       "speaker": "Alex Hu",
-      "speakerID": 22,
+      "speakerID": 25,
       "description": "AI 寫 code 越來越快,工程師的價值還剩什麼?過去半年,我用 AI agent 開發了一個自己每天在用的 iOS App,大部分程式碼都由 agent 產出——它跑得起來、又沒把專案寫爛,靠的不是 prompt 技巧,而是把它當一位資淺工程師來「帶」。這場分享會用這個真實專案,拆解讓 agent 不越界、不漂移的工程紀律:用 ADR 釘死決策、用契約畫清模組邊界(例如 Apple Watch 以 iPhone 為唯一資料來源)、測試先行守住正確性、用 deferred backlog 管住範圍。我也會談幾個只能靠人判斷、AI 接不住的時刻。你會帶走一套可複製、能讓專案不腐爛的 AI 協作開發法。"
     },
     {
@@ -236,7 +236,7 @@
         "Twinkle AI"
       ],
       "speaker": "Bobson",
-      "speakerID": 14,
+      "speakerID": 7,
       "description": "“Tweet” AI to the Edge: 從本地化語言模型到環境智能的下一步\n\n這裡的 Tweet 不是社群平台上的短文，而是中文語感裡的「推」：推送、推進、佈署。當 Twinkle AI 這樣的開源社群開始打造本地化語言模型之後，下一個問題是：如何把模型真正推到使用者身邊，讓它跑在手機、桌面、瀏覽器與各種 edge 裝置上？\n\nLittle Star 的起點是 Mobile LLM 工具：從「能不能在手機上真跑 LLM」開始，經過 iOS / Android MVP 驗證，逐步轉向 benchmark 與真機量測。這個過程讓我們意識到，edge AI 的挑戰不只是 inference，而是模型格式、runtime、量化、記憶體、延遲、耗電與使用者體驗之間的整體設計。\n\n本分享將以 Little Star 的探索經驗為基礎，討論如何把本地化語言模型推向 edge：從模型封裝、GGUF 與 llama.cpp 生態系、裝置端 benchmark，到 context-aware UX 與 Ambient Intelligence 的產品想像。我們也會討論為什麼本地模型的價值不只是離線，而是「靠近」：靠近使用者、靠近資料、靠近語境，也更靠近開源社群能掌握的未來 AI 基礎建設。"
     },
     {
@@ -253,7 +253,7 @@
         "AI Coding"
       ],
       "speaker": "海總理",
-      "speakerID": 23,
+      "speakerID": 12,
       "description": "只要給 Agent 三種能力，看得到結果、查得到自己、改得動自己，它就能進入一個無窮迴圈:自己對話、自己看結果、自己查問題、自己改、重跑上百次，來達到我們要的標準。\n\n我們只要先定義好「什麼叫達標」"
     }
   ],
@@ -269,7 +269,7 @@
       "time": "09:30 – 09:35",
       "title": "開場",
       "tags": [],
-      "speaker": "總召",
+      "speaker": "",
       "description": ""
     },
     {
@@ -303,7 +303,7 @@
         "App 經營"
       ],
       "speaker": "Hana 花水木",
-      "speakerID": 24,
+      "speakerID": 22,
       "description": "一個 App 上架後，真正的問題才開始：沒有人用、客服信、社群內容、使用者回饋、產品迭代，全部都會接著來。\n\n這場分享會以 mojo 瘦瘦針追蹤 App 為例，介紹我如何建立一套 AI Agent 團隊，處理行銷內容、Growth 實驗、客服 triage、社群海巡、使用者回饋、GitHub issue 建立與產品迭代流程。App 上架之後，如何讓 AI Agent 成為同事，讓一個 iOS App 從「寫完」變成「活著」。"
     },
     {
@@ -357,7 +357,7 @@
         "獨立開發"
       ],
       "speaker": "Thiago Komeno",
-      "speakerID": 26,
+      "speakerID": 21,
       "description": "想在 Apple Swift Student Challenge 中脫穎而出，關鍵是做出只有你才做得出來的作品。本議程將分享一段個人故事如何成為得獎的 Swift Playground，以及這個過程能教會我們關於 code、creativity 和自我探索的事。\n\n這場分享會涵蓋三個重點：如何找到只有你能實作的 idea、如何在真實專案限制下培養 SwiftUI skills，以及最重要的，為什麼對細節的重視會區分出一份好的 submission 和一份得獎作品。\n\n無論你是否曾參加過這項 challenge，都能帶走一套 framework，幫助你把自己的想法變成真正能讓自己自豪提交的作品。"
     },
     {
@@ -375,7 +375,7 @@
         "開源貢獻"
       ],
       "speaker": "梯口",
-      "speakerID": 28,
+      "speakerID": 23,
       "description": "Apple 在 2025 年 WWDC 上開源了 Apple Container，並於 2026 年 6 月發佈 1.0.0。作為一個日常在 Kubernetes 與雲端原生生態打滾的 SRE，我意外成為了這個專案的貢獻者之一。\n這場分享會從一個不寫 Swift、也非 Apple 平台開發者的視角，談談怎麼切入 Apple 的開源專案：包含怎麼挑選適合自己背景的 issue、跨越語言與生態系隔閡讀懂 codebase、與 Apple 工程師討論技術方案的實際過程。\n如果你對 Apple 開源貢獻有興趣但不知從何下手，這場會告訴你：這場會告訴你怎麼踏出第一步，以及這個過程實際上是什麼樣子，不需要等到自己變成『對的人』才開始。"
     },
     {
@@ -396,7 +396,7 @@
         "SwiftUI"
       ],
       "speaker": "Joy",
-      "speakerID": 27,
+      "speakerID": 28,
       "description": "當使用者對 Siri 說出「幫我收藏這個」、「把這場加入行事曆」時，Apple Intelligence 究竟是如何理解「這個」指的是什麼？\nWWDC26 帶來的 App Schema、On-screen Awareness 與 Content Transfer，正在重新定義 App 與系統之間的互動方式。未來的 App 不再只是提供畫面與功能，而是需要向系統描述自己的資料模型、可執行的能力，以及內容之間的關聯，讓 Apple Intelligence 能夠理解、搜尋並使用你的內容。\n如果你正在關注 Apple Intelligence、App Intents 或下一代 Siri 的發展，這場分享將帶你從開發者角度理解其背後的設計思維，以及今天就能開始導入的實作方向。"
     },
     {
@@ -410,7 +410,7 @@
         "terminal"
       ],
       "speaker": "彼得潘",
-      "speakerID": 9,
+      "speakerID": 13,
       "description": "身為 iOS App 開發者，我們熟悉 Xcode、Swift 語法和 iOS SDK 五花八門的 framework，不過 macOS 的 CLI 指令反倒像熟悉的陌生人。彼得潘在使用 AI 開發 App 的過程中，發現 AI 透過許多方便的 CLI 指令快速完成任務，本議程將分享彼得潘從 AI 身上學會的 CLI 魔法指令。"
     },
     {
@@ -442,7 +442,7 @@
         "LLM"
       ],
       "speaker": "彭成瑋",
-      "speakerID": 7,
+      "speakerID": 9,
       "description": "從一次日本旅行看不懂收據、想記帳與代買結算的困擾出發，我做了「旅收」這個免註冊、免費、無廣告的 iOS App。沒想到第一次在 Threads 分享後，開始有真實使用者加入，也陸續收到許願、建議、Bug 回報與贊助支持。本議程將分享當 Side Project 真的有人使用後，如何透過 AI 收據辨識、App 內回饋聊天室、推播、Telegram 串接與營運 Dashboard，建立一套能持續聽見使用者聲音、快速回應問題並推動產品迭代的小型產品系統。"
     },
     {
@@ -463,7 +463,7 @@
         "Vibe Coding"
       ],
       "speaker": "高見龍",
-      "speakerID": 8,
+      "speakerID": 11,
       "description": "「先寫規格，再交給 AI 做」聽起來很理想，但 SDD（規格驅動開發）到底是口號，還是真的能 work？跟 AI 寫程式最常見的痛，是它沒規格可循、只能用猜或是放給 AI 自己做最後再回來跟它吵這做錯了。SDD 用規格把 AI 框住，不用猜就不會亂跑。在這場分享我會實際示範一次 SDD 的工作流，從提案、實作到歸檔，看看這套做法到底是怎麼一回事。"
     },
     {
@@ -511,7 +511,7 @@
         "Gemini"
       ],
       "speaker": "Kevin",
-      "speakerID": 10,
+      "speakerID": 14,
       "description": "【工作坊簡介】\n在傳統的 App 開發流程中，從 UI 設計稿到最終的 iOS 程式碼，往往伴隨著無數次的溝通、手動切版與無止盡的像素微調（Pixel-pushing）。這場工作坊將帶你徹底打破傳統的設計與開發壁壘，親自體驗最新一代的「AI 驅動開發」完整工作流。\n\n我們將結合強大的 AI 設計引擎 Stitch 與高效能開發框架 Antigravity，帶你實戰如何將視覺草圖與設計意圖，瞬間轉化為具備生產等級的 iOS 應用程式。這不僅僅是生成靜態的畫面，而是讓設計稿直接擁有真實邏輯、完美效能，並 100% 貼合開發者的習慣。告別手動刻 UI 的時代，讓 AI 成為你最強的工程助手！"
     },
     {
@@ -530,7 +530,7 @@
         "Swift"
       ],
       "speaker": "Hedula",
-      "speakerID": 12,
+      "speakerID": 16,
       "description": "不需要精通 Swift，也能在 40 分鐘內做出一個有 AI 的 iOS 遊戲——這不是魔法，是 AI 協作開發的真實樣貌。\n本場演講將帶你用 Xcode 和 GitHub Copilot，從零打造「Snap Fighter」：拍攝任意物體，讓 AI 自動生成角色名稱與能力值，抓兩隻就能開打。過程中你會親眼看到 AI 怎麼寫 code、寫錯了怎麼辦、哪些坑它永遠不會主動告訴你。"
     },
     {
