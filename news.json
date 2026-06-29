@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026.06.29",
+    "title": "議程表完整公開",
+    "content": "議程講者＋Lightning talk＋workshop",
+    "buttons": [
+      {
+        "title": "議程表",
+        "url": "https://iplayground.io/2026/#agenda"
+      },
+      {
+        "title": "workshop 報名",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSckhepArlWIy9OLObpHeE403glqg4nSJbMmjCQDcrDyyqMWVQ/viewform?"
+      }
+    ]
+  },
+  {
     "date": "2026.06.16",
     "title": "徵求活動當日工作人員",
     "content": "即日起至 6 月底，徵求活動單當日工作人員，詳情請見報名表單",

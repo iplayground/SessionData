@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026.06.29",
+    "title": "Agenda Release",
+    "content": "Session Speaker＋Lightning Talk＋workshop",
+    "buttons": [
+      {
+        "title": "Agenda",
+        "url": "https://iplayground.io/2026/?lang=en#agenda"
+      },
+      {
+        "title": "workshop register",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSckhepArlWIy9OLObpHeE403glqg4nSJbMmjCQDcrDyyqMWVQ/viewform?"
+      }
+    ]
+  },
+  {
     "date": "2026.06.16",
     "title": "Call for Event Day Staff",
     "content": "We are recruiting event day staff from now until the end of June. Please see the registration form for details.",
