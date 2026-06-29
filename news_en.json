@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026.06.29",
+    "title": "Full Agenda Announced!",
+    "content": "From AI development and product building to Apple platform technologies, user experience, cross-platform development, and career growth, this year’s agenda covers many of the challenges iOS developers are facing today.\n\nIn addition to two full days of sessions, we will also have workshops, lightning talks, an After Party, and exclusive event merchandise. Joining us on-site is not just about attending sessions — it is also a chance to connect with the Taiwan iOS community, share real-world experiences, and meet new friends.\n\nSee you at iPlayground on July 25–26!",
+    "buttons": [
+      {
+        "title": "Agenda",
+        "url": "https://iplayground.io/2026/#agenda"
+      },
+      {
+        "title": "Workshop Registration",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSckhepArlWIy9OLObpHeE403glqg4nSJbMmjCQDcrDyyqMWVQ/viewform?"
+      }
+    ]
+  }
+  ,
+  {
     "date": "2026.06.16",
     "title": "Call for Event Day Staff",
     "content": "We are recruiting event day staff from now until the end of June. Please see the registration form for details.",

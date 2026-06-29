@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026.06.29",
+    "title": "議程完整公開！",
+    "content": "從 AI 開發、產品實作、Apple 平台技術，到使用者體驗、跨平台與職涯成長，今年的議程涵蓋了 iOS 開發者正在面對的各種挑戰。\n\n除了兩天議程，也有 workshop、LT、After Party 與周邊小物。來現場不只是聽 session，更是和台灣 iOS 社群一起交流、踩坑、認識新朋友。\n\n7/25–26，我們 iPlayground 見！",
+    "buttons": [
+      {
+        "title": "議程表",
+        "url": "https://iplayground.io/2026/#agenda"
+      },
+      {
+        "title": "workshop 報名",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSckhepArlWIy9OLObpHeE403glqg4nSJbMmjCQDcrDyyqMWVQ/viewform?"
+      }
+    ]
+  },
+  {
     "date": "2026.06.16",
     "title": "徵求活動當日工作人員",
     "content": "即日起至 6 月底，徵求活動單當日工作人員，詳情請見報名表單",
