@@ -465,11 +465,44 @@
       "description": ""
     },
     {
-      "time": "16:50 – 17:20",
-      "title": "Lightning Talk",
+      "time": "16:50 – 16:55",
+      "title": "Why Can't We Have Nice Macros for `#Preview`?",
+      "tags": ["Swift", "Macro", "Compiler", "Preview"],
+      "speaker": "Yu Takahashi",
+      "speakerID": 33,
+      "description": "Swift Macro 讓我們能自動生成程式碼、消除重複樣板——那為什麼無法用它來簡化 #Preview 的環境設定？<br>我嘗試打造 @PreviewContainer：自動去除 @Query 等環境依賴屬性包裝器，產生可直接丟進 #Preview 的純 struct。想法很簡單，沒想到一路挖進了 Swift 編譯器的內部。<br>試了三種方法——@attached(peer)、@attached(member)、拆成不同檔案——全部在 #Preview 裡無聲無息地失敗。問題出在 Swift 的兩階段型別檢查：#Preview 本身是 #freestanding(declaration) macro，它的 closure 在 attached macro 展開之前就已經完成型別檢查了。更麻煩的是，conformances: 宣告的協議準從在第一階段就會被編譯器信任，但 names: 宣告的型別名稱不會——就是這個差異讓我一直卡關。<br>同樣的問題在 Swift Forums 上從 2025 年 5 月就沒有解決。這場演講就是想聊聊，為什麼我們「想做的東西，現在還做不到」。"
+    },
+    {
+      "time": "16:55 – 17:00",
+      "title": "Down the Rabbit Hole: A Handwriting App's Scope Creep",
       "tags": [],
-      "speaker": "",
-      "description": ""
+      "speaker": "Paul",
+      "speakerID": 29,
+      "description": "While building 正筆, a handwriting practice app, I repeatedly ran into unexpected challenges involving language and text processing. Determined to get things right, I ended up creating a growing collection of supporting projects, including an iPad app, two macOS apps, a macOS CLI tool, and countless scripts.<br><br>What seemed like a simple feature quickly turned into much more work than expected. How do you collect, organize, and generate stroke data? How should variant characters and multiple pronunciations be handled? And why are there so many edge cases?<br><br>There are no grand theories here—just a collection of hard-earned lessons and amusing pitfalls from building a language-focused app."
+    },
+    {
+      "time": "17:00 – 17:05",
+      "title": "Building Nibble: Product Discovery in the Era of AI",
+      "tags": ["Side Project", "Product Discovery", "AI", "Market Research"],
+      "speaker": "Jess",
+      "speakerID": 30,
+      "description": "Before leaving to study abroad, I began asking myself a simple question: as life gets busier and meeting the people who matter becomes increasingly difficult, how can we continue to be part of each other’s everyday lives?<br><br>Instagram feels too public, while LINE is often overwhelmed by work and group conversations. Existing social platforms lack a space where people can effortlessly share the small moments of daily life. That observation became Nibble—an app designed to help people casually capture everyday moments and stay connected with their closest friends.<br><br>In this session, I’ll share how a personal observation evolved into a real product by leveraging AI tools for market research, product discovery, and turning an idea into a working app."
+    },
+    {
+      "time": "17:05 – 17:10",
+      "title": "Funny, Weird, and Terrifying Lessons from Building a Dating AI Agent",
+      "tags": [],
+      "speaker": "Ethan",
+      "speakerID": 32,
+      "description": "Building an AI Dating Agent: Funny, Weird, and Terrifying Lessons Learned"
+    },
+    {
+      "time": "17:10 – 17:15",
+      "title": "Building a Cross-Platform AI-Powered U.S. Election Radar for iOS and Android with SwiftUI",
+      "tags": ["SwiftUI", "跨平台", "iOS", "Android", "AI", "UI/UX"],
+      "speaker": "YC Liu",
+      "speakerID": 31,
+      "description": "AI Election Radar is a mobile-first product focused on U.S. election news, supported by a custom backend system and internal administration tools.<br><br>This session explores how SwiftUI was used to build a cross-platform app for both iOS and Android while integrating AI-powered search, news summarization, database storage, data flow architecture, and a human moderation system.<br><br>We’ll focus on the news processing pipeline, where AI automatically collects and organizes information before human reviewers perform the final verification, reducing the risks associated with fully automated content generation. Along the way, we’ll also share practical experiences building cross-platform UIs, interactive maps, news feeds, and the implementation challenges encountered throughout the project."
     },
     {
       "time": "17:15 – 17:25",

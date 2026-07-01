@@ -465,11 +465,44 @@
       "description": ""
     },
     {
-      "time": "16:50 – 17:20",
-      "title": "Lightning Talk",
+      "time": "16:50 – 16:55",
+      "title": "為什麼 Swift Macro 無法在 #Preview 中使用？",
+      "tags": ["Swift", "Macro", "Compiler", "Preview"],
+      "speaker": "Yu Takahashi",
+      "speakerID": 33,
+      "description": "Swift Macro 讓我們能自動生成程式碼、消除重複樣板——那為什麼無法用它來簡化 #Preview 的環境設定？<br>我嘗試打造 @PreviewContainer：自動去除 @Query 等環境依賴屬性包裝器，產生可直接丟進 #Preview 的純 struct。想法很簡單，沒想到一路挖進了 Swift 編譯器的內部。<br>試了三種方法——@attached(peer)、@attached(member)、拆成不同檔案——全部在 #Preview 裡無聲無息地失敗。問題出在 Swift 的兩階段型別檢查：#Preview 本身是 #freestanding(declaration) macro，它的 closure 在 attached macro 展開之前就已經完成型別檢查了。更麻煩的是，conformances: 宣告的協議準從在第一階段就會被編譯器信任，但 names: 宣告的型別名稱不會——就是這個差異讓我一直卡關。<br>同樣的問題在 Swift Forums 上從 2025 年 5 月就沒有解決。這場演講就是想聊聊，為什麼我們「想做的東西，現在還做不到」。"
+    },
+    {
+      "time": "16:55 – 17:00",
+      "title": "坑很深：做寫字練習 App 比想像更費工",
       "tags": [],
-      "speaker": "",
-      "description": ""
+      "speaker": "劉信",
+      "speakerID": 29,
+      "description": "創作「正筆」這個寫字練習 app 時，我不斷遇到意料以外的語言、文字相關的挑戰。求好心切，輔助用的 project 一個接一個的開，有 iPad app、mac app (x2)、mac CLI app 和一堆 scripts 等。乍看簡單的功能，怎麼一做下去工作卻愈變愈多呢？該如何搜集、整理、生成我需要的筆劃資料？異體字、破音字該怎麼處理？為何這麼多例外情況呢？沒有什麼大道理，分享踩坑經驗以博君一笑。"
+    },
+    {
+      "time": "17:00 – 17:05",
+      "title": "當 Vibe Coding 不再是最大的問題，Nibble 的產品探索旅程",
+      "tags": ["Side Project", "Product Discovery", "AI", "Market Research"],
+      "speaker": "Jess",
+      "speakerID": 30,
+      "description": "出國留學前，我開始思考：當生活越來越忙碌，與重要的人越來越難見面時，我們該如何持續參與彼此的生活？<br>Instagram 的分享太過公開；LINE 則充滿工作與群組訊息。現有社群產品缺乏一個讓人能輕鬆分享生活的空間。這個觀察成為了 Nibble，讓人隨手記錄、分享生活片段，並與親近好友保持連結的 App。<br>我將分享如何從生活中的觀察出發，透過 AI 工具進行市場研究與產品探索，並將想法轉化為實際產品。"
+    },
+    {
+      "time": "17:05 – 17:10",
+      "title": "開發 AI Dating Agent 的血淚史：那些好笑、奇怪又令人害怕的教訓",
+      "tags": [],
+      "speaker": "Ethan",
+      "speakerID": 32,
+      "description": "在開發 AI Dating Agent 的時候那些好笑、奇怪又令人害怕的教訓"
+    },
+    {
+      "time": "17:10 – 17:15",
+      "title": "用 SwiftUI 打造 iOS / Android 跨平台 AI 美國選舉雷達：從新聞自動摘要到人工審核的 Mobile AI App 實戰",
+      "tags": ["SwiftUI", "跨平台", "iOS", "Android", "AI", "UI/UX"],
+      "speaker": "劉育承",
+      "speakerID": 31,
+      "description": "AI Election Radar 是一個以美國選舉新聞為主題、以手機端體驗為核心，並搭配內部後台與後端系統的產品。本議程會分享如何用 SwiftUI 開發跨 iOS 與 Android 的 App，並整合 AI 搜尋、新聞摘要、資料庫儲存、資料流設計及後台人工審核機制。內容會進一步聚焦在新聞處理流程：讓 AI 自動蒐集與整理資訊，再由人工完成最後一步審核，降低全自動化造成內容錯誤的風險。同時也會分享跨平台 UI、地圖互動、新聞列表設計上的細節與實作過程中遇到的問題。"
     },
     {
       "time": "17:15 – 17:25",
