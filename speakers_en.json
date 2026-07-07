@@ -364,7 +364,7 @@
     "name": "Alex Hu",
     "title": "Senior iOS Engineer | Formerly at Singapore Airlines",
     "intro": "Alex Hu is an iOS developer with 3+ years of experience across international and fintech products. As a Senior iOS Developer at Singapore Airlines, he helped build the SingaporeAir app with an MVVMC architecture, extracted payment features into a standalone framework, and raised unit test coverage from 60% to 85%. He has also shipped payment products at a crypto exchange and at O'Pay. A Life Science degree from National Taiwan University, focused on biostatistics and health & nutrition, makes him particularly careful about how reference values and safety limits should—and shouldn't—be computed. Over the past six months, he built a nutrient-tracking app from scratch—and uses it daily—largely with an AI coding agent, applying the engineering discipline he developed on production teams (architecture decision records, module contracts, test-first development, and tight scope control) to manage that agent like a junior engineer.",
-    "photo": "",
+    "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_AlexHu.jpg",
     "url": "",
     "fb": "",
     "github": "",

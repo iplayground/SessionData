@@ -364,7 +364,7 @@
     "name": "Alex Hu",
     "title": "資深 iOS 開發者 ｜ 曾任新加坡航空",
     "intro": "Alex Hu（胡仁恩），iOS 開發者，逾三年行動開發經驗，曾任新加坡航空資深 iOS 工程師，參與 SingaporeAir app 開發，以 MVVMC 重整架構、將支付功能抽成獨立框架，並把單元測試覆蓋率從 60% 提升到 85%；也在加密貨幣交易所與 O'Pay 等支付產品累積實戰經驗。台大生命科學系畢業，主修生物統計與健康營養，讓我在處理營養素的參考值與安全上限時，對「數據不能亂算」特別敏感。最近半年，我用 AI agent 從零開發了一款自己每天在用的營養追蹤 app，並把過去在生產級專案養成的工程紀律（ADR、模組契約、測試先行、範圍控管）拿來「帶」這位 AI 資淺工程師。",
-    "photo": "",
+    "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_AlexHu.jpg",
     "url": "",
     "fb": "",
     "github": "",
