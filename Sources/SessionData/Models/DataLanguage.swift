@@ -16,11 +16,21 @@ public enum DataLanguage: Sendable, CaseIterable {
 
 extension DataLanguage {
   public var speakersFileName: String {
-    "speakers\(fileNameSuffix)"
+    switch self {
+    case .traditionalChinese:
+      return "speakers"
+    case .english:
+      return "speakers_en"
+    }
   }
 
   public var scheduleFileName: String {
-    "schedule\(fileNameSuffix)"
+    switch self {
+    case .traditionalChinese:
+      return "schedule"
+    case .english:
+      return "schedule_en"
+    }
   }
 
   public var newsFileName: String {
