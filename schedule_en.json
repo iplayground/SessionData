@@ -422,7 +422,8 @@
       ],
       "speaker": "Denken",
       "speakerID": 6,
-      "description": "Starting from Apple’s Declared Age Range API released in 2025, do you know why these APIs are needed? This talk helps you understand the underlying demand for age verification, including international compliance, technical standards, and frontier developments in cryptography."
+      "description": "Starting from Apple’s Declared Age Range API released in 2025, do you know why these APIs are needed? This talk helps you understand the underlying demand for age verification, including international compliance, technical standards, and frontier developments in cryptography.",
+      "isRecording": false
     },
     {
       "time": "15:30 – 15:50",

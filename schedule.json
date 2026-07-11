@@ -421,7 +421,8 @@
       ],
       "speaker": "Denken",
       "speakerID": 6,
-      "description": "從 2025 年蘋果釋出的 Declared Age Range API 說起，你知道為何要有這些 API 嗎？帶你看懂底層暗潮洶湧的年齡驗證需求，包含國際法遵、技術標準、密碼學技術前沿發展。"
+      "description": "從 2025 年蘋果釋出的 Declared Age Range API 說起，你知道為何要有這些 API 嗎？帶你看懂底層暗潮洶湧的年齡驗證需求，包含國際法遵、技術標準、密碼學技術前沿發展。",
+      "isRecording": false
     },
     {
       "time": "15:30 – 15:50",
