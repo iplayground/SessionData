@@ -478,7 +478,7 @@
       "tags": [],
       "speaker": "Paul",
       "speakerID": 29,
-      "description": "While building 正筆, a handwriting practice app, I repeatedly ran into unexpected challenges involving language and text processing. Determined to get things right, I ended up creating a growing collection of supporting projects, including an iPad app, two macOS apps, a macOS CLI tool, and countless scripts.<br><br>What seemed like a simple feature quickly turned into much more work than expected. How do you collect, organize, and generate stroke data? How should variant characters and multiple pronunciations be handled? And why are there so many edge cases?<br><br>There are no grand theories here—just a collection of hard-earned lessons and amusing pitfalls from building a language-focused app."
+      "description": "While building Proper Strokes, a handwriting practice app, I repeatedly ran into unexpected challenges involving language and text processing. Determined to get things right, I ended up creating a growing collection of supporting projects, including an iPad app, two macOS apps, a macOS CLI tool, and countless scripts.<br><br>What seemed like a simple feature quickly turned into much more work than expected. How do you collect, organize, and generate stroke data? How should variant characters and multiple pronunciations be handled? And why are there so many edge cases?<br><br>There are no grand theories here—just a collection of hard-earned lessons and amusing pitfalls from building a language-focused app."
     },
     {
       "time": "17:00 – 17:05",
