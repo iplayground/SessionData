@@ -25,7 +25,8 @@
       ],
       "speaker": "Minkyung Kim",
       "speakerID": 2,
-      "description": "每一位新使用者，本質上都是一位學習者。本議程將教育科學與 UX 設計結合，透過 Cognitive Load Theory、ZPD 與 Flow Theory，探討如何打造能隨使用者狀態調整的 adaptive interface。內容也會說明 On-Device AI 在這類體驗中的角色，包含即時回饋、維持使用者隱私，以及不受 server latency 影響的執行特性。透過這些教學理論，我們可以把靜態的 App 互動，轉化為會隨使用者熟練度成長的智慧化、個人化學習旅程。"
+      "description": "每一位新使用者，本質上都是一位學習者。本議程將教育科學與 UX 設計結合，透過 Cognitive Load Theory、ZPD 與 Flow Theory，探討如何打造能隨使用者狀態調整的 adaptive interface。內容也會說明 On-Device AI 在這類體驗中的角色，包含即時回饋、維持使用者隱私，以及不受 server latency 影響的執行特性。透過這些教學理論，我們可以把靜態的 App 互動，轉化為會隨使用者熟練度成長的智慧化、個人化學習旅程。",
+      "hackmd": "https://hackmd.io/@iPlayground/HytkI4qQMl?"
     },
     {
       "time": "10:20 – 10:30",
