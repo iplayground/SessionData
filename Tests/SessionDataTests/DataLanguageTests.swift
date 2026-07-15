@@ -15,10 +15,10 @@ struct DataLanguageTests {
     #expect(dataLanguage == .traditionalChinese)
   }
 
-  @Test("Should detect Japanese for ja prefix locales", arguments: ["ja", "ja_JP"])
-  func detectJapaneseLocales(locale: String) async throws {
+  @Test("Should default unsupported Japanese locales to English", arguments: ["ja", "ja_JP"])
+  func defaultUnsupportedJapaneseLocalesToEnglish(locale: String) async throws {
     let dataLanguage = DataLanguage(localeIdentifier: locale)
-    #expect(dataLanguage == .japanese)
+    #expect(dataLanguage == .english)
   }
 
   @Test(
@@ -41,10 +41,8 @@ struct DataLanguageTests {
 
     if locale.hasPrefix("zh") {
       #expect(dataLanguage == .traditionalChinese)
-    } else if locale.hasPrefix("ja") {
-      #expect(dataLanguage == .japanese)
     } else {
-      // ZH_TW and JA_JP (uppercase) will default to English since hasPrefix is case-sensitive
+      // Unsupported and uppercase locale identifiers default to English.
       #expect(dataLanguage == .english)
     }
   }
@@ -60,10 +58,6 @@ struct DataLanguageTests {
     #expect(DataLanguage.english.scheduleFileName == "schedule_en")
     #expect(DataLanguage.english.speakersFileName == "speakers_en")
     #expect(DataLanguage.english.fileNameSuffix == "_en")
-
-    #expect(DataLanguage.japanese.scheduleFileName == "schedule_jp")
-    #expect(DataLanguage.japanese.speakersFileName == "speakers_jp")
-    #expect(DataLanguage.japanese.fileNameSuffix == "_jp")
   }
 
   @Test("Should maintain consistency between locale detection and file names")
@@ -76,6 +70,6 @@ struct DataLanguageTests {
     #expect(enUS.scheduleFileName == "schedule_en")
 
     let jaJP = DataLanguage(localeIdentifier: "ja_JP")
-    #expect(jaJP.scheduleFileName == "schedule_jp")
+    #expect(jaJP.scheduleFileName == "schedule_en")
   }
 }

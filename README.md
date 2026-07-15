@@ -231,12 +231,11 @@ let offlineSessions = try await client.fetchSchedules(1, .fallback, strategy: .l
 
 ### 多語言支援
 
-SessionData 支援繁體中文、英文和日文三種語言：
+SessionData 支援繁體中文和英文兩種語言：
 
 ```swift
 // 直接指定語言，使用預設 .remote 策略
 let englishSessions = try await client.fetchSchedules(1, .english)
-let japaneseSpeakers = try await client.fetchSpeakers(.japanese)
 let chineseSessions = try await client.fetchSchedules(1, .traditionalChinese)
 
 // 組合使用語言和策略
@@ -255,15 +254,14 @@ let localizedSessions = try await client.fetchSchedules(2, language)
 `DataLanguage(localeIdentifier:)` 支援從 locale 識別碼自動偵測語言：
 
 - `zh*` 開頭 → 繁體中文
-- `ja*` 開頭 → 日文  
-- 其他 → 英文
+- 其他（包含 `ja*`）→ 英文
 
 ### 支援的資料類型
 
 | 資料類型 | 支援多語言 | 對應檔案 |
 |---------|-----------|----------|
-| 行程表 (Sessions) | ✅ | `schedule.json`, `schedule_en.json`, `schedule_jp.json` |
-| 講者 (Speakers) | ✅ | `speakers.json`, `speakers_en.json`, `speakers_jp.json` |
+| 行程表 (Sessions) | ✅ | `schedule.json`, `schedule_en.json` |
+| 講者 (Speakers) | ✅ | `speakers.json`, `speakers_en.json` |
 | 贊助商 (Sponsors) | ❌ | `sponsors.json` |
 | 工作人員 (Staffs) | ❌ | `staffs.json` |  
 | 相關連結 (Links) | ❌ | `links.json` |

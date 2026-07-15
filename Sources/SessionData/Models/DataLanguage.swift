@@ -10,7 +10,6 @@ import Foundation
 public enum DataLanguage: Sendable, CaseIterable {
   case traditionalChinese
   case english
-  case japanese
 
   public static let fallback = DataLanguage.traditionalChinese
 }
@@ -30,18 +29,14 @@ extension DataLanguage {
       return ""
     case .english:
       return "_en"
-    case .japanese:
-      return "_jp"
     }
   }
 
   /// Initialize DataLanguage from a locale identifier string
-  /// - Parameter localeIdentifier: A locale identifier like "en_US", "zh_TW", "ja_JP"
+  /// - Parameter localeIdentifier: A supported locale identifier like "en_US" or "zh_TW"
   public init(localeIdentifier: String) {
     if localeIdentifier.hasPrefix("zh") {
       self = .traditionalChinese
-    } else if localeIdentifier.hasPrefix("ja") {
-      self = .japanese
     } else {
       self = .english
     }
