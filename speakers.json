@@ -16,7 +16,7 @@
   },
   {
     "id": 2,
-    "name": "Minkyung Kim",
+    "name": "金玟庚 / Minkyung Kim",
     "title": "Learning Lead at  Apple Developer Academy @ POSTECH",
     "intro": "Minkyung Kim is the Learning Lead at the  Apple Developer Academy @ POSTECH, designing learning experiences at the intersection of education, technology, and creativity. With dual degrees in Computer Science and Education alongside over a decade in instructional design, she brings a multidisciplinary perspective to developing the next generation of innovators. <br>Having spent seven years as a classroom educator and being an academy alumna herself, she deeply understands the learner journey—from ideation to product iteration. Today, she works closely with mentors and learners to explore how learning science and emerging tech create meaningful experiences. Her current research focuses on learning analytics and adaptive environments. She also leads professional skills sessions on communication, collaboration, and feedback culture, helping learners strengthen both their technical capabilities and human-centered skills.",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_mk.jpeg",
@@ -286,7 +286,7 @@
   },
   {
     "id": 20,
-    "name": "freddi",
+    "name": "秋勇紀 / freddi",
     "title": "iOS engineer at Yappli",
     "intro": "Yuki 是日本 Yappli 的 iOS 工程師，在日本常以「freddi」活動。他致力於改善大型 App 的建置系統，曾在 NSSpain、try! Swift 等國際會議分享 Swift 開發經驗，也曾貢獻 Swift Compiler、fastlane、XcodeGen 等 OSS。喜歡音樂、卡通、畫貓、手工鍵盤、家裡的貓、寶可夢卡牌與旅行。",
     "photo": "https://raw.githubusercontent.com/iplayground/SessionData/2026/v1/images/speakers/speaker_freddi.jpg",

@@ -23,7 +23,7 @@
         "無障礙",
         "開發經驗"
       ],
-      "speaker": "Minkyung Kim",
+      "speaker": "金玟庚 / Minkyung Kim",
       "speakerID": 2,
       "description": "每一位新使用者，本質上都是一位學習者。本議程將教育科學與 UX 設計結合，透過 Cognitive Load Theory、ZPD 與 Flow Theory，探討如何打造能隨使用者狀態調整的 adaptive interface。內容也會說明 On-Device AI 在這類體驗中的角色，包含即時回饋、維持使用者隱私，以及不受 server latency 影響的執行特性。透過這些教學理論，我們可以把靜態的 App 互動，轉化為會隨使用者熟練度成長的智慧化、個人化學習旅程。",
       "hackmd": "https://hackmd.io/@iPlayground/2026/%2Fs%2FHytkI4qQMl"
@@ -167,7 +167,7 @@
         "Swift",
         "SwiftUI"
       ],
-      "speaker": "freddi",
+      "speaker": "秋勇紀 / freddi",
       "speakerID": 20,
       "description": "Swift 程式碼看似簡潔，但每一行都依賴開發者平常不易看見的層次：平台、Runtime 與編譯器。本演講將從這些隱藏結構出發，說明 Swift 如何在不同平台上運作，Runtime 如何支撐並限制 App，以及編譯器如何最佳化程式碼。目標不是成為編譯器工程師，而是建立實用的理解模型，幫助我們除錯、改善建置效能，並做出更好的架構決策。"
     },
