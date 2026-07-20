@@ -545,7 +545,7 @@
   ],
   "workshop_day1": [
     {
-      "time": "13:00 - 14:30",
+      "time": "13:15 - 14:45",
       "title": "In Search of Authenticity in the Age of AI",
       "tags": [],
       "speaker": "Harry",
@@ -554,14 +554,14 @@
       "description": "In the AI era, more and more code can be delegated to AI. What engineers truly need to think about is no longer just “how to write code,” but “what should humans do in this new era?”<br><br>I believe we should spend more time stepping outside the screen, interacting with people, understanding different preferences and perspectives, and engaging with various industries. A deeper understanding of people, industries, and the real world is becoming essential for surviving and thriving in this generation—and it is also much harder for AI to replace.<br><br>Through this process, we can develop clearer personal taste and judgment, allowing ourselves to become not merely tool users in the AI era, but creators and decision-makers who differentiate themselves through insight and taste."
     },
     {
-      "time": "14:30 – 15:00",
+      "time": "14:45 – 15:15",
       "title": "Break",
       "tags": [],
       "speaker": "",
       "description": ""
     },
     {
-      "time": "15:00 - 16:30",
+      "time": "15:15 - 16:45",
       "title": "Stitch x Antigravity Hands-on Guide: Let AI Turn Visual Design into a Precise iOS App",
       "tags": [
         "Gemini"
@@ -572,7 +572,7 @@
       "description": "Workshop introduction<br>In the traditional app development process, moving from UI design to final iOS code often involves countless rounds of communication, manual layout work, and endless pixel-pushing. This workshop breaks down the wall between design and development and lets you experience a new generation of AI-driven development workflow.<br><br>We will combine the powerful AI design engine Stitch with the high-performance development framework Antigravity, and practice turning visual sketches and design intent into production-grade iOS applications. This is not just generating static screens: the design output gains real logic, polished performance, and a workflow that fits developers’ habits. Say goodbye to hand-coding every piece of UI and let AI become your strongest engineering assistant."
     },
     {
-      "time": "16:30",
+      "time": "16:45",
       "title": "Break",
       "tags": [],
       "speaker": "",
@@ -581,7 +581,7 @@
   ],
   "workshop_day2": [
     {
-      "time": "13:00 – 14:30",
+      "time": "13:15 – 14:45",
       "title": "I don't know Swift, but I made an AI monster battle game.",
       "tags": [
         "Swift"
@@ -592,14 +592,14 @@
       "description": "You do not need to be a Swift expert to build an AI-powered iOS game in 40 minutes. This is not magic, but a real example of AI-assisted development. In this session, you will use Xcode and GitHub Copilot to build “Snap Fighter” from scratch: take photos of any objects, let AI generate character names and stats automatically, and battle once you capture two fighters. Along the way, you will see how AI writes code, what to do when it gets things wrong, and which traps it will never proactively warn you about."
     },
     {
-      "time": "14:30 – 15:00",
+      "time": "14:45 – 15:15",
       "title": "Break",
       "tags": [],
       "speaker": "",
       "description": ""
     },
     {
-      "time": "15:00 – 16:30",
+      "time": "15:15 – 16:45",
       "title": "Core People: Building More Thoughtful Apps with Apple’s Native Capabilities",
       "tags": [
         "User Experience",
@@ -612,7 +612,7 @@
       "description": "Apple has Core Data, Core ML, and now Core AI—but the true core of building great apps has always been people.<br><br>AI has lowered the barrier to building apps, but users’ expectations for high-quality experiences remain unchanged. Many features can now be completed faster, but what truly makes an app stand out is still the attention to details that reflect real user contexts.<br><br>So how do we improve app quality? Apple provides a strong foundation of technical and design resources, from Accessibility, Localization, Privacy, and Notifications to Widgets and App Intents. In this workshop, we’ll build hands-on examples and demonstrate how to guide AI to create more thoughtful software."
     },
     {
-      "time": "16:30",
+      "time": "16:45",
       "title": "Break",
       "tags": [],
       "speaker": "",
