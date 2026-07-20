@@ -35,6 +35,13 @@
     "type": "primary"
   },
   {
+    "id": "podcast",
+    "title": "Podcast",
+    "url": "https://podcasts.apple.com/tw/podcast/iplayground-2026/id6786981157",
+    "icon": "mic",
+    "type": "primary"
+  },
+  {
     "id": "discord",
     "title": "Discord",
     "url": "https://discord.gg/B7GeKjKj",
@@ -130,6 +137,13 @@
     "title": "轉盤抽抽樂",
     "url": "https://hackmd.io/@iPlayground/S1jG3PmYxe",
     "icon": "arrow.2.circlepath.circle",
+    "type": "personal"
+  },
+  {
+    "id": "organizer-game",
+    "title": "「轉生成總召」舉辦研討會模擬器",
+    "url": "https://testflight.apple.com/join/6xrWt1KA",
+    "icon": "gamecontroller",
     "type": "personal"
   },
   {
