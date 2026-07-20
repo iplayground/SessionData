@@ -102,6 +102,8 @@ struct SessionDataTests {
 
     #expect(!schedule.day1.isEmpty)
     #expect(!schedule.day2.isEmpty)
+    #expect(!schedule.workshopDay1.isEmpty)
+    #expect(!schedule.workshopDay2.isEmpty)
   }
 
   @Test("All session speakerIDs can be found in speakers", arguments: DataLanguage.allCases)
