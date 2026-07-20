@@ -2,8 +2,7 @@ import Foundation
 
 public struct SessionDataClient: Sendable {
   public var fetchSchedules:
-    @Sendable (_ day: Int?, _ dataLanguage: DataLanguage, _ strategy: FetchStrategy) async throws ->
-      [Session]
+    @Sendable (_ dataLanguage: DataLanguage, _ strategy: FetchStrategy) async throws -> Schedule
   public var fetchSpeakers:
     @Sendable (_ dataLanguage: DataLanguage, _ strategy: FetchStrategy) async throws -> [Speaker]
   public var fetchSponsors: @Sendable (_ strategy: FetchStrategy) async throws -> SponsorsData
@@ -12,9 +11,8 @@ public struct SessionDataClient: Sendable {
 
   public init(
     fetchSchedules: @Sendable @escaping (
-      _ day: Int?, _ dataLanguage: DataLanguage, _ strategy: FetchStrategy
-    ) async throws ->
-      [Session],
+      _ dataLanguage: DataLanguage, _ strategy: FetchStrategy
+    ) async throws -> Schedule,
     fetchSpeakers: @Sendable @escaping (_ dataLanguage: DataLanguage, _ strategy: FetchStrategy)
       async throws -> [Speaker],
     fetchSponsors: @Sendable @escaping (_ strategy: FetchStrategy) async throws -> SponsorsData,
@@ -32,9 +30,9 @@ public struct SessionDataClient: Sendable {
 // MARK: - Convenience Methods with Default Strategy
 extension SessionDataClient {
   public func fetchSchedules(
-    day: Int? = nil, dataLanguage: DataLanguage, strategy: FetchStrategy = .remote
-  ) async throws -> [Session] {
-    return try await fetchSchedules(day, dataLanguage, strategy)
+    dataLanguage: DataLanguage, strategy: FetchStrategy = .remote
+  ) async throws -> Schedule {
+    return try await fetchSchedules(dataLanguage, strategy)
   }
 
   public func fetchSpeakers(dataLanguage: DataLanguage, strategy: FetchStrategy = .remote)

@@ -17,7 +17,7 @@ struct NetworkFetcherTests {
       // Network error is expected and acceptable - means URL was valid
       // This test passes because URL construction worked
     } catch SessionDataError.invalidURL {
-      #expect(false, "Should not throw invalidURL for valid endpoint")
+      Issue.record("Should not throw invalidURL for valid endpoint")
     }
   }
 
@@ -38,11 +38,11 @@ struct NetworkFetcherTests {
     // Test with a non-existent endpoint that should return network error
     do {
       _ = try await networkFetcher.fetch(endpoint: "nonexistent-file-12345.json")
-      #expect(false, "Should throw network error for non-existent file")
+      Issue.record("Should throw network error for non-existent file")
     } catch SessionDataError.networkError {
       // Expected - this is the correct error for network failures
     } catch {
-      #expect(false, "Should throw SessionDataError.networkError, not \(error)")
+      Issue.record("Should throw SessionDataError.networkError, not \(error)")
     }
   }
 
@@ -53,6 +53,6 @@ struct NetworkFetcherTests {
     // Verify the base URL is correctly set
     #expect(
       networkFetcher.baseURL
-        == "https://raw.githubusercontent.com/iplayground/SessionData/refs/heads/2025/v1/")
+        == "https://raw.githubusercontent.com/iplayground/SessionData/refs/heads/2026/v1/")
   }
 }

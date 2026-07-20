@@ -9,7 +9,7 @@ protocol NetworkFetching: Sendable {
 }
 
 struct NetworkFetcher: NetworkFetching {
-  let baseURL = "https://raw.githubusercontent.com/iplayground/SessionData/refs/heads/2025/v1/"
+  let baseURL = "https://raw.githubusercontent.com/iplayground/SessionData/refs/heads/2026/v1/"
   private let urlSession: URLSession
 
   init() {

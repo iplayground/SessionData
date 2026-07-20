@@ -12,3 +12,20 @@ public struct Schedule: Codable, Sendable, Equatable, Hashable {
     self.day2 = day2
   }
 }
+
+extension Schedule {
+  public var allSessions: [Session] {
+    day1 + day2
+  }
+
+  public func sessions(day: Int) -> [Session] {
+    switch day {
+    case 1:
+      return day1
+    case 2:
+      return day2
+    default:
+      return []
+    }
+  }
+}

@@ -7,7 +7,7 @@ struct LiveSessionDataClient: Sendable {
 
   init() {
     self.networkFetcher = NetworkFetcher()
-    self.cacheManager = CacheManager(directory: "SessionDataCache")
+    self.cacheManager = CacheManager(directory: "SessionDataCache-2026-v1")
     self.bundleLoader = BundleLoader()
   }
 
@@ -26,8 +26,8 @@ extension SessionDataClient {
   public static let live: SessionDataClient = {
     let client = LiveSessionDataClient()
     return SessionDataClient(
-      fetchSchedules: { day, dataLanguage, strategy in
-        try await client.fetchSchedules(day: day, dataLanguage: dataLanguage, strategy: strategy)
+      fetchSchedules: { dataLanguage, strategy in
+        try await client.fetchSchedules(dataLanguage: dataLanguage, strategy: strategy)
       },
       fetchSpeakers: { dataLanguage, strategy in
         try await client.fetchSpeakers(dataLanguage: dataLanguage, strategy: strategy)
@@ -48,23 +48,10 @@ extension SessionDataClient {
 // MARK: - Fetch Implementation
 
 extension LiveSessionDataClient {
-  func fetchSchedules(day: Int?, dataLanguage: DataLanguage, strategy: FetchStrategy) async throws
-    -> [Session]
-  {
+  func fetchSchedules(dataLanguage: DataLanguage, strategy: FetchStrategy) async throws -> Schedule {
     let fileName = dataLanguage.scheduleFileName
     let data = try await fetchData(endpoint: "\(fileName).json", strategy: strategy)
-    let schedule = try JSONDecoder().decode(Schedule.self, from: data)
-
-    switch day {
-    case 1:
-      return schedule.day1
-    case 2:
-      return schedule.day2
-    case nil:
-      return schedule.day1 + schedule.day2
-    default:
-      return []
-    }
+    return try JSONDecoder().decode(Schedule.self, from: data)
   }
 
   func fetchSpeakers(dataLanguage: DataLanguage, strategy: FetchStrategy) async throws -> [Speaker]

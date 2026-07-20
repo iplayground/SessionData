@@ -11,9 +11,8 @@ struct FetchStrategyTests {
 
     // Test remote strategy - should work with network connection
     do {
-      let sessions = try await client.fetchSchedules(
-        day: 1, dataLanguage: .fallback, strategy: .remote)
-      #expect(!sessions.isEmpty, "Remote strategy should return data from network")
+      let schedule = try await client.fetchSchedules(dataLanguage: .fallback, strategy: .remote)
+      #expect(!schedule.day1.isEmpty, "Remote strategy should return data from network")
     } catch {
       // Network might be unavailable, that's acceptable for remote-only strategy
       #expect(error is SessionDataError)
@@ -25,9 +24,8 @@ struct FetchStrategyTests {
     let client = SessionDataClient.live
 
     // Test localOnly strategy - should always work with bundled data
-    let sessions = try await client.fetchSchedules(
-      day: 1, dataLanguage: .fallback, strategy: .localOnly)
-    #expect(!sessions.isEmpty, "LocalOnly strategy should return bundled data")
+    let schedule = try await client.fetchSchedules(dataLanguage: .fallback, strategy: .localOnly)
+    #expect(!schedule.day1.isEmpty, "LocalOnly strategy should return bundled data")
 
     let speakers = try await client.fetchSpeakers(dataLanguage: .fallback, strategy: .localOnly)
     #expect(!speakers.isEmpty, "LocalOnly strategy should return bundled speakers")
@@ -49,9 +47,8 @@ struct FetchStrategyTests {
     let client = SessionDataClient.live
 
     // Test cacheFirst strategy - should fallback to local if no cache/network
-    let sessions = try await client.fetchSchedules(
-      day: 1, dataLanguage: .fallback, strategy: .cacheFirst)
-    #expect(!sessions.isEmpty, "CacheFirst strategy should fallback to bundle if needed")
+    let schedule = try await client.fetchSchedules(dataLanguage: .fallback, strategy: .cacheFirst)
+    #expect(!schedule.day1.isEmpty, "CacheFirst strategy should fallback to bundle if needed")
 
     let speakers = try await client.fetchSpeakers(dataLanguage: .fallback, strategy: .cacheFirst)
     #expect(!speakers.isEmpty, "CacheFirst strategy should fallback for speakers")
@@ -63,8 +60,8 @@ struct FetchStrategyTests {
 
     // Test that convenience methods use remote strategy by default
     do {
-      let sessions = try await client.fetchSchedules(day: 1, dataLanguage: .fallback)
-      #expect(!sessions.isEmpty, "Default strategy should work")
+      let schedule = try await client.fetchSchedules(dataLanguage: .fallback)
+      #expect(!schedule.day1.isEmpty, "Default strategy should work")
     } catch {
       // Network failure is acceptable for remote strategy
       #expect(error is SessionDataError)
@@ -77,9 +74,9 @@ struct FetchStrategyTests {
 
     for language in DataLanguage.allCases {
       // LocalOnly should always work regardless of language
-      let sessions = try await client.fetchSchedules(
-        day: 1, dataLanguage: language, strategy: .localOnly)
-      #expect(!sessions.isEmpty, "LocalOnly should work with \(language)")
+      let schedule = try await client.fetchSchedules(
+        dataLanguage: language, strategy: .localOnly)
+      #expect(!schedule.day1.isEmpty, "LocalOnly should work with \(language)")
 
       let speakers = try await client.fetchSpeakers(dataLanguage: language, strategy: .localOnly)
       #expect(!speakers.isEmpty, "LocalOnly speakers should work with \(language)")
