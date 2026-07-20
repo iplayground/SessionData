@@ -121,11 +121,11 @@ struct SessionDataTests {
     let scheduleData = try Data(contentsOf: scheduleURL)
     let schedule = try JSONDecoder().decode(Schedule.self, from: scheduleData)
 
-    // Gather all sessions from both days
-    let allSessions = schedule.day1 + schedule.day2
+    // Gather all sessions and workshops from both days
+    let allScheduleItems = schedule.allSessions + schedule.allWorkshops
 
     // Check that every session with a speakerID has that ID in speakers
-    for session in allSessions {
+    for session in allScheduleItems {
       if let speakerID = session.speakerID {
         #expect(
           speakerIDs.contains(speakerID),
@@ -174,17 +174,37 @@ struct SessionDataTests {
       source.day2.count == translated.day2.count,
       "Fix \(translatedFileName): Day2 should have \(source.day2.count) sessions but has \(translated.day2.count)"
     )
+    #expect(
+      source.workshopDay1.count == translated.workshopDay1.count,
+      "Fix \(translatedFileName): Workshop Day1 should have \(source.workshopDay1.count) sessions but has \(translated.workshopDay1.count)"
+    )
+    #expect(
+      source.workshopDay2.count == translated.workshopDay2.count,
+      "Fix \(translatedFileName): Workshop Day2 should have \(source.workshopDay2.count) sessions but has \(translated.workshopDay2.count)"
+    )
 
     validateSessionConsistency(
-      source.day1, translated.day1, day: 1, translatedFileName: translatedFileName)
+      source.day1, translated.day1, section: "Day1", translatedFileName: translatedFileName)
     validateSessionConsistency(
-      source.day2, translated.day2, day: 2, translatedFileName: translatedFileName)
+      source.day2, translated.day2, section: "Day2", translatedFileName: translatedFileName)
+    validateSessionConsistency(
+      source.workshopDay1,
+      translated.workshopDay1,
+      section: "Workshop Day1",
+      translatedFileName: translatedFileName
+    )
+    validateSessionConsistency(
+      source.workshopDay2,
+      translated.workshopDay2,
+      section: "Workshop Day2",
+      translatedFileName: translatedFileName
+    )
   }
 
   private func validateSessionConsistency(
     _ sourceSessions: [Session],
     _ translatedSessions: [Session],
-    day: Int,
+    section: String,
     translatedFileName: String
   ) {
     let fieldsToValidate:
@@ -211,7 +231,7 @@ struct SessionDataTests {
         let translatedValue = translatedSession[keyPath: keyPath]
         #expect(
           areEqual(sourceValue, translatedValue),
-          "Fix \(translatedFileName): Day\(day) Session\(sessionIndex) \(fieldName) should be \(formatter(sourceValue)) but is \(formatter(translatedValue))"
+          "Fix \(translatedFileName): \(section) Session\(sessionIndex) \(fieldName) should be \(formatter(sourceValue)) but is \(formatter(translatedValue))"
         )
       }
     }
