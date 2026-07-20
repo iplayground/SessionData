@@ -16,7 +16,7 @@
   {
     "id": "hackmd",
     "title": "HackMD",
-    "url": "https://hackmd.io/@iplayground/2025",
+    "url": "https://hackmd.io/@iplayground/2026",
     "icon": "note.text",
     "type": "primary"
   },
@@ -114,29 +114,36 @@
   {
     "id": "kktix",
     "title": "KKTIX",
-    "url": "https://kktix.com/account/events/2025general/tickets",
+    "url": "https://iplayground.kktix.cc/events/2026",
     "icon": "ticket",
     "type": "personal"
   },
   {
     "id": "notice",
     "title": "Notice",
-    "url": "https://hackmd.io/c1zam4AoTgaBbHEhRXc4Tg",
+    "url": "https://hackmd.io/@iPlayground/Hy5X5Sq7Gx",
     "icon": "exclamationmark.bubble",
     "type": "personal"
   },
   {
-    "id": "lightning-talk",
-    "title": "Lightning Talk",
-    "url": "https://hackmd.io/36f8q1MQS_WN9pIpLX-Vjw",
-    "icon": "bolt.circle",
+    "id": "workshop-info",
+    "title": "Workshop 參加辦法",
+    "url": "https://hackmd.io/@iPlayground/HJCfaRPVze",
+    "icon": "wrench.and.screwdriver",
     "type": "personal"
   },
   {
-    "id": "spin-wheel",
-    "title": "轉盤抽抽樂",
-    "url": "https://hackmd.io/@iPlayground/S1jG3PmYxe",
-    "icon": "arrow.2.circlepath.circle",
+    "id": "career-tarot",
+    "title": "職涯諮詢 / 塔羅占卜",
+    "url": "https://hackmd.io/@iPlayground/ryWBNcm4fe",
+    "icon": "sparkles",
+    "type": "personal"
+  },
+  {
+    "id": "water-fortune",
+    "title": "挑戰你的手氣吧！限定水籤登場！",
+    "url": "https://hackmd.io/@iPlayground/rk6E6Hq7Me",
+    "icon": "dice",
     "type": "personal"
   },
   {
@@ -149,7 +156,7 @@
   {
     "id": "stamp-collection",
     "title": "紀念印章收集",
-    "url": "https://hackmd.io/@iPlayground/HJm_T8htel",
+    "url": "https://hackmd.io/@iPlayground/rJrCpr5mMx",
     "icon": "seal",
     "type": "personal"
   },
