@@ -83,9 +83,6 @@ struct LiveSessionDataClientErrorTests {
 
     let links = try await client.fetchLinks(strategy: .remote)
     #expect(!links.isEmpty)
-
-    let news = try await client.fetchNews(dataLanguage: .fallback, strategy: .remote)
-    #expect(!news.isEmpty)
   }
 
   @Test("Day filtering works after schedule fallback")
@@ -126,9 +123,6 @@ struct LiveSessionDataClientErrorTests {
 
       let speakers = try await client.fetchSpeakers(dataLanguage: language, strategy: .remote)
       #expect(!speakers.isEmpty, "Should have speakers for \(language)")
-
-      let news = try await client.fetchNews(dataLanguage: language, strategy: .remote)
-      #expect(!news.isEmpty, "Should have news for \(language)")
     }
   }
 }

@@ -40,9 +40,6 @@ struct FetchStrategyTests {
 
     let links = try await client.fetchLinks(strategy: .localOnly)
     #expect(!links.isEmpty, "LocalOnly strategy should return bundled links")
-
-    let news = try await client.fetchNews(dataLanguage: .fallback, strategy: .localOnly)
-    #expect(!news.isEmpty, "LocalOnly strategy should return bundled news")
   }
 
   @Test("CacheFirst strategy should work with fallback")
@@ -83,9 +80,6 @@ struct FetchStrategyTests {
 
       let speakers = try await client.fetchSpeakers(dataLanguage: language, strategy: .localOnly)
       #expect(!speakers.isEmpty, "LocalOnly speakers should work with \(language)")
-
-      let news = try await client.fetchNews(dataLanguage: language, strategy: .localOnly)
-      #expect(!news.isEmpty, "LocalOnly news should work with \(language)")
     }
   }
 }

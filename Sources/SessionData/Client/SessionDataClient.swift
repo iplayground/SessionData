@@ -8,8 +8,6 @@ public struct SessionDataClient: Sendable {
   public var fetchSponsors: @Sendable (_ strategy: FetchStrategy) async throws -> SponsorsData
   public var fetchStaffs: @Sendable (_ strategy: FetchStrategy) async throws -> [Staff]
   public var fetchLinks: @Sendable (_ strategy: FetchStrategy) async throws -> [Link]
-  public var fetchNews:
-    @Sendable (_ dataLanguage: DataLanguage, _ strategy: FetchStrategy) async throws -> [News]
 
   public init(
     fetchSchedules: @Sendable @escaping (
@@ -19,16 +17,13 @@ public struct SessionDataClient: Sendable {
       async throws -> [Speaker],
     fetchSponsors: @Sendable @escaping (_ strategy: FetchStrategy) async throws -> SponsorsData,
     fetchStaffs: @Sendable @escaping (_ strategy: FetchStrategy) async throws -> [Staff],
-    fetchLinks: @Sendable @escaping (_ strategy: FetchStrategy) async throws -> [Link],
-    fetchNews: @Sendable @escaping (_ dataLanguage: DataLanguage, _ strategy: FetchStrategy)
-      async throws -> [News] = { _, _ in [] }
+    fetchLinks: @Sendable @escaping (_ strategy: FetchStrategy) async throws -> [Link]
   ) {
     self.fetchSchedules = fetchSchedules
     self.fetchSpeakers = fetchSpeakers
     self.fetchSponsors = fetchSponsors
     self.fetchStaffs = fetchStaffs
     self.fetchLinks = fetchLinks
-    self.fetchNews = fetchNews
   }
 }
 
@@ -56,11 +51,5 @@ extension SessionDataClient {
 
   public func fetchLinks(strategy: FetchStrategy = .remote) async throws -> [Link] {
     return try await fetchLinks(strategy)
-  }
-
-  public func fetchNews(dataLanguage: DataLanguage, strategy: FetchStrategy = .remote)
-    async throws -> [News]
-  {
-    return try await fetchNews(dataLanguage, strategy)
   }
 }

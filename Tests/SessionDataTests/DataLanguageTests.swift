@@ -53,12 +53,10 @@ struct DataLanguageTests {
   func correctFileNames() async throws {
     #expect(DataLanguage.traditionalChinese.scheduleFileName == "schedule")
     #expect(DataLanguage.traditionalChinese.speakersFileName == "speakers")
-    #expect(DataLanguage.traditionalChinese.newsFileName == "news")
     #expect(DataLanguage.traditionalChinese.fileNameSuffix == "")
 
     #expect(DataLanguage.english.scheduleFileName == "schedule_en")
     #expect(DataLanguage.english.speakersFileName == "speakers_en")
-    #expect(DataLanguage.english.newsFileName == "news_en")
     #expect(DataLanguage.english.fileNameSuffix == "_en")
   }
 
