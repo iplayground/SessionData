@@ -2,9 +2,9 @@ name: Validate JSON Files
 
 on:
   push:
-    branches: [ '2025/v1' ]
+    branches: [ '20*/v*' ]
   pull_request:
-    branches: [ '2025/v1' ]
+    branches: [ '20*/v*' ]
   workflow_dispatch:
 
 jobs:
