@@ -5,23 +5,38 @@
             "items": [
                 {
                     "name": "PicCollage",
-                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/sponsors/logo_piccollage.png",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsors/logo_piccollage.png",
                     "link": "https://picc.co/"
                 },
                 {
                     "name": "RevenueCat",
-                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/sponsors/logo_revenuecat.png",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsors/logo_revenuecat.png",
                     "link": "https://www.revenuecat.com/"
-                }
+                },
+				{
+					"name": "KKTIX",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsors/logo_kktix.png",
+                    "link": "https://jobs.kktix.cc/"
+				},
+				{
+					"name": "台積電",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsors/logo_tsmc.png",
+                    "link": "https://www.tsmc.com/static/chinese/careers/index.htm"
+				}
             ]
         },
-        {
+		{
             "title": "特別贊助",
             "items": [
                 {
-                    "name": "Flitto",
-                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/sponsors/logo_flitto.png",
-                    "link": "https://www.flitto.com/"
+                    "name": "Robert Walters",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsors/logo_robert_walters.png",
+                    "link": "https://www.robertwalters.com.tw/zh/"
+                },
+                {
+                    "name": "豐才管理顧問",
+                    "picture": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/sponsors/logo_emerald_talent_white.png",
+                    "link": "https://www.emerald-talent.co/"
                 }
             ]
         }
@@ -30,27 +45,27 @@
 	"partner": [
 		{
 			"name": "CoocaHeads Taipei",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/partner/logo_cocoaheads_taipei.png",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/partner/logo_cocoaheads_taipei.png",
 			"link": "https://www.facebook.com/groups/cocoaheads.taipei/"
 		},
 		{
 			"name": "iOS@Taipei",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/partner/logo_iOS_taipei.png",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/partner/logo_iOS_taipei.png",
 			"link": "https://www.facebook.com/groups/ios.taipei/"
 		},
 		{
 			"name": "Swift Taichung",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/partner/logo_swifttaichung.jpg",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/partner/logo_swifttaichung.jpg",
 			"link": "https://lu.ma/swift-taichung?k=c"
 		},
 		{
 			"name": "weak self",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/partner/logo_weakself.jpg",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/partner/logo_weakself.jpg",
 			"link": "https://weakself.dev/"
 		},
         {
 			"name": "HackMD",
-			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/2025/v1/images/partner/logo_HackMD.png",
+			"icon": "https://raw.githubusercontent.com/iplayground/SessionData/master/images/partner/logo_HackMD.png",
 			"link": "https://hackmd.io/"
 		}
 	]
