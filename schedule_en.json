@@ -17,6 +17,7 @@
     {
       "time": "09:40 – 10:20",
       "title": "Designing Adaptive UX Through Learning Theory & AI",
+      "watchUrl": "https://www.youtube.com/watch?v=ExANXI-lC_8",
       "tags": [
         "English",
         "UI/UX",
@@ -38,6 +39,7 @@
     {
       "time": "10:30 – 11:10",
       "title": "From Black Box to Glass Box: AI Agent Observability with ccxray",
+      "watchUrl": "https://www.youtube.com/watch?v=huzpZeppxPE",
       "tags": [
         "AI Agent",
         "claude",
@@ -59,6 +61,7 @@
     {
       "time": "11:20 – 11:40",
       "title": "@ContentBuilder Is All You Need",
+      "watchUrl": "https://www.youtube.com/watch?v=kr-Hm6Wv0CM",
       "tags": [
         "SwiftUI",
         "Architecture",
@@ -92,6 +95,7 @@
     {
       "time": "13:00 – 13:20",
       "title": "Core People: Building More Thoughtful Apps with Apple’s Native Capabilities",
+      "watchUrl": "https://www.youtube.com/watch?v=2x7FA5OPCvg",
       "tags": [
         "User Experience",
         "Agentic Coding",
@@ -112,6 +116,7 @@
     {
       "time": "13:30 – 14:10",
       "title": "From Swift to Kotlin Multiplatform: Cross-Platform Nitoryu for iOS Developers",
+      "watchUrl": "https://www.youtube.com/watch?v=b0EJEFtUoj8",
       "tags": [
         "Kotlin",
         "Kotlin Multiplatform",
@@ -148,6 +153,7 @@
      {
       "time": "14:40 - 15:00",
       "title": "Tweet AI to the Edge",
+      "watchUrl": "https://www.youtube.com/watch?v=gw_DOKACwc0",
       "tags": [
         "Flutter",
         "llama.cpp",
@@ -169,6 +175,7 @@
     {
       "time": "15:10 – 15:30",
       "title": "Why Does Our Swift Code Work? Understanding Swift Through Platforms, Runtime, and the Compiler",
+      "watchUrl": "https://www.youtube.com/watch?v=yLaZXLTJtDM",
       "tags": [
         "English",
         "Swift",
@@ -182,6 +189,7 @@
     {
       "time": "15:30 – 15:50",
       "title": "It's Time! Let's Rewrite All Your RxSwift Code in Swift Concurrency!",
+      "watchUrl": "https://www.youtube.com/watch?v=mZr2XxHK4UM",
       "tags": [
         "Swift",
         "Swift Concurrency",
@@ -208,6 +216,7 @@
     {
       "time": "16:00 – 16:40",
       "title": "You don't need a ViewModel",
+      "watchUrl": "https://www.youtube.com/watch?v=XPWaeu9XHYY",
       "tags": [
         "Swift",
         "SwiftUI",
@@ -229,6 +238,7 @@
     {
       "time": "16:50 – 17:10",
       "title": "Managing AI Like a Junior Engineer: The Discipline Behind Shipping a Solo iOS App with Agents",
+      "watchUrl": "https://www.youtube.com/watch?v=tf2cswq9veE",
       "tags": [
         "AI",
         "Agent",
@@ -244,6 +254,7 @@
    {
       "time": "17:10 – 17:30",
       "title": "Navigating the iOS Job Market in 2026: A Senior Tech Recruiter’s Perspective",
+      "watchUrl": "https://www.youtube.com/watch?v=Pgb60TBPKZ4",
       "tags": [
         "Recruiting",
         "Trends"
@@ -263,6 +274,7 @@
     {
       "time": "17:40 – 18:00",
       "title": "Taking Yourself Out of the Loop: Letting Software Upgrade Itself",
+      "watchUrl": "https://www.youtube.com/watch?v=NcGD4eAiDZE",
       "tags": [
         "AI Coding"
       ],
@@ -290,6 +302,7 @@
     {
       "time": "09:35 – 10:15",
       "title": "For Agents, By Agents: Building AI Tools That Maintain Themselves",
+      "watchUrl": "https://www.youtube.com/watch?v=Hu6WqHB_uV4",
       "tags": [
         "English",
         "AI",
@@ -310,6 +323,7 @@
     {
       "time": "10:25 – 10:45",
       "title": "What Happens After Your App Ships? Automating Marketing, Support, and Product Iteration with AI Agents",
+      "watchUrl": "https://www.youtube.com/watch?v=59wzGX5Wl90",
       "tags": [
         "AI Agent",
         "AI Automation",
@@ -323,6 +337,7 @@
     {
       "time": "10:45 – 11:05",
       "title": "When Touch Fails, Can Your App Still Be Used?",
+      "watchUrl": "https://www.youtube.com/watch?v=HjUiioXx0zs",
       "tags": [
         "Accessibility",
         "UX",
@@ -343,6 +358,7 @@
     {
       "time": "11:15 – 11:55",
       "title": "Lessons from Operating Large-Scale Modular iOS Projects with Tuist",
+      "watchUrl": "https://www.youtube.com/watch?v=RrSkzieYRkM",
       "tags": [
         "English",
         "Architecture",
@@ -363,6 +379,7 @@
     {
       "time": "13:00 – 13:20",
       "title": "How to Win the Swift Student Challenge",
+      "watchUrl": "https://www.youtube.com/watch?v=t9sC0nL-uTA",
       "tags": [
         "English",
         "Indie Development"
@@ -382,6 +399,7 @@
     {
       "time": "13:30 – 14:10",
       "title": "Contributing to Apple Container Without Writing Swift: A Cloud Native Engineer's Open Source Journey",
+      "watchUrl": "https://www.youtube.com/watch?v=HT4DIBsSZdI",
       "tags": [
         "Apple Container",
         "Open Source Contribution"
@@ -401,6 +419,7 @@
     {
       "time": "14:20 – 14:40",
       "title": "How Apple Intelligence Understands Your App",
+      "watchUrl": "https://www.youtube.com/watch?v=d7pGsT9xzZE",
       "tags": [
         "AI",
         "Apple Intelligence",
@@ -415,6 +434,7 @@
     {
       "time": "14:40 – 15:00",
       "title": "macOS CLI Magic Commands I Learned from Vibe Coding",
+      "watchUrl": "https://www.youtube.com/watch?v=zsND65TwnKw",
       "tags": [
         "AI",
         "macOS",
@@ -451,6 +471,7 @@
     {
       "time": "15:30 – 15:50",
       "title": "From an Unreadable Japanese Receipt: How a Solo Developer Grew a Side Project into a Product with AI and Feedback Systems",
+      "watchUrl": "https://www.youtube.com/watch?v=X67_bcBDF6Q",
       "tags": [
         "AI",
         "Developer Tools",
@@ -472,6 +493,7 @@
     {
       "time": "16:00 – 16:40",
       "title": "Is SDD Just a Slogan, or Can It Actually Work?",
+      "watchUrl": "https://www.youtube.com/watch?v=YSB2vT1pxGY",
       "tags": [
         "SDD",
         "AI Agent",
@@ -493,6 +515,7 @@
     {
       "time": "16:50 – 16:55",
       "title": "Why Can't We Have Nice Macros for `#Preview`?",
+      "watchUrl": "https://www.youtube.com/watch?v=zAft3s24qqs",
       "tags": ["English", "Swift", "Macro", "Compiler", "Preview"],
       "speaker": "Yu Takahashi",
       "speakerID": 33,
@@ -502,6 +525,7 @@
     {
       "time": "16:55 – 17:00",
       "title": "Down the Rabbit Hole: A Handwriting App's Scope Creep",
+      "watchUrl": "https://www.youtube.com/watch?v=30w6U5WocRw",
       "tags": [],
       "speaker": "Paul",
       "speakerID": 29,
@@ -511,6 +535,7 @@
     {
       "time": "17:00 – 17:05",
       "title": "Building Nibble: Product Discovery in the Era of AI",
+      "watchUrl": "https://www.youtube.com/watch?v=M-dwo-1kOpc",
       "tags": ["Side Project", "Product Discovery", "AI", "Market Research"],
       "speaker": "Jess",
       "speakerID": 30,
@@ -520,6 +545,7 @@
     {
       "time": "17:05 – 17:10",
       "title": "Funny, Weird, and Terrifying Lessons from Building a Dating AI Agent",
+      "watchUrl": "https://www.youtube.com/watch?v=XioE1BZ0-6s",
       "tags": [],
       "speaker": "Ethan",
       "speakerID": 32,
@@ -529,6 +555,7 @@
     {
       "time": "17:10 – 17:15",
       "title": "Building a Cross-Platform AI-Powered U.S. Election Radar for iOS and Android with SwiftUI",
+      "watchUrl": "https://www.youtube.com/watch?v=XPVcPCf7pbw",
       "tags": ["SwiftUI", "跨平台", "iOS", "Android", "AI", "UI/UX"],
       "speaker": "YC Liu",
       "speakerID": 31,

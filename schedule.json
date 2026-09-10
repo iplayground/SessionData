@@ -17,6 +17,7 @@
     {
       "time": "09:40 – 10:20",
       "title": "Designing Adaptive UX Through Learning Theory & AI",
+      "watchUrl": "https://www.youtube.com/watch?v=ExANXI-lC_8",
       "tags": [
         "英文演講",
         "UI/UX",
@@ -38,6 +39,7 @@
     {
       "time": "10:30 – 11:10",
       "title": "從看不見到看得懂：ccxray 與 AI Agent 的可觀測性",
+      "watchUrl": "https://www.youtube.com/watch?v=huzpZeppxPE",
       "tags": [
         "AI agent",
         "claude",
@@ -59,6 +61,7 @@
     {
       "time": "11:20 – 11:40",
       "title": "@ContentBuilder Is All You Need",
+      "watchUrl": "https://www.youtube.com/watch?v=kr-Hm6Wv0CM",
       "tags": [
         "SwiftUI",
         "架構",
@@ -92,6 +95,7 @@
     {
       "time": "13:00 – 13:20",
       "title": "Core People：以人為本，打造更體貼的 App 體驗",
+      "watchUrl": "https://www.youtube.com/watch?v=2x7FA5OPCvg",
       "tags": [
         "使用者體驗",
         "Agentic Coding",
@@ -112,6 +116,7 @@
     {
       "time": "13:30 – 14:10",
       "title": "從 Swift 到 Kotlin Multiplatform：iOS 開發者的跨平台二刀流",
+      "watchUrl": "https://www.youtube.com/watch?v=b0EJEFtUoj8",
       "tags": [
         "Kotlin",
         "KMP",
@@ -148,6 +153,7 @@
     {
       "time": "14:40 - 15:00",
       "title": "Tweet AI to the Edge",
+      "watchUrl": "https://www.youtube.com/watch?v=gw_DOKACwc0",
       "tags": [
         "Flutter",
         "llama.cpp",
@@ -169,6 +175,7 @@
     {
       "time": "15:10 – 15:30",
       "title": "Swift 程式碼為什麼能運作？ 從平台、Runtime 與編譯器理解 Swift",
+      "watchUrl": "https://www.youtube.com/watch?v=yLaZXLTJtDM",
       "tags": [
         "英文演講",
         "Swift",
@@ -182,6 +189,7 @@
     {
       "time": "15:30 – 15:50",
       "title": "是時候了！將RxSwift 程式碼全部改寫成 Swift Concurrency吧！",
+      "watchUrl": "https://www.youtube.com/watch?v=mZr2XxHK4UM",
       "tags": [
         "Swift",
         "Swift Concurrency",
@@ -208,6 +216,7 @@
     {
       "time": "16:00 – 16:40",
       "title": "為什麼你並不需要ViewModel",
+      "watchUrl": "https://www.youtube.com/watch?v=XPWaeu9XHYY",
       "tags": [
         "Swift",
         "SwiftUI",
@@ -228,6 +237,7 @@
     {
       "time": "16:50 – 17:10",
       "title": "把 AI 當資淺工程師帶:一個人用 agent 把 iOS App 做到上架的工程紀律",
+      "watchUrl": "https://www.youtube.com/watch?v=tf2cswq9veE",
       "tags": [
         "AI",
         "Agent",
@@ -243,6 +253,7 @@
     {
       "time": "17:10 – 17:30",
       "title": "iOS 工程師 2026 職場生存指南：資深外商獵頭視角",
+      "watchUrl": "https://www.youtube.com/watch?v=Pgb60TBPKZ4",
       "tags": [
         "獵頭",
         "趨勢"
@@ -262,6 +273,7 @@
     {
       "time": "17:40 – 18:00",
       "title": "把自己抽出迴圈：讓程式獨自升級",
+      "watchUrl": "https://www.youtube.com/watch?v=NcGD4eAiDZE",
       "tags": [
         "AI Coding"
       ],
@@ -289,6 +301,7 @@
     {
       "time": "09:35 – 10:15",
       "title": "For Agents, By Agents: Building AI Tools That Maintain Themselves",
+      "watchUrl": "https://www.youtube.com/watch?v=Hu6WqHB_uV4",
       "tags": [
         "英文演講",
         "AI",
@@ -309,6 +322,7 @@
     {
       "time": "10:25 – 10:45",
       "title": "App 上架之後呢？用 AI Agent 自動化行銷、客服與產品迭代",
+      "watchUrl": "https://www.youtube.com/watch?v=59wzGX5Wl90",
       "tags": [
         "AI Agent",
         "AI 自動化",
@@ -322,6 +336,7 @@
     {
       "time": "10:45 – 11:05",
       "title": "當觸控失效時，你的 App 還能順利使用嗎？",
+      "watchUrl": "https://www.youtube.com/watch?v=HjUiioXx0zs",
       "tags": [
         "accessibility",
         "ux",
@@ -342,6 +357,7 @@
     {
       "time": "11:15 – 11:55",
       "title": "Lessons from Operating Large-Scale Modular iOS Projects with Tuist",
+      "watchUrl": "https://www.youtube.com/watch?v=RrSkzieYRkM",
       "tags": [
         "英文演講",
         "架構",
@@ -362,6 +378,7 @@
     {
       "time": "13:00 – 13:20",
       "title": "How to Win the Swift Student Challenge",
+      "watchUrl": "https://www.youtube.com/watch?v=t9sC0nL-uTA",
       "tags": [
         "英文演講",
         "獨立開發"
@@ -381,6 +398,7 @@
     {
       "time": "13:30 – 14:10",
       "title": "不寫 Swift 也能貢獻 Apple Container：一位雲端原生工程師的開源實戰",
+      "watchUrl": "https://www.youtube.com/watch?v=HT4DIBsSZdI",
       "tags": [
         "Apple Container",
         "開源貢獻"
@@ -400,6 +418,7 @@
     {
       "time": "14:20 – 14:40",
       "title": "讓 Apple Intelligence 理解你的 App",
+      "watchUrl": "https://www.youtube.com/watch?v=d7pGsT9xzZE",
       "tags": [
         "AI",
         "Apple Intelligence",
@@ -414,6 +433,7 @@
     {
       "time": "14:40 – 15:00",
       "title": "從 Vibe Coding 學會的 macOS CLI 魔法指令",
+      "watchUrl": "https://www.youtube.com/watch?v=zsND65TwnKw",
       "tags": [
         "AI",
         "macOS",
@@ -450,6 +470,7 @@
     {
       "time": "15:30 – 15:50",
       "title": "從一張看不懂的日本收據開始：一人開發者如何用 AI 與回饋系統把 Side Project 長成產品",
+      "watchUrl": "https://www.youtube.com/watch?v=X67_bcBDF6Q",
       "tags": [
         "AI",
         "開發工具",
@@ -471,6 +492,7 @@
     {
       "time": "16:00 – 16:40",
       "title": "SDD 是口號，還是真的可以用？",
+      "watchUrl": "https://www.youtube.com/watch?v=YSB2vT1pxGY",
       "tags": [
         "SDD",
         "規格驅動",
@@ -493,6 +515,7 @@
     {
       "time": "16:50 – 16:55",
       "title": "為什麼 Swift Macro 無法在 #Preview 中使用？",
+      "watchUrl": "https://www.youtube.com/watch?v=zAft3s24qqs",
       "tags": ["English", "Swift", "Macro", "Compiler", "Preview"],
       "speaker": "高橋 由 / Yu Takahashi",
       "speakerID": 33,
@@ -502,6 +525,7 @@
     {
       "time": "16:55 – 17:00",
       "title": "坑很深：做寫字練習 App 比想像更費工",
+      "watchUrl": "https://www.youtube.com/watch?v=30w6U5WocRw",
       "tags": [],
       "speaker": "劉信",
       "speakerID": 29,
@@ -511,6 +535,7 @@
     {
       "time": "17:00 – 17:05",
       "title": "當 Vibe Coding 不再是最大的問題，Nibble 的產品探索旅程",
+      "watchUrl": "https://www.youtube.com/watch?v=M-dwo-1kOpc",
       "tags": ["Side Project", "Product Discovery", "AI", "Market Research"],
       "speaker": "Jess",
       "speakerID": 30,
@@ -520,6 +545,7 @@
     {
       "time": "17:05 – 17:10",
       "title": "開發 AI Dating Agent 的血淚史：那些好笑、奇怪又令人害怕的教訓",
+      "watchUrl": "https://www.youtube.com/watch?v=XioE1BZ0-6s",
       "tags": [],
       "speaker": "Ethan",
       "speakerID": 32,
@@ -529,6 +555,7 @@
     {
       "time": "17:10 – 17:15",
       "title": "用 SwiftUI 打造 iOS / Android 跨平台 AI 美國選舉雷達：從新聞自動摘要到人工審核的 Mobile AI App 實戰",
+      "watchUrl": "https://www.youtube.com/watch?v=XPVcPCf7pbw",
       "tags": ["SwiftUI", "跨平台", "iOS", "Android", "AI", "UI/UX"],
       "speaker": "劉育承",
       "speakerID": 31,
